@@ -42,16 +42,13 @@ jobs:
           mkdir -p registry_out
           python scripts/fetch_registry.py datasets.yml registry_out
 
-      - name: Assemble site
+      - name: Copy dashboard site into output
         run: |
-          rm -rf public
-          mkdir -p public
-          cp -R registry_out/* public/
-          cp -R site/* public/
+          cp -R site/* registry_out/
 
       - name: Publish to gh-pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: public
+          publish_dir: registry_out
