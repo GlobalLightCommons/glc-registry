@@ -1,14 +1,14 @@
 {
-  "generated_at_utc": "2026-02-26T21:28:25.717716+00:00",
-  "dataset_count": 2,
+  "generated_at_utc": "2026-02-26T21:39:16.154480+00:00",
+  "dataset_count": 1,
   "fetched_count": 1,
-  "error_count": 1,
+  "error_count": 0,
   "datasets": [
     {
       "id": "guidolin-glee-dataset",
       "repo": "tscnlab/guidolin-glee-dataset",
       "validation_url": "https://tscnlab.github.io/guidolin-glee-dataset/validation.json",
-      "fetched_at_utc": "2026-02-26T21:28:25.210356+00:00",
+      "fetched_at_utc": "2026-02-26T21:39:15.954335+00:00",
       "validation": {
         "status": "pass",
         "repo": "tscnlab/guidolin-glee-dataset",
@@ -23,13 +23,5 @@
       }
     }
   ],
-  "fetch_errors": [
-    {
-      "id": "demo-glee-dataset",
-      "repo": "tscnlab/demo-glee-dataset",
-      "validation_url": "https://tscnlab.github.io/demo-glee-dataset/validation.json",
-      "fetched_at_utc": "2026-02-26T21:28:25.516681+00:00",
-      "error": "404 Client Error: Not Found for url: https://tscnlab.github.io/demo-glee-dataset/validation.json"
-    }
-  ]
+  "fetch_errors": []
 }
