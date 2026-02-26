@@ -27,62 +27,103 @@
 
   <div id="app">Loading…</div>
 
-  <script>
-    function pill(status) {
-      const s = (status || "unknown").toLowerCase();
-      const cls = s === "pass" ? "pass" : s === "fail" ? "fail" : "unknown";
-      return `<span class="pill ${cls}">${s}</span>`;
-    }
+<script>
+  function pill(status) {
+    const s = (status || "unknown").toLowerCase();
+    const cls = s === "pass" ? "pass" : s === "fail" ? "fail" : "unknown";
+    return `<span class="pill ${cls}">${s}</span>`;
+  }
 
-    async function main() {
-      const res = await fetch("./registry.json", { cache: "no-store" });
-      if (!res.ok) throw new Error(`HTTP ${res.status} fetching registry.json`);
-      const data = await res.json();
+  function esc(s) {
+    return String(s ?? "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
 
-      const rows = data.datasets || [];
-      const updated = data.generated_at_utc || "";
+  function fmtUtc(iso) {
+    if (!iso) return "";
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return String(iso);
+    // "YYYY-MM-DD HH:MM UTC"
+    const pad = (n) => String(n).padStart(2, "0");
+    return `${d.getUTCFullYear()}-${pad(d.getUTCMonth() + 1)}-${pad(d.getUTCDate())} ${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())} UTC`;
+  }
 
-      const html = `
-        <p class="meta">Updated: <code>${updated}</code> · Datasets: <code>${rows.length}</code></p>
-        <table>
-          <thead>
-            <tr>
-              <th>Repo</th>
-              <th>Status</th>
-              <th>Commit</th>
-              <th>Validator</th>
-              <th>Report</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${rows.map(d => {
-              const v = d.validation || {};
-              const sha = v.commit_sha ? v.commit_sha.slice(0, 8) : "";
-              const repo = d.repo || d.id || "";
-              const status = v.status || "unknown";
-              const reportUrl = d.validation_url || "";
-              return `
-                <tr>
-                  <td><code>${repo}</code></td>
-                  <td>${pill(status)}</td>
-                  <td><code>${sha}</code></td>
-                  <td><code>${v.validator_version || ""}</code></td>
-                  <td><a href="${reportUrl}">validation.json</a></td>
-                </tr>
-              `;
-            }).join("")}
-          </tbody>
-        </table>
-        <p class="small">If a repo is missing, add it to <code>datasets.yml</code> and wait for the next scheduled run.</p>
-      `;
+  async function main() {
+    const res = await fetch("./registry.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status} fetching registry.json`);
+    const data = await res.json();
 
-      document.getElementById("app").innerHTML = html;
-    }
+    const rows = data.datasets || [];
+    const updated = data.generated_at_utc || "";
 
-    main().catch(err => {
-      document.getElementById("app").innerHTML =
-        `<p style="color:#b42318;"><b>Failed to load registry.json</b><br/><code>${String(err)}</code></p>`;
-    });
-  </script>
+    const html = `
+      <p class="meta">Updated: <code>${esc(updated)}</code> · Datasets: <code>${rows.length}</code></p>
+      <table>
+        <thead>
+          <tr>
+            <th>Repo</th>
+            <th>Status</th>
+            <th>Commit</th>
+            <th>Validator</th>
+            <th>Validated</th>
+            <th>Report</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rows.map(d => {
+            const v = d.validation || {};
+            const repo = d.repo || d.id || "";
+            const repoUrl = repo ? `https://github.com/${repo}` : "";
+            const shaFull = v.commit_sha || "";
+            const shaShort = shaFull ? shaFull.slice(0, 7) : "";
+            const commitUrl = (repo && shaFull) ? `https://github.com/${repo}/commit/${shaFull}` : "";
+            const status = v.status || "unknown";
+            const reportUrl = d.validation_url || "";
+            const validatorVer = v.validator_version || "";
+            const validatedAt = v.timestamp_utc || "";
+
+            return `
+              <tr>
+                <td>
+                  ${repoUrl
+                    ? `<a href="${repoUrl}" target="_blank" rel="noopener noreferrer"><code>${esc(repo)}</code></a>`
+                    : `<code>${esc(repo)}</code>`
+                  }
+                </td>
+                <td>${pill(status)}</td>
+                <td>
+                  ${commitUrl
+                    ? `<a href="${commitUrl}" target="_blank" rel="noopener noreferrer"><code>${esc(shaShort)}</code></a>`
+                    : `<code>${esc(shaShort)}</code>`
+                  }
+                </td>
+                <td><code>${esc(validatorVer)}</code></td>
+                <td><code>${esc(fmtUtc(validatedAt))}</code></td>
+                <td>
+                  ${reportUrl
+                    ? `<a href="${reportUrl}" target="_blank" rel="noopener noreferrer">validation.json</a>`
+                    : ""
+                  }
+                </td>
+              </tr>
+            `;
+          }).join("")}
+        </tbody>
+      </table>
+      <p class="small">If a repo is missing, add it to <code>datasets.yml</code> and wait for the next scheduled run.</p>
+    `;
+
+    document.getElementById("app").innerHTML = html;
+  }
+
+  main().catch(err => {
+    document.getElementById("app").innerHTML =
+      `<p style="color:#b42318;"><b>Failed to load registry.json</b><br/><code>${esc(String(err))}</code></p>`;
+  });
+</script>
 </body>
 </html>
