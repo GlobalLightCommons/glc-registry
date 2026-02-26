@@ -42,18 +42,16 @@ jobs:
           mkdir -p registry_out
           python scripts/fetch_registry.py datasets.yml registry_out
 
-      - name: Add landing page
+      - name: Assemble site
         run: |
-          cat > registry_out/index.html <<'HTML'
-          <html><body>
-          <h1>GLC Registry</h1>
-          <p><a href="registry.json">registry.json</a></p>
-          </body></html>
-          HTML
-      
+          rm -rf public
+          mkdir -p public
+          cp -R registry_out/* public/
+          cp -R site/* public/
+
       - name: Publish to gh-pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: registry_out
+          publish_dir: public
