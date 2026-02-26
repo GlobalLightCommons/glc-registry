@@ -12,8 +12,13 @@ on:
       - requirements.txt
       - .github/workflows/update-registry.yml
 
+concurrency:
+  group: glc-registry
+  cancel-in-progress: true
+
 permissions:
   contents: write
+  pages: write
 
 jobs:
   update:
@@ -34,8 +39,18 @@ jobs:
 
       - name: Fetch validations
         run: |
+          mkdir -p registry_out
           python scripts/fetch_registry.py datasets.yml registry_out
 
+      - name: Add landing page
+        run: |
+          cat > registry_out/index.html <<'HTML'
+          <html><body>
+          <h1>GLC Registry</h1>
+          <p><a href="registry.json">registry.json</a></p>
+          </body></html>
+          HTML
+      
       - name: Publish to gh-pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
