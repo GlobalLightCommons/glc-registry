@@ -1,0 +1,4 @@
+datasets:
+  - id: guidolin-glee-dataset
+    repo: tscnlab/guidolin-glee-dataset
+    validation_url: https://tscnlab.github.io/guidolin-glee-dataset/validation.json
