@@ -40,7 +40,13 @@ jobs:
       - name: Fetch validations
         run: |
           mkdir -p registry_out
-          python scripts/fetch_registry.py datasets.yml registry_out
+          python -u scripts/fetch_registry.py datasets.yml registry_out || true
+
+          echo "----- registry_out/README.txt -----"
+          cat registry_out/README.txt || true
+
+          echo "----- registry_out/registry.json (head) -----"
+          head -200 registry_out/registry.json || true
 
       - name: Copy dashboard site into output
         run: |
