@@ -4,6 +4,10 @@ on:
   pull_request:
     paths:
       - datasets.yml
+      - scripts/**
+      - requirements.txt
+      - .github/workflows/validate-datasets.yml
+  workflow_dispatch:
 
 jobs:
   validate:
