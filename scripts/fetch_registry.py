@@ -1,5 +1,4 @@
 import json
-import os
 import sys
 import time
 from datetime import datetime, timezone
@@ -30,36 +29,63 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
 
     cfg = load_cfg(cfg_path)
-    datasets = (cfg.get("datasets") or [])
+    datasets = cfg.get("datasets") or []
+
     results = []
     errors = []
 
     for ds in datasets:
         ds_id = ds.get("id") or ds.get("repo") or "unknown"
-        url = ds.get("validation_url")
-        if not url:
-            errors.append({"id": ds_id, "error": "missing validation_url"})
+        repo = ds.get("repo")
+        latest_url = ds.get("latest_pass_url")
+        current_url = ds.get("current_url")
+
+        if not latest_url:
+            errors.append({"id": ds_id, "repo": repo, "error": "missing latest_pass_url"})
+            continue
+        if not current_url:
+            errors.append({"id": ds_id, "repo": repo, "error": "missing current_url"})
             continue
 
-        try:
-            data = fetch_json(url)
-            # Normalize a little
-            results.append({
-                "id": ds_id,
-                "repo": ds.get("repo"),
-                "validation_url": url,
-                "fetched_at_utc": utc_now(),
-                "validation": data,
-            })
-        except Exception as e:
-            errors.append({
-                "id": ds_id,
-                "repo": ds.get("repo"),
-                "validation_url": url,
-                "fetched_at_utc": utc_now(),
-                "error": str(e),
-            })
+        item = {
+            "id": ds_id,
+            "repo": repo,
+            "latest_pass_url": latest_url,
+            "current_url": current_url,
+            "fetched_at_utc": utc_now(),
+            "latest_pass": None,
+            "current": None,
+            "fetch_errors": [],
+        }
 
+        # 1) latest_pass is REQUIRED for registry membership
+        try:
+            item["latest_pass"] = fetch_json(latest_url)
+        except Exception as e:
+            msg = f"latest_pass fetch failed: {e}"
+            item["fetch_errors"].append({"type": "latest_pass", "url": latest_url, "error": str(e)})
+
+            errors.append(
+                {
+                    "id": ds_id,
+                    "repo": repo,
+                    "latest_pass_url": latest_url,
+                    "current_url": current_url,
+                    "fetched_at_utc": utc_now(),
+                    "error": msg,
+                }
+            )
+            results.append(item)
+            time.sleep(0.2)
+            continue
+
+        # 2) current is OPTIONAL (does not affect membership)
+        try:
+            item["current"] = fetch_json(current_url)
+        except Exception as e:
+            item["fetch_errors"].append({"type": "current", "url": current_url, "error": str(e)})
+
+        results.append(item)
         time.sleep(0.2)
 
     payload = {
@@ -71,8 +97,11 @@ def main():
         "fetch_errors": errors,
     }
 
-    (out_dir / "registry.json").write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
-    # Simple status file for humans
+    (out_dir / "registry.json").write_text(
+        json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+
+    # Optional human-readable status file
     (out_dir / "README.txt").write_text(
         f"Generated at {payload['generated_at_utc']}\n"
         f"Fetched: {payload['fetched_count']}/{payload['dataset_count']}\n"
