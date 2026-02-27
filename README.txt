@@ -1,3 +1,3 @@
-Generated at 2026-02-27T12:10:39.188174+00:00
-Fetched: 2/2
-Errors: 0
+Generated at 2026-02-27T12:30:37.470625+00:00
+Fetched: 0/2
+Errors: 2
