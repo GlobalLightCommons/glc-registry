@@ -9,3 +9,7 @@ datasets:
     latest_pass_url: https://tscnlab.github.io/demo-glee-dataset/latest_pass.json
     current_url: https://tscnlab.github.io/demo-glee-dataset/validation.json
 
+  - id: pr-test-dataset
+    repo: tscnlab/pr-test-dataset
+    latest_pass_url: https://example.com/latest_pass.json
+    current_url: https://example.com/validation.json
