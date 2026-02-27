@@ -37,22 +37,29 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Fetch validations
+      - name: Fetch validations (with debug always printed)
+        shell: bash
         run: |
-          set -euo pipefail
+          set -o pipefail
           mkdir -p registry_out
-          python -u scripts/fetch_registry.py datasets.yml registry_out
 
-      - name: Debug output (only if fetch failed)
-        if: failure()
-        run: |
+          set +e
+          python -u scripts/fetch_registry.py datasets.yml registry_out
+          rc=$?
+          set -e
+
+          echo "----- fetch exit code: $rc -----"
           echo "----- ls registry_out -----"
           ls -la registry_out || true
+
           echo "----- registry_out/README.txt -----"
           cat registry_out/README.txt || true
+
           echo "----- registry_out/registry.json (head) -----"
           head -200 registry_out/registry.json || true
-          
+
+          exit $rc
+
       - name: Copy dashboard site into output
         run: |
           cp -R site/* registry_out/
