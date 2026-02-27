@@ -39,15 +39,20 @@ jobs:
 
       - name: Fetch validations
         run: |
+          set -euo pipefail
           mkdir -p registry_out
-          python -u scripts/fetch_registry.py datasets.yml registry_out || true
+          python -u scripts/fetch_registry.py datasets.yml registry_out
 
+      - name: Debug output (only if fetch failed)
+        if: failure()
+        run: |
+          echo "----- ls registry_out -----"
+          ls -la registry_out || true
           echo "----- registry_out/README.txt -----"
           cat registry_out/README.txt || true
-
           echo "----- registry_out/registry.json (head) -----"
           head -200 registry_out/registry.json || true
-
+          
       - name: Copy dashboard site into output
         run: |
           cp -R site/* registry_out/
