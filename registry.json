@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-02-27T11:48:56.102326+00:00",
+  "generated_at_utc": "2026-02-27T11:52:13.199774+00:00",
   "dataset_count": 2,
   "fetched_count": 2,
   "error_count": 0,
@@ -8,7 +8,7 @@
       "id": "guidolin-glee-dataset",
       "repo": "tscnlab/guidolin-glee-dataset",
       "validation_url": "https://tscnlab.github.io/guidolin-glee-dataset/validation.json",
-      "fetched_at_utc": "2026-02-27T11:48:55.577134+00:00",
+      "fetched_at_utc": "2026-02-27T11:52:12.744892+00:00",
       "validation": {
         "status": "pass",
         "repo": "tscnlab/guidolin-glee-dataset",
@@ -26,17 +26,25 @@
       "id": "demo-glee-dataset",
       "repo": "tscnlab/demo-glee-dataset",
       "validation_url": "https://tscnlab.github.io/demo-glee-dataset/validation.json",
-      "fetched_at_utc": "2026-02-27T11:48:55.902159+00:00",
+      "fetched_at_utc": "2026-02-27T11:52:12.999646+00:00",
       "validation": {
-        "status": "pass",
+        "status": "fail",
         "repo": "tscnlab/demo-glee-dataset",
-        "commit_sha": "86c6a3a669d0b726220a049ad335eeeb08833a8b",
+        "commit_sha": "63816957a0294c803b868884bda02ac08f2a8d20",
         "validator_version": "0.1.4",
-        "timestamp_utc": "2026-02-27T11:43:57.632280+00:00",
+        "timestamp_utc": "2026-02-27T11:50:59.297334+00:00",
         "datapackage": "datapackage.json",
         "warnings": [],
-        "errors": [],
-        "error_count": 0,
+        "errors": [
+          {
+            "message": "[study CG2024] Unknown dataset ID in study_datasets: 'DS011'",
+            "path": [
+              "study_datasets",
+              0
+            ]
+          }
+        ],
+        "error_count": 1,
         "warning_count": 0
       }
     }
