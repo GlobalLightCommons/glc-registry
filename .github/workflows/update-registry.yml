@@ -36,13 +36,14 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-
-      - name: Fetch validations (with debug always printed)
+          
+      - name: Fetch validations (debug always printed)
         shell: bash
         run: |
           set -o pipefail
           mkdir -p registry_out
 
+          # run fetcher, but DON'T let bash -e stop us before we print debug
           set +e
           python -u scripts/fetch_registry.py datasets.yml registry_out
           rc=$?
@@ -58,6 +59,7 @@ jobs:
           echo "----- registry_out/registry.json (head) -----"
           head -200 registry_out/registry.json || true
 
+          # keep failing the step if the script failed
           exit $rc
 
       - name: Copy dashboard site into output
