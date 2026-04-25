@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-04-25T23:02:43.461559+00:00",
+  "generated_at_utc": "2026-04-25T23:52:46.163612+00:00",
   "dataset_count": 2,
   "fetched_count": 2,
   "error_count": 0,
@@ -9,7 +9,7 @@
       "repo": "tscnlab/guidolin-glee-dataset",
       "latest_pass_url": "https://tscnlab.github.io/guidolin-glee-dataset/latest_pass.json",
       "current_url": "https://tscnlab.github.io/guidolin-glee-dataset/validation.json",
-      "fetched_at_utc": "2026-04-25T23:02:42.810916+00:00",
+      "fetched_at_utc": "2026-04-25T23:52:45.220681+00:00",
       "latest_pass": {
         "status": "pass",
         "repo": "tscnlab/guidolin-glee-dataset",
@@ -26,21 +26,30 @@
         "error_count": 0,
         "warning_count": 1
       },
-      "current": null,
-      "fetch_errors": [
-        {
-          "type": "current",
-          "url": "https://tscnlab.github.io/guidolin-glee-dataset/validation.json",
-          "error": "503 Server Error: Service Unavailable for url: https://tscnlab.github.io/guidolin-glee-dataset/validation.json"
-        }
-      ]
+      "current": {
+        "status": "pass",
+        "repo": "tscnlab/guidolin-glee-dataset",
+        "commit_sha": "759b55b15089fc9b38cf42fb38fb15b7466d7259",
+        "validator_version": "0.2.0",
+        "timestamp_utc": "2026-03-10T08:09:04.585715+00:00",
+        "datapackage": "datapackage.json",
+        "core_schema_source": "container",
+        "profile_source": "container",
+        "warnings": [
+          "[profile] Dataset declares profile 'schemas/gleam-dp-profile.json', but canonical validator profile is enforced"
+        ],
+        "errors": [],
+        "error_count": 0,
+        "warning_count": 1
+      },
+      "fetch_errors": []
     },
     {
       "id": "demo-glee-dataset",
       "repo": "tscnlab/demo-glee-dataset",
       "latest_pass_url": "https://tscnlab.github.io/demo-glee-dataset/latest_pass.json",
       "current_url": "https://tscnlab.github.io/demo-glee-dataset/validation.json",
-      "fetched_at_utc": "2026-04-25T23:02:43.151817+00:00",
+      "fetched_at_utc": "2026-04-25T23:52:45.709732+00:00",
       "latest_pass": {
         "status": "pass",
         "repo": "tscnlab/demo-glee-dataset",
