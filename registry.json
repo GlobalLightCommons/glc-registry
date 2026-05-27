@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-05-27T17:38:07.411494+00:00",
+  "generated_at_utc": "2026-05-27T19:47:02.416837+00:00",
   "dataset_count": 2,
   "fetched_count": 2,
   "error_count": 0,
@@ -9,7 +9,7 @@
       "repo": "tscnlab/guidolin-glee-dataset",
       "latest_pass_url": "https://tscnlab.github.io/guidolin-glee-dataset/latest_pass.json",
       "current_url": "https://tscnlab.github.io/guidolin-glee-dataset/validation.json",
-      "fetched_at_utc": "2026-05-27T17:38:06.041567+00:00",
+      "fetched_at_utc": "2026-05-27T19:47:01.669140+00:00",
       "latest_pass": {
         "status": "pass",
         "repo": "tscnlab/guidolin-glee-dataset",
@@ -27,19 +27,409 @@
         "warning_count": 1
       },
       "current": {
-        "status": "pass",
+        "status": "fail",
         "repo": "tscnlab/guidolin-glee-dataset",
-        "commit_sha": "759b55b15089fc9b38cf42fb38fb15b7466d7259",
+        "commit_sha": "7c6d9fb1c81e2e55211776f883b8e57f7a9a7fd2",
         "validator_version": "0.2.0",
-        "timestamp_utc": "2026-03-10T08:09:04.585715+00:00",
+        "timestamp_utc": "2026-05-27T18:47:53.922111+00:00",
         "datapackage": "datapackage.json",
         "core_schema_source": "container",
         "profile_source": "container",
         "warnings": [
-          "[profile] Dataset declares profile 'schemas/gleam-dp-profile.json', but canonical validator profile is enforced"
+          "[profile] Dataset declares profile 'schemas/2.0.0/gleam-dp-profile.json', but canonical validator profile is enforced"
         ],
-        "errors": [],
-        "error_count": 0,
+        "errors": [
+          {
+            "message": "[profile] 'schemas/2.0.0/gleam-dp-profile.json' is not valid under any of the given schemas",
+            "path": [
+              "profile"
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('schema_version' was unexpected)",
+            "path": [
+              "<root>"
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_header_row', 'primary_variables' were unexpected)",
+            "path": [
+              "dataset_file",
+              0
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              0
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              1
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              2
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              3
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              4
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              5
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              6
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              7
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              8
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              9
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              10
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              11
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              12
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              13
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              14
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              15
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              16
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              17
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              18
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              19
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              20
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              21
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              22
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              23
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              24
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              25
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              26
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              27
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              28
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              29
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              30
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              31
+            ]
+          },
+          {
+            "message": "[datasets row 1] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              32
+            ]
+          },
+          {
+            "message": "[datasets row 1] 'dataset_illuminance' is a required property",
+            "path": [
+              "<root>"
+            ]
+          },
+          {
+            "message": "[datasets row 2] Additional properties are not allowed ('schema_version' was unexpected)",
+            "path": [
+              "<root>"
+            ]
+          },
+          {
+            "message": "[datasets row 2] Additional properties are not allowed ('primary_variables' was unexpected)",
+            "path": [
+              "dataset_file",
+              0
+            ]
+          },
+          {
+            "message": "[datasets row 2] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              0
+            ]
+          },
+          {
+            "message": "[datasets row 2] Additional properties are not allowed ('dataset_file_variables_term' was unexpected)",
+            "path": [
+              "dataset_file",
+              0,
+              "dataset_file_variables",
+              1
+            ]
+          },
+          {
+            "message": "[datasets row 2] 'dataset_illuminance' is a required property",
+            "path": [
+              "<root>"
+            ]
+          },
+          {
+            "message": "[devices row 1] Additional properties are not allowed ('schema_version' was unexpected)",
+            "path": [
+              "<root>"
+            ]
+          },
+          {
+            "message": "[devices row 2] Additional properties are not allowed ('schema_version' was unexpected)",
+            "path": [
+              "<root>"
+            ]
+          },
+          {
+            "message": "[devices row 3] Additional properties are not allowed ('schema_version' was unexpected)",
+            "path": [
+              "<root>"
+            ]
+          },
+          {
+            "message": "[device_datasheets row 1] Additional properties are not allowed ('schema_version' was unexpected)",
+            "path": [
+              "<root>"
+            ]
+          },
+          {
+            "message": "[device_datasheets row 2] Additional properties are not allowed ('schema_version' was unexpected)",
+            "path": [
+              "<root>"
+            ]
+          }
+        ],
+        "error_count": 47,
         "warning_count": 1
       },
       "fetch_errors": []
@@ -49,7 +439,7 @@
       "repo": "tscnlab/demo-glee-dataset",
       "latest_pass_url": "https://tscnlab.github.io/demo-glee-dataset/latest_pass.json",
       "current_url": "https://tscnlab.github.io/demo-glee-dataset/validation.json",
-      "fetched_at_utc": "2026-05-27T17:38:06.910356+00:00",
+      "fetched_at_utc": "2026-05-27T19:47:02.001502+00:00",
       "latest_pass": {
         "status": "pass",
         "repo": "tscnlab/demo-glee-dataset",
