@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-06-28T09:52:13.987608+00:00",
+  "generated_at_utc": "2026-06-28T11:41:00.277106+00:00",
   "dataset_count": 2,
   "fetched_count": 2,
   "error_count": 0,
@@ -9,7 +9,7 @@
       "repo": "tscnlab/guidolin-glee-dataset",
       "latest_pass_url": "https://tscnlab.github.io/guidolin-glee-dataset/latest_pass.json",
       "current_url": "https://tscnlab.github.io/guidolin-glee-dataset/validation.json",
-      "fetched_at_utc": "2026-06-28T09:52:13.355037+00:00",
+      "fetched_at_utc": "2026-06-28T11:40:59.601103+00:00",
       "latest_pass": {
         "status": "pass",
         "repo": "tscnlab/guidolin-glee-dataset",
@@ -49,7 +49,7 @@
       "repo": "tscnlab/demo-glee-dataset",
       "latest_pass_url": "https://tscnlab.github.io/demo-glee-dataset/latest_pass.json",
       "current_url": "https://tscnlab.github.io/demo-glee-dataset/validation.json",
-      "fetched_at_utc": "2026-06-28T09:52:13.693580+00:00",
+      "fetched_at_utc": "2026-06-28T11:40:59.931317+00:00",
       "latest_pass": {
         "status": "pass",
         "repo": "tscnlab/demo-glee-dataset",
