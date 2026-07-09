@@ -122,8 +122,6 @@ def verify_attestation(path, repo, expected_sha):
         str(path),
         "--repo",
         repo,
-        "--signer-repo",
-        TRUSTED_SIGNER_REPO,
         "--signer-workflow",
         TRUSTED_SIGNER_WORKFLOW,
         "--source-digest",
