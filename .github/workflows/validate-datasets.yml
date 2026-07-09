@@ -15,7 +15,8 @@ permissions:
   attestations: read
 
 jobs:
-  validate:
+  validate_datasets:
+    name: Validate datasets
     runs-on: ubuntu-latest
 
     steps:

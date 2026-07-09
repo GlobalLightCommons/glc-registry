@@ -1,1 +1,5 @@
 datasets.yml @salmathalji
+scripts/ @salmathalji
+.github/workflows/registry-lint.yml @salmathalji
+.github/workflows/validate-datasets.yml @salmathalji
+.github/workflows/update-registry.yml @salmathalji
