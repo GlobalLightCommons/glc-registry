@@ -1,13 +1,16 @@
-import json
 import sys
+import os
+import subprocess
+from pathlib import Path
 from urllib.parse import urlparse
 
-import requests
 import yaml
 
-
-TIMEOUT = 20
-UA = {"User-Agent": "glc-registry-pr-validator"}
+from validation_artifacts import (
+    find_validation_artifact,
+    get_commit_sha,
+    verify_validation_artifact,
+)
 
 
 def die(msg: str, code: int = 1):
@@ -20,6 +23,72 @@ def load_cfg(path: str):
         return yaml.safe_load(f) or {}
 
 
+def load_base_cfg(path: str):
+    base_ref = os.getenv("GITHUB_BASE_REF")
+    if not base_ref:
+        return None
+
+    candidates = [f"origin/{base_ref}", base_ref]
+    for ref in candidates:
+        try:
+            result = subprocess.run(
+                ["git", "show", f"{ref}:{path}"],
+                text=True,
+                capture_output=True,
+                check=True,
+            )
+            return yaml.safe_load(result.stdout) or {}
+        except subprocess.CalledProcessError:
+            continue
+    return None
+
+
+def dataset_key(ds):
+    if not isinstance(ds, dict):
+        return None
+    return ds.get("id") or ds.get("repo")
+
+
+def target_fields(ds):
+    return {
+        "repo": ds.get("repo"),
+        "branch": ds.get("branch") or "main",
+        "commit": ds.get("commit"),
+    }
+
+
+def dataset_entries_requiring_verification(current_datasets, base_cfg):
+    if base_cfg is None:
+        print("No PR base dataset file found; checking all dataset entries.")
+        return [(ds, "base unavailable") for ds in current_datasets]
+
+    base_datasets = base_cfg.get("datasets") or []
+    base_by_id = {
+        dataset_key(ds): ds
+        for ds in base_datasets
+        if isinstance(ds, dict) and dataset_key(ds)
+    }
+
+    requiring_verification = []
+    for ds in current_datasets:
+        key = dataset_key(ds)
+        if not key:
+            continue
+        base_ds = base_by_id.get(key)
+        if base_ds is None:
+            requiring_verification.append((ds, "new dataset entry"))
+        elif target_fields(base_ds) != target_fields(ds):
+            requiring_verification.append((ds, "validation target changed"))
+    return requiring_verification
+
+
+def is_repo_slug(value: str) -> bool:
+    if not isinstance(value, str) or "/" not in value:
+        return False
+    owner, name = value.split("/", 1)
+    return bool(owner) and bool(name) and " " not in value
+
+
 def is_http_url(s: str) -> bool:
     try:
         u = urlparse(s)
@@ -28,37 +97,17 @@ def is_http_url(s: str) -> bool:
         return False
 
 
-def fetch_json(url: str):
-    try:
-        r = requests.get(url, timeout=TIMEOUT, headers=UA)
-        r.raise_for_status()
-    except requests.exceptions.SSLError as e:
-        raise RuntimeError(f"SSL error fetching {url}: {e}")
-    except requests.exceptions.RequestException as e:
-        raise RuntimeError(f"HTTP error fetching {url}: {e}")
-
-    # Ensure it's JSON
-    try:
-        return r.json()
-    except json.JSONDecodeError:
-        snippet = (r.text or "")[:200].replace("\n", " ")
-        raise RuntimeError(f"Non-JSON response from {url}. First 200 chars: {snippet!r}")
-
-
 def main(cfg_path: str):
     cfg = load_cfg(cfg_path)
+    base_cfg = load_base_cfg(cfg_path)
     datasets = cfg.get("datasets") or []
     if not isinstance(datasets, list) or len(datasets) == 0:
         die("datasets.yml must contain a non-empty top-level 'datasets:' list")
 
-    required_keys = ("id", "repo", "latest_pass_url", "current_url")
+    required_keys = ("id", "repo")
 
-    # Duplicate guards
     seen_ids = set()
     seen_repos = set()
-    seen_lp = set()
-    seen_cur = set()
-
     errors = []
 
     for ds in datasets:
@@ -73,18 +122,7 @@ def main(cfg_path: str):
 
         ds_id = ds["id"]
         repo = ds["repo"]
-        latest = ds["latest_pass_url"]
-        current = ds["current_url"]
 
-        # Validate url shapes
-        if not is_http_url(latest):
-            errors.append(f"{ds_id}: latest_pass_url is not a valid http(s) URL: {latest}")
-            continue
-        if not is_http_url(current):
-            errors.append(f"{ds_id}: current_url is not a valid http(s) URL: {current}")
-            continue
-
-        # Duplicates
         if ds_id in seen_ids:
             errors.append(f"Duplicate id: {ds_id}")
         seen_ids.add(ds_id)
@@ -93,50 +131,56 @@ def main(cfg_path: str):
             errors.append(f"Duplicate repo: {repo}")
         seen_repos.add(repo)
 
-        if latest in seen_lp:
-            errors.append(f"Duplicate latest_pass_url: {latest}")
-        seen_lp.add(latest)
+        if not is_repo_slug(repo):
+            errors.append(f"{ds_id}: repo must be an owner/name GitHub repo slug: {repo}")
 
-        if current in seen_cur:
-            errors.append(f"Duplicate current_url: {current}")
-        seen_cur.add(current)
+        # Backward-compatible: old URL fields may remain for now, but must be URL-shaped.
+        for url_key in ("latest_pass_url", "current_url"):
+            if ds.get(url_key) and not is_http_url(ds[url_key]):
+                errors.append(f"{ds_id}: {url_key} is not a valid http(s) URL: {ds[url_key]}")
 
     if errors:
         die("Registry validation failed:\n" + "\n".join(f" - {e}" for e in errors))
 
-    # Network validation (last step so duplicates/missing keys fail fast)
-    net_errors = []
+    verification_errors = []
+    work_dir = Path("_registry_pr_validation")
 
-    for ds in datasets:
+    datasets_to_verify = dataset_entries_requiring_verification(datasets, base_cfg)
+    if datasets_to_verify:
+        changed_ids = ", ".join(
+            f"{ds.get('id') or ds.get('repo')} ({reason})"
+            for ds, reason in datasets_to_verify
+        )
+        print(f"Trusted validation will check new or target-changed dataset entries only: {changed_ids}")
+    else:
+        print("No dataset entries were added or had validation targets changed; skipping trusted artifact checks.")
+
+    for ds, reason in datasets_to_verify:
         ds_id = ds["id"]
-        latest = ds["latest_pass_url"]
-        current = ds["current_url"]
+        repo = ds["repo"]
+        branch = ds.get("branch") or "main"
+        requested_commit = ds.get("commit")
 
-        print(f"Checking {ds_id}...")
-        # latest_pass must be fetchable + pass-shaped JSON
+        print(f"Checking trusted validation artifact for {ds_id} ({repo}); reason: {reason}...")
         try:
-            lp = fetch_json(latest)
-            if "status" not in lp:
-                raise RuntimeError("latest_pass.json missing required key 'status'")
-            if str(lp.get("status")).lower() != "pass":
-                raise RuntimeError(f"latest_pass.json status is not 'pass' (got {lp.get('status')!r})")
+            expected_sha = get_commit_sha(repo, requested_commit or branch)
+            artifact_info = find_validation_artifact(repo, expected_sha)
+            result = verify_validation_artifact(
+                repo,
+                expected_sha,
+                artifact_info,
+                work_dir / repo.replace("/", "__") / expected_sha,
+            )
+            status = result["validation"].get("status")
+            if status != "pass":
+                raise RuntimeError(f"current validation status is {status!r}, expected 'pass'")
         except Exception as e:
-            net_errors.append(f"{ds_id}: latest_pass_url invalid/unreachable: {e}")
-            # if latest pass is bad, no need to check current
-            continue
+            verification_errors.append(f"{ds_id}: trusted validation check failed: {e}")
 
-        # current_url is allowed to be fail, but must be fetchable JSON
-        try:
-            cur = fetch_json(current)
-            if "status" not in cur:
-                raise RuntimeError("validation.json missing required key 'status'")
-        except Exception as e:
-            net_errors.append(f"{ds_id}: current_url invalid/unreachable: {e}")
+    if verification_errors:
+        die("Trusted validation checks failed:\n" + "\n".join(f" - {e}" for e in verification_errors))
 
-    if net_errors:
-        die("Network validation failed:\n" + "\n".join(f" - {e}" for e in net_errors))
-
-    print("\n✅ datasets.yml looks good.")
+    print("\n✅ datasets.yml entries have trusted passing validation artifacts.")
 
 
 if __name__ == "__main__":
