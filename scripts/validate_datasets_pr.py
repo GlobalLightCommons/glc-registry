@@ -1,4 +1,6 @@
 import sys
+import os
+import subprocess
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -21,6 +23,54 @@ def load_cfg(path: str):
         return yaml.safe_load(f) or {}
 
 
+def load_base_cfg(path: str):
+    base_ref = os.getenv("GITHUB_BASE_REF")
+    if not base_ref:
+        return None
+
+    candidates = [f"origin/{base_ref}", base_ref]
+    for ref in candidates:
+        try:
+            result = subprocess.run(
+                ["git", "show", f"{ref}:{path}"],
+                text=True,
+                capture_output=True,
+                check=True,
+            )
+            return yaml.safe_load(result.stdout) or {}
+        except subprocess.CalledProcessError:
+            continue
+    return None
+
+
+def dataset_key(ds):
+    if not isinstance(ds, dict):
+        return None
+    return ds.get("id") or ds.get("repo")
+
+
+def changed_dataset_entries(current_datasets, base_cfg):
+    if base_cfg is None:
+        print("No PR base dataset file found; checking all dataset entries.")
+        return current_datasets
+
+    base_datasets = base_cfg.get("datasets") or []
+    base_by_id = {
+        dataset_key(ds): ds
+        for ds in base_datasets
+        if isinstance(ds, dict) and dataset_key(ds)
+    }
+
+    changed = []
+    for ds in current_datasets:
+        key = dataset_key(ds)
+        if not key:
+            continue
+        if base_by_id.get(key) != ds:
+            changed.append(ds)
+    return changed
+
+
 def is_repo_slug(value: str) -> bool:
     if not isinstance(value, str) or "/" not in value:
         return False
@@ -38,6 +88,7 @@ def is_http_url(s: str) -> bool:
 
 def main(cfg_path: str):
     cfg = load_cfg(cfg_path)
+    base_cfg = load_base_cfg(cfg_path)
     datasets = cfg.get("datasets") or []
     if not isinstance(datasets, list) or len(datasets) == 0:
         die("datasets.yml must contain a non-empty top-level 'datasets:' list")
@@ -83,7 +134,14 @@ def main(cfg_path: str):
     verification_errors = []
     work_dir = Path("_registry_pr_validation")
 
-    for ds in datasets:
+    datasets_to_verify = changed_dataset_entries(datasets, base_cfg)
+    if datasets_to_verify:
+        changed_ids = ", ".join(ds.get("id") or ds.get("repo") for ds in datasets_to_verify)
+        print(f"Trusted validation will check changed dataset entries only: {changed_ids}")
+    else:
+        print("No dataset entries were added or changed; skipping trusted artifact checks.")
+
+    for ds in datasets_to_verify:
         ds_id = ds["id"]
         repo = ds["repo"]
         branch = ds.get("branch") or "main"
