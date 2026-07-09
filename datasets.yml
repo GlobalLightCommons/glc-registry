@@ -1,9 +1,7 @@
 datasets:
   - id: guidolin-glee-dataset
     repo: tscnlab/guidolin-glee-dataset
-    latest_pass_url: https://tscnlab.github.io/guidolin-glee-dataset/latest_pass.json
-    current_url: https://tscnlab.github.io/guidolin-glee-dataset/validation.json
+    branch: main
   - id: demo-glee-dataset
     repo: tscnlab/demo-glee-dataset
-    latest_pass_url: https://tscnlab.github.io/demo-glee-dataset/latest_pass.json
-    current_url: https://tscnlab.github.io/demo-glee-dataset/validation.json
+    branch: main

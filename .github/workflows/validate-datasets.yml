@@ -9,6 +9,11 @@ on:
       - .github/workflows/validate-datasets.yml
   workflow_dispatch:
 
+permissions:
+  contents: read
+  actions: read
+  attestations: read
+
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -28,5 +33,8 @@ jobs:
           pip install requests pyyaml
 
       - name: Validate datasets.yml entries
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           python scripts/validate_datasets_pr.py datasets.yml

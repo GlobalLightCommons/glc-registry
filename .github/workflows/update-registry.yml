@@ -18,6 +18,8 @@ concurrency:
 
 permissions:
   contents: write
+  actions: read
+  attestations: read
   pages: write
 
 jobs:
@@ -39,6 +41,9 @@ jobs:
           
       - name: Fetch validations (debug always printed)
         shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           set -o pipefail
           mkdir -p registry_out
