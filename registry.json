@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-09T16:44:22.505251+00:00",
+  "generated_at_utc": "2026-07-09T18:10:51.826208+00:00",
   "dataset_count": 2,
   "fetched_count": 2,
   "error_count": 0,
@@ -9,17 +9,17 @@
       "repo": "tscnlab/guidolin-glee-dataset",
       "branch": "main",
       "requested_commit": null,
-      "resolved_commit_sha": "f421e58d015d48cdd237517afcf61172d277ec5f",
-      "fetched_at_utc": "2026-07-09T16:43:33.385702+00:00",
-      "current_status": "fail",
+      "resolved_commit_sha": "8727882da9c11a3b8fc0e16d8b226d7ee903585c",
+      "fetched_at_utc": "2026-07-09T18:10:25.867937+00:00",
+      "current_status": "pass",
       "current": {
-        "status": "fail",
+        "status": "pass",
         "repo": "tscnlab/guidolin-glee-dataset",
-        "commit_sha": "f421e58d015d48cdd237517afcf61172d277ec5f",
+        "commit_sha": "8727882da9c11a3b8fc0e16d8b226d7ee903585c",
         "validator_version": "0.4.3",
         "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
-        "timestamp_utc": "2026-07-09T15:58:31.608685+00:00",
-        "error_count": 4,
+        "timestamp_utc": "2026-07-09T17:56:49.176127+00:00",
+        "error_count": 0,
         "warning_count": 0,
         "file_manifest": {
           "path": "/data/validation_out/validated-files-manifest.json",
@@ -28,12 +28,32 @@
           "hashed_count": 16
         },
         "manifest_file_count": 17,
-        "run_id": 29031618206,
-        "run_url": "https://github.com/tscnlab/guidolin-glee-dataset/actions/runs/29031618206",
-        "run_conclusion": "failure",
-        "artifact_id": 8204058841
+        "run_id": 29038835855,
+        "run_url": "https://github.com/tscnlab/guidolin-glee-dataset/actions/runs/29038835855",
+        "run_conclusion": "success",
+        "artifact_id": 8207088739
       },
-      "latest_pass": null,
+      "latest_pass": {
+        "status": "pass",
+        "repo": "tscnlab/guidolin-glee-dataset",
+        "commit_sha": "8727882da9c11a3b8fc0e16d8b226d7ee903585c",
+        "validator_version": "0.4.3",
+        "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
+        "timestamp_utc": "2026-07-09T17:56:49.176127+00:00",
+        "error_count": 0,
+        "warning_count": 0,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 17,
+          "missing_count": 0,
+          "hashed_count": 16
+        },
+        "manifest_file_count": 17,
+        "run_id": 29038835855,
+        "run_url": "https://github.com/tscnlab/guidolin-glee-dataset/actions/runs/29038835855",
+        "run_conclusion": "success",
+        "artifact_id": 8207088739
+      },
       "attestation_verified": true,
       "fetch_errors": []
     },
@@ -43,7 +63,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "931cbe7631fb95d1f8edba2aebb04236a146505b",
-      "fetched_at_utc": "2026-07-09T16:44:07.918839+00:00",
+      "fetched_at_utc": "2026-07-09T18:10:40.761381+00:00",
       "current_status": "fail",
       "current": {
         "status": "fail",
