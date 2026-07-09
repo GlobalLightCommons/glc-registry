@@ -1,0 +1,6 @@
+Validation errors:
+ - [profile] Failed to validate datapackage against profile: [Errno 2] No such file or directory: '/repo/schemas/data-package.json' (failed at path: ['<root>'])
+ - [study row 1] 'study_group_datasets' is a required property (failed at path: ['study_groups', 0])
+ - [dataset DS002] Invalid participant ID: '202' (failed at path: ['dataset_crossref', 'dataset_crossref_participant_id'])
+ - [devices row 1] Unknown device_datasheet_id: 'lumitech-lt100-v3.0' (failed at path: ['device_datasheet_id'])
+ - [devices row 2] Unknown device_datasheet_id: 'lumitech-lt100-v2.0' (failed at path: ['device_datasheet_id'])
