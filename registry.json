@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-09T18:24:20.593551+00:00",
+  "generated_at_utc": "2026-07-09T18:28:21.822608+00:00",
   "dataset_count": 2,
   "fetched_count": 2,
   "error_count": 0,
@@ -9,17 +9,17 @@
       "repo": "tscnlab/guidolin-glee-dataset",
       "branch": "main",
       "requested_commit": null,
-      "resolved_commit_sha": "8727882da9c11a3b8fc0e16d8b226d7ee903585c",
-      "fetched_at_utc": "2026-07-09T18:23:58.453243+00:00",
-      "current_status": "pass",
+      "resolved_commit_sha": "a6f871254a6d148e23536d99c190ae1797b90003",
+      "fetched_at_utc": "2026-07-09T18:27:49.358815+00:00",
+      "current_status": "fail",
       "current": {
-        "status": "pass",
+        "status": "fail",
         "repo": "tscnlab/guidolin-glee-dataset",
-        "commit_sha": "8727882da9c11a3b8fc0e16d8b226d7ee903585c",
+        "commit_sha": "a6f871254a6d148e23536d99c190ae1797b90003",
         "validator_version": "0.4.3",
         "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
-        "timestamp_utc": "2026-07-09T17:56:49.176127+00:00",
-        "error_count": 0,
+        "timestamp_utc": "2026-07-09T18:26:19.202342+00:00",
+        "error_count": 1,
         "warning_count": 0,
         "file_manifest": {
           "path": "/data/validation_out/validated-files-manifest.json",
@@ -28,10 +28,10 @@
           "hashed_count": 16
         },
         "manifest_file_count": 17,
-        "run_id": 29038835855,
-        "run_url": "https://github.com/tscnlab/guidolin-glee-dataset/actions/runs/29038835855",
-        "run_conclusion": "success",
-        "artifact_id": 8207088739
+        "run_id": 29040638147,
+        "run_url": "https://github.com/tscnlab/guidolin-glee-dataset/actions/runs/29040638147",
+        "run_conclusion": "failure",
+        "artifact_id": 8207796565
       },
       "latest_pass": {
         "status": "pass",
@@ -63,7 +63,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "931cbe7631fb95d1f8edba2aebb04236a146505b",
-      "fetched_at_utc": "2026-07-09T18:24:07.134348+00:00",
+      "fetched_at_utc": "2026-07-09T18:28:07.408026+00:00",
       "current_status": "fail",
       "current": {
         "status": "fail",
