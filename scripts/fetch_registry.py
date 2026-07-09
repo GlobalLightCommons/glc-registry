@@ -59,33 +59,40 @@ def main():
             item["resolved_commit_sha"] = expected_sha
 
             artifact_info = find_validation_artifact(repo, expected_sha)
-            current_result = verify_validation_artifact(
-                repo,
-                expected_sha,
-                artifact_info,
-                work_dir / repo.replace("/", "__") / expected_sha,
-            )
-            current_report = current_result["validation"]
-            current_manifest = current_result["manifest"]
+            current_result = None
+            if artifact_info:
+                current_result = verify_validation_artifact(
+                    repo,
+                    expected_sha,
+                    artifact_info,
+                    work_dir / repo.replace("/", "__") / expected_sha,
+                )
+                current_report = current_result["validation"]
+                current_manifest = current_result["manifest"]
 
-            item["current_status"] = current_report.get("status")
-            item["attestation_verified"] = True
-            item["current"] = {
-                "status": current_report.get("status"),
-                "repo": current_report.get("repo"),
-                "commit_sha": current_report.get("commit_sha"),
-                "validator_version": current_report.get("validator_version"),
-                "validator_image": current_report.get("validator_image"),
-                "timestamp_utc": current_report.get("timestamp_utc"),
-                "error_count": current_report.get("error_count"),
-                "warning_count": current_report.get("warning_count"),
-                "file_manifest": current_report.get("file_manifest"),
-                "manifest_file_count": len(current_manifest.get("files", [])),
-                "run_id": current_result.get("run_id"),
-                "run_url": current_result.get("run_url"),
-                "run_conclusion": current_result.get("run_conclusion"),
-                "artifact_id": current_result.get("artifact_id"),
-            }
+                item["current_status"] = current_report.get("status")
+                item["attestation_verified"] = True
+                item["current"] = {
+                    "status": current_report.get("status"),
+                    "repo": current_report.get("repo"),
+                    "commit_sha": current_report.get("commit_sha"),
+                    "validator_version": current_report.get("validator_version"),
+                    "validator_image": current_report.get("validator_image"),
+                    "timestamp_utc": current_report.get("timestamp_utc"),
+                    "error_count": current_report.get("error_count"),
+                    "warning_count": current_report.get("warning_count"),
+                    "file_manifest": current_report.get("file_manifest"),
+                    "manifest_file_count": len(current_manifest.get("files", [])),
+                    "run_id": current_result.get("run_id"),
+                    "run_url": current_result.get("run_url"),
+                    "run_conclusion": current_result.get("run_conclusion"),
+                    "artifact_id": current_result.get("artifact_id"),
+                }
+            else:
+                item["current_status"] = "missing_artifact"
+                item["fetch_errors"].append(
+                    {"error": f"No validation-report artifact found for {repo}@{expected_sha}"}
+                )
 
             latest_result = find_latest_verified_pass(
                 repo,
