@@ -49,10 +49,18 @@ def dataset_key(ds):
     return ds.get("id") or ds.get("repo")
 
 
-def changed_dataset_entries(current_datasets, base_cfg):
+def target_fields(ds):
+    return {
+        "repo": ds.get("repo"),
+        "branch": ds.get("branch") or "main",
+        "commit": ds.get("commit"),
+    }
+
+
+def dataset_entries_requiring_verification(current_datasets, base_cfg):
     if base_cfg is None:
         print("No PR base dataset file found; checking all dataset entries.")
-        return current_datasets
+        return [(ds, "base unavailable") for ds in current_datasets]
 
     base_datasets = base_cfg.get("datasets") or []
     base_by_id = {
@@ -61,14 +69,17 @@ def changed_dataset_entries(current_datasets, base_cfg):
         if isinstance(ds, dict) and dataset_key(ds)
     }
 
-    changed = []
+    requiring_verification = []
     for ds in current_datasets:
         key = dataset_key(ds)
         if not key:
             continue
-        if base_by_id.get(key) != ds:
-            changed.append(ds)
-    return changed
+        base_ds = base_by_id.get(key)
+        if base_ds is None:
+            requiring_verification.append((ds, "new dataset entry"))
+        elif target_fields(base_ds) != target_fields(ds):
+            requiring_verification.append((ds, "validation target changed"))
+    return requiring_verification
 
 
 def is_repo_slug(value: str) -> bool:
@@ -134,20 +145,23 @@ def main(cfg_path: str):
     verification_errors = []
     work_dir = Path("_registry_pr_validation")
 
-    datasets_to_verify = changed_dataset_entries(datasets, base_cfg)
+    datasets_to_verify = dataset_entries_requiring_verification(datasets, base_cfg)
     if datasets_to_verify:
-        changed_ids = ", ".join(ds.get("id") or ds.get("repo") for ds in datasets_to_verify)
-        print(f"Trusted validation will check changed dataset entries only: {changed_ids}")
+        changed_ids = ", ".join(
+            f"{ds.get('id') or ds.get('repo')} ({reason})"
+            for ds, reason in datasets_to_verify
+        )
+        print(f"Trusted validation will check new or target-changed dataset entries only: {changed_ids}")
     else:
-        print("No dataset entries were added or changed; skipping trusted artifact checks.")
+        print("No dataset entries were added or had validation targets changed; skipping trusted artifact checks.")
 
-    for ds in datasets_to_verify:
+    for ds, reason in datasets_to_verify:
         ds_id = ds["id"]
         repo = ds["repo"]
         branch = ds.get("branch") or "main"
         requested_commit = ds.get("commit")
 
-        print(f"Checking trusted validation artifact for {ds_id} ({repo})...")
+        print(f"Checking trusted validation artifact for {ds_id} ({repo}); reason: {reason}...")
         try:
             expected_sha = get_commit_sha(repo, requested_commit or branch)
             artifact_info = find_validation_artifact(repo, expected_sha)
