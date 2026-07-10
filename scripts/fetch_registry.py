@@ -33,16 +33,11 @@ def main():
     errors = []
 
     for ds in datasets:
-        repo = ds.get("repo")
-        ds_id = repo_name_from_slug(repo)
-        branch = ds.get("branch") or "main"
-        requested_commit = ds.get("commit")
-
         item = {
-            "id": ds_id,
-            "repo": repo,
-            "branch": branch,
-            "requested_commit": requested_commit,
+            "id": "unknown",
+            "repo": None,
+            "branch": "main",
+            "requested_commit": None,
             "resolved_commit_sha": None,
             "fetched_at_utc": utc_now(),
             "current_status": "unknown",
@@ -53,8 +48,29 @@ def main():
         }
 
         try:
-            if not repo:
-                raise RuntimeError("missing repo")
+            if not isinstance(ds, dict):
+                raise RuntimeError(
+                    f"malformed dataset entry: expected a mapping, got {type(ds).__name__}"
+                )
+
+            repo = ds.get("repo")
+            branch = ds.get("branch") or "main"
+            requested_commit = ds.get("commit")
+
+            if not isinstance(repo, str) or repo.count("/") != 1:
+                raise RuntimeError(
+                    f"invalid repo slug {repo!r}: expected 'owner/name'"
+                )
+
+            ds_id = repo_name_from_slug(repo)
+            item.update(
+                {
+                    "id": ds_id,
+                    "repo": repo,
+                    "branch": branch,
+                    "requested_commit": requested_commit,
+                }
+            )
 
             expected_sha = get_commit_sha(repo, requested_commit or branch)
             item["resolved_commit_sha"] = expected_sha
@@ -125,10 +141,10 @@ def main():
             item["fetch_errors"].append({"error": str(e)})
             errors.append(
                 {
-                    "id": ds_id,
-                    "repo": repo,
-                    "branch": branch,
-                    "requested_commit": requested_commit,
+                    "id": item["id"],
+                    "repo": item["repo"],
+                    "branch": item["branch"],
+                    "requested_commit": item["requested_commit"],
                     "resolved_commit_sha": item.get("resolved_commit_sha"),
                     "fetched_at_utc": utc_now(),
                     "error": str(e),
