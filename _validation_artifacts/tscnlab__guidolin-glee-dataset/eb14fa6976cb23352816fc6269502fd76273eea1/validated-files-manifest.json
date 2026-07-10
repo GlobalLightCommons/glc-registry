@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "repo": "tscnlab/guidolin-glee-dataset",
+  "commit_sha": "eb14fa6976cb23352816fc6269502fd76273eea1",
+  "generated_at_utc": "2026-07-10T10:20:41.874289+00:00",
+  "datapackage": "datapackage.json",
+  "files": [
+    {
+      "path": "data/datasets.json",
+      "source": "datapackage.resources.datasets.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "860e5b54d3ac5af352ee6115cd1aa09df7a9e33364e461c18273462a7b629643",
+      "size_bytes": 17835
+    },
+    {
+      "path": "data/datasets/201_actlumus_Log_1020_20230821094227441.txt",
+      "source": "datasets.DS001.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6893b6f5212cc20f2453b80cb82bc54991e6072d44e6054759b222572b231358",
+      "size_bytes": 10323017
+    },
+    {
+      "path": "data/datasets/p001_wrist_2025-06-01.csv",
+      "source": "datasets.DS002.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "60e0cebc39837f98bebef243589928e807d00604486b6e1cb68c65f8bb7afc67",
+      "size_bytes": 264
+    },
+    {
+      "path": "data/datasheets",
+      "source": "datapackage.resources.device_datasheets.path",
+      "required": true,
+      "exists": true,
+      "is_file": false,
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "path": "data/devices.json",
+      "source": "datapackage.resources.devices.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "530769584d80bd33247ae37eab677aa446d7a183ab61ca5148abed931947b627",
+      "size_bytes": 2148
+    },
+    {
+      "path": "data/light_data.csv",
+      "source": "datapackage.resources.light_data.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d5812162848cb579476ffdc084c598b6c2128a872f2fdcf3e76c817d648c91bc",
+      "size_bytes": 10262118
+    },
+    {
+      "path": "data/participant_characteristics.csv",
+      "source": "datapackage.resources.participant_characteristics.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "554b868fb4c927fa564b38e3112b7ce3dee571fef71e3d23a5878f96efdf879c",
+      "size_bytes": 218
+    },
+    {
+      "path": "data/participants.json",
+      "source": "datapackage.resources.participants.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1a7ae187c989d71d5c91a42d6e71a71f199148df63f17a07a82b55000c46eeb7",
+      "size_bytes": 379
+    },
+    {
+      "path": "data/study.json",
+      "source": "datapackage.resources.study.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fb165e58843c102ba4de031d7c1a354e08c94ead9185a5e34b0557577431fd1e",
+      "size_bytes": 3644
+    },
+    {
+      "path": "datapackage.json",
+      "source": "datapackage",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e841fb13494e6a3e8bf99cb5bef419735c057f03c7ed47e9099f116a01175c1d",
+      "size_bytes": 2363
+    },
+    {
+      "path": "schemas/2.0.0/dataset.schema.json",
+      "source": "datapackage.resources.datasets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6d1ef4ec44aa62cea01707e35e95d6f7b3c80eec3c5e06fb5b21963a8ffa70d5",
+      "size_bytes": 12431
+    },
+    {
+      "path": "schemas/2.0.0/device.schema.json",
+      "source": "datapackage.resources.devices.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c5efcf5de8b1ee6b88e49ed743e34709a040005beb3c8fba7f3eece9f63ab676",
+      "size_bytes": 3193
+    },
+    {
+      "path": "schemas/2.0.0/device_datasheet.schema.json",
+      "source": "datapackage.resources.device_datasheets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "358e3ecb7cdb49ba4212e0cdbfecb914f21fe9fa9e6a5166643f1ae3f05662df",
+      "size_bytes": 5499
+    },
+    {
+      "path": "schemas/2.0.0/participant_characteristics.schema.json",
+      "source": "datapackage.resources.participant_characteristics.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b3b53b06318de562687c620f98613cc453f63e098798b098376f7bc4d98b1ce1",
+      "size_bytes": 1244
+    },
+    {
+      "path": "schemas/2.0.0/participants.schema.json",
+      "source": "datapackage.resources.participants.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "135aab6595f685f53f28e1400abc32bc6dfd80795f011fdfd01f617da33e3da6",
+      "size_bytes": 932
+    },
+    {
+      "path": "schemas/2.0.0/study.schema.json",
+      "source": "datapackage.resources.study.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "861e8f85c40d34c8c267a657a89092d370bed180eea8fcb674639ae21ef40ced",
+      "size_bytes": 4361
+    },
+    {
+      "path": "schemas/light_data.schema.json",
+      "source": "datapackage.resources.light_data.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ce2f67cf8cdb7d77f776030b8dab6a45858388f57cbbe1e5afd666042b9cc560",
+      "size_bytes": 1653
+    }
+  ]
+}

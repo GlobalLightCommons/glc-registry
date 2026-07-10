@@ -1,0 +1,79 @@
+{
+  "status": "fail",
+  "repo": "tscnlab/demo-glee-dataset",
+  "commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
+  "validator_version": "0.4.3",
+  "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
+  "timestamp_utc": "2026-07-10T10:20:34.756590+00:00",
+  "datapackage": "datapackage.json",
+  "core_schema_source": "container",
+  "profile_source": "container",
+  "column_check_mode": "lenient",
+  "warnings": [
+    {
+      "message": "[profile] Dataset declares profile 'schemas/gleam-dp-profile.json', but canonical validator profile is enforced",
+      "path": [
+        "profile"
+      ]
+    }
+  ],
+  "errors": [
+    {
+      "message": "[datapackage] Missing required field: schema_version",
+      "path": [
+        "schema_version"
+      ]
+    },
+    {
+      "message": "[participants] Cannot resolve canonical schema without a valid datapackage schema_version",
+      "path": [
+        "schema_version"
+      ]
+    },
+    {
+      "message": "[participant_characteristics] Cannot resolve canonical schema without a valid datapackage schema_version",
+      "path": [
+        "schema_version"
+      ]
+    },
+    {
+      "message": "[tabular bundle] Cannot resolve canonical schemas without a valid datapackage schema_version",
+      "path": [
+        "schema_version"
+      ]
+    },
+    {
+      "message": "[study] Cannot resolve canonical schema without a valid datapackage schema_version",
+      "path": [
+        "schema_version"
+      ]
+    },
+    {
+      "message": "[datasets] Cannot resolve canonical schema without a valid datapackage schema_version",
+      "path": [
+        "schema_version"
+      ]
+    },
+    {
+      "message": "[devices] Cannot resolve canonical schema without a valid datapackage schema_version",
+      "path": [
+        "schema_version"
+      ]
+    },
+    {
+      "message": "[device_datasheets] Cannot resolve canonical schema without a valid datapackage schema_version",
+      "path": [
+        "schema_version"
+      ]
+    }
+  ],
+  "schema_version": null,
+  "error_count": 8,
+  "warning_count": 1,
+  "file_manifest": {
+    "path": "/data/validation_out/validated-files-manifest.json",
+    "file_count": 15,
+    "missing_count": 0,
+    "hashed_count": 14
+  }
+}
