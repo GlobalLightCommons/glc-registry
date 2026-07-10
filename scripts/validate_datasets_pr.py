@@ -9,6 +9,7 @@ import yaml
 from validation_artifacts import (
     find_validation_artifact,
     get_commit_sha,
+    repo_name_from_slug,
     verify_validation_artifact,
 )
 
@@ -41,12 +42,6 @@ def load_base_cfg(path: str):
         except subprocess.CalledProcessError:
             continue
     return None
-
-
-def repo_name_from_slug(repo):
-    if isinstance(repo, str) and "/" in repo:
-        return repo.split("/", 1)[1]
-    return repo or "unknown"
 
 
 def dataset_key(ds):

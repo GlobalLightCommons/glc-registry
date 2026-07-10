@@ -8,6 +8,7 @@ from validation_artifacts import (
     find_latest_verified_pass,
     find_validation_artifact,
     get_commit_sha,
+    repo_name_from_slug,
     utc_now,
     verify_validation_artifact,
 )
@@ -16,12 +17,6 @@ from validation_artifacts import (
 def load_cfg(path: str):
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
-
-
-def repo_name_from_slug(repo):
-    if isinstance(repo, str) and "/" in repo:
-        return repo.split("/", 1)[1]
-    return repo or "unknown"
 
 
 def main():

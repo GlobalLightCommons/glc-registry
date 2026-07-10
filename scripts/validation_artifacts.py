@@ -27,6 +27,12 @@ def utc_now():
     return datetime.now(timezone.utc).isoformat()
 
 
+def repo_name_from_slug(repo):
+    if isinstance(repo, str) and "/" in repo:
+        return repo.split("/", 1)[1]
+    return repo or "unknown"
+
+
 def github_headers():
     headers = dict(UA)
     token = os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN")
