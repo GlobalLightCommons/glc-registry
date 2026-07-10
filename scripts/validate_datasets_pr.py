@@ -14,7 +14,7 @@ from validation_artifacts import (
 
 
 def die(msg: str, code: int = 1):
-    print(f"\n❌ {msg}")
+    print(f"\nERROR: {msg}")
     raise SystemExit(code)
 
 
@@ -43,10 +43,22 @@ def load_base_cfg(path: str):
     return None
 
 
+def repo_name_from_slug(repo):
+    if isinstance(repo, str) and "/" in repo:
+        return repo.split("/", 1)[1]
+    return repo or "unknown"
+
+
 def dataset_key(ds):
     if not isinstance(ds, dict):
         return None
-    return ds.get("id") or ds.get("repo")
+    return ds.get("repo")
+
+
+def dataset_label(ds):
+    if not isinstance(ds, dict):
+        return "<unknown>"
+    return repo_name_from_slug(ds.get("repo"))
 
 
 def target_fields(ds):
@@ -63,7 +75,7 @@ def dataset_entries_requiring_verification(current_datasets, base_cfg):
         return [(ds, "base unavailable") for ds in current_datasets]
 
     base_datasets = base_cfg.get("datasets") or []
-    base_by_id = {
+    base_by_key = {
         dataset_key(ds): ds
         for ds in base_datasets
         if isinstance(ds, dict) and dataset_key(ds)
@@ -74,7 +86,7 @@ def dataset_entries_requiring_verification(current_datasets, base_cfg):
         key = dataset_key(ds)
         if not key:
             continue
-        base_ds = base_by_id.get(key)
+        base_ds = base_by_key.get(key)
         if base_ds is None:
             requiring_verification.append((ds, "new dataset entry"))
         elif target_fields(base_ds) != target_fields(ds):
@@ -104,7 +116,7 @@ def main(cfg_path: str):
     if not isinstance(datasets, list) or len(datasets) == 0:
         die("datasets.yml must contain a non-empty top-level 'datasets:' list")
 
-    required_keys = ("id", "repo")
+    required_keys = ("repo",)
 
     seen_ids = set()
     seen_repos = set()
@@ -117,22 +129,28 @@ def main(cfg_path: str):
 
         missing = [k for k in required_keys if not ds.get(k)]
         if missing:
-            errors.append(f"{ds.get('id') or ds.get('repo') or '<unknown>'}: missing {missing}")
+            errors.append(f"{ds.get('repo') or '<unknown>'}: missing {missing}")
             continue
 
-        ds_id = ds["id"]
         repo = ds["repo"]
+        ds_id = repo_name_from_slug(repo)
 
-        if ds_id in seen_ids:
-            errors.append(f"Duplicate id: {ds_id}")
-        seen_ids.add(ds_id)
+        if ds.get("id"):
+            errors.append(
+                f"{repo}: id is no longer supported in datasets.yml; "
+                f"remove it because the registry derives id={ds_id!r} from the repo name"
+            )
+
+        if not is_repo_slug(repo):
+            errors.append(f"{ds_id}: repo must be an owner/name GitHub repo slug: {repo}")
+        else:
+            if ds_id in seen_ids:
+                errors.append(f"Duplicate derived id from repo name: {ds_id}")
+            seen_ids.add(ds_id)
 
         if repo in seen_repos:
             errors.append(f"Duplicate repo: {repo}")
         seen_repos.add(repo)
-
-        if not is_repo_slug(repo):
-            errors.append(f"{ds_id}: repo must be an owner/name GitHub repo slug: {repo}")
 
         # Backward-compatible: old URL fields may remain for now, but must be URL-shaped.
         for url_key in ("latest_pass_url", "current_url"):
@@ -148,7 +166,7 @@ def main(cfg_path: str):
     datasets_to_verify = dataset_entries_requiring_verification(datasets, base_cfg)
     if datasets_to_verify:
         changed_ids = ", ".join(
-            f"{ds.get('id') or ds.get('repo')} ({reason})"
+            f"{dataset_label(ds)} ({reason})"
             for ds, reason in datasets_to_verify
         )
         print(f"Trusted validation will check new or target-changed dataset entries only: {changed_ids}")
@@ -156,8 +174,8 @@ def main(cfg_path: str):
         print("No dataset entries were added or had validation targets changed; skipping trusted artifact checks.")
 
     for ds, reason in datasets_to_verify:
-        ds_id = ds["id"]
         repo = ds["repo"]
+        ds_id = repo_name_from_slug(repo)
         branch = ds.get("branch") or "main"
         requested_commit = ds.get("commit")
 
@@ -180,7 +198,7 @@ def main(cfg_path: str):
     if verification_errors:
         die("Trusted validation checks failed:\n" + "\n".join(f" - {e}" for e in verification_errors))
 
-    print("\n✅ datasets.yml entries have trusted passing validation artifacts.")
+    print("\nOK: datasets.yml entries have trusted passing validation artifacts.")
 
 
 if __name__ == "__main__":

@@ -18,6 +18,12 @@ def load_cfg(path: str):
         return yaml.safe_load(f) or {}
 
 
+def repo_name_from_slug(repo):
+    if isinstance(repo, str) and "/" in repo:
+        return repo.split("/", 1)[1]
+    return repo or "unknown"
+
+
 def main():
     cfg_path = sys.argv[1] if len(sys.argv) > 1 else "datasets.yml"
     out_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("registry_out")
@@ -32,8 +38,8 @@ def main():
     errors = []
 
     for ds in datasets:
-        ds_id = ds.get("id") or ds.get("repo") or "unknown"
         repo = ds.get("repo")
+        ds_id = repo_name_from_slug(repo)
         branch = ds.get("branch") or "main"
         requested_commit = ds.get("commit")
 
