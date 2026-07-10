@@ -95,9 +95,9 @@ def dataset_entries_requiring_verification(current_datasets, base_cfg):
 
 
 def is_repo_slug(value: str) -> bool:
-    if not isinstance(value, str) or "/" not in value:
+    if not isinstance(value, str) or value.count("/") != 1:
         return False
-    owner, name = value.split("/", 1)
+    owner, name = value.split("/")
     return bool(owner) and bool(name) and " " not in value
 
 
@@ -147,10 +147,9 @@ def main(cfg_path: str):
             if ds_id in seen_ids:
                 errors.append(f"Duplicate derived id from repo name: {ds_id}")
             seen_ids.add(ds_id)
-
-        if repo in seen_repos:
-            errors.append(f"Duplicate repo: {repo}")
-        seen_repos.add(repo)
+            if repo in seen_repos:
+                errors.append(f"Duplicate repo: {repo}")
+            seen_repos.add(repo)
 
         # Backward-compatible: old URL fields may remain for now, but must be URL-shaped.
         for url_key in ("latest_pass_url", "current_url"):
