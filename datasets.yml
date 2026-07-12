@@ -1,7 +1,7 @@
 datasets:
-  - id: guidolin-glee-dataset
-    repo: tscnlab/guidolin-glee-dataset
-    branch: main
-  - id: demo-glee-dataset
-    repo: tscnlab/demo-glee-dataset
-    branch: main
+- id: guidolin-glee-dataset
+  repo: tscnlab/guidolin-glee-dataset
+  branch: main
+- id: demo-glee-dataset
+  repo: tscnlab/demo-glee-datasetv2
+  branch: main
