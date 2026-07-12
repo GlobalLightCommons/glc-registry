@@ -18,6 +18,7 @@ concurrency:
 
 permissions:
   contents: write
+  pull-requests: write
   actions: read
   attestations: read
   pages: write
@@ -70,6 +71,23 @@ jobs:
       - name: Copy dashboard site into output
         run: |
           cp -R site/* registry_out/
+
+      - name: Prepare canonical repository-name updates
+        run: |
+          python scripts/update_renamed_repositories.py datasets.yml registry_out/registry.json
+
+      - name: Open repository-rename pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: bot/update-renamed-repositories
+          delete-branch: true
+          commit-message: Update renamed dataset repositories
+          title: Update renamed dataset repositories
+          body: |
+            GitHub redirected one or more configured dataset repositories to new canonical names.
+
+            This automated PR updates `datasets.yml` to those canonical owner/repository names. Please review before merging.
+          add-paths: datasets.yml
 
       - name: Publish to gh-pages
         if: always()

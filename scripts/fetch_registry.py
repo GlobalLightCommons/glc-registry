@@ -8,6 +8,8 @@ from validation_artifacts import (
     find_latest_verified_pass,
     find_validation_artifact,
     get_commit_sha,
+    repo_name_from_slug,
+    resolve_repository,
     utc_now,
     verify_validation_artifact,
 )
@@ -32,16 +34,13 @@ def main():
     errors = []
 
     for ds in datasets:
-        ds_id = ds.get("id") or ds.get("repo") or "unknown"
-        repo = ds.get("repo")
-        branch = ds.get("branch") or "main"
-        requested_commit = ds.get("commit")
-
         item = {
-            "id": ds_id,
-            "repo": repo,
-            "branch": branch,
-            "requested_commit": requested_commit,
+            "id": "unknown",
+            "repo": None,
+            "configured_repo": None,
+            "repository_status": "unknown",
+            "branch": "main",
+            "requested_commit": None,
             "resolved_commit_sha": None,
             "fetched_at_utc": utc_now(),
             "current_status": "unknown",
@@ -52,8 +51,37 @@ def main():
         }
 
         try:
-            if not repo:
-                raise RuntimeError("missing repo")
+            if not isinstance(ds, dict):
+                raise RuntimeError(
+                    f"malformed dataset entry: expected a mapping, got {type(ds).__name__}"
+                )
+
+            repo = ds.get("repo")
+            branch = ds.get("branch") or "main"
+            requested_commit = ds.get("commit")
+
+            if not isinstance(repo, str) or repo.count("/") != 1:
+                raise RuntimeError(
+                    f"invalid repo slug {repo!r}: expected 'owner/name'"
+                )
+
+            ds_id = repo_name_from_slug(repo)
+            item.update(
+                {
+                    "id": ds_id,
+                    "repo": repo,
+                    "configured_repo": repo,
+                    "branch": branch,
+                    "requested_commit": requested_commit,
+                }
+            )
+
+            canonical_repo = resolve_repository(repo)
+            item["repo"] = canonical_repo
+            item["repository_status"] = (
+                "active" if canonical_repo.casefold() == repo.casefold() else "renamed"
+            )
+            repo = canonical_repo
 
             expected_sha = get_commit_sha(repo, requested_commit or branch)
             item["resolved_commit_sha"] = expected_sha
@@ -121,13 +149,22 @@ def main():
                 }
 
         except Exception as e:
+            response = getattr(e, "response", None)
+            if (
+                item["repository_status"] == "unknown"
+                and response is not None
+                and response.status_code == 404
+            ):
+                item["repository_status"] = "unavailable"
             item["fetch_errors"].append({"error": str(e)})
             errors.append(
                 {
-                    "id": ds_id,
-                    "repo": repo,
-                    "branch": branch,
-                    "requested_commit": requested_commit,
+                    "id": item["id"],
+                    "repo": item["repo"],
+                    "configured_repo": item["configured_repo"],
+                    "repository_status": item["repository_status"],
+                    "branch": item["branch"],
+                    "requested_commit": item["requested_commit"],
                     "resolved_commit_sha": item.get("resolved_commit_sha"),
                     "fetched_at_utc": utc_now(),
                     "error": str(e),

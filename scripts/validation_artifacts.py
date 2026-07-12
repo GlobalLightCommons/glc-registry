@@ -27,6 +27,12 @@ def utc_now():
     return datetime.now(timezone.utc).isoformat()
 
 
+def repo_name_from_slug(repo):
+    if isinstance(repo, str) and "/" in repo:
+        return repo.split("/", 1)[1]
+    return repo or "unknown"
+
+
 def github_headers():
     headers = dict(UA)
     token = os.getenv("GH_TOKEN") or os.getenv("GITHUB_TOKEN")
@@ -40,6 +46,12 @@ def github_get_json(url, timeout=30):
     r = requests.get(url, timeout=timeout, headers=github_headers())
     r.raise_for_status()
     return r.json()
+
+
+def resolve_repository(repo):
+    """Return the canonical owner/name, following GitHub rename redirects."""
+    data = github_get_json(f"https://api.github.com/repos/{repo}")
+    return data["full_name"]
 
 
 def github_download(url, dest_path, timeout=60):
