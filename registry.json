@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-12T19:19:02.522230+00:00",
+  "generated_at_utc": "2026-07-12T19:21:24.422137+00:00",
   "dataset_count": 2,
   "fetched_count": 2,
   "error_count": 1,
@@ -12,7 +12,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "eb14fa6976cb23352816fc6269502fd76273eea1",
-      "fetched_at_utc": "2026-07-12T19:18:31.362483+00:00",
+      "fetched_at_utc": "2026-07-12T19:20:52.517528+00:00",
       "current_status": "fail",
       "current": {
         "status": "fail",
@@ -60,14 +60,14 @@
       "fetch_errors": []
     },
     {
-      "id": "demo-glee-datasetv2",
+      "id": "demo-glee-dataset",
       "repo": "tscnlab/demo-glee-dataset",
-      "configured_repo": "tscnlab/demo-glee-datasetv2",
-      "repository_status": "renamed",
+      "configured_repo": "tscnlab/demo-glee-dataset",
+      "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-12T19:18:56.731105+00:00",
+      "fetched_at_utc": "2026-07-12T19:21:19.184939+00:00",
       "current_status": "unknown",
       "current": null,
       "latest_pass": null,
@@ -81,14 +81,14 @@
   ],
   "fetch_errors": [
     {
-      "id": "demo-glee-datasetv2",
+      "id": "demo-glee-dataset",
       "repo": "tscnlab/demo-glee-dataset",
-      "configured_repo": "tscnlab/demo-glee-datasetv2",
-      "repository_status": "renamed",
+      "configured_repo": "tscnlab/demo-glee-dataset",
+      "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-12T19:19:02.522200+00:00",
+      "fetched_at_utc": "2026-07-12T19:21:24.422109+00:00",
       "error": "Error: expected SourceRepositoryURI to be https://github.com/tscnlab/demo-glee-dataset, got https://github.com/tscnlab/demo-glee-datasetv2"
     }
   ]
