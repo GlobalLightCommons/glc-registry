@@ -48,6 +48,12 @@ def github_get_json(url, timeout=30):
     return r.json()
 
 
+def resolve_repository(repo):
+    """Return the canonical owner/name, following GitHub rename redirects."""
+    data = github_get_json(f"https://api.github.com/repos/{repo}")
+    return data["full_name"]
+
+
 def github_download(url, dest_path, timeout=60):
     with requests.get(url, timeout=timeout, headers=github_headers(), stream=True) as r:
         r.raise_for_status()
