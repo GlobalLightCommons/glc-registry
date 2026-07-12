@@ -3,5 +3,5 @@ datasets:
   repo: tscnlab/guidolin-glee-dataset
   branch: main
 - id: demo-glee-dataset
-  repo: tscnlab/demo-glee-datasetv2
+  repo: tscnlab/demo-glee-dataset
   branch: main
