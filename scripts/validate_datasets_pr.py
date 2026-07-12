@@ -130,12 +130,6 @@ def main(cfg_path: str):
         repo = ds["repo"]
         ds_id = repo_name_from_slug(repo)
 
-        if ds.get("id"):
-            errors.append(
-                f"{repo}: id is no longer supported in datasets.yml; "
-                f"remove it because the registry derives id={ds_id!r} from the repo name"
-            )
-
         if not is_repo_slug(repo):
             errors.append(f"{ds_id}: repo must be an owner/name GitHub repo slug: {repo}")
         else:
