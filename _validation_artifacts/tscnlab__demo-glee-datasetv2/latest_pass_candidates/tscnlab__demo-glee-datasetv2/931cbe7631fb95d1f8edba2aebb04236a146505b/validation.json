@@ -1,10 +1,10 @@
 {
   "status": "fail",
-  "repo": "tscnlab/demo-glee-datasetv2",
-  "commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
+  "repo": "tscnlab/demo-glee-dataset",
+  "commit_sha": "931cbe7631fb95d1f8edba2aebb04236a146505b",
   "validator_version": "0.4.3",
   "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
-  "timestamp_utc": "2026-07-12T19:10:21.986911+00:00",
+  "timestamp_utc": "2026-07-09T16:39:36.285515+00:00",
   "datapackage": "datapackage.json",
   "core_schema_source": "container",
   "profile_source": "container",
