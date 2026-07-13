@@ -1,18 +1,18 @@
 {
-  "generated_at_utc": "2026-07-13T11:06:36.136098+00:00",
+  "generated_at_utc": "2026-07-13T11:09:33.185605+00:00",
   "dataset_count": 2,
   "fetched_count": 2,
   "error_count": 1,
   "datasets": [
     {
-      "id": "guidolin-glee-dataset",
+      "id": "guidolin-glee-datasetv2",
       "repo": "tscnlab/guidolin-glee-datasetv2",
-      "configured_repo": "tscnlab/guidolin-glee-dataset",
-      "repository_status": "renamed",
+      "configured_repo": "tscnlab/guidolin-glee-datasetv2",
+      "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "eb14fa6976cb23352816fc6269502fd76273eea1",
-      "fetched_at_utc": "2026-07-13T11:06:06.826091+00:00",
+      "fetched_at_utc": "2026-07-13T11:09:00.702060+00:00",
       "current_status": "unknown",
       "current": null,
       "latest_pass": null,
@@ -31,7 +31,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-13T11:06:12.502950+00:00",
+      "fetched_at_utc": "2026-07-13T11:09:06.828758+00:00",
       "current_status": "fail",
       "current": {
         "status": "fail",
@@ -61,14 +61,14 @@
   ],
   "fetch_errors": [
     {
-      "id": "guidolin-glee-dataset",
+      "id": "guidolin-glee-datasetv2",
       "repo": "tscnlab/guidolin-glee-datasetv2",
-      "configured_repo": "tscnlab/guidolin-glee-dataset",
-      "repository_status": "renamed",
+      "configured_repo": "tscnlab/guidolin-glee-datasetv2",
+      "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "eb14fa6976cb23352816fc6269502fd76273eea1",
-      "fetched_at_utc": "2026-07-13T11:06:12.502927+00:00",
+      "fetched_at_utc": "2026-07-13T11:09:06.828733+00:00",
       "error": "Error: expected SourceRepositoryURI to be https://github.com/tscnlab/guidolin-glee-datasetv2, got https://github.com/tscnlab/guidolin-glee-dataset"
     }
   ]
