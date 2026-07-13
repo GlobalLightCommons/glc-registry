@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "repo": "tscnlab/guidolin-glee-dataset",
-  "commit_sha": "ef61ce25486a1f0dda044dffbd43b73f11c1b803",
-  "generated_at_utc": "2026-07-09T12:53:23.893911+00:00",
+  "repo": "tscnlab/guidolin-glee-datasetv2",
+  "commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
+  "generated_at_utc": "2026-07-13T11:23:42.265116+00:00",
   "datapackage": "datapackage.json",
   "files": [
     {
@@ -11,8 +11,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "23030f1a50b45b2604d00baff7749154e6d3a2a1e15bb7edb769c93c6da900b9",
-      "size_bytes": 17834
+      "sha256": "4df6d2fe4413c536a85b2ffcb9d43961369bce770802c0ec4f1a40a5d5ee0410",
+      "size_bytes": 17835
     },
     {
       "path": "data/datasets/201_actlumus_Log_1020_20230821094227441.txt",
@@ -47,7 +47,7 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "c3685888579280f756b7dc2dad24f82133f59053c4fcb79c50c93ea6ad7a8dfd",
+      "sha256": "530769584d80bd33247ae37eab677aa446d7a183ab61ca5148abed931947b627",
       "size_bytes": 2148
     },
     {
@@ -83,8 +83,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "4b8b20c0c3b3eb881bfaae7fb1982eb4f8351590eb31edcb09c5ba31f3d3d602",
-      "size_bytes": 3562
+      "sha256": "fb165e58843c102ba4de031d7c1a354e08c94ead9185a5e34b0557577431fd1e",
+      "size_bytes": 3644
     },
     {
       "path": "datapackage.json",
