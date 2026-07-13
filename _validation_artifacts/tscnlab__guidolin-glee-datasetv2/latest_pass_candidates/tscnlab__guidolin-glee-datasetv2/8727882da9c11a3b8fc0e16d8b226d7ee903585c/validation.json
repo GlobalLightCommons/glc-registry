@@ -1,26 +1,18 @@
 {
-  "status": "fail",
-  "repo": "tscnlab/guidolin-glee-datasetv2",
-  "commit_sha": "eb14fa6976cb23352816fc6269502fd76273eea1",
+  "status": "pass",
+  "repo": "tscnlab/guidolin-glee-dataset",
+  "commit_sha": "8727882da9c11a3b8fc0e16d8b226d7ee903585c",
   "validator_version": "0.4.3",
   "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
-  "timestamp_utc": "2026-07-13T11:13:44.500085+00:00",
+  "timestamp_utc": "2026-07-09T17:56:49.176127+00:00",
   "datapackage": "datapackage.json",
   "core_schema_source": "container",
   "profile_source": "container",
   "column_check_mode": "lenient",
   "warnings": [],
-  "errors": [
-    {
-      "message": "[dataset DS002] Invalid participant ID: 'P999'",
-      "path": [
-        "dataset_crossref",
-        "dataset_crossref_participant_id"
-      ]
-    }
-  ],
+  "errors": [],
   "schema_version": "2.0.0",
-  "error_count": 1,
+  "error_count": 0,
   "warning_count": 0,
   "file_manifest": {
     "path": "/data/validation_out/validated-files-manifest.json",

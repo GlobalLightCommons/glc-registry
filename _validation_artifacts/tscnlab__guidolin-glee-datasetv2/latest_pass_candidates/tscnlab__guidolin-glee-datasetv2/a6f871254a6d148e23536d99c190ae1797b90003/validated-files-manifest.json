@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "repo": "tscnlab/guidolin-glee-datasetv2",
-  "commit_sha": "eb14fa6976cb23352816fc6269502fd76273eea1",
-  "generated_at_utc": "2026-07-13T11:13:48.185445+00:00",
+  "repo": "tscnlab/guidolin-glee-dataset",
+  "commit_sha": "a6f871254a6d148e23536d99c190ae1797b90003",
+  "generated_at_utc": "2026-07-09T18:26:22.958486+00:00",
   "datapackage": "datapackage.json",
   "files": [
     {

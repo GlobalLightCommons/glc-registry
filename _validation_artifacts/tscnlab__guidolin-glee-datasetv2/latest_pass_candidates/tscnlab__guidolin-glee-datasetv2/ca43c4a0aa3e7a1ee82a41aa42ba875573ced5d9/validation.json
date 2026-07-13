@@ -1,0 +1,56 @@
+{
+  "status": "fail",
+  "repo": "tscnlab/guidolin-glee-dataset",
+  "commit_sha": "ca43c4a0aa3e7a1ee82a41aa42ba875573ced5d9",
+  "validator_version": "0.4.1",
+  "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:828649f0815eb8eb39fcd3255953bc6806ef120aacbd6278ca71f6c8829026d4",
+  "timestamp_utc": "2026-07-09T12:18:24.370741+00:00",
+  "datapackage": "datapackage.json",
+  "core_schema_source": "container",
+  "profile_source": "container",
+  "column_check_mode": "lenient",
+  "warnings": [],
+  "errors": [
+    {
+      "message": "[profile] Failed to validate datapackage against profile: [Errno 2] No such file or directory: '/repo/schemas/data-package.json'",
+      "path": [
+        "<root>"
+      ]
+    },
+    {
+      "message": "[study row 1] 'study_group_datasets' is a required property",
+      "path": [
+        "study_groups",
+        0
+      ]
+    },
+    {
+      "message": "[dataset DS002] Invalid participant ID: '202'",
+      "path": [
+        "dataset_crossref",
+        "dataset_crossref_participant_id"
+      ]
+    },
+    {
+      "message": "[devices row 1] Unknown device_datasheet_id: 'lumitech-lt100-v3.0'",
+      "path": [
+        "device_datasheet_id"
+      ]
+    },
+    {
+      "message": "[devices row 2] Unknown device_datasheet_id: 'lumitech-lt100-v2.0'",
+      "path": [
+        "device_datasheet_id"
+      ]
+    }
+  ],
+  "schema_version": "2.0.0",
+  "error_count": 5,
+  "warning_count": 0,
+  "file_manifest": {
+    "path": "/data/validation_out/validated-files-manifest.json",
+    "file_count": 17,
+    "missing_count": 0,
+    "hashed_count": 16
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-07-13T11:09:33.185605+00:00",
+  "generated_at_utc": "2026-07-13T11:15:00.465419+00:00",
   "dataset_count": 2,
   "fetched_count": 2,
-  "error_count": 1,
+  "error_count": 0,
   "datasets": [
     {
       "id": "guidolin-glee-datasetv2",
@@ -12,16 +12,32 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "eb14fa6976cb23352816fc6269502fd76273eea1",
-      "fetched_at_utc": "2026-07-13T11:09:00.702060+00:00",
-      "current_status": "unknown",
-      "current": null,
+      "fetched_at_utc": "2026-07-13T11:14:12.063491+00:00",
+      "current_status": "fail",
+      "current": {
+        "status": "fail",
+        "repo": "tscnlab/guidolin-glee-datasetv2",
+        "commit_sha": "eb14fa6976cb23352816fc6269502fd76273eea1",
+        "validator_version": "0.4.3",
+        "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
+        "timestamp_utc": "2026-07-13T11:13:44.500085+00:00",
+        "error_count": 1,
+        "warning_count": 0,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 17,
+          "missing_count": 0,
+          "hashed_count": 16
+        },
+        "manifest_file_count": 17,
+        "run_id": 29245507603,
+        "run_url": "https://github.com/tscnlab/guidolin-glee-datasetv2/actions/runs/29245507603",
+        "run_conclusion": "failure",
+        "artifact_id": 8277166185
+      },
       "latest_pass": null,
-      "attestation_verified": false,
-      "fetch_errors": [
-        {
-          "error": "Error: expected SourceRepositoryURI to be https://github.com/tscnlab/guidolin-glee-datasetv2, got https://github.com/tscnlab/guidolin-glee-dataset"
-        }
-      ]
+      "attestation_verified": true,
+      "fetch_errors": []
     },
     {
       "id": "demo-glee-dataset",
@@ -31,7 +47,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-13T11:09:06.828758+00:00",
+      "fetched_at_utc": "2026-07-13T11:14:43.056145+00:00",
       "current_status": "fail",
       "current": {
         "status": "fail",
@@ -59,17 +75,5 @@
       "fetch_errors": []
     }
   ],
-  "fetch_errors": [
-    {
-      "id": "guidolin-glee-datasetv2",
-      "repo": "tscnlab/guidolin-glee-datasetv2",
-      "configured_repo": "tscnlab/guidolin-glee-datasetv2",
-      "repository_status": "active",
-      "branch": "main",
-      "requested_commit": null,
-      "resolved_commit_sha": "eb14fa6976cb23352816fc6269502fd76273eea1",
-      "fetched_at_utc": "2026-07-13T11:09:06.828733+00:00",
-      "error": "Error: expected SourceRepositoryURI to be https://github.com/tscnlab/guidolin-glee-datasetv2, got https://github.com/tscnlab/guidolin-glee-dataset"
-    }
-  ]
+  "fetch_errors": []
 }

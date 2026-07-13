@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "repo": "tscnlab/guidolin-glee-datasetv2",
-  "commit_sha": "eb14fa6976cb23352816fc6269502fd76273eea1",
-  "generated_at_utc": "2026-07-13T11:13:48.185445+00:00",
+  "repo": "tscnlab/guidolin-glee-dataset",
+  "commit_sha": "8727882da9c11a3b8fc0e16d8b226d7ee903585c",
+  "generated_at_utc": "2026-07-09T17:56:53.347112+00:00",
   "datapackage": "datapackage.json",
   "files": [
     {
@@ -11,7 +11,7 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "860e5b54d3ac5af352ee6115cd1aa09df7a9e33364e461c18273462a7b629643",
+      "sha256": "4df6d2fe4413c536a85b2ffcb9d43961369bce770802c0ec4f1a40a5d5ee0410",
       "size_bytes": 17835
     },
     {
