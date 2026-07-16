@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "repo": "tscnlab/demo-glee-dataset",
+  "commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
+  "generated_at_utc": "2026-07-12T19:23:23.823764+00:00",
+  "datapackage": "datapackage.json",
+  "files": [
+    {
+      "path": "data/datasets.json",
+      "source": "datapackage.resources.datasets.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bedd2f967db63140e1df0d5588e8aefda9ae03e6115e72710ae04a89001d2740",
+      "size_bytes": 11101
+    },
+    {
+      "path": "data/datasheets",
+      "source": "datapackage.resources.device_datasheets.path",
+      "required": true,
+      "exists": true,
+      "is_file": false,
+      "sha256": null,
+      "size_bytes": null
+    },
+    {
+      "path": "data/devices.json",
+      "source": "datapackage.resources.devices.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d7775403116faf297cceb52dbec982b8298146ef2292485e0f55ff76019d65b3",
+      "size_bytes": 1776
+    },
+    {
+      "path": "data/light_data.csv",
+      "source": "datapackage.resources.light_data.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d5812162848cb579476ffdc084c598b6c2128a872f2fdcf3e76c817d648c91bc",
+      "size_bytes": 10262118
+    },
+    {
+      "path": "data/participant_characteristics.csv",
+      "source": "datapackage.resources.participant_characteristics.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "554b868fb4c927fa564b38e3112b7ce3dee571fef71e3d23a5878f96efdf879c",
+      "size_bytes": 218
+    },
+    {
+      "path": "data/participants.json",
+      "source": "datapackage.resources.participants.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1a7ae187c989d71d5c91a42d6e71a71f199148df63f17a07a82b55000c46eeb7",
+      "size_bytes": 379
+    },
+    {
+      "path": "data/study.json",
+      "source": "datapackage.resources.study.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b354d703cea0eef3c3542ab016fa6d9f83a2eb9321e67507ddbab92064012daa",
+      "size_bytes": 3245
+    },
+    {
+      "path": "datapackage.json",
+      "source": "datapackage",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "70dae6ca0db476c1b87acc22715bae8097db5d49e4f65c80a50ae32f9d3aef28",
+      "size_bytes": 2291
+    },
+    {
+      "path": "schemas/dataset.schema.json",
+      "source": "datapackage.resources.datasets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "89359f79c899e0786bd0154cfe8f79014e509533727b680622da4af53282be5f",
+      "size_bytes": 7303
+    },
+    {
+      "path": "schemas/device.schema.json",
+      "source": "datapackage.resources.devices.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b8cd90dfd0deb2fdf1249ce19f61b456810ef8f362e26dc95d33bc4473d7d998",
+      "size_bytes": 2616
+    },
+    {
+      "path": "schemas/device_datasheet.schema.json",
+      "source": "datapackage.resources.device_datasheets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9907b88b0391c498099a2cf9b8a9fb830b6691cb45b4760a910b7a279fc4effd",
+      "size_bytes": 4786
+    },
+    {
+      "path": "schemas/light_data.schema.json",
+      "source": "datapackage.resources.light_data.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ce2f67cf8cdb7d77f776030b8dab6a45858388f57cbbe1e5afd666042b9cc560",
+      "size_bytes": 1653
+    },
+    {
+      "path": "schemas/participant_characteristics.schema.json",
+      "source": "datapackage.resources.participant_characteristics.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0802cf54227ae20dbfdc43fd538f13f341f4f656cd122b9df0d42bcfbf9a2b98",
+      "size_bytes": 1081
+    },
+    {
+      "path": "schemas/participants.schema.json",
+      "source": "datapackage.resources.participants.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8cf36bdd1dae9dc7c5c4a43aff68f1f6769fd31ad41e8672071286c696771553",
+      "size_bytes": 784
+    },
+    {
+      "path": "schemas/study.schema.json",
+      "source": "datapackage.resources.study.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6c0bfdb6598e1a53651b614663ebe89d59fa8f63f6c12f042bef6300f545c454",
+      "size_bytes": 3537
+    }
+  ]
+}
