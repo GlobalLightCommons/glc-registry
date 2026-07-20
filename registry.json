@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-07-20T01:11:27.597046+00:00",
+  "generated_at_utc": "2026-07-20T04:50:09.191031+00:00",
   "dataset_count": 2,
   "fetched_count": 2,
-  "error_count": 2,
+  "error_count": 0,
   "datasets": [
     {
       "id": "guidolin-glee-datasetv2",
@@ -12,16 +12,52 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-07-20T01:11:17.209672+00:00",
-      "current_status": "unknown",
-      "current": null,
-      "latest_pass": null,
-      "attestation_verified": false,
-      "fetch_errors": [
-        {
-          "error": "503 Server Error: Service Unavailable for url: https://api.github.com/repos/tscnlab/guidolin-glee-datasetv2/actions/artifacts/8277399267/zip"
-        }
-      ]
+      "fetched_at_utc": "2026-07-20T04:49:33.996997+00:00",
+      "current_status": "pass",
+      "current": {
+        "status": "pass",
+        "repo": "tscnlab/guidolin-glee-datasetv2",
+        "commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
+        "validator_version": "0.4.3",
+        "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
+        "timestamp_utc": "2026-07-13T11:23:38.613104+00:00",
+        "error_count": 0,
+        "warning_count": 0,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 17,
+          "missing_count": 0,
+          "hashed_count": 16
+        },
+        "manifest_file_count": 17,
+        "run_id": 29246077180,
+        "run_url": "https://github.com/tscnlab/guidolin-glee-datasetv2/actions/runs/29246077180",
+        "run_conclusion": "success",
+        "artifact_id": 8277399267
+      },
+      "latest_pass": {
+        "status": "pass",
+        "repo": "tscnlab/guidolin-glee-datasetv2",
+        "commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
+        "validator_version": "0.4.3",
+        "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
+        "timestamp_utc": "2026-07-13T11:23:38.613104+00:00",
+        "error_count": 0,
+        "warning_count": 0,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 17,
+          "missing_count": 0,
+          "hashed_count": 16
+        },
+        "manifest_file_count": 17,
+        "run_id": 29246077180,
+        "run_url": "https://github.com/tscnlab/guidolin-glee-datasetv2/actions/runs/29246077180",
+        "run_conclusion": "success",
+        "artifact_id": 8277399267
+      },
+      "attestation_verified": true,
+      "fetch_errors": []
     },
     {
       "id": "demo-glee-dataset",
@@ -31,40 +67,33 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-20T01:11:24.194521+00:00",
-      "current_status": "unknown",
-      "current": null,
+      "fetched_at_utc": "2026-07-20T04:49:44.938578+00:00",
+      "current_status": "fail",
+      "current": {
+        "status": "fail",
+        "repo": "tscnlab/demo-glee-dataset",
+        "commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
+        "validator_version": "0.4.3",
+        "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
+        "timestamp_utc": "2026-07-12T19:23:20.163931+00:00",
+        "error_count": 8,
+        "warning_count": 1,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 15,
+          "missing_count": 0,
+          "hashed_count": 14
+        },
+        "manifest_file_count": 15,
+        "run_id": 29205686336,
+        "run_url": "https://github.com/tscnlab/demo-glee-dataset/actions/runs/29205686336",
+        "run_conclusion": "failure",
+        "artifact_id": 8263674044
+      },
       "latest_pass": null,
-      "attestation_verified": false,
-      "fetch_errors": [
-        {
-          "error": "503 Server Error: Service Unavailable for url: https://api.github.com/repos/tscnlab/demo-glee-dataset/actions/runs/29205686336/artifacts?per_page=100"
-        }
-      ]
+      "attestation_verified": true,
+      "fetch_errors": []
     }
   ],
-  "fetch_errors": [
-    {
-      "id": "guidolin-glee-datasetv2",
-      "repo": "tscnlab/guidolin-glee-datasetv2",
-      "configured_repo": "tscnlab/guidolin-glee-datasetv2",
-      "repository_status": "active",
-      "branch": "main",
-      "requested_commit": null,
-      "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-07-20T01:11:24.194498+00:00",
-      "error": "503 Server Error: Service Unavailable for url: https://api.github.com/repos/tscnlab/guidolin-glee-datasetv2/actions/artifacts/8277399267/zip"
-    },
-    {
-      "id": "demo-glee-dataset",
-      "repo": "tscnlab/demo-glee-dataset",
-      "configured_repo": "tscnlab/demo-glee-dataset",
-      "repository_status": "active",
-      "branch": "main",
-      "requested_commit": null,
-      "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-20T01:11:27.597006+00:00",
-      "error": "503 Server Error: Service Unavailable for url: https://api.github.com/repos/tscnlab/demo-glee-dataset/actions/runs/29205686336/artifacts?per_page=100"
-    }
-  ]
+  "fetch_errors": []
 }
