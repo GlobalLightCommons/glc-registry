@@ -1,7 +1,10 @@
 datasets:
-- id: guidolin-glee-dataset
-  repo: tscnlab/guidolin-glee-datasetv2
-  branch: main
-- id: demo-glee-dataset
-  repo: tscnlab/demo-glee-dataset
-  branch: main
+  - id: guidolin-glee-dataset
+    repo: tscnlab/guidolin-glee-datasetv2
+    branch: main
+  - id: demo-glee-dataset
+    repo: tscnlab/demo-glee-dataset
+    branch: main
+  - id: melidos-iztech-glc-dataset
+    repo: tscnlab/melidos-iztech-glc-dataset
+    branch: main
