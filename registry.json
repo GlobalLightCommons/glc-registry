@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-07-24T21:43:05.462622+00:00",
-  "dataset_count": 2,
-  "fetched_count": 2,
-  "error_count": 0,
+  "generated_at_utc": "2026-07-24T21:56:53.568127+00:00",
+  "dataset_count": 3,
+  "fetched_count": 3,
+  "error_count": 1,
   "datasets": [
     {
       "id": "guidolin-glee-datasetv2",
@@ -12,7 +12,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-07-24T21:42:39.249869+00:00",
+      "fetched_at_utc": "2026-07-24T21:56:15.474830+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -67,7 +67,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-24T21:42:46.852877+00:00",
+      "fetched_at_utc": "2026-07-24T21:56:24.640845+00:00",
       "current_status": "fail",
       "current": {
         "status": "fail",
@@ -93,7 +93,38 @@
       "latest_pass": null,
       "attestation_verified": true,
       "fetch_errors": []
+    },
+    {
+      "id": "melidos-iztech-glc-dataset",
+      "repo": "tscnlab/melidos-iztech-glc-dataset",
+      "configured_repo": "tscnlab/melidos-iztech-glc-dataset",
+      "repository_status": "active",
+      "branch": "main",
+      "requested_commit": null,
+      "resolved_commit_sha": "42a52b36a83fedcc256fdf424358b6b5c1ac0f34",
+      "fetched_at_utc": "2026-07-24T21:56:48.470811+00:00",
+      "current_status": "unknown",
+      "current": null,
+      "latest_pass": null,
+      "attestation_verified": false,
+      "fetch_errors": [
+        {
+          "error": "Error: verifying with issuer \"sigstore.dev\""
+        }
+      ]
     }
   ],
-  "fetch_errors": []
+  "fetch_errors": [
+    {
+      "id": "melidos-iztech-glc-dataset",
+      "repo": "tscnlab/melidos-iztech-glc-dataset",
+      "configured_repo": "tscnlab/melidos-iztech-glc-dataset",
+      "repository_status": "active",
+      "branch": "main",
+      "requested_commit": null,
+      "resolved_commit_sha": "42a52b36a83fedcc256fdf424358b6b5c1ac0f34",
+      "fetched_at_utc": "2026-07-24T21:56:53.568095+00:00",
+      "error": "Error: verifying with issuer \"sigstore.dev\""
+    }
+  ]
 }
