@@ -11,15 +11,15 @@ import requests
 
 
 UA = {"User-Agent": "glc-registry-bot"}
-TRUSTED_SIGNER_REPO = os.getenv("TRUSTED_VALIDATOR_REPO", "tscnlab/glee-metadata-validator")
+TRUSTED_SIGNER_REPO = os.getenv("TRUSTED_VALIDATOR_REPO", "tscnlab/glc-metadata-validator")
 TRUSTED_SIGNER_WORKFLOW = os.getenv(
     "TRUSTED_VALIDATOR_WORKFLOW",
-    "tscnlab/glee-metadata-validator/.github/workflows/validate.yml",
+    "tscnlab/glc-metadata-validator/.github/workflows/validate.yml",
 )
 TRUSTED_SIGNER_DIGEST = os.getenv("TRUSTED_VALIDATOR_WORKFLOW_DIGEST")
 ALLOWED_VALIDATOR_IMAGE_PREFIX = os.getenv(
     "ALLOWED_VALIDATOR_IMAGE_PREFIX",
-    "ghcr.io/tscnlab/glee-validator@sha256:",
+    "ghcr.io/tscnlab/glc-validator@sha256:",
 )
 
 
