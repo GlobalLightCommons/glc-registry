@@ -5,3 +5,6 @@ datasets:
   - id: demo-glee-dataset
     repo: tscnlab/demo-glee-dataset
     branch: main
+ - id: melidos-iztech-glc-dataset
+    repo: tscnlab/melidos-iztech-glc-dataset
+    branch: main
