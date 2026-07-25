@@ -64,7 +64,30 @@ def target_fields(ds):
     }
 
 
-def dataset_entries_requiring_verification(current_datasets, base_cfg):
+def trust_logic_changed():
+    base_ref = os.getenv("GITHUB_BASE_REF")
+    if not base_ref:
+        return False
+    try:
+        result = subprocess.run(
+            ["git", "diff", "--name-only", f"origin/{base_ref}...HEAD"],
+            text=True,
+            capture_output=True,
+            check=True,
+        )
+    except subprocess.CalledProcessError:
+        return False
+    trust_paths = {
+        "scripts/validation_artifacts.py",
+        "scripts/fetch_registry.py",
+    }
+    return bool(trust_paths.intersection(result.stdout.splitlines()))
+
+
+def dataset_entries_requiring_verification(current_datasets, base_cfg, force_all=False):
+    if force_all:
+        return [(ds, "registry trust logic changed") for ds in current_datasets]
+
     if base_cfg is None:
         print("No PR base dataset file found; checking all dataset entries.")
         return [(ds, "base unavailable") for ds in current_datasets]
@@ -107,6 +130,7 @@ def is_http_url(s: str) -> bool:
 def main(cfg_path: str):
     cfg = load_cfg(cfg_path)
     base_cfg = load_base_cfg(cfg_path)
+    current_schema_version = cfg.get("current_schema_version")
     datasets = cfg.get("datasets") or []
     if not isinstance(datasets, list) or len(datasets) == 0:
         die("datasets.yml must contain a non-empty top-level 'datasets:' list")
@@ -116,6 +140,16 @@ def main(cfg_path: str):
     seen_ids = set()
     seen_repos = set()
     errors = []
+
+    if (
+        not isinstance(current_schema_version, str)
+        or not current_schema_version
+        or len(current_schema_version.split(".")) != 3
+        or not all(part.isdigit() for part in current_schema_version.split("."))
+    ):
+        errors.append(
+            "current_schema_version must use semantic version form MAJOR.MINOR.PATCH"
+        )
 
     for ds in datasets:
         if not isinstance(ds, dict):
@@ -151,7 +185,11 @@ def main(cfg_path: str):
     verification_errors = []
     work_dir = Path("_registry_pr_validation")
 
-    datasets_to_verify = dataset_entries_requiring_verification(datasets, base_cfg)
+    datasets_to_verify = dataset_entries_requiring_verification(
+        datasets,
+        base_cfg,
+        force_all=trust_logic_changed(),
+    )
     if datasets_to_verify:
         changed_ids = ", ".join(
             f"{dataset_label(ds)} ({reason})"

@@ -11,15 +11,25 @@ import requests
 
 
 UA = {"User-Agent": "glc-registry-bot"}
-TRUSTED_SIGNER_REPO = os.getenv("TRUSTED_VALIDATOR_REPO", "tscnlab/glc-metadata-validator")
-TRUSTED_SIGNER_WORKFLOW = os.getenv(
-    "TRUSTED_VALIDATOR_WORKFLOW",
-    "tscnlab/glc-metadata-validator/.github/workflows/validate.yml",
-)
-TRUSTED_SIGNER_DIGEST = os.getenv("TRUSTED_VALIDATOR_WORKFLOW_DIGEST")
-ALLOWED_VALIDATOR_IMAGE_PREFIX = os.getenv(
-    "ALLOWED_VALIDATOR_IMAGE_PREFIX",
-    "ghcr.io/tscnlab/glc-validator@sha256:",
+TRUSTED_VALIDATOR_POLICIES = (
+    {
+        "id": "current_glc",
+        "signer_workflow": os.getenv(
+            "TRUSTED_VALIDATOR_WORKFLOW",
+            "tscnlab/glc-metadata-validator/.github/workflows/validate.yml",
+        ),
+        "signer_digest": os.getenv("TRUSTED_VALIDATOR_WORKFLOW_DIGEST"),
+        "image_prefix": os.getenv(
+            "ALLOWED_VALIDATOR_IMAGE_PREFIX",
+            "ghcr.io/tscnlab/glc-validator@sha256:",
+        ),
+    },
+    {
+        "id": "legacy_glee",
+        "signer_workflow": "tscnlab/glee-metadata-validator/.github/workflows/validate.yml",
+        "signer_digest": None,
+        "image_prefix": "ghcr.io/tscnlab/glee-validator@sha256:",
+    },
 )
 
 
@@ -123,7 +133,16 @@ def find_report_file(extract_dir, filename):
     return matches[0] if matches else None
 
 
-def verify_attestation(path, repo, expected_sha):
+def policies_for_report(report):
+    image = report.get("validator_image") or ""
+    return [
+        policy
+        for policy in TRUSTED_VALIDATOR_POLICIES
+        if image.startswith(policy["image_prefix"])
+    ]
+
+
+def verify_attestation(path, repo, expected_sha, policy):
     if shutil.which("gh") is None:
         raise RuntimeError("GitHub CLI 'gh' is required to verify artifact attestations")
 
@@ -135,15 +154,15 @@ def verify_attestation(path, repo, expected_sha):
         "--repo",
         repo,
         "--signer-workflow",
-        TRUSTED_SIGNER_WORKFLOW,
+        policy["signer_workflow"],
         "--source-digest",
         expected_sha,
         "--deny-self-hosted-runners",
         "--format",
         "json",
     ]
-    if TRUSTED_SIGNER_DIGEST:
-        cmd.extend(["--signer-digest", TRUSTED_SIGNER_DIGEST])
+    if policy.get("signer_digest"):
+        cmd.extend(["--signer-digest", policy["signer_digest"]])
     result = subprocess.run(cmd, text=True, capture_output=True)
     if result.returncode != 0:
         raise RuntimeError(result.stderr.strip() or result.stdout.strip() or "attestation verification failed")
@@ -158,7 +177,7 @@ def load_json(path):
         return json.load(f)
 
 
-def validate_report_content(report, repo, expected_sha):
+def validate_report_content(report, repo, expected_sha, policy):
     errors = []
     if report.get("repo") != repo:
         errors.append(f"report repo {report.get('repo')!r} does not match {repo!r}")
@@ -167,8 +186,9 @@ def validate_report_content(report, repo, expected_sha):
     if report.get("status") not in {"pass", "fail"}:
         errors.append(f"report status {report.get('status')!r} is not pass/fail")
     image = report.get("validator_image") or ""
-    if ALLOWED_VALIDATOR_IMAGE_PREFIX and not image.startswith(ALLOWED_VALIDATOR_IMAGE_PREFIX):
-        errors.append(f"validator_image {image!r} does not start with {ALLOWED_VALIDATOR_IMAGE_PREFIX!r}")
+    image_prefix = policy["image_prefix"]
+    if not image.startswith(image_prefix):
+        errors.append(f"validator_image {image!r} does not start with {image_prefix!r}")
     return errors
 
 
@@ -187,12 +207,40 @@ def verify_validation_artifact(repo, expected_sha, artifact_info, work_dir):
     if not manifest_path:
         raise RuntimeError("validation-report artifact is missing validated-files-manifest.json")
 
-    validation_attestation = verify_attestation(validation_path, repo, expected_sha)
-    manifest_attestation = verify_attestation(manifest_path, repo, expected_sha)
-
     report = load_json(validation_path)
     manifest = load_json(manifest_path)
-    content_errors = validate_report_content(report, repo, expected_sha)
+    matching_policies = policies_for_report(report)
+    if not matching_policies:
+        image = report.get("validator_image")
+        allowed_prefixes = [policy["image_prefix"] for policy in TRUSTED_VALIDATOR_POLICIES]
+        raise RuntimeError(
+            f"validator_image {image!r} does not match a trusted validator policy; "
+            f"allowed prefixes: {allowed_prefixes}"
+        )
+
+    verification_errors = []
+    policy = None
+    validation_attestation = None
+    manifest_attestation = None
+    for candidate in matching_policies:
+        try:
+            validation_attestation = verify_attestation(
+                validation_path, repo, expected_sha, candidate
+            )
+            manifest_attestation = verify_attestation(
+                manifest_path, repo, expected_sha, candidate
+            )
+            policy = candidate
+            break
+        except Exception as exc:
+            verification_errors.append(f"{candidate['id']}: {exc}")
+    if policy is None:
+        raise RuntimeError(
+            "attestation did not match the trusted policy for its validator image: "
+            + "; ".join(verification_errors)
+        )
+
+    content_errors = validate_report_content(report, repo, expected_sha, policy)
     if manifest.get("repo") != repo:
         content_errors.append(f"manifest repo {manifest.get('repo')!r} does not match {repo!r}")
     if manifest.get("commit_sha") != expected_sha:
@@ -210,6 +258,7 @@ def verify_validation_artifact(repo, expected_sha, artifact_info, work_dir):
         "artifact_url": artifact.get("archive_download_url"),
         "validation": report,
         "manifest": manifest,
+        "trust_policy": policy["id"],
         "validation_attestation": validation_attestation,
         "manifest_attestation": manifest_attestation,
     }
