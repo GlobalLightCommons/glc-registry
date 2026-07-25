@@ -45,14 +45,14 @@
     const version = validation && validation.schema_version;
     if (!version) return `<span class="pill unknown">not reported</span>`;
     if (validation.schema_lifecycle === "legacy" || validation.upgrade_recommended) {
-      return `<span class="pill legacy">legacy ${esc(version)}</span>
-        <span class="schema-note">Upgrade recommended; not validated against GLC ${esc(currentVersion)}.</span>`;
+      return `<span class="pill legacy">${esc(version)} — legacy</span>
+        <span class="schema-note">Upgrade recommended; not validated against ${esc(currentVersion)}.</span>`;
     }
     if (validation.schema_lifecycle === "unrecognized") {
       return `<span class="pill unrecognized-schema">unrecognized ${esc(version)}</span>
         <span class="schema-note">Update the registry’s current schema-version configuration before interpreting this result.</span>`;
     }
-    return `<span class="pill pass">GLC ${esc(version)}</span>`;
+    return `<span class="pill pass">${esc(version)} — current</span>`;
   }
 
   function esc(s) {
@@ -142,7 +142,6 @@
           }).join("")}
         </tbody>
       </table>
-      <p class="small">If a repo is missing, add it to <code>datasets.yml</code> and wait for the next scheduled run.</p>
     `;
 
     document.getElementById("app").innerHTML = html;
