@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-25T10:14:33.706054+00:00",
+  "generated_at_utc": "2026-07-25T11:34:34.639808+00:00",
   "dataset_count": 3,
   "fetched_count": 3,
   "error_count": 2,
@@ -12,7 +12,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-07-25T10:14:15.162184+00:00",
+      "fetched_at_utc": "2026-07-25T11:34:12.535119+00:00",
       "current_status": "unknown",
       "current": null,
       "latest_pass": null,
@@ -31,7 +31,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-25T10:14:20.491229+00:00",
+      "fetched_at_utc": "2026-07-25T11:34:19.180593+00:00",
       "current_status": "unknown",
       "current": null,
       "latest_pass": null,
@@ -50,7 +50,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "42a52b36a83fedcc256fdf424358b6b5c1ac0f34",
-      "fetched_at_utc": "2026-07-25T10:14:24.878177+00:00",
+      "fetched_at_utc": "2026-07-25T11:34:24.758632+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -107,7 +107,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-07-25T10:14:20.491206+00:00",
+      "fetched_at_utc": "2026-07-25T11:34:19.180570+00:00",
       "error": "Error: verifying with issuer \"sigstore.dev\""
     },
     {
@@ -118,7 +118,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-25T10:14:24.878153+00:00",
+      "fetched_at_utc": "2026-07-25T11:34:24.758609+00:00",
       "error": "Error: verifying with issuer \"sigstore.dev\""
     }
   ]
