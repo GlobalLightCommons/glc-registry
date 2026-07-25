@@ -15,6 +15,10 @@
     .pass { background: #e7f7ef; color: #137a3a; }
     .fail { background: #fdecec; color: #b42318; }
     .unknown { background: #f2f2f2; color: #555; }
+    .legacy { background: #fff1d6; color: #8a5700; }
+    .unverified { background: #fff1d6; color: #8a5700; }
+    .unrecognized-schema { background: #f2f2f2; color: #555; }
+    .schema-note { display: block; margin-top: 4px; color: #8a5700; }
     code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 0.95em; }
     .small { font-size: 12px; color: #666; }
   </style>
@@ -30,8 +34,25 @@
 <script>
   function pill(status) {
     const s = (status || "unknown").toLowerCase();
-    const cls = s === "pass" ? "pass" : s === "fail" ? "fail" : "unknown";
+    const cls = s === "pass" ? "pass"
+      : s === "fail" ? "fail"
+      : s === "unverified" ? "unverified"
+      : "unknown";
     return `<span class="pill ${cls}">${s}</span>`;
+  }
+
+  function schemaLabel(validation, currentVersion) {
+    const version = validation && validation.schema_version;
+    if (!version) return `<span class="pill unknown">not reported</span>`;
+    if (validation.schema_lifecycle === "legacy" || validation.upgrade_recommended) {
+      return `<span class="pill legacy">legacy ${esc(version)}</span>
+        <span class="schema-note">Upgrade recommended; not validated against GLC ${esc(currentVersion)}.</span>`;
+    }
+    if (validation.schema_lifecycle === "unrecognized") {
+      return `<span class="pill unrecognized-schema">unrecognized ${esc(version)}</span>
+        <span class="schema-note">Update the registry’s current schema-version configuration before interpreting this result.</span>`;
+    }
+    return `<span class="pill pass">GLC ${esc(version)}</span>`;
   }
 
   function esc(s) {
@@ -59,6 +80,7 @@
 
     const rows = data.datasets || [];
     const updated = data.generated_at_utc || "";
+    const currentVersion = data.current_schema_version || "";
 
     const html = `
       <p class="meta">Updated: <code>${esc(updated)}</code> · Datasets: <code>${rows.length}</code></p>
@@ -67,6 +89,7 @@
           <tr>
             <th>Repo</th>
             <th>Status</th>
+            <th>Schema</th>
             <th>Commit</th>
             <th>Validator</th>
             <th>Validated</th>
@@ -75,14 +98,18 @@
         </thead>
         <tbody>
           ${rows.map(d => {
-            const v = d.validation || {};
+            const v = d.current || d.latest_pass || {};
             const repo = d.repo || d.id || "";
             const repoUrl = repo ? `https://github.com/${repo}` : "";
             const shaFull = v.commit_sha || "";
             const shaShort = shaFull ? shaFull.slice(0, 7) : "";
             const commitUrl = (repo && shaFull) ? `https://github.com/${repo}/commit/${shaFull}` : "";
-            const status = v.status || "unknown";
-            const reportUrl = d.validation_url || "";
+            const status = v.status || (
+              d.attestation_verified === false && (d.fetch_errors || []).length
+                ? "unverified"
+                : "unknown"
+            );
+            const reportUrl = v.run_url || "";
             const validatorVer = v.validator_version || "";
             const validatedAt = v.timestamp_utc || "";
 
@@ -95,6 +122,7 @@
                   }
                 </td>
                 <td>${pill(status)}</td>
+                <td>${schemaLabel(v, currentVersion)}</td>
                 <td>
                   ${commitUrl
                     ? `<a href="${commitUrl}" target="_blank" rel="noopener noreferrer"><code>${esc(shaShort)}</code></a>`
@@ -105,7 +133,7 @@
                 <td><code>${esc(fmtUtc(validatedAt))}</code></td>
                 <td>
                   ${reportUrl
-                    ? `<a href="${reportUrl}" target="_blank" rel="noopener noreferrer">validation.json</a>`
+                    ? `<a href="${reportUrl}" target="_blank" rel="noopener noreferrer">workflow run</a>`
                     : ""
                   }
                 </td>

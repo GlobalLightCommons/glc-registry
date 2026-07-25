@@ -1,3 +1,5 @@
+current_schema_version: 3.0.0
+
 datasets:
   - id: guidolin-glee-dataset
     repo: tscnlab/guidolin-glee-datasetv2

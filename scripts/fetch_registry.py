@@ -1,4 +1,6 @@
 import json
+import os
+import re
 import sys
 from pathlib import Path
 
@@ -14,10 +16,60 @@ from validation_artifacts import (
     verify_validation_artifact,
 )
 
+CURRENT_GLC_SCHEMA_VERSION = os.getenv("CURRENT_GLC_SCHEMA_VERSION", "3.0.0")
+
 
 def load_cfg(path: str):
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f) or {}
+
+
+def version_key(version):
+    if not isinstance(version, str):
+        return None
+    match = re.fullmatch(r"(\d+)\.(\d+)\.(\d+)", version)
+    if not match:
+        return None
+    return tuple(int(part) for part in match.groups())
+
+
+def schema_lifecycle(schema_version, current_version=CURRENT_GLC_SCHEMA_VERSION):
+    schema_key = version_key(schema_version)
+    current_key = version_key(current_version)
+    if schema_key is None or current_key is None:
+        return "unrecognized"
+    if schema_key == current_key:
+        return "current"
+    if schema_key < current_key:
+        return "legacy"
+    return "unrecognized"
+
+
+def validation_summary(result, current_schema_version=CURRENT_GLC_SCHEMA_VERSION):
+    report = result["validation"]
+    manifest = result["manifest"]
+    schema_version = report.get("schema_version")
+    lifecycle = schema_lifecycle(schema_version, current_schema_version)
+    return {
+        "status": report.get("status"),
+        "repo": report.get("repo"),
+        "commit_sha": report.get("commit_sha"),
+        "schema_version": schema_version,
+        "schema_lifecycle": lifecycle,
+        "upgrade_recommended": lifecycle == "legacy",
+        "validator_version": report.get("validator_version"),
+        "validator_image": report.get("validator_image"),
+        "validator_trust_policy": result.get("trust_policy"),
+        "timestamp_utc": report.get("timestamp_utc"),
+        "error_count": report.get("error_count"),
+        "warning_count": report.get("warning_count"),
+        "file_manifest": report.get("file_manifest"),
+        "manifest_file_count": len(manifest.get("files", [])),
+        "run_id": result.get("run_id"),
+        "run_url": result.get("run_url"),
+        "run_conclusion": result.get("run_conclusion"),
+        "artifact_id": result.get("artifact_id"),
+    }
 
 
 def main():
@@ -28,6 +80,9 @@ def main():
     work_dir.mkdir(parents=True, exist_ok=True)
 
     cfg = load_cfg(cfg_path)
+    current_schema_version = cfg.get(
+        "current_schema_version", CURRENT_GLC_SCHEMA_VERSION
+    )
     datasets = cfg.get("datasets") or []
 
     results = []
@@ -96,26 +151,12 @@ def main():
                     work_dir / repo.replace("/", "__") / expected_sha,
                 )
                 current_report = current_result["validation"]
-                current_manifest = current_result["manifest"]
 
                 item["current_status"] = current_report.get("status")
                 item["attestation_verified"] = True
-                item["current"] = {
-                    "status": current_report.get("status"),
-                    "repo": current_report.get("repo"),
-                    "commit_sha": current_report.get("commit_sha"),
-                    "validator_version": current_report.get("validator_version"),
-                    "validator_image": current_report.get("validator_image"),
-                    "timestamp_utc": current_report.get("timestamp_utc"),
-                    "error_count": current_report.get("error_count"),
-                    "warning_count": current_report.get("warning_count"),
-                    "file_manifest": current_report.get("file_manifest"),
-                    "manifest_file_count": len(current_manifest.get("files", [])),
-                    "run_id": current_result.get("run_id"),
-                    "run_url": current_result.get("run_url"),
-                    "run_conclusion": current_result.get("run_conclusion"),
-                    "artifact_id": current_result.get("artifact_id"),
-                }
+                item["current"] = validation_summary(
+                    current_result, current_schema_version
+                )
             else:
                 item["current_status"] = "missing_artifact"
                 item["fetch_errors"].append(
@@ -129,24 +170,9 @@ def main():
                 work_dir / repo.replace("/", "__"),
             )
             if latest_result:
-                latest_report = latest_result["validation"]
-                latest_manifest = latest_result["manifest"]
-                item["latest_pass"] = {
-                    "status": latest_report.get("status"),
-                    "repo": latest_report.get("repo"),
-                    "commit_sha": latest_report.get("commit_sha"),
-                    "validator_version": latest_report.get("validator_version"),
-                    "validator_image": latest_report.get("validator_image"),
-                    "timestamp_utc": latest_report.get("timestamp_utc"),
-                    "error_count": latest_report.get("error_count"),
-                    "warning_count": latest_report.get("warning_count"),
-                    "file_manifest": latest_report.get("file_manifest"),
-                    "manifest_file_count": len(latest_manifest.get("files", [])),
-                    "run_id": latest_result.get("run_id"),
-                    "run_url": latest_result.get("run_url"),
-                    "run_conclusion": latest_result.get("run_conclusion"),
-                    "artifact_id": latest_result.get("artifact_id"),
-                }
+                item["latest_pass"] = validation_summary(
+                    latest_result, current_schema_version
+                )
 
         except Exception as e:
             response = getattr(e, "response", None)
@@ -175,6 +201,7 @@ def main():
 
     payload = {
         "generated_at_utc": utc_now(),
+        "current_schema_version": current_schema_version,
         "dataset_count": len(datasets),
         "fetched_count": len(results),
         "error_count": len(errors),
