@@ -1,8 +1,9 @@
 {
-  "generated_at_utc": "2026-07-25T16:31:27.876338+00:00",
+  "generated_at_utc": "2026-07-25T16:42:39.425733+00:00",
+  "current_schema_version": "3.0.0",
   "dataset_count": 3,
   "fetched_count": 3,
-  "error_count": 2,
+  "error_count": 0,
   "datasets": [
     {
       "id": "guidolin-glee-datasetv2",
@@ -12,16 +13,60 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-07-25T16:31:03.747022+00:00",
-      "current_status": "unknown",
-      "current": null,
-      "latest_pass": null,
-      "attestation_verified": false,
-      "fetch_errors": [
-        {
-          "error": "Error: verifying with issuer \"sigstore.dev\""
-        }
-      ]
+      "fetched_at_utc": "2026-07-25T16:42:05.397031+00:00",
+      "current_status": "pass",
+      "current": {
+        "status": "pass",
+        "repo": "tscnlab/guidolin-glee-datasetv2",
+        "commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
+        "schema_version": "2.0.0",
+        "schema_lifecycle": "legacy",
+        "upgrade_recommended": true,
+        "validator_version": "0.4.3",
+        "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
+        "validator_trust_policy": "legacy_glee",
+        "timestamp_utc": "2026-07-13T11:23:38.613104+00:00",
+        "error_count": 0,
+        "warning_count": 0,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 17,
+          "missing_count": 0,
+          "hashed_count": 16
+        },
+        "manifest_file_count": 17,
+        "run_id": 29246077180,
+        "run_url": "https://github.com/tscnlab/guidolin-glee-datasetv2/actions/runs/29246077180",
+        "run_conclusion": "success",
+        "artifact_id": 8277399267
+      },
+      "latest_pass": {
+        "status": "pass",
+        "repo": "tscnlab/guidolin-glee-datasetv2",
+        "commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
+        "schema_version": "2.0.0",
+        "schema_lifecycle": "legacy",
+        "upgrade_recommended": true,
+        "validator_version": "0.4.3",
+        "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
+        "validator_trust_policy": "legacy_glee",
+        "timestamp_utc": "2026-07-13T11:23:38.613104+00:00",
+        "error_count": 0,
+        "warning_count": 0,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 17,
+          "missing_count": 0,
+          "hashed_count": 16
+        },
+        "manifest_file_count": 17,
+        "run_id": 29246077180,
+        "run_url": "https://github.com/tscnlab/guidolin-glee-datasetv2/actions/runs/29246077180",
+        "run_conclusion": "success",
+        "artifact_id": 8277399267
+      },
+      "attestation_verified": true,
+      "fetch_errors": []
     },
     {
       "id": "demo-glee-dataset",
@@ -31,16 +76,36 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-25T16:31:11.205966+00:00",
-      "current_status": "unknown",
-      "current": null,
+      "fetched_at_utc": "2026-07-25T16:42:13.032135+00:00",
+      "current_status": "fail",
+      "current": {
+        "status": "fail",
+        "repo": "tscnlab/demo-glee-dataset",
+        "commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
+        "schema_version": null,
+        "schema_lifecycle": "unrecognized",
+        "upgrade_recommended": false,
+        "validator_version": "0.4.3",
+        "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
+        "validator_trust_policy": "legacy_glee",
+        "timestamp_utc": "2026-07-12T19:23:20.163931+00:00",
+        "error_count": 8,
+        "warning_count": 1,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 15,
+          "missing_count": 0,
+          "hashed_count": 14
+        },
+        "manifest_file_count": 15,
+        "run_id": 29205686336,
+        "run_url": "https://github.com/tscnlab/demo-glee-dataset/actions/runs/29205686336",
+        "run_conclusion": "failure",
+        "artifact_id": 8263674044
+      },
       "latest_pass": null,
-      "attestation_verified": false,
-      "fetch_errors": [
-        {
-          "error": "Error: verifying with issuer \"sigstore.dev\""
-        }
-      ]
+      "attestation_verified": true,
+      "fetch_errors": []
     },
     {
       "id": "melidos-iztech-glc-dataset",
@@ -50,14 +115,18 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "42a52b36a83fedcc256fdf424358b6b5c1ac0f34",
-      "fetched_at_utc": "2026-07-25T16:31:17.715292+00:00",
+      "fetched_at_utc": "2026-07-25T16:42:31.336474+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
         "repo": "tscnlab/melidos-iztech-glc-dataset",
         "commit_sha": "42a52b36a83fedcc256fdf424358b6b5c1ac0f34",
+        "schema_version": "3.0.0",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
         "validator_version": "0.5.0",
         "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:a6e299fc5910af2cf981f3fe984d75206b7d71de363d47ef798c7b5e95d89f1b",
+        "validator_trust_policy": "current_glc",
         "timestamp_utc": "2026-07-24T21:46:07.627172+00:00",
         "error_count": 0,
         "warning_count": 2175,
@@ -77,8 +146,12 @@
         "status": "pass",
         "repo": "tscnlab/melidos-iztech-glc-dataset",
         "commit_sha": "42a52b36a83fedcc256fdf424358b6b5c1ac0f34",
+        "schema_version": "3.0.0",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
         "validator_version": "0.5.0",
         "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:a6e299fc5910af2cf981f3fe984d75206b7d71de363d47ef798c7b5e95d89f1b",
+        "validator_trust_policy": "current_glc",
         "timestamp_utc": "2026-07-24T21:46:07.627172+00:00",
         "error_count": 0,
         "warning_count": 2175,
@@ -98,28 +171,5 @@
       "fetch_errors": []
     }
   ],
-  "fetch_errors": [
-    {
-      "id": "guidolin-glee-datasetv2",
-      "repo": "tscnlab/guidolin-glee-datasetv2",
-      "configured_repo": "tscnlab/guidolin-glee-datasetv2",
-      "repository_status": "active",
-      "branch": "main",
-      "requested_commit": null,
-      "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-07-25T16:31:11.205945+00:00",
-      "error": "Error: verifying with issuer \"sigstore.dev\""
-    },
-    {
-      "id": "demo-glee-dataset",
-      "repo": "tscnlab/demo-glee-dataset",
-      "configured_repo": "tscnlab/demo-glee-dataset",
-      "repository_status": "active",
-      "branch": "main",
-      "requested_commit": null,
-      "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-25T16:31:17.715270+00:00",
-      "error": "Error: verifying with issuer \"sigstore.dev\""
-    }
-  ]
+  "fetch_errors": []
 }
