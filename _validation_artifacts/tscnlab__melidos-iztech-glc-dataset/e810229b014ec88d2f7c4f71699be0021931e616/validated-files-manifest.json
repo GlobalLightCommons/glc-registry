@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "repo": "tscnlab/melidos-iztech-glc-dataset",
-  "commit_sha": "42a52b36a83fedcc256fdf424358b6b5c1ac0f34",
-  "generated_at_utc": "2026-07-24T21:47:32.833278+00:00",
+  "commit_sha": "e810229b014ec88d2f7c4f71699be0021931e616",
+  "generated_at_utc": "2026-07-26T17:49:19.267778+00:00",
   "datapackage": "datapackage.json",
   "files": [
     {
