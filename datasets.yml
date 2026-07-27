@@ -1,4 +1,4 @@
-current_schema_version: 3.0.1
+current_schema_version: 3.0.2
 
 datasets:
   - id: guidolin-glee-dataset
