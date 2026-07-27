@@ -82,9 +82,9 @@ class VersionedValidatorTrustTests(unittest.TestCase):
         self.assertIn("--deny-self-hosted-runners", command)
 
     def test_schema_lifecycle_distinguishes_current_and_legacy(self):
-        self.assertEqual(schema_lifecycle("3.0.0"), "current")
+        self.assertEqual(schema_lifecycle("3.0.1"), "current")
+        self.assertEqual(schema_lifecycle("3.0.0"), "legacy")
         self.assertEqual(schema_lifecycle("2.0.0"), "legacy")
-        self.assertEqual(schema_lifecycle("3.0.1"), "unrecognized")
         self.assertEqual(schema_lifecycle("4.0.0"), "unrecognized")
         self.assertEqual(schema_lifecycle(None), "unrecognized")
 
