@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-07-27T11:16:54.631869+00:00",
+  "generated_at_utc": "2026-07-27T11:28:43.575431+00:00",
   "current_schema_version": "3.0.1",
-  "dataset_count": 2,
-  "fetched_count": 2,
+  "dataset_count": 3,
+  "fetched_count": 3,
   "error_count": 0,
   "datasets": [
     {
@@ -13,7 +13,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-07-27T11:16:35.510013+00:00",
+      "fetched_at_utc": "2026-07-27T11:28:09.187626+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -69,6 +69,45 @@
       "fetch_errors": []
     },
     {
+      "id": "demo-glee-dataset",
+      "repo": "tscnlab/demo-glee-dataset",
+      "configured_repo": "tscnlab/demo-glee-dataset",
+      "repository_status": "active",
+      "branch": "main",
+      "requested_commit": null,
+      "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
+      "fetched_at_utc": "2026-07-27T11:28:19.122513+00:00",
+      "current_status": "fail",
+      "current": {
+        "status": "fail",
+        "repo": "tscnlab/demo-glee-dataset",
+        "commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
+        "schema_version": null,
+        "schema_lifecycle": "unrecognized",
+        "upgrade_recommended": false,
+        "validator_version": "0.4.3",
+        "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
+        "validator_trust_policy": "legacy_glee",
+        "timestamp_utc": "2026-07-12T19:23:20.163931+00:00",
+        "error_count": 8,
+        "warning_count": 1,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 15,
+          "missing_count": 0,
+          "hashed_count": 14
+        },
+        "manifest_file_count": 15,
+        "run_id": 29205686336,
+        "run_url": "https://github.com/tscnlab/demo-glee-dataset/actions/runs/29205686336",
+        "run_conclusion": "failure",
+        "artifact_id": 8263674044
+      },
+      "latest_pass": null,
+      "attestation_verified": true,
+      "fetch_errors": []
+    },
+    {
       "id": "melidos-iztech-glc-dataset",
       "repo": "tscnlab/melidos-iztech-glc-dataset",
       "configured_repo": "tscnlab/melidos-iztech-glc-dataset",
@@ -76,7 +115,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "53c8ab0e3fd771d1e485c12cadd67f88ea62e254",
-      "fetched_at_utc": "2026-07-27T11:16:44.920995+00:00",
+      "fetched_at_utc": "2026-07-27T11:28:37.047993+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
