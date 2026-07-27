@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "repo": "tscnlab/melidos-iztech-glc-dataset",
-  "commit_sha": "e810229b014ec88d2f7c4f71699be0021931e616",
-  "generated_at_utc": "2026-07-26T17:49:19.267778+00:00",
+  "commit_sha": "53c8ab0e3fd771d1e485c12cadd67f88ea62e254",
+  "generated_at_utc": "2026-07-27T10:48:00.349677+00:00",
   "datapackage": "datapackage.json",
   "files": [
     {
@@ -11,7 +11,7 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "06e8213955c2ab9202129cff2db168e47dd6a1c728b39fab1f72d89f9fd8113a",
+      "sha256": "17a03c3a7db8b3d1f953cce66d18fdc6d57589cba90942ed9cc14a4f3deece38",
       "size_bytes": 3909586
     },
     {
@@ -20,7 +20,7 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "a3339c9f781885b244ccd6b46f52bc0203fd6451984f1f2d4c44701eaaae757a",
+      "sha256": "57a58d3c0afc198df64eab3c3641e0fefdbb8fc746e4ed51627bbbffc50b9bb7",
       "size_bytes": 9131
     },
     {
@@ -29,7 +29,7 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "d62ed147caa48a37027e7a9694b0a599ba926fa0031208f1efe2605794e9a56c",
+      "sha256": "03539c0a71ead4d96fb2f5565cc30c63ea8a791aaae383c98739d5a5a4b7f5c6",
       "size_bytes": 8355
     },
     {
@@ -2963,7 +2963,7 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "5b94bd8cf1bc48166e0d9069e213679e4b6904fe1f2824dc7089b1e1bd4fe502",
+      "sha256": "caafc6223146bfcde5a15facef2f612c75e3eaaca576fc6099be42323f4ae0dd",
       "size_bytes": 6027
     },
     {
@@ -2972,62 +2972,62 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "5052e712c55b35e7191b7ca82bbc6f9864531f565b1b962f895294db8660a4db",
+      "sha256": "a76aa1c50d0651a0a710b6c0d97c2361952aa287a8854b5669f4410af72f4fc7",
       "size_bytes": 1584
     },
     {
-      "path": "schemas/3.0.0/dataset.schema.json",
+      "path": "schemas/3.0.1/dataset.schema.json",
       "source": "datapackage.resources.datasets.jsonSchema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "20b4e15afdf135af84ca299ab67b6d494a595ac63f8bbbbc747be2a475487721",
-      "size_bytes": 40477
+      "sha256": "83fae40e5b426745380b9319cadfb0b1e4bac0dcea34c09dcb8335520678eed0",
+      "size_bytes": 46572
     },
     {
-      "path": "schemas/3.0.0/device.schema.json",
+      "path": "schemas/3.0.1/device.schema.json",
       "source": "datapackage.resources.devices.jsonSchema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "848defaef606b32c6775b75a262befde4c67371996815eda1a7e5aecc8835528",
-      "size_bytes": 3465
+      "sha256": "1092ce924823451ebf906dd7d059781d0a534a05314d699eda303fa1c86fdcaf",
+      "size_bytes": 3952
     },
     {
-      "path": "schemas/3.0.0/device_datasheet.schema.json",
+      "path": "schemas/3.0.1/device_datasheet.schema.json",
       "source": "datapackage.resources.device_datasheets.jsonSchema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "5957524b8a0f5d640b2afa3b2acd18e9e4220f57882b2e862cd1c72ba5984d18",
-      "size_bytes": 11364
+      "sha256": "a840530a56a7bccf6011f2afd08430af53ecc055eb7d682c1c85dcaa4feb9109",
+      "size_bytes": 13041
     },
     {
-      "path": "schemas/3.0.0/participant_characteristics.schema.json",
+      "path": "schemas/3.0.1/participant_characteristics.schema.json",
       "source": "datapackage.resources.participant_characteristics.schema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "9d0258caf782b1ce5ac5ba8cdb92f67ef825d573377c48b1db76435d5f848590",
-      "size_bytes": 1240
+      "sha256": "ab20831dee558804e98ac2ae25c4c7e3cf6e46e9d9b5541215d0faba4019443d",
+      "size_bytes": 1457
     },
     {
-      "path": "schemas/3.0.0/participants.schema.json",
+      "path": "schemas/3.0.1/participants.schema.json",
       "source": "datapackage.resources.participants.schema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "c0f82f56242ac23dde4409881e157bb151795fe369c119456fff265bf8c45f15",
-      "size_bytes": 928
+      "sha256": "24bc4eecde8adbb840394b7066d9e96686a626d24437c0534025f4211f46bddc",
+      "size_bytes": 1079
     },
     {
-      "path": "schemas/3.0.0/study.schema.json",
+      "path": "schemas/3.0.1/study.schema.json",
       "source": "datapackage.resources.study.jsonSchema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "d6883d3e03c4be188852e2e7496f7afeb9eb7540769815f92307d51d3d13207a",
-      "size_bytes": 4951
+      "sha256": "a1ef6e297282c2037a7a3ea6b2fe58747a28cf93981ca21ad523c84834f5fcca",
+      "size_bytes": 6498
     }
   ]
 }

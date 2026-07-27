@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-27T10:27:44.520758+00:00",
+  "generated_at_utc": "2026-07-27T10:51:24.358231+00:00",
   "current_schema_version": "3.0.1",
   "dataset_count": 3,
   "fetched_count": 3,
@@ -13,7 +13,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-07-27T10:27:02.354763+00:00",
+      "fetched_at_utc": "2026-07-27T10:50:53.667600+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -76,7 +76,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "6f805a86164f2168b4a21f6e929ac888cb00206e",
-      "fetched_at_utc": "2026-07-27T10:27:12.019594+00:00",
+      "fetched_at_utc": "2026-07-27T10:51:00.962621+00:00",
       "current_status": "fail",
       "current": {
         "status": "fail",
@@ -114,20 +114,20 @@
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
-      "resolved_commit_sha": "e810229b014ec88d2f7c4f71699be0021931e616",
-      "fetched_at_utc": "2026-07-27T10:27:35.123004+00:00",
+      "resolved_commit_sha": "53c8ab0e3fd771d1e485c12cadd67f88ea62e254",
+      "fetched_at_utc": "2026-07-27T10:51:17.405248+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
         "repo": "tscnlab/melidos-iztech-glc-dataset",
-        "commit_sha": "e810229b014ec88d2f7c4f71699be0021931e616",
-        "schema_version": "3.0.0",
-        "schema_lifecycle": "legacy",
-        "upgrade_recommended": true,
-        "validator_version": "0.5.0",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:a6e299fc5910af2cf981f3fe984d75206b7d71de363d47ef798c7b5e95d89f1b",
+        "commit_sha": "53c8ab0e3fd771d1e485c12cadd67f88ea62e254",
+        "schema_version": "3.0.1",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
+        "validator_version": "0.5.1",
+        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:8e2397f65aa82eaa960d2f8f53aed2bb9fdb623e2bec5dbe15df22c17a658877",
         "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-07-26T17:48:10.812669+00:00",
+        "timestamp_utc": "2026-07-27T10:46:30.801254+00:00",
         "error_count": 0,
         "warning_count": 2175,
         "file_manifest": {
@@ -137,22 +137,22 @@
           "hashed_count": 336
         },
         "manifest_file_count": 336,
-        "run_id": 30213328474,
-        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/30213328474",
+        "run_id": 30259338202,
+        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/30259338202",
         "run_conclusion": "success",
-        "artifact_id": 8635098924
+        "artifact_id": 8650261945
       },
       "latest_pass": {
         "status": "pass",
         "repo": "tscnlab/melidos-iztech-glc-dataset",
-        "commit_sha": "e810229b014ec88d2f7c4f71699be0021931e616",
-        "schema_version": "3.0.0",
-        "schema_lifecycle": "legacy",
-        "upgrade_recommended": true,
-        "validator_version": "0.5.0",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:a6e299fc5910af2cf981f3fe984d75206b7d71de363d47ef798c7b5e95d89f1b",
+        "commit_sha": "53c8ab0e3fd771d1e485c12cadd67f88ea62e254",
+        "schema_version": "3.0.1",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
+        "validator_version": "0.5.1",
+        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:8e2397f65aa82eaa960d2f8f53aed2bb9fdb623e2bec5dbe15df22c17a658877",
         "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-07-26T17:48:10.812669+00:00",
+        "timestamp_utc": "2026-07-27T10:46:30.801254+00:00",
         "error_count": 0,
         "warning_count": 2175,
         "file_manifest": {
@@ -162,10 +162,10 @@
           "hashed_count": 336
         },
         "manifest_file_count": 336,
-        "run_id": 30213328474,
-        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/30213328474",
+        "run_id": 30259338202,
+        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/30259338202",
         "run_conclusion": "success",
-        "artifact_id": 8635098924
+        "artifact_id": 8650261945
       },
       "attestation_verified": true,
       "fetch_errors": []
