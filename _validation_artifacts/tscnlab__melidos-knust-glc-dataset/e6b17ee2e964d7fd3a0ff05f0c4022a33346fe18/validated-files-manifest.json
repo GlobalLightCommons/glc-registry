@@ -1,0 +1,2664 @@
+{
+  "schema_version": "1.0",
+  "repo": "salmathalji/melidos-knust-glc-dataset",
+  "commit_sha": "e6b17ee2e964d7fd3a0ff05f0c4022a33346fe18",
+  "generated_at_utc": "2026-07-27T13:55:28.495854+00:00",
+  "datapackage": "datapackage.json",
+  "files": [
+    {
+      "path": "data/datasets.json",
+      "source": "datapackage.resources.datasets.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6f3e454416538463f85bea8e098bd9011c0e9e1b965ecba77728864059d75a2e",
+      "size_bytes": 3346257
+    },
+    {
+      "path": "data/device_datasheets.json",
+      "source": "datapackage.resources.device_datasheets.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "db6fb8affcb361464e3c7dd294c9ea8436dd1bb9e73ad7cb1b1c897679458bd1",
+      "size_bytes": 2382
+    },
+    {
+      "path": "data/devices.json",
+      "source": "datapackage.resources.devices.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e5316eb60160979a52b5a44c7a02a4cb509bdb9650bfe22d6d45722665f7d962",
+      "size_bytes": 1242
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S001_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9a1d7630f7f979bf3b56c85a51a4132b4a4305457dd966bcf4a0c32eed829d9b",
+      "size_bytes": 6781
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S001_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9ed93a61d8b5d5753adc67f5541dc29977b6930b4732fda62e36d4174a2c54f4",
+      "size_bytes": 1539
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S001_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8f8e23ce98fac4e667de1aea7e27ff6892043c9bcbf1f5077fb0983a58014dd7",
+      "size_bytes": 1748
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S001_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b0610c4d80fd278993b9eb1977bd7492c040a6ddbea5280285e9eb9a266336b9",
+      "size_bytes": 40021
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S001_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e03635ea77e3db42559d9fb2c33a7cf04b9dac196b9bc26572bd9a025d91bcf5",
+      "size_bytes": 1383
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S001_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e49a270f0dcaa46911d89dc605d3c0535b9f07fa0dde6b1f04b5c01c36843191",
+      "size_bytes": 1845
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S001_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "207448edffab99833be3c3658d3e64d8e4b5ab8835ca08140ad91565e3a822c3",
+      "size_bytes": 988
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S002_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bdf39419d597c7df7531d86f35f727715dd65aa7d4586dbb7aa0dbd2b3d95432",
+      "size_bytes": 6047
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S002_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7a3dbfee8c8ad21735e88ea734af7ee8841d41e7abe4967b1ed010ef507e4f65",
+      "size_bytes": 1974
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S002_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9f82014283e7ae91c90513fe69c70bd101052bc93a08bd002323e200e2e64a2c",
+      "size_bytes": 921
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S002_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1a294114526ec63bcad1e1a3e70b3b64e6f7107d882b5bdda91f2255d481131c",
+      "size_bytes": 40094
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S002_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b590cdee6c2027156f51fa7d6b2eae4ff4b0803520e7eead21784e009ba2ddf9",
+      "size_bytes": 1448
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S002_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4369442a4aab0c531d04291717152ef3f00336a8760545dd6958e82a4951aa96",
+      "size_bytes": 2153
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S002_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5887e4da21b357b22009b9e4349d8589766af4ef7d8ff42396973470613c7304",
+      "size_bytes": 1257
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S003_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bb491a1b27376ce8730b5dc3f137ae72fd2a0c8a73aaee2a0c1a311633fa12ad",
+      "size_bytes": 6228
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S003_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "33e21447f36716213a4fc5671014859f46077a313aec62d3431b596e8095dbea",
+      "size_bytes": 1797
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S003_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d48a454d9c8bea442dfceb7ee10e2eaa80763ef9c5b28926ebcad15abf7bf4d2",
+      "size_bytes": 2649
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S003_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "126188e5f652f794213db0fa230cfd6f978e057d34f936e6d8b73545f4ac6ba0",
+      "size_bytes": 40997
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S003_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4c5b39722d726e205b6aa521fe8f8dcf1a095d0b9e7df9cf9c66852a1529f50b",
+      "size_bytes": 1420
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S003_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f762734f4f4aa3b34b6fa522a7f4ad4c5ddd8124d1260242e682db534dbd9e26",
+      "size_bytes": 1084
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S003_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9bfb541fc60f8026b799e7aea7d37121cb2b64a3c19117b049e25016b4cdc66d",
+      "size_bytes": 1204
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S004_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "808a81ce704f2ee257cac01514f9a39ed281ace1319aa41e5168e22432905372",
+      "size_bytes": 6009
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S004_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5ae93e294838ac7d534385254f493b9a067940a4c5dc47a8c7d5529a627a96b9",
+      "size_bytes": 1861
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S004_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "847184e448c7d35170762c76713d5acfd4ca6a0176047761fd33f5c9503c7d74",
+      "size_bytes": 1046
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S004_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2b23b9502d125ebb8321714ac0c4d24b047c987f56013f4b2b6e2eb4aa1b6623",
+      "size_bytes": 40458
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S004_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6560411da9a83a454850d032a415657d959d54b408ebe01aff42a04c66fe061b",
+      "size_bytes": 1414
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S004_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c3c8cfb2501b6e5b21cf7dbe5220165aecc2c2473521b18a24717e789ca2e046",
+      "size_bytes": 1335
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S004_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "23e437e257ca9b8df33993f2384d8737340358e97d2902ccd5103e6f8062ab83",
+      "size_bytes": 1135
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S005_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e06f9d7d9a125bc3ece26e2f115bd2f325b3d70287c3d0ca8e790756617ab1b1",
+      "size_bytes": 5572
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S005_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4fffee89eb16c6d42f7357ad12679571d894e04150ee71951968379eff8b662a",
+      "size_bytes": 1670
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S005_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "17715443ed39cb363b943044b3ec6922d02a675d9c461d745232f5b8a9ceb115",
+      "size_bytes": 1742
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S005_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7cb6b9ca8f09ef251a6edd352fe4b94101f1dfe11323bc9e0082c6dc8a0539c6",
+      "size_bytes": 40392
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S005_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d587feac45593da87cd32908b114597799dcb4ee86201b8f3f0361187b273464",
+      "size_bytes": 1360
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S005_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "21588107f1a92e519812c20ecde21bcc86534d0c03070a8bf0aec4dae7d8e43d",
+      "size_bytes": 1346
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S005_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "603b0802d5ab75928754d10e35fe5e0215690c7903c5af8cb8ad2da714a1be5d",
+      "size_bytes": 1156
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S006_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "92f5f087fb682ef42d9132d777cd9cc3ca1a59df2455805b6b6680d61b9d2758",
+      "size_bytes": 6463
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S006_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a2db44752a8ace5b41a37b808edd2d0a83e94c37e1d18b90c5f4b6ff484a99de",
+      "size_bytes": 2130
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S006_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "806e31a0247e8e9acf391fee1ba83cc27a6e98d1c0cac812ebb6238a74e52034",
+      "size_bytes": 5354
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S006_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "eebef7b05264c29d7a72769f7ca4b5cd39587aabf675f055ec4c3a599a73d099",
+      "size_bytes": 41793
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S006_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9102855c10db422815a5f4adc27cbef973cf8cccb36ce90632e2c051d1f1264a",
+      "size_bytes": 1887
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S006_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6c05cfdac2e1f70312f6c7a16d5c637fa58c27b1b2a7cbfcddca1f128ead8bae",
+      "size_bytes": 3483
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S006_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f036a2b9838b1c6ce129d903c6baf991b464cf44e166fd7b12221de2ac8b8780",
+      "size_bytes": 1289
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S007_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ebe10e464f82129ab209cab7090dbcfb3ab87c728d480bcab76c1a15172188d4",
+      "size_bytes": 6521
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S007_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c3efa544c31ff29375cc6aca09f2e963dfb16a023e5c80e03cf0e83c14824f7e",
+      "size_bytes": 1491
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S007_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b84b5830f864bb5cc6c1c9a55593db5608bb39d5d696be935c35c59f245f713a",
+      "size_bytes": 41320
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S007_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e2f6218c427629ec7825343bec9f22ad5b4d5369c13cdd3c52fe8b941d29f62a",
+      "size_bytes": 1239
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S007_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b51607668615b6c126a215798ac4cb98dc3cc2947233562a8652285083915ddb",
+      "size_bytes": 1926
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S007_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "810949f77feee47467dc22e2a7acfe16afddb1667fecb666ed6bf984e37fd894",
+      "size_bytes": 1074
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S008_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1b2237464bc5a4564e20cdb5097c759a31682affa71de2d5bd1e62dd42240c44",
+      "size_bytes": 5718
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S008_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "30a995165f8e27caa272101e4393cdeffe20396fac460da572e610e724a03a76",
+      "size_bytes": 1784
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S008_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7ee555b5a62a7fcc6473c154fd701ab32a05498bfa41c8817b8ae3fa0e71bc87",
+      "size_bytes": 2022
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S008_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "58147ef8c3c62a33204769856d09426797fded97ec858ef162c651f17b1eabe1",
+      "size_bytes": 40227
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S008_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ba0ec34845ad84c6c61ba8af3027f8a6ad4c366bbdfd7bf584c77be966e9cc86",
+      "size_bytes": 1387
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S008_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c350649259cd12b3c8ba365896c405728c556ff54e7d8b314044b84e9d063ca5",
+      "size_bytes": 4091
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S008_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f016697211b74ffc64f5db87af1376f67b059944f8d74ae19316daedc697e305",
+      "size_bytes": 1191
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S009_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b437e4ca78dca146c974b06498cc06a44d409ae734553883c990f5bd2dd94e75",
+      "size_bytes": 5912
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S009_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a26fbb040cdae7e9c05cd941631a86aa4a8fbf88427f6522ed8d26e79b8274a2",
+      "size_bytes": 1950
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S009_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9d07835e9c17e27a6c753e56bee64e108a4f15d746944d32242511efc007437a",
+      "size_bytes": 839
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S009_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "60672659fff554f54b2bf01ecff849375d147515139ec2888ee72168e7dd9f60",
+      "size_bytes": 41325
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S009_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8a971fed2033fad4ff47fd7a8cfda8fee749f4d138864e9d335420b6a65c3c45",
+      "size_bytes": 1382
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S009_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "43ac3a2351ddf8d26582c858e074526f59c77dcb7b2c44d2e5898edaf7f6c28d",
+      "size_bytes": 2651
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S009_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "865a2a3a522971f0887f33ec39cc1ae415a14e06791073898e48bf0927ec995b",
+      "size_bytes": 1334
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S010_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c25ef3c5e0c7bc961ef7fc19f5ae247db13c626e22305f055fbb0d5870c090de",
+      "size_bytes": 6392
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S010_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4b3bb9e16c7ec157b167f10d5461d43f802e5518a3d3b232c85ebf570aff28dd",
+      "size_bytes": 1893
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S010_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c93fc6fc87147e9c5630a590d2e2b5667ff874325c3edb098cb746cdb1f09e9c",
+      "size_bytes": 864
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S010_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c3bfab04cde730841afc232b440c3b8d46f089ef3147b40a91d0021399039942",
+      "size_bytes": 40670
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S010_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2bc5896a5ad3b2bfe54cd9531ad6f789373553a54c354cb8cfd6699ab8ed59e4",
+      "size_bytes": 1427
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S010_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "abc3802257f8fc77c6dd3eef3358f5dd2a106486da971ec3d9863ec3def1e555",
+      "size_bytes": 3167
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S010_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8f3cd187c35a8543cf1c44b2810e66b3a423461336cdfb60df458b264594d1b6",
+      "size_bytes": 1150
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S011_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9cb69f0138a23b8cbd6df55d5bf2ed2d0224d2b5f934193e9e069ae66c8bb915",
+      "size_bytes": 6123
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S011_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6b744c28dd1b6facbb9776c2e608957d0b0230932ccc8e59b3d3831a6364c019",
+      "size_bytes": 1594
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S011_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "61992cf482338eb8c375105171964277481bb126d9da86f9c5c299b45eca5008",
+      "size_bytes": 2063
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S011_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3df71343c525b6f2556b4e4d7eeae0703fc6c031513079c3263752bf40201832",
+      "size_bytes": 41847
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S011_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2eca7bd16d4bb6d8f91a502aa1b566b978eadd0c0c9948f7d0038ca6f3c6e0f0",
+      "size_bytes": 1532
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S011_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "78792dfffc4f47890f82b469aea144dd1b05204e44212eca45f9abc101b4eadb",
+      "size_bytes": 2193
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S011_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ddad4ac950a1c61b2d392b28eea2ce76aabf4c0c3304b0a2cb25dbdc48e471cb",
+      "size_bytes": 1205
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S012_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f0484cdb47eab9026577d108f5d5fd59c745f7e9ceb57978a05057698df6c7f0",
+      "size_bytes": 6585
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S012_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "799901f0f35e44feb26bc255267d82652647f284f5cb23becc2aa032b9fd0a35",
+      "size_bytes": 2212
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S012_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1f620feef42522b6500ec19f408b30f7baadf61a28d452573a56a0ffa1063e7f",
+      "size_bytes": 2313
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S012_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3595ed5895abd4ba44a055c0477a53f842cc98b189b634c48dc6bb383fad3f78",
+      "size_bytes": 41682
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S012_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "95213a98834d449859595343de17cf944be63d45f777f9a2a214cf00a4c8f77d",
+      "size_bytes": 1451
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S012_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3b5767c7f8ebbda7650605df5429ae2dfb53c903f054e67e84c139ad1f97f252",
+      "size_bytes": 1478
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S012_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a16fb5f43988622f766e3bf60486b5cd5d7c8db8be65219129735851dd269a90",
+      "size_bytes": 1130
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S013_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "42d4a45345f35c1f704d846d2dd15c5ae6864c7f6c5535f75d3962112d514520",
+      "size_bytes": 6327
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S013_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fa33cb1d3547538f8164c6c3559d3799b1e7a34e3c12d292ad89a9e345a4fa6b",
+      "size_bytes": 1621
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S013_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2d3d1b44f46d20a19a38629316a25073cf0518f0e617c3e206b08746ed9feea6",
+      "size_bytes": 3785
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S013_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7762ff264103a7525df8dffc768ddf4e21e9b94a044a3422b2333142dc00efa7",
+      "size_bytes": 40642
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S013_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "31b31c2a29ab3c294284b6f42933ff3869439cc77a57c59cb9760bf5c02022f6",
+      "size_bytes": 1378
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S013_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d43e5e12eb1f705b5a335c39258b23ae26b45287d8a7a0657985820e0cbb7c74",
+      "size_bytes": 1361
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S013_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0bb3b78d98c9334aa7af011b5703a1bcdea3877edee78f37f6f4be4309980680",
+      "size_bytes": 1142
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S014_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "37ff26a435648f591743ca331a9baf26f1533d707596db71741daba4cdb7eb8e",
+      "size_bytes": 5716
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S014_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "840440958d16e4a3c2042757a8eaf28a7276d2269261105db084cb5b15fe2999",
+      "size_bytes": 1936
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S014_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "029d69d9057c10190962866212e644342a106ae73b37d7cc62f1ae5b2e302e01",
+      "size_bytes": 5723
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S014_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "af6edf7702003e6088f8bf63cb58a2450a140df266bf9a4a4d59637c20e54843",
+      "size_bytes": 40561
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S014_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "27172b55caab361c51c8ea78f1f6d1e9621d2502f02f9aea1613369dc2eaa74a",
+      "size_bytes": 1373
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S014_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b99f103cdc1e1523e0b0349a0b4b8a47cabb6e41dd7885a4d1f494cc288ae3bf",
+      "size_bytes": 2223
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S014_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "12bd3a96cffd27e27205cfb786a7cfabf9c750c111814a0602c6d2e5ed586913",
+      "size_bytes": 1155
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S015_currentconditions.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4083faafdbbeeb44c7fca9007f3b13a104a1e1917e930d20624f5382a2d870f5",
+      "size_bytes": 6560
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S015_exercisediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "798bbf5597a8dfd6581879a4f58539f868dcc68c0834f0e1362adf7dbe7ac17b",
+      "size_bytes": 1771
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S015_experiencelog.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fdce75e776b19fd3f3c2048f911d22ce6f231e19ffa1ab9ee4437ade58109208",
+      "size_bytes": 863
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S015_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c0c8147a6e673acf77f52abd8bbb4efb579248da32734e19eca3b3485937b3a5",
+      "size_bytes": 40681
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S015_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0dfbb989c538def5723ad8b755d7d2b1d11bd7c4c13b6d1013c9c6e060156679",
+      "size_bytes": 1615
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S015_wearlog.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4e20c8ec14dd1a921e46e953fced74d6b1e02718c153a7ff72343952a1d5417b",
+      "size_bytes": 3318
+    },
+    {
+      "path": "data/files/longitudinal-reports/KNUST_S015_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2b615fd3aaa9e37127aafdf89f3beb636d8e6085d9e1d549424c3c79ca48d84f",
+      "size_bytes": 1218
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S001_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7ea4e75f94ea900d624113e0e356f5ca2dc0a190424eb5f31a2ebf0b946f948f",
+      "size_bytes": 285
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S001_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2a4bd06dc605098a5b62f8ee7667e10fa871d5b66da3c3f26a90d488977f181a",
+      "size_bytes": 483
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S001_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "aea25c6131687ac035569d09fc5119714da9b4fb99043bd56e3833b9da8a8983",
+      "size_bytes": 227
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S001_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d1b31fd40246b62218730d79dc81c070be2d2b87f241e0a51c99abd04c9733f9",
+      "size_bytes": 183
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S001_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "dc0f3acc5173c0fde5144b1f4d57d94d3ce2119c708bf6743b4fb8095708ac59",
+      "size_bytes": 756
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S001_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4bf984cf5e2269ad015bf0dbd0a94b98f4544ca68a644758d899c0c19d3d2806",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S001_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "da65e9e92595aac742f697c37b5db7a699120cbb0c6f36943b364fca37c16a62",
+      "size_bytes": 505
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S001_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "17300428ca7250398ee623118b912fcbc9b165810d8f6a379a95a3706a0d4c10",
+      "size_bytes": 201
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S002_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6617999aa5ca9b4f6aa26c0f09f2ca0e91b46446801a76291b4b1e4465bf030c",
+      "size_bytes": 295
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S002_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f9d5645aa95def68a7c24c95f999851f285c048f2d10b538b8cbb8f084fa233d",
+      "size_bytes": 488
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S002_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e665956f17142c15159ecf3d489ffd29609c347480a035a443187e1c89a9e31a",
+      "size_bytes": 191
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S002_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "040730438b5235adcdb3604f8e005341dba6c8105afb39e876399219cec88181",
+      "size_bytes": 205
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S002_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a1a285546532530547445efde69c4b48c69b2a14b508561f62ab52e01abd7f82",
+      "size_bytes": 1054
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S002_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c0317f58a2cefd00e641ceb414864412d7c913c89fab9e00f8771677c9b64c56",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S002_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "45de4355decb81dbc6435ede4f400c17b57df960bb551cf6b1da11c34a2c8185",
+      "size_bytes": 519
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S002_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6e35aeed5331f598ee4f59727f013feafadc6df0e93d3a4167364e33f8cd3a8c",
+      "size_bytes": 202
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S003_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "34f846f1da69b2930ca31aaf1d127b9f614d01ce9ca01e3869255d9f05d02aa4",
+      "size_bytes": 276
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S003_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "431d482118c4d04e1eb25e4d76fedcc84a16c1e50478b354366798c887479cba",
+      "size_bytes": 467
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S003_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0f349c1119683bceb1d6e0c32615dfd090147886f415050a8eb2291ee39e8449",
+      "size_bytes": 223
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S003_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a567c416b98dbeaf3e65d5ecdae1e884eddfc8d3914650997e830cf678db35a9",
+      "size_bytes": 160
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S003_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "35fdac334affff364abbc87a326def6e1d8ea39905c573819590a094377ba6c1",
+      "size_bytes": 704
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S003_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4303b3af3ed9c3f5babb0d404c99c6c5ec881252745cfccbdabcb95735f4caa9",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S003_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "78f735edc86ed592eabf9be26cd7189855591a9160ef69b9f55e1fbea42d0ab8",
+      "size_bytes": 523
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S003_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e495660f51ce3c0ed11f512ff17c21c27c7d10ee7d1c1691ea8fd77d004e4f79",
+      "size_bytes": 205
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S004_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "460a71d6607532bef0a0fd6f1e7e1350b9741dfe5992e3e8d0579774c4f1b11b",
+      "size_bytes": 297
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S004_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bc5c682dd20a36870b7c56268a37969346ad2370f33e2a64ca62acf0b26cd437",
+      "size_bytes": 476
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S004_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "03f19c15601b395b4bc0d75aeabedef7972e356300cfa3f66968036a45a4829e",
+      "size_bytes": 252
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S004_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0b23f2882e05849a17e8fd2bfc1ad7a9741e00d9cdf9b9721711da70ee816b3a",
+      "size_bytes": 194
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S004_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7049ae3a4cdbc94db818b16387ed3442450e85e382778e3feec911b23790b0d4",
+      "size_bytes": 702
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S004_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1ab3c965afbf44e88d33e15dde270952dcf3309d748cbd10b67fe757572a43cb",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S004_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "337f705ef60af37bd578fb795d627cfae3e6eafcd75929df8f69238ad49e112f",
+      "size_bytes": 509
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S004_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9d8d17988bd266c42d273fc0d9b97a613da2d25651204e512b6bf5d17bd28768",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S005_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1058e0fcf7811863bafafb7d59c39b1774a378700cacf7845f9c0243d46454e6",
+      "size_bytes": 269
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S005_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0b102c0b85cfa1d471f17f8bc265f35c5133bf76f1fdb1b116bfb6c42d08c009",
+      "size_bytes": 470
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S005_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0094c4c24382e74515f87c60ae7d7e9e642dbc17efeac8a239c1aebadf58edd0",
+      "size_bytes": 200
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S005_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ba6b238877b97ac96553e9b8a656edf0c995413372969a6bf855de13a2a76509",
+      "size_bytes": 183
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S005_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ed4870401602098740d03296f5d545d3cba2770b3953315ee7608a221ca3fefd",
+      "size_bytes": 1085
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S005_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f02ee40bc91952d46dc0308a2b96992c22499561dabda69ecb68acb63fb96b75",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S005_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b42638c18415b6f7d1fa818e8d1ac7824a37e078efa825c9f855d0bbb4913a33",
+      "size_bytes": 509
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S005_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3920363e721fcbda61897e60aeedef8672edc67e3e5fbb1b574f0a01b8046e36",
+      "size_bytes": 197
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S006_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "996bc02a7e5278c42a856dc9c3414f81f0d0862660fe21b509839a1c7cf96871",
+      "size_bytes": 278
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S006_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6f0b991bad231e59e1e45f25b803beaf79dae989497bdcac62aa88a816725cf0",
+      "size_bytes": 428
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S006_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4411b903fc22ba391c1cca3cfe697b0fe007e03818b5aed495a004318631c436",
+      "size_bytes": 240
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S006_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a422a1721d7134778b6bafbf97a22ba9eee89a725b069c6533682c0ad0457a3e",
+      "size_bytes": 179
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S006_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "877c394bf8ccac2e252f94fb7f0873ac9d09597b5b8173e2a80b9fa7e5cf6f5f",
+      "size_bytes": 4336
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S006_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "70b4c63acdaaf07358fd7ad396ca64803a690106c3a4231bc1c69b544875525e",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S006_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "911b674d93ed04b2cd09e27d49eca9efd7bdb436e7c662e5ddf06f3e47c5fe99",
+      "size_bytes": 502
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S006_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fcaf095413a1ddc0b7e63274c78541899060e4704b4b4fc06c2e656a3f8d5bb7",
+      "size_bytes": 215
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S007_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f2890ce678d770534280d564856aca194cd0bd7b8c3f0d87197f290f09642789",
+      "size_bytes": 306
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S007_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8957a5b19f4d5bc6303a5a866a4297077f7846ce7f1989692749ef3016d31344",
+      "size_bytes": 417
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S007_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "952b3a144c4bdcfcf9c35c032913b8ff2eda5f78a0a6cf8c157278e18a6cce6f",
+      "size_bytes": 213
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S007_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ddfd63b9321402b99c06db0eb92d56ab6c62444350311acc6091e79d77b0049e",
+      "size_bytes": 185
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S007_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "72f7f94c7171e053ee80e6baee63725bb1504fe63354a523d3a89e1f4e81d878",
+      "size_bytes": 685
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S007_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "be8b6d9481ff2498e993c064239890fd383d60e9a84b72aac8a823c06768ed0b",
+      "size_bytes": 525
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S007_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b832f6779cc83283254a25a4bae077d4959b92d0addd289ac87f1f430752457e",
+      "size_bytes": 199
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S008_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1328d32229a574b1159c9964bc4ac590140567e8c3b7d32314c5f6d86c56e805",
+      "size_bytes": 277
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S008_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fc78a345f5cbfcb70b30591af87461f1cb62ce256ff66459b004de0d2650e55b",
+      "size_bytes": 455
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S008_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "49be85e7fd6ee501bb5e8e8e694bab5881b2059fe7bb6fc789b9f64602d5345c",
+      "size_bytes": 236
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S008_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "39a33d5647e3cb40e14ef88016461a7afe2c80c433f805cd6f44acda84be26c6",
+      "size_bytes": 194
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S008_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fe515af4ce926c71303bb04842748b6c5a704d8a71a50032873f2da50a70113b",
+      "size_bytes": 1824
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S008_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9403b1aade02d88da74d07137a5bbf1177a78245fb14a29a43c59e8ac7124cf2",
+      "size_bytes": 511
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S008_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7efd32340167477865516c9c3f7e6487960ad24cd74cb0658a37fc4f9f04eec5",
+      "size_bytes": 199
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S009_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "95215bec1a4ac8da62c17d1653f04daf0b9af6a0907fdecbe68e2a4413596b10",
+      "size_bytes": 273
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S009_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "62bde25ec0ef6824281b9bca2e2bfc21106e6d9ccd53d5dab374eb1f9ae88e1f",
+      "size_bytes": 429
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S009_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3f0093d539ad714e28a5619c4e0f9194af9b6f571f113c3f6437ab470363339e",
+      "size_bytes": 214
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S009_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1fc6264309cacfe0812aac3f33d898701101b74cb708ba0e7b3ae521db4ec41f",
+      "size_bytes": 183
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S009_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "04c4cb0cc66e6389768913f1a1d7b4e7e20951eec914f8140003a409c4089f64",
+      "size_bytes": 596
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S009_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4a9ee3e4cd00cbb5879b97a5f737d49c3482394d008b43b9b347f12a8fd367f1",
+      "size_bytes": 205
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S009_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8c0bacda81a4a35d20122ebfdbdf2cf112f8133e189d526bfdda93e2b5c9a0cc",
+      "size_bytes": 513
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S009_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "95b4d852bec62c96e815fcc9b160609c2e9cd02f92b9255190f05b349a03aa2c",
+      "size_bytes": 200
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S010_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bbfb29238bfe7eb3b93727da6100a1310a9f8d56ea3b865453c802a8750dbd54",
+      "size_bytes": 269
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S010_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "616731eb3cd9805cabe6d77bb6d5743bcea25c45f41dfb07f48ddd1f0dc241c4",
+      "size_bytes": 428
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S010_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "225ce9ee1fde4a123cc3aa94f1b0fc5e6b396199bfe1f7b7f8d8d5b3c116018c",
+      "size_bytes": 226
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S010_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f83e1a5d614a1523d8f82b7803982603ab34e24a27039692cb9c0bcb7b75a347",
+      "size_bytes": 194
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S010_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3b66a611eb2383e9c0ef0ee747fda52d24ff763c34b24753042eb0408589a0c9",
+      "size_bytes": 1518
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S010_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "af4cb581d816fdb8b261480522f6b7e8e10a043fa2288ad167610aaf14a94f3b",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S010_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7c0451034a2e132ee5c7f75c54f4ddba45d2a29cb8376bae9b788c18fbbace02",
+      "size_bytes": 508
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S010_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a7de3db02f63e04714da32f0a32963bf83c64a71954da9d2bfafc21434b584fb",
+      "size_bytes": 199
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S011_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c6326fc83b84bd4cbd4bcb99403d8039c095844466a381ca5177e1956531fb08",
+      "size_bytes": 294
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S011_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c97e40cb4a21e979436a87c2abb870c4f2a7ece35dbd9cb81280e7b577d6b54c",
+      "size_bytes": 494
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S011_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "19c95e80a800ea9a432c8008a89fe6352cf23cf9436accec2398b88136cc5959",
+      "size_bytes": 225
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S011_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5c0f3836921459064d3236c4ee1c887c36b973d77a380ef6f05a783d64554939",
+      "size_bytes": 172
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S011_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7a649a88a7a801d32cbe028e42ca7f850a38d4e8646a78a5512a25c15af5c627",
+      "size_bytes": 864
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S011_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "785591e1c46a6e58924b752a5aad9d800f71d662310faab89e541a9c1983fb96",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S011_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cb5a07db1895ca6074ad5b17a2b43d5519d18f5e44353d37f376a6ce624a09b5",
+      "size_bytes": 507
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S011_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b2661e35f337291199d883cf2d5d131cb6dadeaa7770ad250f93a7ed8d7d82ca",
+      "size_bytes": 194
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S012_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b13215e1934ef0a03b24f5e0945a625819f0847723bc68e0f42171766067cca6",
+      "size_bytes": 278
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S012_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e1538690390ec58c49c244b7dde01b40be2c87dee7e851758452ae5c08cdf074",
+      "size_bytes": 485
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S012_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "906692fd8d7bbbebb806126516132d6d44de88aeda74dd347d2cf419846c59a9",
+      "size_bytes": 237
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S012_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8c079277faf3710256b1881884e480a6b3545b7914292f4af84ac05604c60e8d",
+      "size_bytes": 179
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S012_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6decc69bab7866cd28c22c406778a3f632917e105c1b0186d1bd71b275b136a2",
+      "size_bytes": 1236
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S012_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2e2e2d96909d565ca51e829ad8049e56382349b6a4fdce4251d3ac93514166b5",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S012_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0186bd9dc184cfe7112767bd4db6c4305849ded53d41235483e54f496687982c",
+      "size_bytes": 509
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S012_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "640bb0f62fffb9f2bda443af16b22017a318720c5527532df14cfaf4002e975d",
+      "size_bytes": 203
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S013_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "519e54ed144ca085ef7936c6591a0828e36b130de6eb12276ca2e55a9e1b5ba7",
+      "size_bytes": 270
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S013_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e5ca81b7be39ef253f1ee916268a00a95e64433d539dbd704deab2826599fd2d",
+      "size_bytes": 435
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S013_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ac2fd17f06fa947f9d353a7b8120d1bbe1a3118da367177dc89e5feeaa441cb1",
+      "size_bytes": 200
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S013_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "aa24f155b7b9753b9ff9441782c354e157a0f8e2d3882d017461a4f80ccc8f28",
+      "size_bytes": 209
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S013_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d651f166ceeecdaba42118ff8f5adc175691f1ca38c4153dc03e88dd22c74b22",
+      "size_bytes": 1492
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S013_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "92cb533779ed2a4bd7c6fc8c465a29d56672de50832de37e5e1bd7f5bef201e2",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S013_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "22a0a029bf4bbcfbb98f0732ddab08f7ad2dbd67f15e4eb661fba355d90d2b63",
+      "size_bytes": 507
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S013_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9a4ae365631b290c640cd369153ef97f5eae063fcf1fe28b208c34199c5a9e7e",
+      "size_bytes": 202
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S014_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "206b35543ba5ed27bd82b93d8c9b09e887f6f9e7ae120b3d65677b361ecc6765",
+      "size_bytes": 281
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S014_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7a291cf1c0ade7d46b8d25742f39a30644a84534f3e02e59943b4bfc2361dc68",
+      "size_bytes": 482
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S014_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "18d2e265058525aa57a5bd9c7541e4bf14e0359e5136591afdc259e5a5dd5c1d",
+      "size_bytes": 238
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S014_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "373d813680909481ef39a7fa304c7087161d69bce3e3c847fa75f06408c79f65",
+      "size_bytes": 202
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S014_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "534675dc34b0b40fc614aaf5d37effd91b57e06b1ae434070acc007d9632d3a3",
+      "size_bytes": 1489
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S014_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f3d2f7e360248ab23f8ef201e2bb54e28e129b4e7e29214e181a9beb01eed8c8",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S014_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e413128d697dc1a5d63d2d6ae741d34991885a1bee9531ac48813dff18bbade6",
+      "size_bytes": 513
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S014_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0a2fcd385aaeb0ee8996be2c4aac8ca9af8fe40b201164f36550cc5675172bb3",
+      "size_bytes": 202
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S015_acceptability.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "82b6cda523e0be7517d211ec8468d750257a540c5ec52a4ab880e2cbbbf4209b",
+      "size_bytes": 295
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S015_ase.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bedf869abe4d0d5166afa2980fb668f6cdb8a805c7148cf6e83960785dac678d",
+      "size_bytes": 428
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S015_chronotype.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "69afa3c2d7c08b1ba609b9689483968d4c160fec4f91ac0d9600ea19a49f9529",
+      "size_bytes": 225
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S015_demographics.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a62d9648d302d3bf375feb30f5c7e88a5e3cc88fbe2274758faa3c2a65c74591",
+      "size_bytes": 228
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S015_evaluation.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a324966f5c89c108ff367818dfdf0d24481ca5825246269ef9a7ea803297e779",
+      "size_bytes": 1747
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S015_health.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5a4dcc117bb2357ad81ab6b5b6ac04f1cf14e4cb6a263929ec3c33bf885b6e27",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S015_leba.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "55542c77268253f5a6077782265472e7af0d37217bd3ecc47a995b5940af6bc4",
+      "size_bytes": 529
+    },
+    {
+      "path": "data/files/questionnaires/KNUST_S015_vlsq8.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8998188fa7c414dd0af0221e263e41a6c9cf7b62c819ad59505dc0183a445d10",
+      "size_bytes": 208
+    },
+    {
+      "path": "data/files/sensor/KNUST_S001_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4a35d3d712681d6a150989d2daf7e45db86a27c1f21c8ae5b1c97f2118a456ae",
+      "size_bytes": 11727500
+    },
+    {
+      "path": "data/files/sensor/KNUST_S001_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e3ea9c6df6e3b4747630cad07c555522fdb80effda26a68c36ac14a8381c8b69",
+      "size_bytes": 11568849
+    },
+    {
+      "path": "data/files/sensor/KNUST_S001_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ad9af433971654dd52282ca0995f5be3d6b93ae5c9f39ef0eb7f3bf2b9c685f6",
+      "size_bytes": 11767085
+    },
+    {
+      "path": "data/files/sensor/KNUST_S002_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b2245c9b39434513a8de8d977025e2b80686c14d14fc5aafb538a148899720b2",
+      "size_bytes": 10671744
+    },
+    {
+      "path": "data/files/sensor/KNUST_S002_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "eb2352e499a32201595a75df98e8610adeb2518119b86883f55dde3fa8d94d49",
+      "size_bytes": 10823862
+    },
+    {
+      "path": "data/files/sensor/KNUST_S002_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fa566759ffa4dcabc745b5381d892095902c3c4c5ecce0777dae7e2a3ee6ae9e",
+      "size_bytes": 10808221
+    },
+    {
+      "path": "data/files/sensor/KNUST_S003_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1c5b026e66f319a7ae287c3fd184124bffdcb5f3626a2a5aa3b49ac8213a3655",
+      "size_bytes": 11366720
+    },
+    {
+      "path": "data/files/sensor/KNUST_S003_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b4079b08e4a4eacc2aef6b1af1b3252161d10ca2dd3e6ceb3098f7b8f0a9e4ca",
+      "size_bytes": 11386406
+    },
+    {
+      "path": "data/files/sensor/KNUST_S003_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0c8be7b73ec0bb39ac3443062e59ce98ab2408d8e8d408076b7fb04bf906d37c",
+      "size_bytes": 11342673
+    },
+    {
+      "path": "data/files/sensor/KNUST_S004_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a9c25e3b8a6355ba86c0f56a8f7bf75a79af8a68fefbea1c73ab124d35da2387",
+      "size_bytes": 11822739
+    },
+    {
+      "path": "data/files/sensor/KNUST_S004_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "796d1cc8116c6484d45e190bb991ecb4cfa6b1f91db3af09d8b389cdd13bda9d",
+      "size_bytes": 10101949
+    },
+    {
+      "path": "data/files/sensor/KNUST_S004_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6a57744e44546725ff08cd39a6530c6cb781e00e3fa5bc6caa0def6fdb09f1c5",
+      "size_bytes": 11925108
+    },
+    {
+      "path": "data/files/sensor/KNUST_S005_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "23a7582abf13e1a1654b25370696ad9017a247d8f6b3ff168a545077de002d4a",
+      "size_bytes": 10909676
+    },
+    {
+      "path": "data/files/sensor/KNUST_S005_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ec61e9210be4dfb6e8fbc3686f591c34907f550752cf7d62de0cc5d058b95302",
+      "size_bytes": 9620033
+    },
+    {
+      "path": "data/files/sensor/KNUST_S005_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9e1a2deab650d6b2ffeab02d4d1f1946587cac89bde9f9e5752d1349a27bd49c",
+      "size_bytes": 10859545
+    },
+    {
+      "path": "data/files/sensor/KNUST_S006_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b38fe66cda06b91d025eba7f39a5d4e495ac162ec9b51302d05257783de1ac3e",
+      "size_bytes": 12089586
+    },
+    {
+      "path": "data/files/sensor/KNUST_S006_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2ba21caad4f4740d8c712e40aaa49f7c8558a25598f120ebc3f245c42f21cd10",
+      "size_bytes": 12006233
+    },
+    {
+      "path": "data/files/sensor/KNUST_S006_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "af1f4741dd99dababe6870a8409440029626f6afa055e7b87136d4b72264af7d",
+      "size_bytes": 11900344
+    },
+    {
+      "path": "data/files/sensor/KNUST_S007_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "489cfe3e75fb58018a1cf6558c4e6e9e5e81a3a94ceb516c627c0ab1670f4f0b",
+      "size_bytes": 11264057
+    },
+    {
+      "path": "data/files/sensor/KNUST_S007_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c1c508e6b56c32599d271edfd27a7e58e9aaf0392ab48e07c68756f09f85a687",
+      "size_bytes": 11642804
+    },
+    {
+      "path": "data/files/sensor/KNUST_S007_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d754a84460255ed24d5e66b9d9b4990492c7bf363ec1ff10d39cba60334d474a",
+      "size_bytes": 11275168
+    },
+    {
+      "path": "data/files/sensor/KNUST_S008_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "79a504a8e8cc8fa6846fa86e31960be686c937c5817cbb4d2f70ec763694630f",
+      "size_bytes": 11778241
+    },
+    {
+      "path": "data/files/sensor/KNUST_S008_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6198c946aa8201bfe3641250f1d124703e6f7b245bfc031932b3ff15a5148f09",
+      "size_bytes": 11699877
+    },
+    {
+      "path": "data/files/sensor/KNUST_S008_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0896bad1ba50fa66f3c1d8360d35cde73d1ba321cf3ceccefe5bf9b50fb22762",
+      "size_bytes": 11922493
+    },
+    {
+      "path": "data/files/sensor/KNUST_S009_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5741a6f0cda7eeb7673eb6b7c8818db3e5dfbf4e4d34ab4cdb32b4f817ac7d86",
+      "size_bytes": 11678207
+    },
+    {
+      "path": "data/files/sensor/KNUST_S009_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a2f20548d17536b2fe6c9a476a1b8a57d78cf1061350375814e6d76ca2155d6d",
+      "size_bytes": 11981959
+    },
+    {
+      "path": "data/files/sensor/KNUST_S009_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6d1f004ed43800979255e14374133a4fea6097e4f2e8499b3645d1ec2d2ea4b4",
+      "size_bytes": 12069006
+    },
+    {
+      "path": "data/files/sensor/KNUST_S010_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9d6ecfc75663b2a3b5576cb5c70ae0065f08778b6a0ebe5f8a5818c56db5575a",
+      "size_bytes": 11660096
+    },
+    {
+      "path": "data/files/sensor/KNUST_S010_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "94f31016195db3c3f418d711d83603671c2a9a431b472caf42a5fe02ab86f7c5",
+      "size_bytes": 11589885
+    },
+    {
+      "path": "data/files/sensor/KNUST_S010_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b28c9fda7f8f37f0d084867c285f90d4aac6f32460c9b5db626183044f9e94cd",
+      "size_bytes": 11708342
+    },
+    {
+      "path": "data/files/sensor/KNUST_S011_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "440b6a23eed7e8bb7823d5c711cd07f16153a6653033d5a3ee28d466f1ee7730",
+      "size_bytes": 11493141
+    },
+    {
+      "path": "data/files/sensor/KNUST_S011_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "965a539ab3ec90f74660bc2233eeae25b8e17f115814586b4e875fd426d1481a",
+      "size_bytes": 11820442
+    },
+    {
+      "path": "data/files/sensor/KNUST_S011_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0ac0fc5ca978e794fb38083e3fbd2d40fd7b04e0594fdd79f0efa1ace43b017c",
+      "size_bytes": 11788109
+    },
+    {
+      "path": "data/files/sensor/KNUST_S012_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f41ddafedf83e50b2e759d9132d7f847ebf0d610d9b221e0b7d05881b54d6e23",
+      "size_bytes": 11875295
+    },
+    {
+      "path": "data/files/sensor/KNUST_S012_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c5e18ae9ad378d9dda705f5aaba931ba77532e9e5a3da82b5de080f959e157f1",
+      "size_bytes": 12110959
+    },
+    {
+      "path": "data/files/sensor/KNUST_S012_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f511d1f7e66f8230922399ce12605c6f6c9a0c75cfb672feef16ea58af2b81d8",
+      "size_bytes": 12099987
+    },
+    {
+      "path": "data/files/sensor/KNUST_S013_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d4a0d0b7b6640fb92f8ff8dd1989cc2dd47c3a0476f0793b7abf17ea32e67a44",
+      "size_bytes": 8526199
+    },
+    {
+      "path": "data/files/sensor/KNUST_S013_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cc4774d689e515aacf2a4dba2ea0896a4d6edada8ec55b2aba4e758eab422eeb",
+      "size_bytes": 12115554
+    },
+    {
+      "path": "data/files/sensor/KNUST_S013_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "54eb90903085a487315f044f738d32938a3b61f98eb17e5f05362ad939992463",
+      "size_bytes": 12158204
+    },
+    {
+      "path": "data/files/sensor/KNUST_S014_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a1091aa8433a10769220f13a7583fa94f4e9d6967cd2c5abd8350e66eccadc93",
+      "size_bytes": 11270230
+    },
+    {
+      "path": "data/files/sensor/KNUST_S014_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bcafb369e1aeb12e9a78c1a45588d2fe9573d7489f95368b9f22e75db217a5a0",
+      "size_bytes": 11824471
+    },
+    {
+      "path": "data/files/sensor/KNUST_S014_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0df2f7d5c3542f9098f8edab05cbc8791acf6f97292e16a3affb42771482a592",
+      "size_bytes": 11578890
+    },
+    {
+      "path": "data/files/sensor/KNUST_S015_light_chest.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0e544032e18793a301db3beeb4e5d5970da81f80656e9dcda917e614d91b890a",
+      "size_bytes": 10912561
+    },
+    {
+      "path": "data/files/sensor/KNUST_S015_light_glasses.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4b5fd12c0c3e6cdeda950c04c27885613e68ee5ce9d1862e8c22db8cf4b04206",
+      "size_bytes": 12104395
+    },
+    {
+      "path": "data/files/sensor/KNUST_S015_light_wrist.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "240aab67a27cae3e3a8478d4e0c569593958947a40dac1ce4d415a762c8ec80e",
+      "size_bytes": 12201816
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S001_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S001.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9b9678f6a54c28cc0df58cc5700e058b49f09d55c9abfe0fef5aacc3318776ea",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S002_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S002.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2362005db4f1714adb572a9f435833386e73d4cfaec6885d08f286b0b089e55b",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S003_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S003.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cc3b97dac29e2606216c56a5811f9d6266977f3d059f87e44f91e4f8274d31e8",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S004_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S004.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "55b20de4f8e1470e46bb40ca1f575499fa6f931797f2f784d6cec25c22002ec4",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S005_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S005.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cb7f5db9b8ac369966c689c94fe33ac8e9f186346569d3a56a2d71cea20cd45e",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S006_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S006.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5c9afdc97456be8aa2e9be602a9254d80f8a4019ca0dc534dea32de813832e69",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S007_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S007.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "09cd413ae43876e3548dfacf60b8fd5caaca3514a20c9c1fa7dd167969ad6a16",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S008_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S008.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8696d67e0f065609bf87f446b946753de2eafc09c4190bec7fa55182e2557fb8",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S009_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S009.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bb42a2915528f86bcc966668563866deb0ffc1ab948234bb46e310630ae19198",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S010_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S010.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "de57844072ec5f599c34892b5cec300cb20c4b39f12c8b26487143241fec6128",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S011_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S011.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8638f7ff9842583411abc2ac39552a2442ac01a486ea2fd4f8bcba358ad6d7c6",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S012_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S012.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c48abcd3512ab4988e22d22c5603099954b495cba3fda78fc9b3fc71782cff18",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S013_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S013.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9824246da6800c3c3c737fe77a8de8edac2cfaaa488b038aad291192cbcb86c8",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S014_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S014.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7e24582a56b6a2dc106631ab6b54756b63b65796faf934a96ff628f89de012ac",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/files/study-timing/KNUST_S015_trial_times.csv",
+      "source": "datasets.MELIDOS_KNUST_S015.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a98a075c232d94ea6f3feb0bbe656699abacda9b6d8bda79022dbd270c0d2791",
+      "size_bytes": 89
+    },
+    {
+      "path": "data/participant_characteristics.csv",
+      "source": "datapackage.resources.participant_characteristics.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4fb4541f3f756633a4757ac37aad5ae9bb03a67ed0ea5e938d90259f54d4f0a8",
+      "size_bytes": 50138
+    },
+    {
+      "path": "data/participants.csv",
+      "source": "datapackage.resources.participants.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cfb1bcacaea106374ac236272baed405b7dd7eb16cf54ca1e891d912c2052071",
+      "size_bytes": 468
+    },
+    {
+      "path": "data/study.json",
+      "source": "datapackage.resources.study.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e0bb06a3e27c9fb8d1b2fd225db45674c94ed99f76cad7d9208baa5914af7593",
+      "size_bytes": 3197
+    },
+    {
+      "path": "datapackage.json",
+      "source": "datapackage",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e584a6aec46674972d292fa851aa26d43043b1c9baed73c0ca19c9a6d4bb5be0",
+      "size_bytes": 1582
+    },
+    {
+      "path": "schemas/3.0.1/dataset.schema.json",
+      "source": "datapackage.resources.datasets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "83fae40e5b426745380b9319cadfb0b1e4bac0dcea34c09dcb8335520678eed0",
+      "size_bytes": 46572
+    },
+    {
+      "path": "schemas/3.0.1/device.schema.json",
+      "source": "datapackage.resources.devices.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1092ce924823451ebf906dd7d059781d0a534a05314d699eda303fa1c86fdcaf",
+      "size_bytes": 3952
+    },
+    {
+      "path": "schemas/3.0.1/device_datasheet.schema.json",
+      "source": "datapackage.resources.device_datasheets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2a702a2514f8e50b85cf8284bf40e9024ea546af947ef15d3ba93b306cbee81d",
+      "size_bytes": 13062
+    },
+    {
+      "path": "schemas/3.0.1/participant_characteristics.schema.json",
+      "source": "datapackage.resources.participant_characteristics.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ab20831dee558804e98ac2ae25c4c7e3cf6e46e9d9b5541215d0faba4019443d",
+      "size_bytes": 1457
+    },
+    {
+      "path": "schemas/3.0.1/participants.schema.json",
+      "source": "datapackage.resources.participants.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "24bc4eecde8adbb840394b7066d9e96686a626d24437c0534025f4211f46bddc",
+      "size_bytes": 1079
+    },
+    {
+      "path": "schemas/3.0.1/study.schema.json",
+      "source": "datapackage.resources.study.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a1ef6e297282c2037a7a3ea6b2fe58747a28cf93981ca21ad523c84834f5fcca",
+      "size_bytes": 6498
+    }
+  ]
+}
