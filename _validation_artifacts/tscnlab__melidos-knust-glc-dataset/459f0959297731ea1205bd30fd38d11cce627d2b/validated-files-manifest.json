@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "repo": "tscnlab/melidos-knust-glc-dataset",
-  "commit_sha": "c2a17f713e56b19dde38726904902ab0ecc61f51",
-  "generated_at_utc": "2026-07-27T16:24:55.326465+00:00",
+  "commit_sha": "459f0959297731ea1205bd30fd38d11cce627d2b",
+  "generated_at_utc": "2026-07-27T19:06:14.332299+00:00",
   "datapackage": "datapackage.json",
   "files": [
     {
@@ -11,8 +11,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "2c24c130c09c54a372e82d459dbaa09c162cb9903027b93462c687aa70c4d102",
-      "size_bytes": 3400859
+      "sha256": "f20fc7c2a6bdcd72ff99b4d23b82efb768a21b35d232079181dd1cff018fd09c",
+      "size_bytes": 3399059
     },
     {
       "path": "data/device_datasheets.json",
@@ -20,7 +20,7 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "db6fb8affcb361464e3c7dd294c9ea8436dd1bb9e73ad7cb1b1c897679458bd1",
+      "sha256": "22ef0afd0e7265cf1bed8da0f4740c275f613951ecb6e272c6a6edd639c21883",
       "size_bytes": 2382
     },
     {
@@ -29,7 +29,7 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "e5316eb60160979a52b5a44c7a02a4cb509bdb9650bfe22d6d45722665f7d962",
+      "sha256": "150cee470b5a2c5ce0abcee976fde99526ec481115649b24cac4cee23d8ab648",
       "size_bytes": 1242
     },
     {
@@ -2594,7 +2594,7 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "e0bb06a3e27c9fb8d1b2fd225db45674c94ed99f76cad7d9208baa5914af7593",
+      "sha256": "8dd216c1fcc26824f540f137d655287dae398b23268398dfe7a932053cb54419",
       "size_bytes": 3197
     },
     {
@@ -2603,61 +2603,61 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "e584a6aec46674972d292fa851aa26d43043b1c9baed73c0ca19c9a6d4bb5be0",
+      "sha256": "979543bafb9e02e087bab040053f9f138ae4b9ccf5c06a28111d08383acb9918",
       "size_bytes": 1582
     },
     {
-      "path": "schemas/3.0.1/dataset.schema.json",
+      "path": "schemas/3.0.2/dataset.schema.json",
       "source": "datapackage.resources.datasets.jsonSchema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "83fae40e5b426745380b9319cadfb0b1e4bac0dcea34c09dcb8335520678eed0",
+      "sha256": "7c17e4df6495bcb0fb020e7494889c3f234f9e305b8b73a0db0b37711fd6f854",
       "size_bytes": 46572
     },
     {
-      "path": "schemas/3.0.1/device.schema.json",
+      "path": "schemas/3.0.2/device.schema.json",
       "source": "datapackage.resources.devices.jsonSchema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "1092ce924823451ebf906dd7d059781d0a534a05314d699eda303fa1c86fdcaf",
+      "sha256": "ea149188482c5b2d3c2595227b459764b82db6102539cd5e9d8865ea154f7bfa",
       "size_bytes": 3952
     },
     {
-      "path": "schemas/3.0.1/device_datasheet.schema.json",
+      "path": "schemas/3.0.2/device_datasheet.schema.json",
       "source": "datapackage.resources.device_datasheets.jsonSchema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "2a702a2514f8e50b85cf8284bf40e9024ea546af947ef15d3ba93b306cbee81d",
+      "sha256": "44d54895d43683a778fb4d94e0e7339618fe5b5e5c415f77847b02a4739e55b2",
       "size_bytes": 13062
     },
     {
-      "path": "schemas/3.0.1/participant_characteristics.schema.json",
+      "path": "schemas/3.0.2/participant_characteristics.schema.json",
       "source": "datapackage.resources.participant_characteristics.schema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "ab20831dee558804e98ac2ae25c4c7e3cf6e46e9d9b5541215d0faba4019443d",
+      "sha256": "2535117d5c9daef19194242404c0e727b3e0927affa54872f88568ebee995b1f",
       "size_bytes": 1457
     },
     {
-      "path": "schemas/3.0.1/participants.schema.json",
+      "path": "schemas/3.0.2/participants.schema.json",
       "source": "datapackage.resources.participants.schema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "24bc4eecde8adbb840394b7066d9e96686a626d24437c0534025f4211f46bddc",
+      "sha256": "e7192bd483a4e2e9ce4fb1a0bedad551335cda287e389da333132509a7e318a6",
       "size_bytes": 1079
     },
     {
-      "path": "schemas/3.0.1/study.schema.json",
+      "path": "schemas/3.0.2/study.schema.json",
       "source": "datapackage.resources.study.jsonSchema",
       "required": false,
       "exists": true,
       "is_file": true,
-      "sha256": "a1ef6e297282c2037a7a3ea6b2fe58747a28cf93981ca21ad523c84834f5fcca",
+      "sha256": "f1e7196b1458de5ba7678423fa97da8a08d62d6bad3c7caecfc093faa78efe06",
       "size_bytes": 6498
     }
   ]
