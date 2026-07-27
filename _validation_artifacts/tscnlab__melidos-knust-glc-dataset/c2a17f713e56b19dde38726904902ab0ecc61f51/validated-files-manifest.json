@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "repo": "tscnlab/melidos-knust-glc-dataset",
-  "commit_sha": "e6b17ee2e964d7fd3a0ff05f0c4022a33346fe18",
-  "generated_at_utc": "2026-07-27T14:07:09.377342+00:00",
+  "commit_sha": "c2a17f713e56b19dde38726904902ab0ecc61f51",
+  "generated_at_utc": "2026-07-27T16:24:55.326465+00:00",
   "datapackage": "datapackage.json",
   "files": [
     {
@@ -11,8 +11,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "6f3e454416538463f85bea8e098bd9011c0e9e1b965ecba77728864059d75a2e",
-      "size_bytes": 3346257
+      "sha256": "2c24c130c09c54a372e82d459dbaa09c162cb9903027b93462c687aa70c4d102",
+      "size_bytes": 3400859
     },
     {
       "path": "data/device_datasheets.json",

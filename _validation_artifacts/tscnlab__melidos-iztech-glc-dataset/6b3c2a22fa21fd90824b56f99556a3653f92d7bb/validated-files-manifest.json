@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "repo": "tscnlab/melidos-iztech-glc-dataset",
-  "commit_sha": "53c8ab0e3fd771d1e485c12cadd67f88ea62e254",
-  "generated_at_utc": "2026-07-27T10:48:00.349677+00:00",
+  "commit_sha": "6b3c2a22fa21fd90824b56f99556a3653f92d7bb",
+  "generated_at_utc": "2026-07-27T16:33:39.258159+00:00",
   "datapackage": "datapackage.json",
   "files": [
     {
@@ -11,8 +11,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "17a03c3a7db8b3d1f953cce66d18fdc6d57589cba90942ed9cc14a4f3deece38",
-      "size_bytes": 3909586
+      "sha256": "17f672b6ab53db1c0172acf663b38442a05fbe4d6bda80260811361e605193c1",
+      "size_bytes": 4044555
     },
     {
       "path": "data/device_datasheets.json",

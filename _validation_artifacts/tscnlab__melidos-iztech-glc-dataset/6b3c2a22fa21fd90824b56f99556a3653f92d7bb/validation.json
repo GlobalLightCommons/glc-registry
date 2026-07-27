@@ -1,10 +1,10 @@
 {
   "status": "pass",
   "repo": "tscnlab/melidos-iztech-glc-dataset",
-  "commit_sha": "53c8ab0e3fd771d1e485c12cadd67f88ea62e254",
+  "commit_sha": "6b3c2a22fa21fd90824b56f99556a3653f92d7bb",
   "validator_version": "0.5.1",
   "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:8e2397f65aa82eaa960d2f8f53aed2bb9fdb623e2bec5dbe15df22c17a658877",
-  "timestamp_utc": "2026-07-27T10:46:30.801254+00:00",
+  "timestamp_utc": "2026-07-27T16:32:14.200345+00:00",
   "datapackage": "datapackage.json",
   "core_schema_source": "container",
   "profile_source": "container",
