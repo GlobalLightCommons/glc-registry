@@ -1,10 +1,10 @@
 {
   "status": "pass",
   "repo": "tscnlab/melidos-knust-glc-dataset",
-  "commit_sha": "459f0959297731ea1205bd30fd38d11cce627d2b",
+  "commit_sha": "a7e4d17a7ea7f31b4b69c5391f55cb28b612eba9",
   "validator_version": "0.5.2",
   "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-  "timestamp_utc": "2026-07-27T19:05:07.330911+00:00",
+  "timestamp_utc": "2026-07-28T09:07:55.815033+00:00",
   "datapackage": "datapackage.json",
   "core_schema_source": "container",
   "profile_source": "container",

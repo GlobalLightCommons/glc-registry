@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-07-28T07:23:35.837847+00:00",
+  "generated_at_utc": "2026-07-28T09:21:54.740696+00:00",
   "current_schema_version": "3.0.2",
   "dataset_count": 3,
   "fetched_count": 3,
@@ -13,7 +13,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-07-28T07:23:11.193721+00:00",
+      "fetched_at_utc": "2026-07-28T09:21:24.239246+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -75,20 +75,20 @@
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
-      "resolved_commit_sha": "c4ede96ed856a83644755828a66143fa36799f15",
-      "fetched_at_utc": "2026-07-28T07:23:19.789309+00:00",
+      "resolved_commit_sha": "9353a0c4287d44cb400d30f45d7dbcf9910f9bde",
+      "fetched_at_utc": "2026-07-28T09:21:36.417964+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
         "repo": "tscnlab/melidos-iztech-glc-dataset",
-        "commit_sha": "c4ede96ed856a83644755828a66143fa36799f15",
+        "commit_sha": "9353a0c4287d44cb400d30f45d7dbcf9910f9bde",
         "schema_version": "3.0.2",
         "schema_lifecycle": "current",
         "upgrade_recommended": false,
         "validator_version": "0.5.2",
         "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
         "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-07-27T19:04:50.478036+00:00",
+        "timestamp_utc": "2026-07-28T09:07:29.520269+00:00",
         "error_count": 0,
         "warning_count": 2175,
         "file_manifest": {
@@ -98,22 +98,22 @@
           "hashed_count": 336
         },
         "manifest_file_count": 336,
-        "run_id": 30296634372,
-        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/30296634372",
+        "run_id": 30345228002,
+        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/30345228002",
         "run_conclusion": "success",
-        "artifact_id": 8664925243
+        "artifact_id": 8682653848
       },
       "latest_pass": {
         "status": "pass",
         "repo": "tscnlab/melidos-iztech-glc-dataset",
-        "commit_sha": "c4ede96ed856a83644755828a66143fa36799f15",
+        "commit_sha": "9353a0c4287d44cb400d30f45d7dbcf9910f9bde",
         "schema_version": "3.0.2",
         "schema_lifecycle": "current",
         "upgrade_recommended": false,
         "validator_version": "0.5.2",
         "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
         "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-07-27T19:04:50.478036+00:00",
+        "timestamp_utc": "2026-07-28T09:07:29.520269+00:00",
         "error_count": 0,
         "warning_count": 2175,
         "file_manifest": {
@@ -123,10 +123,10 @@
           "hashed_count": 336
         },
         "manifest_file_count": 336,
-        "run_id": 30296634372,
-        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/30296634372",
+        "run_id": 30345228002,
+        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/30345228002",
         "run_conclusion": "success",
-        "artifact_id": 8664925243
+        "artifact_id": 8682653848
       },
       "attestation_verified": true,
       "fetch_errors": []
@@ -138,20 +138,20 @@
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
-      "resolved_commit_sha": "459f0959297731ea1205bd30fd38d11cce627d2b",
-      "fetched_at_utc": "2026-07-28T07:23:27.359187+00:00",
+      "resolved_commit_sha": "a7e4d17a7ea7f31b4b69c5391f55cb28b612eba9",
+      "fetched_at_utc": "2026-07-28T09:21:45.479658+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
         "repo": "tscnlab/melidos-knust-glc-dataset",
-        "commit_sha": "459f0959297731ea1205bd30fd38d11cce627d2b",
+        "commit_sha": "a7e4d17a7ea7f31b4b69c5391f55cb28b612eba9",
         "schema_version": "3.0.2",
         "schema_lifecycle": "current",
         "upgrade_recommended": false,
         "validator_version": "0.5.2",
         "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
         "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-07-27T19:05:07.330911+00:00",
+        "timestamp_utc": "2026-07-28T09:07:55.815033+00:00",
         "error_count": 0,
         "warning_count": 1464,
         "file_manifest": {
@@ -161,22 +161,22 @@
           "hashed_count": 295
         },
         "manifest_file_count": 295,
-        "run_id": 30296656233,
-        "run_url": "https://github.com/tscnlab/melidos-knust-glc-dataset/actions/runs/30296656233",
+        "run_id": 30345261058,
+        "run_url": "https://github.com/tscnlab/melidos-knust-glc-dataset/actions/runs/30345261058",
         "run_conclusion": "success",
-        "artifact_id": 8664924173
+        "artifact_id": 8682663746
       },
       "latest_pass": {
         "status": "pass",
         "repo": "tscnlab/melidos-knust-glc-dataset",
-        "commit_sha": "459f0959297731ea1205bd30fd38d11cce627d2b",
+        "commit_sha": "a7e4d17a7ea7f31b4b69c5391f55cb28b612eba9",
         "schema_version": "3.0.2",
         "schema_lifecycle": "current",
         "upgrade_recommended": false,
         "validator_version": "0.5.2",
         "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
         "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-07-27T19:05:07.330911+00:00",
+        "timestamp_utc": "2026-07-28T09:07:55.815033+00:00",
         "error_count": 0,
         "warning_count": 1464,
         "file_manifest": {
@@ -186,10 +186,10 @@
           "hashed_count": 295
         },
         "manifest_file_count": 295,
-        "run_id": 30296656233,
-        "run_url": "https://github.com/tscnlab/melidos-knust-glc-dataset/actions/runs/30296656233",
+        "run_id": 30345261058,
+        "run_url": "https://github.com/tscnlab/melidos-knust-glc-dataset/actions/runs/30345261058",
         "run_conclusion": "success",
-        "artifact_id": 8664924173
+        "artifact_id": 8682663746
       },
       "attestation_verified": true,
       "fetch_errors": []
