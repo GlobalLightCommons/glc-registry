@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-08-12T09:21:17.068819+00:00",
+  "generated_at_utc": "2026-08-12T10:31:37.237768+00:00",
   "current_schema_version": "3.0.2",
   "dataset_count": 3,
   "fetched_count": 3,
-  "error_count": 1,
+  "error_count": 0,
   "datasets": [
     {
       "id": "guidolin-glee-datasetv2",
@@ -13,7 +13,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-08-12T09:20:49.979309+00:00",
+      "fetched_at_utc": "2026-08-12T10:31:06.835457+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -76,7 +76,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "9353a0c4287d44cb400d30f45d7dbcf9910f9bde",
-      "fetched_at_utc": "2026-08-12T09:20:58.465571+00:00",
+      "fetched_at_utc": "2026-08-12T10:31:16.885015+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -139,29 +139,61 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "a7e4d17a7ea7f31b4b69c5391f55cb28b612eba9",
-      "fetched_at_utc": "2026-08-12T09:21:08.341720+00:00",
-      "current_status": "unknown",
-      "current": null,
-      "latest_pass": null,
-      "attestation_verified": false,
-      "fetch_errors": [
-        {
-          "error": "attestation did not match the trusted policy for its validator image: current_glc: Error: Get \"https://api.github.com/repos/tscnlab/melidos-knust-glc-dataset/attestations/sha256:95dc5df8d836aae22e5f31232403f58495858546736636cadc95afd365bbe698?per_page=30&predicate_type=https%3A%2F%2Fslsa.dev%2Fprovenance%2Fv1\": tls: failed to verify certificate: x509: certificate is not valid for any names, but wanted to match api.github.com"
-        }
-      ]
+      "fetched_at_utc": "2026-08-12T10:31:27.147914+00:00",
+      "current_status": "pass",
+      "current": {
+        "status": "pass",
+        "repo": "tscnlab/melidos-knust-glc-dataset",
+        "commit_sha": "a7e4d17a7ea7f31b4b69c5391f55cb28b612eba9",
+        "schema_version": "3.0.2",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
+        "validator_version": "0.5.2",
+        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
+        "validator_trust_policy": "current_glc",
+        "timestamp_utc": "2026-07-28T09:07:55.815033+00:00",
+        "error_count": 0,
+        "warning_count": 1464,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 295,
+          "missing_count": 0,
+          "hashed_count": 295
+        },
+        "manifest_file_count": 295,
+        "run_id": 30345261058,
+        "run_url": "https://github.com/tscnlab/melidos-knust-glc-dataset/actions/runs/30345261058",
+        "run_conclusion": "success",
+        "artifact_id": 8682663746
+      },
+      "latest_pass": {
+        "status": "pass",
+        "repo": "tscnlab/melidos-knust-glc-dataset",
+        "commit_sha": "a7e4d17a7ea7f31b4b69c5391f55cb28b612eba9",
+        "schema_version": "3.0.2",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
+        "validator_version": "0.5.2",
+        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
+        "validator_trust_policy": "current_glc",
+        "timestamp_utc": "2026-07-28T09:07:55.815033+00:00",
+        "error_count": 0,
+        "warning_count": 1464,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 295,
+          "missing_count": 0,
+          "hashed_count": 295
+        },
+        "manifest_file_count": 295,
+        "run_id": 30345261058,
+        "run_url": "https://github.com/tscnlab/melidos-knust-glc-dataset/actions/runs/30345261058",
+        "run_conclusion": "success",
+        "artifact_id": 8682663746
+      },
+      "attestation_verified": true,
+      "fetch_errors": []
     }
   ],
-  "fetch_errors": [
-    {
-      "id": "melidos-knust-glc-dataset",
-      "repo": "tscnlab/melidos-knust-glc-dataset",
-      "configured_repo": "tscnlab/melidos-knust-glc-dataset",
-      "repository_status": "active",
-      "branch": "main",
-      "requested_commit": null,
-      "resolved_commit_sha": "a7e4d17a7ea7f31b4b69c5391f55cb28b612eba9",
-      "fetched_at_utc": "2026-08-12T09:21:17.068586+00:00",
-      "error": "attestation did not match the trusted policy for its validator image: current_glc: Error: Get \"https://api.github.com/repos/tscnlab/melidos-knust-glc-dataset/attestations/sha256:95dc5df8d836aae22e5f31232403f58495858546736636cadc95afd365bbe698?per_page=30&predicate_type=https%3A%2F%2Fslsa.dev%2Fprovenance%2Fv1\": tls: failed to verify certificate: x509: certificate is not valid for any names, but wanted to match api.github.com"
-    }
-  ]
+  "fetch_errors": []
 }
