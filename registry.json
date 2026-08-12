@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-12T10:31:37.237768+00:00",
+  "generated_at_utc": "2026-08-12T11:24:57.645672+00:00",
   "current_schema_version": "3.0.2",
   "dataset_count": 3,
   "fetched_count": 3,
@@ -13,60 +13,16 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-      "fetched_at_utc": "2026-08-12T10:31:06.835457+00:00",
-      "current_status": "pass",
-      "current": {
-        "status": "pass",
-        "repo": "tscnlab/guidolin-glee-datasetv2",
-        "commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-        "schema_version": "2.0.0",
-        "schema_lifecycle": "legacy",
-        "upgrade_recommended": true,
-        "validator_version": "0.4.3",
-        "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
-        "validator_trust_policy": "legacy_glee",
-        "timestamp_utc": "2026-07-13T11:23:38.613104+00:00",
-        "error_count": 0,
-        "warning_count": 0,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 17,
-          "missing_count": 0,
-          "hashed_count": 16
-        },
-        "manifest_file_count": 17,
-        "run_id": 29246077180,
-        "run_url": "https://github.com/tscnlab/guidolin-glee-datasetv2/actions/runs/29246077180",
-        "run_conclusion": "success",
-        "artifact_id": 8277399267
-      },
-      "latest_pass": {
-        "status": "pass",
-        "repo": "tscnlab/guidolin-glee-datasetv2",
-        "commit_sha": "8ec9034a3d967580cb8c1b04e629cbbe7e502e6e",
-        "schema_version": "2.0.0",
-        "schema_lifecycle": "legacy",
-        "upgrade_recommended": true,
-        "validator_version": "0.4.3",
-        "validator_image": "ghcr.io/tscnlab/glee-validator@sha256:4105ca5f6e9041adc28822a639c56d2150d0d35d734d3e265c423021cdb823b8",
-        "validator_trust_policy": "legacy_glee",
-        "timestamp_utc": "2026-07-13T11:23:38.613104+00:00",
-        "error_count": 0,
-        "warning_count": 0,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 17,
-          "missing_count": 0,
-          "hashed_count": 16
-        },
-        "manifest_file_count": 17,
-        "run_id": 29246077180,
-        "run_url": "https://github.com/tscnlab/guidolin-glee-datasetv2/actions/runs/29246077180",
-        "run_conclusion": "success",
-        "artifact_id": 8277399267
-      },
-      "attestation_verified": true,
-      "fetch_errors": []
+      "fetched_at_utc": "2026-08-12T11:24:30.766177+00:00",
+      "current_status": "missing_artifact",
+      "current": null,
+      "latest_pass": null,
+      "attestation_verified": false,
+      "fetch_errors": [
+        {
+          "error": "No validation-report artifact found for tscnlab/guidolin-glee-datasetv2@8ec9034a3d967580cb8c1b04e629cbbe7e502e6e"
+        }
+      ]
     },
     {
       "id": "melidos-iztech-glc-dataset",
@@ -76,7 +32,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "9353a0c4287d44cb400d30f45d7dbcf9910f9bde",
-      "fetched_at_utc": "2026-08-12T10:31:16.885015+00:00",
+      "fetched_at_utc": "2026-08-12T11:24:37.767147+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -139,7 +95,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "a7e4d17a7ea7f31b4b69c5391f55cb28b612eba9",
-      "fetched_at_utc": "2026-08-12T10:31:27.147914+00:00",
+      "fetched_at_utc": "2026-08-12T11:24:47.497014+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
