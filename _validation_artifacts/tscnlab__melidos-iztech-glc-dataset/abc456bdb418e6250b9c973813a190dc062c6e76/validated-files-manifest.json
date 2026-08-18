@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "repo": "tscnlab/melidos-iztech-glc-dataset",
-  "commit_sha": "9353a0c4287d44cb400d30f45d7dbcf9910f9bde",
-  "generated_at_utc": "2026-07-28T09:08:49.174915+00:00",
+  "commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
+  "generated_at_utc": "2026-08-18T16:41:36.407688+00:00",
   "datapackage": "datapackage.json",
   "files": [
     {
@@ -11,8 +11,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "03899cb33bf979aa8ed2becd6fce2b154972d1999486a8fac58dc27a3ab6cb2d",
-      "size_bytes": 3938713
+      "sha256": "00f1d9ee457ff9b3e7c4837a8a0c63bab25622312ada3b0ede995df4ff716a30",
+      "size_bytes": 3889952
     },
     {
       "path": "data/device_datasheets.json",
@@ -2378,8 +2378,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "c4eb5a451f2274934afa5f89e33669ee0497f87813bcee1abe0d041e72e39904",
-      "size_bytes": 10813940
+      "sha256": "9fd7cefed27d9748313782bd7696139a1ed2813128423be43205ccee703d70a2",
+      "size_bytes": 10813833
     },
     {
       "path": "data/files/sensor/IZTECH_S003_light_glasses.csv",
@@ -2549,8 +2549,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "415ba2e040a451019625c5805499f14096d4f7f96d73e8cd05296a7eb4a26317",
-      "size_bytes": 14419743
+      "sha256": "a14a41e33145555a9283ed63be3ccc73d5b8224c34a0ed2654bb78b39684662c",
+      "size_bytes": 10836717
     },
     {
       "path": "data/files/sensor/IZTECH_S009_light_glasses.csv",
@@ -2558,8 +2558,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "31fea32cbec455a5f52fc4e04c6d0b2736580114790559f527a3dcf36b9c6918",
-      "size_bytes": 14565981
+      "sha256": "cf7928e46556ab0a510e2134c70ae0f9a34fab67909ca15edd9ce0b2206fd23c",
+      "size_bytes": 10937302
     },
     {
       "path": "data/files/sensor/IZTECH_S009_light_wrist.csv",
@@ -2567,8 +2567,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "8fee9720fc5c0bb056c21c248129cd0ba16237bdaf305348d45c782192518349",
-      "size_bytes": 14281173
+      "sha256": "4e596b465d701599c8812cab2af42df9104b24f1b466c9bded820c0e6815afdb",
+      "size_bytes": 10704621
     },
     {
       "path": "data/files/sensor/IZTECH_S010_light_chest.csv",
@@ -2612,8 +2612,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "143a54de10862d243571eec9c12a3eed85cd2ae977e065d9b51113e31120efa8",
-      "size_bytes": 11270703
+      "sha256": "ed62d160bcd2c23ec1ffa5e2e39b6e04f04a7c1a42275419c7e7a76ed693c8f9",
+      "size_bytes": 11270590
     },
     {
       "path": "data/files/sensor/IZTECH_S011_light_wrist.csv",
@@ -2693,8 +2693,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "96d25a1fb1145597b9bd0053728e6fc8baa44839e04c6054608e2b5206aba0f6",
-      "size_bytes": 10915364
+      "sha256": "a62f449868c651088e5da59fe22c8746d34423987417cd65a0bc2849b148d2ae",
+      "size_bytes": 10915258
     },
     {
       "path": "data/files/sensor/IZTECH_S014_light_wrist.csv",
@@ -2711,8 +2711,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "29f7ed743a6366ff02b2b02abff287b88ea138d25d8d7cc2506eb1f073c42fcf",
-      "size_bytes": 10105220
+      "sha256": "5af04618c397e470a4a0029566c4bf7a9af25f5514f0c225fa60e364a233f0fc",
+      "size_bytes": 10105111
     },
     {
       "path": "data/files/sensor/IZTECH_S015_light_glasses.csv",
