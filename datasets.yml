@@ -1,12 +1,12 @@
 current_schema_version: 3.0.2
 
 datasets:
-  - id: guidolin-glee-dataset
-    repo: tscnlab/guidolin-glee-datasetv2
-    branch: main
   - id: melidos-iztech-glc-dataset
     repo: tscnlab/melidos-iztech-glc-dataset
     branch: main
   - id: melidos-knust-glc-dataset
     repo: tscnlab/melidos-knust-glc-dataset
+    branch: main
+  - id: melidos-baua-glc-dataset
+    repo: tscnlab/melidos-baua-glc-dataset
     branch: main
