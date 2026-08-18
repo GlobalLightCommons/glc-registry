@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "repo": "tscnlab/melidos-knust-glc-dataset",
-  "commit_sha": "a7e4d17a7ea7f31b4b69c5391f55cb28b612eba9",
-  "generated_at_utc": "2026-07-28T09:09:11.032288+00:00",
+  "commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
+  "generated_at_utc": "2026-08-18T17:31:23.101522+00:00",
   "datapackage": "datapackage.json",
   "files": [
     {
@@ -11,8 +11,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "efeba3bb408c17aa25fe42766ac553c21ebe69aeb5a93db355b2c7236b8c5291",
-      "size_bytes": 3308086
+      "sha256": "128b1a8fe494dc20663a22bd6f4fb582e7684a802e50645218a9e7d944b7501e",
+      "size_bytes": 3257374
     },
     {
       "path": "data/device_datasheets.json",
@@ -2126,8 +2126,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "796d1cc8116c6484d45e190bb991ecb4cfa6b1f91db3af09d8b389cdd13bda9d",
-      "size_bytes": 10101949
+      "sha256": "c61c8659374b0fff19c9329da231192eca57496ecb9ef291aefb0a04a45d2ab2",
+      "size_bytes": 10101947
     },
     {
       "path": "data/files/sensor/KNUST_S004_light_wrist.csv",
@@ -2153,8 +2153,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "ec61e9210be4dfb6e8fbc3686f591c34907f550752cf7d62de0cc5d058b95302",
-      "size_bytes": 9620033
+      "sha256": "fae9b26abdf67e2b465369965b1e8e0af6df045e7f52f77ed57a1c4e9413d96b",
+      "size_bytes": 9620029
     },
     {
       "path": "data/files/sensor/KNUST_S005_light_wrist.csv",
@@ -2252,8 +2252,8 @@
       "required": true,
       "exists": true,
       "is_file": true,
-      "sha256": "5741a6f0cda7eeb7673eb6b7c8818db3e5dfbf4e4d34ab4cdb32b4f817ac7d86",
-      "size_bytes": 11678207
+      "sha256": "5fcbce0ae0601dace6a25f83b0cb870707b8b99193949546ac127e545fc944e3",
+      "size_bytes": 11678205
     },
     {
       "path": "data/files/sensor/KNUST_S009_light_glasses.csv",
