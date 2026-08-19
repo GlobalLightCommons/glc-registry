@@ -13,3 +13,6 @@ datasets:
   - id: melidos-ucr-glc-dataset
     repo: tscnlab/melidos-ucr-glc-dataset
     branch: main
+  - id: melidos-fuspceu-glc-dataset
+    repo: tscnlab/melidos-fuspceu-glc-dataset
+    branch: main
