@@ -2,29 +2,38 @@ current_schema_version: 3.0.2
 
 datasets:
   - id: melidos-iztech-glc-dataset
+    name: MeLiDos IZTECH - Izmir, Türkiye
     repo: tscnlab/melidos-iztech-glc-dataset
     branch: main
   - id: melidos-knust-glc-dataset
+    name: MeLiDos KNUST - Kumasi, Ghana
     repo: tscnlab/melidos-knust-glc-dataset
     branch: main
   - id: melidos-baua-glc-dataset
+    name: MeLiDos BAuA - Dortmund, Germany
     repo: tscnlab/melidos-baua-glc-dataset
     branch: main
   - id: melidos-ucr-glc-dataset
+    name: MeLiDos UCR - San Pedro, Costa Rica
     repo: tscnlab/melidos-ucr-glc-dataset
     branch: main
   - id: melidos-fuspceu-glc-dataset
+    name: MeLiDos FUSPCEU - Madrid, Spain
     repo: tscnlab/melidos-fuspceu-glc-dataset
     branch: main
   - id: melidos-rise-glc-dataset
+    name: MeLiDos RISE - Borås, Sweden
     repo: tscnlab/melidos-rise-glc-dataset
     branch: main
   - id: melidos-tum-glc-dataset
+    name: MeLiDos TUM - Munich, Germany
     repo: tscnlab/melidos-tum-glc-dataset
     branch: main
   - id: melidos-thuas-glc-dataset
+    name: MeLiDos THUAS - Delft, Netherlands
     repo: tscnlab/melidos-thuas-glc-dataset
     branch: main
   - id: melidos-mpi-glc-dataset
+    name: MeLiDos MPI - Tübingen, Germany
     repo: tscnlab/melidos-mpi-glc-dataset
     branch: main

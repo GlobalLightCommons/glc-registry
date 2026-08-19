@@ -91,6 +91,7 @@ def main():
     for ds in datasets:
         item = {
             "id": "unknown",
+            "name": None,
             "repo": None,
             "configured_repo": None,
             "repository_status": "unknown",
@@ -121,9 +122,11 @@ def main():
                 )
 
             ds_id = repo_name_from_slug(repo)
+            name = ds.get("name") or ds_id
             item.update(
                 {
                     "id": ds_id,
+                    "name": name,
                     "repo": repo,
                     "configured_repo": repo,
                     "branch": branch,

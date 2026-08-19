@@ -135,7 +135,7 @@ def main(cfg_path: str):
     if not isinstance(datasets, list) or len(datasets) == 0:
         die("datasets.yml must contain a non-empty top-level 'datasets:' list")
 
-    required_keys = ("repo",)
+    required_keys = ("name", "repo")
 
     seen_ids = set()
     seen_repos = set()
@@ -163,6 +163,10 @@ def main(cfg_path: str):
 
         repo = ds["repo"]
         ds_id = repo_name_from_slug(repo)
+        name = ds["name"]
+
+        if not isinstance(name, str) or not name.strip():
+            errors.append(f"{ds_id}: name must be a non-empty string")
 
         if not is_repo_slug(repo):
             errors.append(f"{ds_id}: repo must be an owner/name GitHub repo slug: {repo}")
