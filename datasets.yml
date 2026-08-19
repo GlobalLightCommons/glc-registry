@@ -22,3 +22,9 @@ datasets:
   - id: melidos-tum-glc-dataset
     repo: tscnlab/melidos-tum-glc-dataset
     branch: main
+  - id: melidos-thuas-glc-dataset
+    repo: tscnlab/melidos-thuas-glc-dataset
+    branch: main
+  - id: melidos-mpi-glc-dataset
+    repo: tscnlab/melidos-mpi-glc-dataset
+    branch: main
