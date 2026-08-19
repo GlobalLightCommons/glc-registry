@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-08-19T12:03:46.039170+00:00",
+  "generated_at_utc": "2026-08-19T12:28:57.700173+00:00",
   "current_schema_version": "3.0.2",
-  "dataset_count": 3,
-  "fetched_count": 3,
+  "dataset_count": 4,
+  "fetched_count": 4,
   "error_count": 0,
   "datasets": [
     {
@@ -13,7 +13,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
-      "fetched_at_utc": "2026-08-19T12:03:17.283902+00:00",
+      "fetched_at_utc": "2026-08-19T12:28:27.947591+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -76,7 +76,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-      "fetched_at_utc": "2026-08-19T12:03:27.203134+00:00",
+      "fetched_at_utc": "2026-08-19T12:28:35.325428+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -139,7 +139,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-      "fetched_at_utc": "2026-08-19T12:03:36.823299+00:00",
+      "fetched_at_utc": "2026-08-19T12:28:42.969010+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -190,6 +190,69 @@
         "run_url": "https://github.com/tscnlab/melidos-baua-glc-dataset/actions/runs/32172307209",
         "run_conclusion": "success",
         "artifact_id": 9337751886
+      },
+      "attestation_verified": true,
+      "fetch_errors": []
+    },
+    {
+      "id": "melidos-ucr-glc-dataset",
+      "repo": "tscnlab/melidos-ucr-glc-dataset",
+      "configured_repo": "tscnlab/melidos-ucr-glc-dataset",
+      "repository_status": "active",
+      "branch": "main",
+      "requested_commit": null,
+      "resolved_commit_sha": "1d1309c969b9ca754a5c9696382c39d4b58ccdfd",
+      "fetched_at_utc": "2026-08-19T12:28:49.993161+00:00",
+      "current_status": "pass",
+      "current": {
+        "status": "pass",
+        "repo": "tscnlab/melidos-ucr-glc-dataset",
+        "commit_sha": "1d1309c969b9ca754a5c9696382c39d4b58ccdfd",
+        "schema_version": "3.0.2",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
+        "validator_version": "0.5.2",
+        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
+        "validator_trust_policy": "current_glc",
+        "timestamp_utc": "2026-08-19T12:23:12.187820+00:00",
+        "error_count": 0,
+        "warning_count": 3095,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 684,
+          "missing_count": 0,
+          "hashed_count": 684
+        },
+        "manifest_file_count": 684,
+        "run_id": 32252342546,
+        "run_url": "https://github.com/tscnlab/melidos-ucr-glc-dataset/actions/runs/32252342546",
+        "run_conclusion": "success",
+        "artifact_id": 9364989913
+      },
+      "latest_pass": {
+        "status": "pass",
+        "repo": "tscnlab/melidos-ucr-glc-dataset",
+        "commit_sha": "1d1309c969b9ca754a5c9696382c39d4b58ccdfd",
+        "schema_version": "3.0.2",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
+        "validator_version": "0.5.2",
+        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
+        "validator_trust_policy": "current_glc",
+        "timestamp_utc": "2026-08-19T12:23:12.187820+00:00",
+        "error_count": 0,
+        "warning_count": 3095,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 684,
+          "missing_count": 0,
+          "hashed_count": 684
+        },
+        "manifest_file_count": 684,
+        "run_id": 32252342546,
+        "run_url": "https://github.com/tscnlab/melidos-ucr-glc-dataset/actions/runs/32252342546",
+        "run_conclusion": "success",
+        "artifact_id": 9364989913
       },
       "attestation_verified": true,
       "fetch_errors": []
