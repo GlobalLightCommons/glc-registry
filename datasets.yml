@@ -16,3 +16,6 @@ datasets:
   - id: melidos-fuspceu-glc-dataset
     repo: tscnlab/melidos-fuspceu-glc-dataset
     branch: main
+  - id: melidos-rise-glc-dataset
+    repo: tscnlab/melidos-rise-glc-dataset
+    branch: main
