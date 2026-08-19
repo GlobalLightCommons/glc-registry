@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-19T18:03:25.147045+00:00",
+  "generated_at_utc": "2026-08-19T18:07:48.904089+00:00",
   "current_schema_version": "3.0.2",
   "dataset_count": 9,
   "fetched_count": 9,
@@ -7,13 +7,14 @@
   "datasets": [
     {
       "id": "melidos-iztech-glc-dataset",
+      "name": "MeLiDos IZTECH - Izmir, Türkiye",
       "repo": "tscnlab/melidos-iztech-glc-dataset",
       "configured_repo": "tscnlab/melidos-iztech-glc-dataset",
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
-      "fetched_at_utc": "2026-08-19T18:02:15.321402+00:00",
+      "fetched_at_utc": "2026-08-19T18:06:25.705115+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -70,13 +71,14 @@
     },
     {
       "id": "melidos-knust-glc-dataset",
+      "name": "MeLiDos KNUST - Kumasi, Ghana",
       "repo": "tscnlab/melidos-knust-glc-dataset",
       "configured_repo": "tscnlab/melidos-knust-glc-dataset",
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-      "fetched_at_utc": "2026-08-19T18:02:22.797030+00:00",
+      "fetched_at_utc": "2026-08-19T18:06:34.784823+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -133,13 +135,14 @@
     },
     {
       "id": "melidos-baua-glc-dataset",
+      "name": "MeLiDos BAuA - Dortmund, Germany",
       "repo": "tscnlab/melidos-baua-glc-dataset",
       "configured_repo": "tscnlab/melidos-baua-glc-dataset",
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-      "fetched_at_utc": "2026-08-19T18:02:30.143960+00:00",
+      "fetched_at_utc": "2026-08-19T18:06:44.116970+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -196,13 +199,14 @@
     },
     {
       "id": "melidos-ucr-glc-dataset",
+      "name": "MeLiDos UCR - San Pedro, Costa Rica",
       "repo": "tscnlab/melidos-ucr-glc-dataset",
       "configured_repo": "tscnlab/melidos-ucr-glc-dataset",
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "1d1309c969b9ca754a5c9696382c39d4b58ccdfd",
-      "fetched_at_utc": "2026-08-19T18:02:37.643484+00:00",
+      "fetched_at_utc": "2026-08-19T18:06:52.995120+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -259,13 +263,14 @@
     },
     {
       "id": "melidos-fuspceu-glc-dataset",
+      "name": "MeLiDos FUSPCEU - Madrid, Spain",
       "repo": "tscnlab/melidos-fuspceu-glc-dataset",
       "configured_repo": "tscnlab/melidos-fuspceu-glc-dataset",
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-      "fetched_at_utc": "2026-08-19T18:02:45.107248+00:00",
+      "fetched_at_utc": "2026-08-19T18:07:02.661896+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -322,13 +327,14 @@
     },
     {
       "id": "melidos-rise-glc-dataset",
+      "name": "MeLiDos RISE - Borås, Sweden",
       "repo": "tscnlab/melidos-rise-glc-dataset",
       "configured_repo": "tscnlab/melidos-rise-glc-dataset",
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
-      "fetched_at_utc": "2026-08-19T18:02:52.154219+00:00",
+      "fetched_at_utc": "2026-08-19T18:07:12.411266+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -385,13 +391,14 @@
     },
     {
       "id": "melidos-tum-glc-dataset",
+      "name": "MeLiDos TUM - Munich, Germany",
       "repo": "tscnlab/melidos-tum-glc-dataset",
       "configured_repo": "tscnlab/melidos-tum-glc-dataset",
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "1187d19b7f6145b73b8d4dfee13af711c1cb6180",
-      "fetched_at_utc": "2026-08-19T18:03:00.484355+00:00",
+      "fetched_at_utc": "2026-08-19T18:07:21.605757+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -448,13 +455,14 @@
     },
     {
       "id": "melidos-thuas-glc-dataset",
+      "name": "MeLiDos THUAS - Delft, Netherlands",
       "repo": "tscnlab/melidos-thuas-glc-dataset",
       "configured_repo": "tscnlab/melidos-thuas-glc-dataset",
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "a0f1057932fbe797895b368d30234931b01cae6d",
-      "fetched_at_utc": "2026-08-19T18:03:07.803664+00:00",
+      "fetched_at_utc": "2026-08-19T18:07:29.959196+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -511,13 +519,14 @@
     },
     {
       "id": "melidos-mpi-glc-dataset",
+      "name": "MeLiDos MPI - Tübingen, Germany",
       "repo": "tscnlab/melidos-mpi-glc-dataset",
       "configured_repo": "tscnlab/melidos-mpi-glc-dataset",
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7ac2c3fe700e07de7a56b77e6d173bc7b0152715",
-      "fetched_at_utc": "2026-08-19T18:03:16.650187+00:00",
+      "fetched_at_utc": "2026-08-19T18:07:38.512863+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
