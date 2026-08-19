@@ -1,0 +1,3897 @@
+{
+  "schema_version": "1.0",
+  "repo": "tscnlab/melidos-fuspceu-glc-dataset",
+  "commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
+  "generated_at_utc": "2026-08-19T13:24:46.053859+00:00",
+  "datapackage": "datapackage.json",
+  "files": [
+    {
+      "path": "data/datasets.json",
+      "source": "datapackage.resources.datasets.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "adb978eeeb576a5d7346920895c7484a4c328dea8bf4dbbf8aa1aa8cc8bdd39c",
+      "size_bytes": 4760903
+    },
+    {
+      "path": "data/device_datasheets.json",
+      "source": "datapackage.resources.device_datasheets.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4ca80a8008a3f5d535ed9470f962a811faf33ff4bcefd78e32de7273aa683658",
+      "size_bytes": 3299
+    },
+    {
+      "path": "data/devices.json",
+      "source": "datapackage.resources.devices.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ebb6dba4e3fdcd9826c6e6cca50879e168586ac83bfc3355d991f336d059f963",
+      "size_bytes": 7661
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S003_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "09dd5acd5d7ea650ea63a5df8cb35f7ad18ae85f0db0b7462ced2e19584efea5",
+      "size_bytes": 2276
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S003_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e6f0a0ecd7e87d9b0506ecb308558de68fbb41a4d80d7865b50efb5955a6109f",
+      "size_bytes": 766
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S003_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "799551ad58a55b78f81bda9b21b4df16d7cd2d6ac20678d4f278e2cbf08e9af4",
+      "size_bytes": 910
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S003_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bcd85d33aa6f27dfe10ed0643651dcf9d70d777cd1f2a2a0c8704fb14367e62f",
+      "size_bytes": 31131
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S003_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "450a5207ed247365394e35dd0920be1a70b153f6780431514c9ddb8bb1337490",
+      "size_bytes": 1318
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S003_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "953ecaedc06573b05ffd7c88153e02293658407753d12389166327167b3f5360",
+      "size_bytes": 664
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S003_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5782e65c9eb4eabd3560a0549b1b15699ba4dd7daff7cc2d9a0f9eba0641494d",
+      "size_bytes": 455
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S004_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c8c98b4a5dc7cdfa38e55d3eff53edcf6b48fdf1efe34090f4ee54aef57dfa62",
+      "size_bytes": 2194
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S004_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c815d9709cddbb4efc168c4e0c46ffd9044a8c33d1fad12a0c73c05ca117a5fc",
+      "size_bytes": 876
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S004_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5bbe9a6d7978c79f0e55dc29c1d5c133591c26ecc423cb719e69d034e5bf297a",
+      "size_bytes": 513
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S004_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3a9140ecbd1f5e771b7df0d2808dc1e063d8100236752a14ec099950cd5aafaf",
+      "size_bytes": 28529
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S004_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "30562a52a84eb2e2d3305dfb3091ad2eb9194da56f41741d006d3700126aa90e",
+      "size_bytes": 1349
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S004_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f66cd9c3534a2fa00e8d0ecd363aa6608a790951b13df726a09a3d56e9e25e69",
+      "size_bytes": 912
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S004_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8007856c6d26977a655f4aea3e265c2e022c080a5bef577e859413e056c5d786",
+      "size_bytes": 587
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S005_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "524a0afd09751a28a87f525e277f4c8b59972fafea21970c2a8d91029ae9fd86",
+      "size_bytes": 1374
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S005_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "938c82f09a7947f0d7f1bbc1ff1f1ad6e4789daab685f26af73dec38b3fd3762",
+      "size_bytes": 715
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S005_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f982e5a5fa7c2495023e7798a4fd91b16f74982392ec16b6c3b946612c9ed3ee",
+      "size_bytes": 1160
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S005_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "eb2f7739d6fe6555ba593abe6996193f062b10569c046a2beaece8dbad06019a",
+      "size_bytes": 26102
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S005_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f424ebc8434d1449f1cbc01bd53a99da8412f45db655099545a3c24b3e0bc614",
+      "size_bytes": 1160
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S005_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "89d8284232e93a92f996a2c753bd2558fe727d90efe35252a69034ba33fbd131",
+      "size_bytes": 971
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S005_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7c43ed70bac0a4ac3acacfbb9aa4e948f7a97427b1fb7f45aba8dafc476fe895",
+      "size_bytes": 521
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S006_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "63a28bccfbedcf8a31912e587105a7ce82711f5d0a2138ce1e3f794303879470",
+      "size_bytes": 2358
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S006_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3ffb190fe5ed94c9ec62cd8af51773e2a0e5cef1d75f06faa6c8bbb0d01b7c72",
+      "size_bytes": 747
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S006_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6984646a3164df36109d4b1c6a5c782f160aeec221597556a20e0bd64a136035",
+      "size_bytes": 1402
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S006_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "db22a744a5b6ec9ff74be48e161c450e6ae55117377e9e643c1e4c250ed22375",
+      "size_bytes": 28813
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S006_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fe36ed50193818b69a3ccc969f3c5491432529334147168ff584e8568742df5e",
+      "size_bytes": 1234
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S006_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "17f4073feb910771eff126c03574ed90ab640281e9f1970b80fda928649c759e",
+      "size_bytes": 910
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S006_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "231c57722e97e67324765bc40d63c4995189a01a7b991048f7ee9984d737133b",
+      "size_bytes": 521
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S007_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "efb94f16e0388df2fd79c612539f305f72150ef86e3e2be76ece59f36f93372b",
+      "size_bytes": 2276
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S007_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9bda6527d6070582b10eda2c32c6ea35b3945bd025773b1e92ac7650a34104bf",
+      "size_bytes": 931
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S007_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e7c941835145850f59f4b9192943db92a462dcf354f2c00e4713484750f6c7df",
+      "size_bytes": 2255
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S007_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c0d8879a5a76077df7e38bdbdc4ba46a3f3908d043bc23b8b6e7870037701844",
+      "size_bytes": 25592
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S007_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "852014f19746e7c9e4b5899f2b3212bdef544c2eeb02ae89dca84bb937844987",
+      "size_bytes": 1583
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S007_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "98fd27c73a63f293787c91c077a2d27237151cba1894a348ae15815831b0b328",
+      "size_bytes": 913
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S007_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b1081ad28f359f6e045c0587b07a513426619314152821f57c0c4aa9793c0a33",
+      "size_bytes": 587
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S008_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8d13efa2059dc4e6cdefe57a13bb840df98e66264ed18f6679591c44267a0088",
+      "size_bytes": 1866
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S008_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "880f3cd875195552d9d2fe83f9ab90f0b3d15a25557c22f60f4f14e18237bac8",
+      "size_bytes": 486
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S008_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9759c1f875454e9028cfcf0a8c355fe72623ec0d82c7135afc53e8c007eedbc4",
+      "size_bytes": 19718
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S008_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "272155fa3d2634eb6e487b97c84b9616b4054242890aab7f0dfdeb01cc7a70fe",
+      "size_bytes": 1247
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S008_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c877a827284432b930e452896f1616ac88cbcc663487bbf01b3b4071bf085edb",
+      "size_bytes": 389
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S009_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ebe127c489d0efccea573191ab7fba1c629d3fa2a9732a4d99e1ea697b5119df",
+      "size_bytes": 2440
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S009_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fa7bc5a0a7fb3c60cd5f9baa7dfecdf41f1a2d303d6bd7f14f9aaefb8604c689",
+      "size_bytes": 871
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S009_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d47dad9c7169b6da49590b3ebf04f980da0e4ce68cb7312da1db9f61884ac023",
+      "size_bytes": 1878
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S009_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5a9ed4e788ae80c4cdedeca59b553e752d8bee2a1702af0942450999e75b3949",
+      "size_bytes": 29352
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S009_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c1596b3057d98ae9158f62cb20f6f1f9725a1edfa93ec517074ffcbcdfccfa86",
+      "size_bytes": 1493
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S009_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1faf7ba65a58327f7d7fae0cd7b84b3a83dba853f9226214dc7b8b84098fc4aa",
+      "size_bytes": 746
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S009_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2d85b7cab895f6cbbb108307e784fd8540a28b7b40577798b1c36ce5467f390e",
+      "size_bytes": 587
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S010_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f2b247574c4a62ddc978be1531659539e3ff624be755eedf03f4f5c686d5e6f8",
+      "size_bytes": 2358
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S010_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1adcaf09a5ebd8f6115e01a9049bf0463014b4c5d153fbcae9f7c11a0b0ba796",
+      "size_bytes": 754
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S010_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b9e238fad3c3d90c97f50b69da14ccdb8facc5543cc19b566a642a72fa095501",
+      "size_bytes": 1438
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S010_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4ffdf72b70c1c59be66234fd2addf9141ec93c8f10c9b664d065755fbadf7fda",
+      "size_bytes": 29344
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S010_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "be8bd4fd388495bf6a910c8cfbe2a70db3963afd7bf844a65cf41614cd716364",
+      "size_bytes": 1769
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S010_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8d97ab86f58140f531830aa1e82a4707e896c7511d82376af49c09ee9bfbb391",
+      "size_bytes": 908
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S010_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a9acdce4b38db8ea005c068a5287008c45ef926f5c1bb97cb53cedac02aa1e8a",
+      "size_bytes": 587
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S011_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a80c32b8fbb826ef3ebc1fc91b73557559c6d2e7db2e040844c40734e507657a",
+      "size_bytes": 2112
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S011_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2c5a6e6658ab28451dd46c19053d22d239dd0bb7e35e058fe48a8a92ad4b35ca",
+      "size_bytes": 609
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S011_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5dd51c98ac09fd20318e7951b4facdfdb6755246edd50fe1000709f8a44a6af7",
+      "size_bytes": 961
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S011_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b3556d40414533145607995e2d01be9f64dc1a2d61111251a6a86fe963939245",
+      "size_bytes": 31126
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S011_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1c947d5efdaecf4ee7ce2ac9c79f7fb4338087c9b213d85df2b159589c6c6d9b",
+      "size_bytes": 1103
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S011_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e2add7fc95b449921efa05fc25e6046c8c40fc41a9261776a48aca89a4c1b848",
+      "size_bytes": 746
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S011_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4c30bbc8d5634e383dd5d536b17d6f8a2fb49f0b250c46ed0017ad52b5f8bcf8",
+      "size_bytes": 455
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S012_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d9bf37d8d8118c4a5e9d4feaaa7b9600a95071cae101d6ad15b948243c3523b9",
+      "size_bytes": 2276
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S012_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a984a19ef4cc7b750df077297bfc4fa6ef97e5d5559a442c68f569e720a1d499",
+      "size_bytes": 839
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S012_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c046ceca0dc98eb3e8d6c3cdbae356619123fd99cf1f1aab1cf57ae917f0f5f4",
+      "size_bytes": 31687
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S012_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "21d647f47d75e716c91d723a1c2a4164ea1d12928605ec3530e8639ec5d13cbf",
+      "size_bytes": 1304
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S012_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "060332ef7748d6c0510925eba4ff030d75fa0b6a3bb963fd6670ec568e9199d3",
+      "size_bytes": 746
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S012_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "154a20706ba82047e1a6cabaa129c9698df781aab3bb4a194d5f55e3d6460422",
+      "size_bytes": 587
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S013_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "956954b310183ff1367d4c7e084831dbba1cebc18bc6e2aecdb3fda98a74530b",
+      "size_bytes": 2112
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S013_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "16b3dcee89d3c802e1ebeaf50def3738b72643d127bb7e87db94700966501edf",
+      "size_bytes": 885
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S013_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ea9dafd17d264b03c5aa81e022103fd45d4aac24c523f1b0127348f8fd59ebb9",
+      "size_bytes": 4871
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S013_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a24270327d8f7a220a407921912217df5e970ea60a48078992462bbb2421b118",
+      "size_bytes": 31707
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S013_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c4c2966710bd5f651d79babcb91d95f1a49eaf4a8c27e9507af89f32ae793742",
+      "size_bytes": 1592
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S013_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "97e9d613ee2bf076ac5e498a2947a5850481417f87ef7babae2714e35651c72a",
+      "size_bytes": 581
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S013_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "05c6dc98ad5b20a1f227c6b8275fe04f0efe1cabc7b9fc55c51ca1d72cf3523c",
+      "size_bytes": 588
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S014_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cf1c0697a0ae03de3074115b503c94fe34aa6a1299a0b1c01de877b794317d3c",
+      "size_bytes": 2440
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S014_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fa00a2b38422c962afb0e8537521d0c5a0cdd8a9eb3440abc4e9e3cb9fbb95d1",
+      "size_bytes": 27295
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S014_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e7853b164bd9f1f43942962641e09a7b8daf3627eb04418e39a810ca70365ee2",
+      "size_bytes": 1297
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S014_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "77a755ed05586edf97db89c9bb2356d482412510f2939521400e20942a891ca8",
+      "size_bytes": 748
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S015_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f904274285d0402250cfab9c3686c8063fa88337b3aa292e45b2f7bb6da61485",
+      "size_bytes": 2358
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S015_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "514db9fe94514de85a0a35108b08ace1bd481f64f2bfad3d7fdd338217ad8861",
+      "size_bytes": 928
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S015_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d596cdd27c231271925c829c78a64e06fecdd2b371c1c83b342b26a44396f684",
+      "size_bytes": 1453
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S015_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "613041d5b0e941f7a78d1c0f0230d6e77b7411ba60a8592b1dcbea05a8b83e8e",
+      "size_bytes": 31339
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S015_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "682e25d0bd4bb729a166f6dfdd6df044a773c30464aeb5fef6a2bd5d27305ac5",
+      "size_bytes": 2111
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S015_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "88c9e72b97a0490bc635f6265a007f7bed7a72c3550d425d656420de5e342dbb",
+      "size_bytes": 501
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S015_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7ebdeeded6b5b992019b16ad8de1078e3844632ec251e2244fc89382ebe408da",
+      "size_bytes": 587
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S016_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "943ef99380da1ca5bd9f9b52a15d27b1d8ba273a09677f238ae1f640f6065dad",
+      "size_bytes": 2276
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S016_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d0d2259fdfadb6ee9afc966120242858326c92308a80157e441e9eef5642d482",
+      "size_bytes": 844
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S016_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "31a9b1862882f6c5516341098117f72e35a099c6f00e8c58c78f26887cdcd978",
+      "size_bytes": 27981
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S016_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "27a14af3b3732e1671aabaed6c80985dc66bd0e8b3645fb648071bfc6455184e",
+      "size_bytes": 1467
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S016_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8365b73316b12a3db29561a153a3cbd90ec6bc4b9bfa54c9295cf70c3883a412",
+      "size_bytes": 1318
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S016_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "88d47798657445b2ec139e01ef9e7b7273b2407a9868c611a95dca60790294e0",
+      "size_bytes": 586
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S017_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c26687af06aff127fe44c7dc6c3b55dfd308f0e9aff4d0846e13df92c25867e4",
+      "size_bytes": 1538
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S017_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "50d0573d84ca87801157a6ac4926dad1fab64cac7e699b294d8c405de356136e",
+      "size_bytes": 478
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S017_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "73995d87e6677a5add136ae4d0a9836c7e94583963bdbf5884a191ab77048e49",
+      "size_bytes": 23218
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S017_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "683dd5c057d9a32b90b8960230ffff59a7fb9ee88f99f04d8b4c8302a59b200d",
+      "size_bytes": 1055
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S017_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c16e6a269fb5ee90b9b24e2cc943e941cbb278216b3ac8b04351a76976e5170d",
+      "size_bytes": 337
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S017_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "31b862c3284a261fe5bf957f9ad5893d8391ebeaaad2311a8069d0436b94bc7e",
+      "size_bytes": 323
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S018_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "772b28eedd3ddcf2e35efe2a1bc66150722c4b6113c69448ca39c9f0d9b158b0",
+      "size_bytes": 1374
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S018_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "97301c9f0512e0e5980c30f0a1ceca51e7168de10a37cb2845f0f1f18acff7e2",
+      "size_bytes": 360
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S018_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "83c0151031557bd915d42d4537709de4d1594448892a380035e6f50a1bc232b5",
+      "size_bytes": 501
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S018_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ddf29da46d3d4e54326b34e64046227a2679c55eeb9980a1a131b86dd93efb6f",
+      "size_bytes": 25031
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S018_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4c814e7c5db5bcc401ebaf08daa195a90475b37f173ba7d0fd591e3aa56debe6",
+      "size_bytes": 807
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S018_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e09cfb877c62d0113aa3293ef6d68feeef00ada2033a9f09a53019e427812485",
+      "size_bytes": 444
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S019_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ec4fb10d68d59a39a2cde8d8a41ab725401a38a0fc13633bbe5417509edc879d",
+      "size_bytes": 3998
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S019_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ddad56f44e9cbccbb8825decfef6ed56b97edcab207b34b57266307cd20b840d",
+      "size_bytes": 694
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S019_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e6dd9294e6ad43f462e0814702b43e9e2236d1f2000627d9ac8fe9e482509775",
+      "size_bytes": 1490
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S019_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5a0a48a1770bfc24f395bde796c9fe5787eb9ef9019770590237280353cbf362",
+      "size_bytes": 31394
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S019_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f422bac4e8430eb9753a78099d6208faf2be7fc946d561845c4335a1b9c890d4",
+      "size_bytes": 1351
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S019_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0801efeead4941e58af892d6c361534b46d62d5bf07ce1f576718b4bfa6796da",
+      "size_bytes": 587
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S020_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2ae3e72f908baff36c61aa22feabb7766bfa2939a817dc8d7bdcbf2e7d49946b",
+      "size_bytes": 671
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S020_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0b1102cbb06cf7c768acde6093e8d683961e69ebdb0b7cf3220ac8f4aa4f0acf",
+      "size_bytes": 1695
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S020_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "325ef954e6b367aad0d6add4f6ca7779baa03c24d7aeff48b80fa12cf1f57ee1",
+      "size_bytes": 31550
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S020_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9ba027678164d355ee872869574384445187e660bd1b3f86b5a1561d2f022f05",
+      "size_bytes": 1952
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S020_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "18fff9d9e4139c57613ee9443b4e514f41ee25c80c4b056a2caa553586ef86aa",
+      "size_bytes": 417
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S020_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1baeeaf51882dc751402e6d272d082343224161f2ce45a217599c70681d9d981",
+      "size_bytes": 454
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S021_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6ed229399ee59ceed0f057b7403f20c6d3a809300b356b9da20fb8b85e9985f2",
+      "size_bytes": 1456
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S021_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3f153df497952c0ea34027aaa4bdeac63ed29036d2dc9c4fee1592b69de75491",
+      "size_bytes": 553
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S021_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ae87e91e270705605f764dd4f3c0b28ed6c116aa882032895663b94b7a253d74",
+      "size_bytes": 19205
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S021_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "52d5f3e08e352b36ff07504171dcd6b27598a98033ceebf6441914b2c0234b6f",
+      "size_bytes": 1017
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S021_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "be64f7d32fcad271502c4c7babe1ec6d3b7182cd009403f4be1f0ac5477828ca",
+      "size_bytes": 1112
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S022_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4ea5d7b3552d6bb2a9e0d49ae0a18e87235fa68034f53786ff979f9aab6aeaf0",
+      "size_bytes": 2276
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S022_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "85c07fed1d5d068f0257a52424a45e1dff0c193a118f5734da6e7a91c55f384b",
+      "size_bytes": 918
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S022_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "175f355d3c7e1ac526c409e2cf34159af2590f7fca53c41393ea1075e84dda38",
+      "size_bytes": 2096
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S022_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5c6317427e2125d1b6cf465ebef1f852284c9dcefaf4b873f90ee0f131f3c165",
+      "size_bytes": 27169
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S022_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "980fbb9148bbe506cd4b73310b475056f1e2938c5683cb6c820626b5a932033a",
+      "size_bytes": 1258
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S022_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "eb83f654a5ac44466d7f9bbb67348cd9c3abc8ca4958504e014a15ab8e2c8916",
+      "size_bytes": 587
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S023_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7e294fa157ec9611430fd2c357cc0a42cd2d4cf6cf49585af0f6d914b426cb9f",
+      "size_bytes": 1128
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S023_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "774c735efa349dc3cb60211bf388ceb34102f37341f046b11e62d79d52bb99a4",
+      "size_bytes": 243
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S023_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fdc0b21ac38681ce441fce545b10905f22fb8f2c1bd0329c67bd617a91db528d",
+      "size_bytes": 920
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S023_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "df8900788947fcb6eaa52416167b60947c93bf64eacfba4e3f1b6e2bae084516",
+      "size_bytes": 25229
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S023_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1f73c15048d86075baf82489463b57077d74edeb56b2b22aea8e673742892021",
+      "size_bytes": 1283
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S023_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "298f2d7df7fcd71694246fa7edec220107e18079cf353952a9bc457df8e99c77",
+      "size_bytes": 191
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S024_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "be74b28d15a0ea1633f188403aa5588c4b86878fa49151d2488aee9b5e2288c5",
+      "size_bytes": 1702
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S024_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7978c5899c536593e98dcfca527ccc55774f8b2dc339d3549652beb4d910e1de",
+      "size_bytes": 847
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S024_experiencelog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "910d69074fcd43fb657611fb0c90d256ad6cff14b4758a75c3a7da4effb70c94",
+      "size_bytes": 803
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S024_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "655e5739324e8c5f6814f999b90b8ff76b4da36ea9512fea5e098b1501bb983c",
+      "size_bytes": 31773
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S024_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "25d6766b37386493c36f7c42ca83374c89c11adff75ce952a0515e940de24555",
+      "size_bytes": 1706
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S024_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "21467405b9aa0a27e703e229639185a92f2cc3250f17322e9429db577b3bd8e3",
+      "size_bytes": 664
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S024_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "25790c7907bf2986cf82740365ab456a428d531ec1e852cc1fdb838ced7a1003",
+      "size_bytes": 455
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S025_currentconditions.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6791047f001f2fc41b818e0642f4b0610e05de15eb114722d076b21b12a2de0d",
+      "size_bytes": 2112
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S025_exercisediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "73524bf2d621546b2ebd2230c22d7414dfdb1bb8af6c09b2cf7d288c6224ce5c",
+      "size_bytes": 1008
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S025_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5d2f94e82713cd55b9a82b3b6a7f5f3fc602ca5d8b3986af2d7ea86eaeb1efae",
+      "size_bytes": 27527
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S025_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d5526bc96ee0612286a5eb0660f080606652a4fa09388ef7343f56e8a745d98b",
+      "size_bytes": 1443
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S025_wearlog.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5d1cfd7399ad36db3267cec57d4561ab3f0db47bb7e161f9e0e653ec7f4fabf8",
+      "size_bytes": 2916
+    },
+    {
+      "path": "data/files/longitudinal-reports/FUSPCEU_S025_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0956306c92c3135327227d05c1f4b150692998090cce34013ad42b70288dfc84",
+      "size_bytes": 521
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S003_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "85faec7dde2c2d739b3917bdabacb69395ff6d79f12aab6a96bf733b60080c95",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S003_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0b4d5f01a2561d6d9e43bb5bffd17325f7c34951bae43511e983b2e200147f07",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S003_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b68040e73c6a57fd57d567a9c4df6f277d4b10881c3d766e3d34d5a1e29ead25",
+      "size_bytes": 200
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S003_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "715c5dc4c6cf9f0ad8ca4b1cba1de83570348da56f45967b0da7a468a7bc62ca",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S003_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ac9ac6aa65054bd4cc68d998ecc81c3fd498a2a6ec4d7c21e472b95f26eb169d",
+      "size_bytes": 943
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S003_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f6d65d5530054d61ca310a732cec1d47269518b86fe2af64671d2ebeb47d8f25",
+      "size_bytes": 132
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S003_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3e09ae7d7a010db6f840d52264440476704f958c9040ed118df2dc8b4448eee5",
+      "size_bytes": 370
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S003_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0e8f6128c4b70349c3eba9461c92575b84b46c3e99b23f2528f048ef9693753c",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S004_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "599357dba0185012bac66dda0a89da4477a18c6bf5b654e2b9a97b3fef6a3078",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S004_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "aec392094d8ed37bf74b640afad53aec32cd99be02ae9f855f65d3ca121f5cf5",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S004_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4402efa083e4f09901b85bcbd43db3c78651d7a584b9a886eaccc75b7b098f1f",
+      "size_bytes": 217
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S004_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ec75fcf30bca5d2b2f6234d0f916e4507072ffb8fd7cefb64678388db2751696",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S004_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e8c68dd675a6217134ebe07868f6b546579a4cef6c70aa1c03df2fa252630c6f",
+      "size_bytes": 996
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S004_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "707a663c2b6afb6ae802aa6b440cdc6708200a8defcc56b3e4589e22448ab2aa",
+      "size_bytes": 132
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S004_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "18cda661fb3d2420099138e0160bed2e169b4151006543b448f2521609080924",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S004_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f87091a2f1a7d2961df022b1a52a76ef3da45c9b222533e4edb14af57920a26b",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S005_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8caf84224f8486b036e387df02b27d51afd92622cdce5db01ebe16cec44139cc",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S005_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6b94876524b445992812b311e9f379ec6a96affe86eb88a4a918c70cfccb214e",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S005_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b316eb4d068273d49a41871ad8b76d7e79bd592dd382ac1669e89265305c93b4",
+      "size_bytes": 199
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S005_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4dff26d8c41528a1fbdc3914ff9611c399741c3ba0d5b6a9b66d3f64fbfaab2d",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S005_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a8fe855df127c0f3d3d854ccb0102ef5704f78c4a7280a43eecf00f3795c1a3d",
+      "size_bytes": 781
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S005_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "575acc2f5811f87235dd922a1a16a75fc5b13499281fda90533648d5fd4e0cbb",
+      "size_bytes": 132
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S005_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d7bdfab111272b39cd4abffa0e949c9938052e095372b3e19f45e7ce6ab8b1b4",
+      "size_bytes": 371
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S005_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3e31486409c197899c6ec6e7c6666b03be316fd42f6c7535dd032566df528f9c",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S006_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cdcbc2406b8f98e64c019851283ae47473d3b42bf9bd59f69e9cba86d422d802",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S006_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ef8b59aa0cd3e242c9fc2d56e8b19430e76c88d1323f4de1f62fbb740f0d3139",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S006_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "73bfaf6ca17a9854128de74478c5addd8684b7d2a6b10f42272d3f1ed95aca41",
+      "size_bytes": 214
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S006_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "109df2ecf36a3d35bf1fda7a76bed618269e7a7f336d78ec687c0abc7bcf1129",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S006_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2937ec21b09901e6b40d510c35344ef81562028400720331d3d27128b8cc29f8",
+      "size_bytes": 560
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S006_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a74177971972c7a32d256bbfea690a105186883c1e37889584905c89cd8404f8",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S006_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4ffa1dd12e8b51598865a987a20d4ad68f425a1481731c13ff742ea0f2a17dea",
+      "size_bytes": 371
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S006_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5ab1297e114d94dac8db4d16826299e589f03231a0526d6a27d5a05c6a228169",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S007_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "21fe68e52a0d940b21f023c4ca37e10f20aa02332913c7e41983f6a51d0fefc6",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S007_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1231abf72561b864ab1158a07504d724c8fcf497f2850bce66c5953034d56546",
+      "size_bytes": 306
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S007_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "07f8ce335d980fdc25a7cc64dfda5e2c9304ffa403b42346603b2dc8c483d770",
+      "size_bytes": 151
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S007_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a5ed5cd7bdfd9a3391a76247396150508ac0a2c975513a9aace926be099c6d4e",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S007_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b769a0f87af2d0e25ff0ec35efe9f6b8ca819a03e7cf3a21af34880de5aebea5",
+      "size_bytes": 1076
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S007_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a19dc40ad57b7827f57a856d7d7ffef36f2122bcba9bea014fe399c86cbbf7b2",
+      "size_bytes": 132
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S007_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "060a4740f0754078ff8a5b5053f78114e9688e0ca44ca5799f772ab19d4ebc4f",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S007_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6734dff0a7d0bcacb115d093f3045f402e500e48957a1ce72a954e83990a4522",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S008_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "80f0c0109351fc8580562b67f13b79c85e7139f19e52fcd1e213e2bc33b3d080",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S008_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4233ca3335661c7901eb7e937d914d31cefe39927871083ea1ef43dd7ff52a4b",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S008_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3bdbec41df84440e34ebb5c9271f111eb62180892e117d86663ae625580bcd3f",
+      "size_bytes": 229
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S008_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "50e6fbf2953ae7c8d91c52ef363ccefbc788dbb54b1e3fb110846224de5b8dab",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S008_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1fcf627600595a471317a2b4b280cfdbb6c24196a20527e67521c523fb0af3cd",
+      "size_bytes": 1113
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S008_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8301e7d1b6c909d83c6ec09352505bdda4dbaba121779858828be80a4e5ff78f",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S008_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "184f1ad61aed93fdf3eab1538d8fc3dbcb856fdf6f56f35a490fc2365c0d5388",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S008_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "59be1e6522512e6ea868412ff7559a6de901a48900329b6b921c7b9ffd5b2219",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S009_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ab111d871b44dc58ebdcff7aff8dd7596983ae3679538ffb2b47a3b8692cf7ff",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S009_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3b445a96603c96969e5a9a16ffd338257645cd33681d31d142467eef54e5b123",
+      "size_bytes": 311
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S009_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a833d3011f4065c0dc96ff5c50682c707f82c9699acf2013d6cb89fa5b1fc711",
+      "size_bytes": 230
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S009_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f31603561ff54e911730fb14c0157a2b682b2fdd828f408d2642f1a4732c8660",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S009_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7c9f3a30dbe5a61b35a08778c5747dc5702f6d0ae4ad9b16cdac0f0129945c0e",
+      "size_bytes": 942
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S009_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "23d4e47970215e045e19ea787e9f6d1c0fa074f5f6813116916d264c8300bba9",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S009_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "dead63ccb8af08f348e98f3a4044fa2bebee46aba06e007e458119f0eb071cf1",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S009_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "71e7980032080084992057cdbcd5b406a9d95fb9e9089af22f13b92b0936b71d",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S010_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "53c1a031aa4c2d85f94292140361c2977495b194329219ab2544e48fa793f7b4",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S010_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2e3c909487a356f7d3d1bdf01da3c262dc9b62d41c8a0ff6c4bb9b4df7e520e8",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S010_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "29729d4b6ee51d21c229e66d139598db168a011f20dd3c55e7e520e4e00b2e3f",
+      "size_bytes": 202
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S010_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c293a9160c7a950a0d5faa431251c294b65036924e9071a8ee7247670b2dd9ab",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S010_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "91798c9edb2a26a3d4362700d8a9777bfd875d263e00059e25f89851a617aeb5",
+      "size_bytes": 762
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S010_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "55af552b80860766ba88000f9324e9ddd968aee9f058f64c9c1953080cf8dde6",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S010_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f199703bb16499e8ed9ebe88a1ad8c24ffc19d16e910c30640a1c31f7ecced2e",
+      "size_bytes": 370
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S010_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9a067e28dbbbfea3fd242e6fda36210a7b7afe7929a616d6f163845c043a39d8",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S011_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a0c787f5bb266f3cb8fab24e9d217d32ec04654822812fcdcb64d657f900d9a3",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S011_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "17db85bea18a9dba66e6f0f4249f2885f29108cb1a1d2024ff480e58d3fb3d40",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S011_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e6c91380098ed4fd1b16d271f8c47d1411341c5da86d03b7f44472bb11896e9e",
+      "size_bytes": 169
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S011_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "febfeb375ee952502495778d327c58c74a58c29150732a9cbd880a90a589e9d4",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S011_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1f450036fbc5fbb0dd1aba7d0fc7c9b0f86675e5f15e94059af9565f2047c23a",
+      "size_bytes": 636
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S011_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9cc564d995be4ba99837e2f8796b6d33266fed8104535a0050dd9283ba490158",
+      "size_bytes": 132
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S011_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d27282d15ecb847423521db9812615726ffee43d67186f223ffd15fc7d82f33c",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S011_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b7eddaeba212dd5abae63ca9b6c835d5defd0314e264ac09dd8c362ccc413d47",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S012_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b87cfacebf644d96f29ef815df4e56db7ac86d94731064b9210084a8eb33ae76",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S012_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "052aee012c9d0ac07edb055351503908c5fe9fd0c2fdd1d6df75a0fddc8caa74",
+      "size_bytes": 311
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S012_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7e016ff128eb9a5fe8c34c85e77b779a0c68efedb66cd99f7f52368cb9a8363a",
+      "size_bytes": 194
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S012_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f64b2ac83e223072d7e468c050a8fa299acf152f3bd94bf1672c6df7826f7044",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S012_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "61d7450e25772055cad4a02036593d8e8943eeabd32acb7b4aef2a7ce12ef2d1",
+      "size_bytes": 750
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S012_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d4eccd29152fa2b6b2e9c55d4c73f213285e0897ee769a8c09c6b19880062f27",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S012_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bab50382bfa14b4bb636bede3848718bb08d6adfb141f3e4ba7e22bf6dc08002",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S012_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "561fd2729b4391c743ca19e98f56d906cd112e91cdd65f4c9884bf56645e0194",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S013_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2a7ac1852674a2641d3ed315104acaa78d6c1853b4314d2a22c383b620b19f95",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S013_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e7e78ad7a56312355d4016d43995a7fcca7c6b500e04089551c53a23a4695b80",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S013_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ddc078a83b1b5b43ece4fa2a043325efd85636bdbdf61c6339ded869a39eda66",
+      "size_bytes": 203
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S013_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9ebbe580fe8b6c4fe4a9e96141d1d85760488a56dbf422cb4c912fa07cb8f6fa",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S013_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b365d7cf2088cf82f1b6e3da140648bad15ef11e48bb379182466fa4de01ff13",
+      "size_bytes": 1064
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S013_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "50d380a8d5221dac552deb3325aa0f3385a9ad8841c5fab1437d47b8bcc58a01",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S013_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a522aaf0307ff7e5fa30d57c2562966fd29454a8cb3a8b92980194c4c13fa2e6",
+      "size_bytes": 371
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S013_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "77464b9412ef2cd1ef1d01ab6f2c14403e0a2d2d664e57b1e6c9a5c0f259421c",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S014_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "43fe54aef3ec59d60d3bfcbe6bd33b715cc8a72766472360c0946af88427d304",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S014_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2386e0ee948ab3934725e2bc014316077ebe85e2fbacc70c0ce612eb6ac67a2c",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S014_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d546a1002dba8519a14590b02f50adaa7d873293d52032f468fe4c64e38067d6",
+      "size_bytes": 218
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S014_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d20290ee4cb8b8456b1952869b129a25c18bc402bfe0b4a440e59d95ab385a11",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S014_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a0a6877fe7943f2af384309b8528e9c1f79e1d22779f2fa2151180014c8768c8",
+      "size_bytes": 953
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S014_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2af53ae07dd97e3ab4f6e8d2b097e07bd34daa2f9a466709f58fc8ef0bfee488",
+      "size_bytes": 132
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S014_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7b55ce8749a337819cc5f497bb1800ad5e6cfa21d8c2d68ac4a6b4d9c068d476",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S014_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "712e801f90be918d739975c78bff98260dcc22155079acbe5d5a79a3a947ffd0",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S015_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "22f4569f36d675f41cbdc2fd7f1fe847c9d74a121d51132b4b3c5f64fc6e197c",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S015_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "39b870f52c6ecf354bbafa13cbaa7e758f448092440dd038d2f3ce9f05aa9cb2",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S015_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ffaa15526c853ea54a15581e0602df60b30d9de9bfadd32887e1b7ee6527c34e",
+      "size_bytes": 229
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S015_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "81d32076ace82a7d89e5e448697cb0b32fb398e5ba8fd55b93f8230560f3760b",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S015_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d2d35d66feed042a2b85f5c60db1c877d830400a01d5e0c3ad9615e0eb0e1038",
+      "size_bytes": 1245
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S015_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a52bf4ab2aaaff526bf5fc094bc15790f8ab8cf31627f8531e7d78acd431dc56",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S015_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b37359ff8c9387f25176c65c93f9213f32b5deb6a0e5d5eeb3259dd949716de6",
+      "size_bytes": 371
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S015_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fffcec1af3e3815b8488c4b1a40682c4854db23dae7e4ffae6b20fbbfb18c3f3",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S016_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "97bb13d5c7fccffa75deaeca91177e1044a8495bd398b3efb1d90783cdd504b5",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S016_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "40977f099c91697e703677d2f20bd2cb972f5b47ad5ded7bd3a46136d3c1bd87",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S016_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d3b3c621d5503ef5959a1d445d7f8cb3249d3436f034542bd53e39e0d272cb37",
+      "size_bytes": 219
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S016_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e91e67645cb3a30596f34a9ca3eed819b67f155acc0f23faf5bf9230d3853b9a",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S016_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e3c5b3cf358cb81c2d8d23d7444ce50ad1edf28635d11ccd6528e6fac6445168",
+      "size_bytes": 942
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S016_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d7dc1d0aa440adcefc1451167156f0be6af9c70f2b6e5700acca3ed12f513e69",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S016_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "96a3e1c13121af79a2fb5833da0323aa4e470cb66d711b777b88e35a62a01b7b",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S016_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "46fb0c710a3a29b245a0e999d2397dad6cb52d90128667a09a3923457b9b2578",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S017_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9da2f0e28ec66cbabc85ce10a31405e03789ed13fefb0bfa7c8c3dc392d60119",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S017_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "566c43a5da92450d09aa2b540234a9d2af00378ef9ed02c2f65e2df96d8ad857",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S017_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ddf77217724629a62ba2208812a4df855381cdb169cd1d737d53a3b5386af844",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S017_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c291218f7e1b0fa2010b15527540b4e6289f4dce8f58457d30b8151361951f8a",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S017_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "64e28c502a00f70c83e19885e73f4d69a2af8888908bec705a5d2a734dfea578",
+      "size_bytes": 1401
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S017_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "aa4d578744e5379be9a0303f4ef305005ea662e5e8b4e879ba7bb9f2bdde2153",
+      "size_bytes": 132
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S017_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2cd16309c2b605e0a069d1fdd22170fe179252b6693853bd22fbda85fbd03f59",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S017_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "564fe251305c0fb0c2ebccdbd2757e0d9459af605d44b030ff734b18b15c5edb",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S018_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3667f9cd3089f4ff054069997916bb0164d7bbe1d358646ae7850eed323b3768",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S018_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ed3c6bb0ed8518e11c1b2a93286d5395dd8f9b094d48d36b147cab74576da94a",
+      "size_bytes": 309
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S018_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "98e3dec0db6b2baea88f576aa1b50dc538263041818288f0ec024ce1566cfa50",
+      "size_bytes": 241
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S018_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "beca0a0142d091a670aaa0e348b96df4fa97b8d5f6a6ca2201d17d20cba559c2",
+      "size_bytes": 137
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S018_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b741b3c0b48e61e54a5968f684161709e170d4fe873c9b6b07d40165d0617395",
+      "size_bytes": 436
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S018_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5daafcb1e71317d0958ef691cdf8cf099c2c304af6802e6ce2cdd9cf986a783c",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S018_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e0f8431e4a2e94bb2375c569030b81d2448f90c31217a05ad7a3a134c3b7fbbe",
+      "size_bytes": 370
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S018_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1f4d43be2adc52f8a9dd0a07de4ffb79850c11f99b1d9a5f2e268a2fbf3b58f5",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S019_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0b5a2942fe18559542cfb7fa124500efb9e59d734e10f3f2b9359769dc4512ec",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S019_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ab675a1bf8b1d0eb677394d9e244ef8d5cea7d3890bfef9cb9a7d7b8853ad0e6",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S019_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b969dc9020759810c0b73fbf844633a6551440ebc3e5f2076e0f7fa8e7146be7",
+      "size_bytes": 222
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S019_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "374d65d4848d99a7a9f8fddf60883fc72d3241dd58d02be575b31f90968204c0",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S019_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fe355fdc78901d18a87a4adf325edbad7513bcc96c2ff5058b86654938472005",
+      "size_bytes": 1155
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S019_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "14a02d90a046db8f95fe4256751c81b4c19d696aaf8d32c40813cc33aae72d43",
+      "size_bytes": 132
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S019_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2d7ee3d72fdebfaa4b3dc83b35663ef187a3195354d62d079ae33c46e2d175cb",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S019_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "45c378d78dee7f61345f616f7f4549401d37cbbeddc7da16f17f8e14069bb959",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S020_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bf2ea7175f15d0027dbb8bc32eb90c82d52e41cf649016835da08f1bd5280afd",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S020_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "40851cba6db3ca096ef2ff92b057db933ba5c9aa18ee6f4c9594394c9cbf5f10",
+      "size_bytes": 311
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S020_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a71c9866a9323941e42aee336dfc25da92135eb446a1a6afc7e7b1952a722b2e",
+      "size_bytes": 199
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S020_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4515a284cdf3bf2129201e27d83a80fdbab082c14759da3c7bae102f2353b138",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S020_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "40fe74dcbc7237c814470d26af298c7610139cf2d71227f2573b9bdc3526933c",
+      "size_bytes": 856
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S020_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "31c2642217a02d7532c337caf0224cc5b1510b1616f05efd835272f48affa2c1",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S020_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2d9882537c25932d7bdcebd63e01d7d818841e8c1c1e46cfeb5f7b895b67f728",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S020_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d825b935ba9452eca8d99decf1bdfd484341931ec9ab71d0168dbebab4cb31d7",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S021_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "76f69bac291221b745dad61cbf5534fc36a80d6b919f802b09afebf349dde99e",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S021_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "db85908d93d419ed2baae304969a7de88b4815878572bd38b6a435dea16a45bc",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S021_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "686a320325fd20de74dbd0a1f9bc6c0302fd11811fb281f2a337779cd706be21",
+      "size_bytes": 181
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S021_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5b4186b179fb7179ca76aa742c0ca329c62160296c151d28915a01419d3c3c13",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S021_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8d86b9c273d2c0ae3b0860abe01464e0c55c3030dbb147835ad74975091e0caf",
+      "size_bytes": 452
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S021_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cf23db8ba4c5fe1edf957c79a536c27f21d245bd4213f814b7318c08f4a78d4e",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S021_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2b6dac1d3917d0963fee79d8ba0eab0c81ce9b0a84a8a728038e71db4d20da2a",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S021_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f42025fffbf30e0543d3540272066a290a17ec660f55090726edd11483631586",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S022_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "353dfee429e415a3e37f0b803f8b3371f906c9845c4836d494fc0a2c84a2d031",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S022_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f1e6f15f44d3470184bab2391ded0a03243326485e064e48bd8f7f78014f0115",
+      "size_bytes": 311
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S022_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0b873ec86d3b467f4bccb1392135c93684e9062fb00dbf5f004448323ae0bcf6",
+      "size_bytes": 206
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S022_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b99b85b134701c8e2e6765825dc92746bbc2fe0144341d965ab84e8801aa71fc",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S022_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d544769726c655a1cd72fb44ef7b2cd36522e2ca2309aede30e197d8165cc3aa",
+      "size_bytes": 1032
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S022_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "280ab37ad8c046ad13c62f405b2d9ad778a58ae83c6fef6677008a06ef443c7e",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S022_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "600ece68a74c49557b79049a2f791f99f7df012b2e50443420d2d8fac4e14604",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S022_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ebd47b5885f13e30720bc86950c2c39f77727a6e6b217bc0da7e3d7fbbab21b3",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S023_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "70bd1a881085fc1dd18b57bef8946f9d1e90f2a88a2f06a02d3af34b08996323",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S023_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fc138da8f2eebd52b71ca380b34938a671f3bb4b6e6b6be2d94b30224a50c08a",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S023_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "83891d9f10f27f153ff135e5e0abe742d782b109de8f284ecc29edc010c98e30",
+      "size_bytes": 229
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S023_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7ef608b5bc2b25f4f06fcd6144028d17254214285e1cab44e141b720f7d9075d",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S023_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "596e2b56883bc1e4c0a81cea6241d1fe54c7fd9b25c0d00e31a0f06c6efce2cc",
+      "size_bytes": 1017
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S023_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c8d1c89f0505cc9cfcf36a6dc4a59daf5385065e15db885456929e4e72cc4b59",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S023_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3cd53e9c56e43e006af7ce2e19e591240f670beb25b695d4c963e66658471a64",
+      "size_bytes": 371
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S023_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bc473615cf1267e0cb243b6947529b09a4949ac59c6ed89b7b9df2602ffdf4e3",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S024_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1a4d9c96287e82dafb6067eca9b49962f319a8fc43c91076232f09826667d6c8",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S024_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "153737c8dabb728531c91a729bbd720c240ea799f97d052b2620aecb71516b13",
+      "size_bytes": 229
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S024_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4f5212532d67e85ae18b0f282ee5a7dd33ecf1b29b2443be85d0d0e882924220",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S024_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a8d1261b70a8b532cebf43d206d406d00c44dff5c45ffdacb0806cafe850ecaf",
+      "size_bytes": 926
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S024_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4f4841691eda7dccbe4f1bdda2586da0870828ed31ce75f941478ef3d7607c86",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S024_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c323b6b743dee887cd0ae968374ffbd223915f388938a8ffa9b95ddfae61f556",
+      "size_bytes": 371
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S024_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c60dd41f3f3c35c77d52df1102630e7f5df7e3b207e5654a9e5a91f313fa0efd",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S025_acceptability.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e201c68b3331af6b4a85edd5805cd2319dac1330e7b980fb2a714d087e4791a4",
+      "size_bytes": 190
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S025_ase.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "22a70ee6e5f1da48b2a07dca06ffab9a925b51fac239f64a11da8346ecc3a1f9",
+      "size_bytes": 310
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S025_chronotype.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "31504ba22b30e092ae1273b39828f673fb49b175edff5f6cd21182be12d3e95b",
+      "size_bytes": 202
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S025_demographics.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8d07094b083bcffe63aef2eb44801c06295a4f2d5e3381ad4cf0759910643807",
+      "size_bytes": 131
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S025_evaluation.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5bcc13fa9db1e0bf7e7e0c0c6a36ca5cc725a65dab8d89e770ec2472d5bbeb8e",
+      "size_bytes": 1865
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S025_health.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5e2c5658d5dcb32c881972b3fb7acd302329c30f51804e0a4604ff45027213dc",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S025_leba.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "16d33c9eaaf1ad87463a8f29ef6e99559e50d5dead9bcb8404d25997fa371b7a",
+      "size_bytes": 372
+    },
+    {
+      "path": "data/files/questionnaires/FUSPCEU_S025_vlsq8.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ced4a5a07f915e6bc0979ba8758b2fc8787c3aada94306a945332ab6c6c9400f",
+      "size_bytes": 149
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S003_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9371624ec2d7732f1b994398291cf17ed2fc370faf3715481636f80d0391a5eb",
+      "size_bytes": 12257345
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S003_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b9ce0cd8979f60ab06d20dcee8aef3047bc1ed054a3f062496843053f70988b9",
+      "size_bytes": 12393481
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S003_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9de64d8682aca54aacc9dc3c98689a4f17ae2211d2287dc5f804e3c021e1b4a4",
+      "size_bytes": 12223909
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S004_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "60f84a9eb519a1bda241f6fc2fa86f069e517dcf2ec80c10fa989d8e413e429f",
+      "size_bytes": 11939352
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S004_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "25e90e31d6d9817e3df3a09b633b05d3a7a8bb3fed7bd8424eb181d8d75e6870",
+      "size_bytes": 12118710
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S004_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9d7afcf78bde6a19462d568615e70057add1afc7b25bdf4d779765b2b913e302",
+      "size_bytes": 11847610
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S005_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8c8f19def909ec0a693bc568f877149109439cacaa78895aecbb6226139b68d2",
+      "size_bytes": 11687781
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S005_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "459d4c252a6ff2d91c0c4fbf196298bd78d34f472cdd8c3df86e8a968cc22a86",
+      "size_bytes": 12072739
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S005_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "32049f89dd4145f0262617df10e0d00e0dccaa44c0d4d669ca23384ca1d14026",
+      "size_bytes": 11557976
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S006_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2ae5f9db9a36f0bf188142b663b47989c340c1b1e9d6b46b09a2e0b860184703",
+      "size_bytes": 12187822
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S006_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "da0f4c6266d1a55b643149e18a5107ff24ca976288510f2b2d858c0a83df19cf",
+      "size_bytes": 12484053
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S006_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cd7094c530e2915a89e75e05c3a4acb9731c998591ad3038bd9d29e6c08e8ab1",
+      "size_bytes": 12448961
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S007_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ad6a8493e2b64f24158ee3ac3df45c3bbeb5b166542c4483d5e3ceff19512d64",
+      "size_bytes": 12396604
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S007_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "69bb5b7789fbfa61af69b453492883c07be13abbd767a1ce1839a8803c3d17e9",
+      "size_bytes": 12748414
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S007_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0035c6759b385cfbbd64da45737591c9d49dfa34e6f7debea57127bbb40b7fff",
+      "size_bytes": 12570942
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S008_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3df03295e7e6ba3c3c1b23b65dcfe49939c82519d28ae2d485b00b8ec59a9723",
+      "size_bytes": 12386473
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S008_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "36dbb28faaf36d35af39befdf044df14cec1605bc0ad4e81d215662f7952bfad",
+      "size_bytes": 12572024
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S008_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c4eac8e16c09c593e04236f2d2d047627b3c98bb14ec7c7e72331de7d9a600c7",
+      "size_bytes": 12362050
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S009_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b237a3ab86eca8b1dac64bf7784ceb34946924cb14f92fd5099a38adeda0c8c7",
+      "size_bytes": 13355152
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S009_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1cab1f7f212dd04bf25c9c0f8b16df05329b48df32801434c63268d0b8ad92f6",
+      "size_bytes": 13523656
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S009_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "90418252343d13afca3d29d16a107f42e8e462250c09af0ebb0b6d600984f6aa",
+      "size_bytes": 13402920
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S010_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "34dd248abd4aedf5bacdfedce7af0829432a13f1905019521622048472ab65f1",
+      "size_bytes": 8491816
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S010_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3ac3044477e107eb92c69536d70c5b80c87d2b7ea069785280ba81b9c366d1e2",
+      "size_bytes": 8618749
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S010_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "00f3fcbca2cce1bc4b6d0feb38f3e89c74785be71c89cb7b155aee530d9433fe",
+      "size_bytes": 8549508
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S011_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "62d30c124ece0b874599a031827fbc5b5dca2fdadc84271f75a8d8c5337d8f5f",
+      "size_bytes": 12364965
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S011_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e5dd69057a59ba68117e44341e84d92ebdecc1cbe23256830fa9f135574c8c04",
+      "size_bytes": 12528736
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S011_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "98faf2371fcb18fb0789e140af4bfe3bb3a48f11126eaa437e2bb1b70822473e",
+      "size_bytes": 12415864
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S012_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b84b05164ce0d6399c45604e4ff3b61874095891fa5087fc304ec4debf47c8cb",
+      "size_bytes": 12117229
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S012_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "536fd9d96ec7c852c892188f082b87fb87466410ec7f80d2a16b9713fefe34c5",
+      "size_bytes": 12439783
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S012_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "beafb1f03ed348d6c60ac3b9ca83873f6a891808fc828b91ec3b61c73a8a2291",
+      "size_bytes": 11879060
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S013_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a76b529590d1825a340108cfbceee091053430e407db25d61d3bfccee5818638",
+      "size_bytes": 12257198
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S013_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0a29f9fcf034b4d0f949f0034046685fb5f761d9fe10613b95d8fabae0b7324c",
+      "size_bytes": 12523664
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S013_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "70ff01b171dae187709f5b4c77ef74a9cc249f7aad03e825e06a7b343a6f923f",
+      "size_bytes": 12038965
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S014_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a1f000015c61cefb192cce04281a1973f9b170211aac3c3f88ed38737934f1cb",
+      "size_bytes": 10594045
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S014_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ddccd003c7b13597b579fb7850068f1cb445c3de278b03788510c18b0c4dd3a1",
+      "size_bytes": 1891731
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S014_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d1c9f2aaf5e6baa6477040e2f4026b173965fc8b86896842fa2acbea74f86542",
+      "size_bytes": 10878273
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S015_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2abf11e7c2d0de2654da23dad77b27890103a4401bbeb942f6bb1341a86722dd",
+      "size_bytes": 12343529
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S015_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9da93693923918d8a3a13ae45b98eaab6876d3c41a0f15de5a9824dcd14c4e26",
+      "size_bytes": 12425661
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S015_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bced9a55f98df2768b46e052cfdb119191b84b0c0e573c86feec804c687ae358",
+      "size_bytes": 12278226
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S016_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c34b22e946d347ea49d00ca413ed41f0256e799310870a8bec4a6443fb9c5489",
+      "size_bytes": 11593951
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S016_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bf12934c1469827cb3a608cabc7af7d019a34d60476f85343504a0bf86e7f11c",
+      "size_bytes": 11985947
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S016_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "41da9e055b9e5d6fb504cecfc1e4ecdce8d0af3391b2ff187d59feb4e148450a",
+      "size_bytes": 11696448
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S017_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "08294f9ca737652573550d29f5c673e692c13372c33531d5e16fa7ba73f34f19",
+      "size_bytes": 11384680
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S017_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "53b1bdce53339645c4856e0225a258bc843cb361f968cb25b353dbd7115e2ad0",
+      "size_bytes": 11517266
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S017_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2ff80601c9b83f63c6cf611573bb72ca5227c493d33cba313d9d239ff5969951",
+      "size_bytes": 11132351
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S018_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5462b96c051839ce96a5f3b74a8ca16e188983d26b78e4d6f8272df80007d568",
+      "size_bytes": 11556799
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S018_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a13a5e65708958163e29f61664c9a29a701e4e2c3ba4a3b50e851843bb641170",
+      "size_bytes": 11717469
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S018_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1ae39f924c5e4c0655f0fbf9f62bfe48471f1f259e92f3ed188048d79629bea6",
+      "size_bytes": 8273406
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S019_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "90b7c62d0183dd107d31030c2bb02fd408def050b3e4b8461d1b6638e7773833",
+      "size_bytes": 11842401
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S019_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "083458e5819bca5568c9a15b4a21f2b61264ef1a1ade8c12c4ddc4e682b7de53",
+      "size_bytes": 12085395
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S019_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a5abadfffa89f5592ceabbb32ba30236adbe18b7c8d12ecf44e5d9b981c2d083",
+      "size_bytes": 11596910
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S020_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a4cb1d6b40334daee69e981791e1d57c07ea3914e9fa51dde0a825ec14e4665e",
+      "size_bytes": 11915613
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S020_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b6824f02e250cc3af2ae45bc133360ba684ded47638e50e41989574ff918a261",
+      "size_bytes": 12175385
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S020_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3e52b5fdf0e4be8100a7f81be620e338d6d56f2a2e1e2f5ada3f237d7f1c25ac",
+      "size_bytes": 11981052
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S021_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ce9387796490c5cf414a99861a8d1bf7b625f8c38d6e03bf02ac0969d9fb46ef",
+      "size_bytes": 11887831
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S021_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9548826905ae5aae69c38c8143e33c1fe805851b86164f48d7c9f8a940bf8982",
+      "size_bytes": 12051341
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S022_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9cf44ba5ee81343e6d37c1c5af76b944bbe98c994e4dd0688c47f6a925ddb0cf",
+      "size_bytes": 11932103
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S022_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "45a3bd93d4e28de9513554f347c73e1173eed2fc358d58d7f1c471d8b6001d26",
+      "size_bytes": 12121706
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S022_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6f4b9e0fdeb8af81fc6570a41f847ffd676638bcb33034c481dad459d2edb18a",
+      "size_bytes": 11819915
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S023_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2f8688ef340cb3df905d0943eca66a027793e28a8c86ca59417d701849303709",
+      "size_bytes": 11185585
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S023_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1905746cb67550e2bbe0c244742b1b718e6d5599142be3e6a4f4b75bb66a3a41",
+      "size_bytes": 11517198
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S023_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a80a6f83cb872007dfbd8b3651d1e99abac4ce12395fe7bbf94cf0a9f988ee0f",
+      "size_bytes": 11081771
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S024_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "977cfbe8207393b8493e0f64c6940daffd2e580f3f2f1eda8367fa561da9ea73",
+      "size_bytes": 11642666
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S024_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "484b8d5d23d8a60d137146cf431fb26c22d34753d831d55bfbb5699fd0f5a377",
+      "size_bytes": 11911810
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S024_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "121cfc532ff47565e738a2b61d809aad87bce8c4ca44bef6dccd29f5d1379a9f",
+      "size_bytes": 11711837
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S025_light_chest.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "aba2aaf952b0b7d83a96027fe375686461a6eee31dd0148069cf43f68749f0fa",
+      "size_bytes": 12250319
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S025_light_glasses.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e8156d5377febb51dcefdca4d26fd08dd94f4fcd0e5446550c4d2cf4a14ba0a0",
+      "size_bytes": 12403587
+    },
+    {
+      "path": "data/files/sensor/FUSPCEU_S025_light_wrist.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "586e1f4bcb638a77be1707ea33176220346f93769407618236066081dbe6be5e",
+      "size_bytes": 12173391
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S003_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S003.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1b30a642aae50d8737b2094d3bf53f8f7de5c68fbfe9fad3e650a0db0a25b936",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S004_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S004.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "644445311f7f0bf935df418f9d89c2231101440ee02de23e177c6e63f8206877",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S005_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S005.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "16e1644410ec35ea6980f8a6ea07fde408fcbaa31964190c67a5105f826d2833",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S006_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S006.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0b5963a57d28549748c3572c35eecc63092adef38615fd3bf06c4344da07e6ac",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S007_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S007.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4ee311012147809e1b5028673ff8758277bc9e2defa2ba757fa972726e1e0c98",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S008_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S008.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "aa4d18479274f2fb7d7a75aaedd033034b90a7078613b51737fe026f98d83c13",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S009_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S009.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "26fc5b31a7e609b22287c286913d9e979fecee7cd3d6ee42cfacd78bfcd83c2d",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S010_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S010.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "77072043a8533c47d5b93d667f679b0890067fc8290b6a1e86a11b6075cf8885",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S011_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S011.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6a26e3dfab25681791aa92cf095d5aae5ec16231fba4f244780b15241c476189",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S012_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S012.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6847e11ff9775c5cbf95511d86a09c9cd6d65fa334846278748c81d1147e6467",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S013_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S013.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c81e5c8208636c701ff50d6b33a517ac858fadfb888022b850af1c5bc3c9235a",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S014_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S014.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2b5ae6c8a4d5696af49067ec0b0127100068d3f9dfab372f56e19d671ebb3f0d",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S015_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S015.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "98adb1039eaf90109ce9af7fbd524af6922ce2c994b2094541b8792195094d88",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S016_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S016.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4f339314c08b885c1517608c69b5573df32729391725146707b2c46c2f3bdf1c",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S017_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S017.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7081a9334cbacc6537479ac9c147908d125831b4a6fc275873aa15f3afc37141",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S018_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S018.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1203d4f6b16d1a7ecdeedd6849c153d72c48a0c9fe5b523d96d71abb5a8518ef",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S019_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S019.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4793de8627065df1875bc7e7c919908509665c7a6a73fdcfaebda3f401e5b96a",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S020_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S020.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ce104df281e3cd3bf06f6bcb46e902443ebc3fe8f985441699a456f6a4f45e5d",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S021_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S021.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c8f3857e5f312b1baa838af07c63ecc53e30943d93e98c68d564665d31965299",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S022_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S022.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "93801e95a9c51a383603c1c7ba3d744e959db5662cce743eb8e896a9e874210f",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S023_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S023.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bc6073a134dfb17400e93b8d0280dd825f96cd42ee8654276ade3879b44b8372",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S024_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S024.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "17ec0dcab2e6c7319958c750fd53b3d97f823ee57010296d71ee52d2bad74afa",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/files/study-timing/FUSPCEU_S025_trial_times.csv",
+      "source": "datasets.MELIDOS_FUSPCEU_S025.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b3ad5d652a83e4993f8c4720c21a6aa9c4bf8f2ae1dcf9a2e952715fad44e64b",
+      "size_bytes": 91
+    },
+    {
+      "path": "data/participant_characteristics.csv",
+      "source": "datapackage.resources.participant_characteristics.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f0dd1ee0b8d70dcea7a983e05479a5ad500bedb609f92449b4777ecd6a4f0b21",
+      "size_bytes": 76616
+    },
+    {
+      "path": "data/participants.csv",
+      "source": "datapackage.resources.participants.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "25e4767c0342ba40543f5b2ed910c9ede2efce3984fe410369fe9a54bf5e4728",
+      "size_bytes": 559
+    },
+    {
+      "path": "data/study.json",
+      "source": "datapackage.resources.study.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d7562568a3db6392153e1c781c1b5ce088ea9d506d0fad3e50708f387abbee66",
+      "size_bytes": 5141
+    },
+    {
+      "path": "datapackage.json",
+      "source": "datapackage",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "240852f57d91cc5aafdd099a8a15da50db5185364670850dc6bf00ae2a8755ea",
+      "size_bytes": 1586
+    },
+    {
+      "path": "schemas/3.0.2/dataset.schema.json",
+      "source": "datapackage.resources.datasets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7c17e4df6495bcb0fb020e7494889c3f234f9e305b8b73a0db0b37711fd6f854",
+      "size_bytes": 46572
+    },
+    {
+      "path": "schemas/3.0.2/device.schema.json",
+      "source": "datapackage.resources.devices.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ea149188482c5b2d3c2595227b459764b82db6102539cd5e9d8865ea154f7bfa",
+      "size_bytes": 3952
+    },
+    {
+      "path": "schemas/3.0.2/device_datasheet.schema.json",
+      "source": "datapackage.resources.device_datasheets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "44d54895d43683a778fb4d94e0e7339618fe5b5e5c415f77847b02a4739e55b2",
+      "size_bytes": 13062
+    },
+    {
+      "path": "schemas/3.0.2/participant_characteristics.schema.json",
+      "source": "datapackage.resources.participant_characteristics.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2535117d5c9daef19194242404c0e727b3e0927affa54872f88568ebee995b1f",
+      "size_bytes": 1457
+    },
+    {
+      "path": "schemas/3.0.2/participants.schema.json",
+      "source": "datapackage.resources.participants.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e7192bd483a4e2e9ce4fb1a0bedad551335cda287e389da333132509a7e318a6",
+      "size_bytes": 1079
+    },
+    {
+      "path": "schemas/3.0.2/study.schema.json",
+      "source": "datapackage.resources.study.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f1e7196b1458de5ba7678423fa97da8a08d62d6bad3c7caecfc093faa78efe06",
+      "size_bytes": 6498
+    }
+  ]
+}
