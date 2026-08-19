@@ -1,0 +1,2889 @@
+{
+  "schema_version": "1.0",
+  "repo": "tscnlab/melidos-rise-glc-dataset",
+  "commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
+  "generated_at_utc": "2026-08-19T13:54:43.708413+00:00",
+  "datapackage": "datapackage.json",
+  "files": [
+    {
+      "path": "data/datasets.json",
+      "source": "datapackage.resources.datasets.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "52366b153c58422e73a38fe65be289e2bccbd54c627c8ce6a70c7fdca5c9ebb0",
+      "size_bytes": 3475266
+    },
+    {
+      "path": "data/device_datasheets.json",
+      "source": "datapackage.resources.device_datasheets.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d03c7d76c3d3868638720ea0af53a895ce61941b9f55851ca1aa989ef975062c",
+      "size_bytes": 3122
+    },
+    {
+      "path": "data/devices.json",
+      "source": "datapackage.resources.devices.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "30fd896dd5c78e21c3138d46e34d5476e1fee1ab61f2490b4a1c3e0825ec7fb7",
+      "size_bytes": 5727
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S001_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4cafb332825e3acf13617b8cbf8f6a1fd252a88b0223850db242eb57e9bca5d2",
+      "size_bytes": 2198
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S001_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5b2753e21b2fb24abc01c09fd317b01a18b6ffddc0adac65c09bff554ac4f6b3",
+      "size_bytes": 885
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S001_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cd7f78af4a992e0af46e90aef3576d3bbf13fd19080bc4d55ea362d09e2ceb11",
+      "size_bytes": 32943
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S001_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "abb347ba865b3a0d57188274fe3dec072c1a005885605b67136fb3c8c0b98c5b",
+      "size_bytes": 1333
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S001_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f94aa3ebf9c560ae392fcb8c78cd3364ec5a7e92087b9230d9afa60dc5d8b375",
+      "size_bytes": 1514
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S001_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0d2b5a1bb2586abdc3bbdeb384c61b9c265c42868ebf700fb73fb4dde6856d14",
+      "size_bytes": 564
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S002_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0a0c99137aa2fc2718877e1a25e5ce10a5d674a03ef5f468e5479f24dd9cc505",
+      "size_bytes": 2277
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S002_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3fbbe22948b6850666c98ed32809fb0fb80305a5eec322e2dd8f6d41256bcbba",
+      "size_bytes": 1599
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S002_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f94cf3ee73a3cc480a0b004f343abb4512cd864a8ca605124981cef338d13b07",
+      "size_bytes": 32473
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S002_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "066afc4117923dfa5615ba8c0cf5773726356454e650514ff600a72da448d0a9",
+      "size_bytes": 1546
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S002_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4cd651e739b2d17eac7641390310b1458201a464191acccf58ee6de4e025f0e5",
+      "size_bytes": 962
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S002_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e980ac0e5befc5bdc821bed5037f3c8b768b006f9f73ee7c8e9c4dd664f970e5",
+      "size_bytes": 566
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S003_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1aa61641d5d72b41eb9cf0539f25d8e49f314261fe523af4d292db02004af2dc",
+      "size_bytes": 2119
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S003_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6f9bb6bf31289fabe132a3c94f94b3fe2ded1713c5c9040e6aaa31626d66baf4",
+      "size_bytes": 789
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S003_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "65183197000b0cf3249f7b984fbd9eccf6085fe857037adea772b6685244f330",
+      "size_bytes": 33082
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S003_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e572a5e672b2c34c7a929e1259ca7189579f7920ac602fe0f0e52a3899abe548",
+      "size_bytes": 1175
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S003_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fa6cab37d3bb647d1e97999dd2d9412c16aeed6d7d51df4a18f1aab5fae9683f",
+      "size_bytes": 1084
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S003_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "da7696c0a0d8556cbdfdfbf3cb4aca335cc092278267028512061a852572ccb0",
+      "size_bytes": 566
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S004_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "83ddb2b87b3b83e41b545cac1b20c2921506feeca6bb642610bafade78b6e869",
+      "size_bytes": 2040
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S004_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b478184cfea184befb56ba0b099372462ae99570488e821c0634da479e8d816a",
+      "size_bytes": 889
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S004_experiencelog.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2a5afc04a4b7f1682d15c466c34c1a13ee17aa836fd8295ee2c39e8e18586c5f",
+      "size_bytes": 1124
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S004_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9bedcbfca0f3d55d6dffca5f7438206b4f9ad8b22f0bb6d6bb5bbe9d6e3c999c",
+      "size_bytes": 30787
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S004_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bab36fd0e1cf18167b004612034c034cbf8616847610f1a0e5caed66b5c28527",
+      "size_bytes": 1701
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S004_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "29149ba8e07dc1d1952c8d073a21eeaad64bd84b7ac587c0f3b1a09db86d426a",
+      "size_bytes": 896
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S004_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a25798f727d0786393946106cadc8bdf1aed9a5b407e55d8bcc9cfa411a52ddb",
+      "size_bytes": 566
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S005_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6a975ed5f0f0f3bc5c7b9b299152965c7410609d577301f321e4b8502565d115",
+      "size_bytes": 2277
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S005_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a61953e177e0e5400856a43a70664ddc3c936fdc1f4d7ca24d428bd9cebf9154",
+      "size_bytes": 812
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S005_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0d89e10780c74fa4916331d0955ce9bf77e19115a8f86ecf2bf4185365c4deff",
+      "size_bytes": 30734
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S005_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "028429804ddb64df8da10231b7d85e671fe941c50a038b68ffe0880ab78fa78b",
+      "size_bytes": 1486
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S005_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0c6f220a3214a683835f7cc8a2c2b4ac3237d2f76202549992d7709eebf2e7b7",
+      "size_bytes": 1305
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S005_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "52ecf57ce28daa836cd557e0451bbfe186808177d86a4898677f006f9fd2676b",
+      "size_bytes": 566
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S006_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "547607bf10783a013c7be39054e62a753ac93cec5d96849dfa309292cc0bc6ad",
+      "size_bytes": 2277
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S006_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1c3b9b42052b4c790cd7c139a2562384ea3836eed97703ed46f25ef5ee38a020",
+      "size_bytes": 748
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S006_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3b1c6c458f212cbb5d053b1faedd7438a909949db4bbb2a4f18faa7bd716e996",
+      "size_bytes": 28587
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S006_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7f52961de2b9e2e5d3a1bd3a6e0163148d11b7938ed03518914f6c14ce2d2e54",
+      "size_bytes": 1176
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S006_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "be6caad3202c144fbf28d6e6236720f5909c617b8d063a6e6e766f80ae23b06a",
+      "size_bytes": 883
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S006_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4340e970ff32ebeb656fb49f87363bde2e180d1bd9c35294ae58cf6186019171",
+      "size_bytes": 503
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S007_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "106a9f6e04ceb4bc4d925a42c5dde8c7f106f8f0170deddd23eab4008988d8d1",
+      "size_bytes": 2040
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S007_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "604b6c2081844633894537abe81173bf9c0a2dc97519b17369db6a7e252aa76c",
+      "size_bytes": 791
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S007_experiencelog.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "87ba6a1d836c8d2501a9389895117202d417955927ca4489529ded487fae4f48",
+      "size_bytes": 632
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S007_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c08527f2345160d7f452caa68dc5f1232ba8fd4b2a588be6c0bd075aa628b5af",
+      "size_bytes": 30500
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S007_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "663820a15d7f1f1f9f2fa9e383e3558aaeae2ed1ca919a32c2069544c7f274fc",
+      "size_bytes": 1206
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S007_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ba51a819a6298b66906a9525bb22cd70b18696be65fdd1d3d2671a49a5dacb5b",
+      "size_bytes": 880
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S007_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0797ebd58d664bef7c7ff2b4445a4cc76487077dbd4f76994bb270ab7b7a7a7b",
+      "size_bytes": 566
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S008_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9514ace83c503604f59bcc419370dd478c3e0a7e9afe240625b70be45ca9fa5f",
+      "size_bytes": 2277
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S008_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "09abe986687cef176771e09701dc7f9c47fa99e116daa1c51646d0c4e1d2abf5",
+      "size_bytes": 531
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S008_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "98cfab66679bc59b74573902151859926c4b3403226a277ae477ec23103f13c1",
+      "size_bytes": 30210
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S008_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cd0fc92a2630e4159bca7cb8edc8226bf86e84d2c144c7050bf28b8a83995d50",
+      "size_bytes": 1009
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S008_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2ce07735bbfeb80684269709aae1b85ecdd75e051d42ce57ffbb54cf414f1581",
+      "size_bytes": 694
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S008_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8c4485894ce15cb2ed4abdee19939d768963015071d19cf4cff0592f6c0df6ba",
+      "size_bytes": 377
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S009_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c89f2c7e756fed860017eb74bc933ff3746d1d930f72d8532ec66bb4be317035",
+      "size_bytes": 2119
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S009_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7d9b3ce2d24dd06ce33405e56f295c318e2863f1ff434370ba7b4d51b3f7f79d",
+      "size_bytes": 821
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S009_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5e5feec6b018314aa1214c58043a91e553cd3cf8145265883573d488ce2ac1c8",
+      "size_bytes": 30305
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S009_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b60f04e907bc31170381e14937f837596c0ba8872a4f78e396b3b982850d8f27",
+      "size_bytes": 1262
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S009_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ca6998750cd93d448b514059344f901fa1b5735d76725c678461c9908dbdaff9",
+      "size_bytes": 1200
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S009_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f1159145e24215ffced7bd974e9cce1fedbbded4e0fd1d64060966efb1c2b727",
+      "size_bytes": 565
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S010_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0d7ad1517df5d58984b246783a2f523953ce03d3179f2984655947acc2b5d2a7",
+      "size_bytes": 2356
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S010_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b096d63c2ca324e8d4b086eacff5009a0c688c5a8813f3338b4fd225dc78e6c4",
+      "size_bytes": 854
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S010_experiencelog.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "843dcef9b409bdf84d31896273d64a9c87a583d1496043d1a228ae197c6d503b",
+      "size_bytes": 1040
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S010_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4d562adf0739c7fbfece5c4326aa5fbc00adeeaed4861b2b65e2689772504283",
+      "size_bytes": 33473
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S010_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "58c74b2a5f551c2f7c1345b06d273cfd94e1a4d3c0c92f82dbee637a389ab9ff",
+      "size_bytes": 1440
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S010_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a107c33f03a6990d59781f423770a4ed5700ae0cf040194555c841b44d009014",
+      "size_bytes": 1473
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S010_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c3e93b461028d337c9a2c2176755cef1ca344a98d314627f13d12e87e8b68cfb",
+      "size_bytes": 565
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S011_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "042d112982d59e9856320cfd5f531c7b1cf67586eaebb0462780e39c196a705f",
+      "size_bytes": 2040
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S011_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "18bca5f7eb9f6f6fa5dc512747630f0c0c362498f68c91771c7e17526d7bd1af",
+      "size_bytes": 345
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S011_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "94dd82555c1f47773afc397c8e153e9e9670404feca17eea73c9b4c28ba63bf9",
+      "size_bytes": 30991
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S011_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5f6056164c7c2d20cd8ec3ed4505c6204d878a938c58782fc060699c2398d284",
+      "size_bytes": 1164
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S011_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4abeeb36d426dee1e85600970929aac38b3291ce922b5471c84e8f05b92d61ba",
+      "size_bytes": 1209
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S012_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8d6ef88c8f0f397725f79b9d64690a8c7bef4935a1586d3c7b3bd86cb93a5985",
+      "size_bytes": 2593
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S012_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "29c5b47c15edc363a91d882f9627fbd71e38ad96a7457714a119facdf63fbd16",
+      "size_bytes": 1124
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S012_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1ce1443d5f10ecf310632bcedcf152eb26f6e6268c9c57d7d942a3245dd6e212",
+      "size_bytes": 35486
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S012_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "369bc88d0b822ecdde467a8e974d5347b4590a0d3cdbd028b6f93789d04c9a33",
+      "size_bytes": 1490
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S012_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4f5b4c03eaaeada7d9bf9ac445a4eb22c21c1a4b19a6a51af7abd67313dd4b01",
+      "size_bytes": 629
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S013_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "83b71ccaa08ef889b459f3d24048881016188dbd3379f6be0a401438f9a8744e",
+      "size_bytes": 1882
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S013_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d29f1b3dbc3786c01624006b81643c813ca89ad8065e53720ebf8fbd080a6e12",
+      "size_bytes": 777
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S013_experiencelog.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4f5b985da5b9da2e3ed190a147e9de669c89302c632e74246eb805b73a23c29f",
+      "size_bytes": 1153
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S013_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9c1b417958754aeb361937e68507ca6edf4b8fea2af922061db0d9c6ce68640c",
+      "size_bytes": 33227
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S013_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "22530a0c97bbca8f001dc266207154f746ef307b028e099c46afc4d240042f49",
+      "size_bytes": 1412
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S013_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5a2d67b92f09ddb0941d0e21ae70a60bacbb06997f3770f5febe7d9bd3ebfcc6",
+      "size_bytes": 886
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S013_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b1e4c24864dd598b1294a574a8359ef07f0881fffe6be4920c4321219b1decd4",
+      "size_bytes": 503
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S014_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0122518186457f792f0022e85e192f447a0afc0bed33352195be516e5569cf2d",
+      "size_bytes": 2356
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S014_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "40af22e94281ce1dc292097c0fce57dac7173004356f0f1cf5a921f27206c23a",
+      "size_bytes": 1263
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S014_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "473682718c0a85668e7b0ad6b643b5e10eedad94454adacf72615921d9e4f0a9",
+      "size_bytes": 33881
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S014_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "dbe7e9d4a80fa681097182aeba19f8131adedf1d4a8a7635e5cad144b82b9b7d",
+      "size_bytes": 1195
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S014_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "00290269594a0d95d07a5ee8fa6be9709f50b1a92e8ed0e232ff1041b758c595",
+      "size_bytes": 1514
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S014_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8af300a6bb338208dc8895127d9a1b28153c615517fa78c2515995522352bc4d",
+      "size_bytes": 566
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S015_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7cf55c9531bc502ede36963bca7fe2028ab0b7d5c9d8deeda48689198ee034eb",
+      "size_bytes": 2119
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S015_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2da424be27fd20fd4eb360f85d2634be84c98b6261664ac96e4b664579acb04d",
+      "size_bytes": 643
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S015_experiencelog.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "87b0c579b975871d43379996d8db5a5b23adfafa2b536cd8b3d73c9e451f2a90",
+      "size_bytes": 413
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S015_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2ec2c3f83382e8930f610d29cbbd4cd63e58f6d8f4ac43f31a69dfde6c59c0bc",
+      "size_bytes": 29340
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S015_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a27fd6138159c46e4ad555ea8796052fc7e8e2622ca2ad9a28cb7c998f268dba",
+      "size_bytes": 1222
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S015_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "617dfa1e36272f07690273bda7d37ddc94ddd5a3ee005e80d5335b01e0f937d9",
+      "size_bytes": 1120
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S015_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "11788efe42a017140d2d8bb2885582380ecc8cef8a7d3dc17435bc4f06bcbc16",
+      "size_bytes": 565
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S016_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "87fb0f37b116bf7b55290f0100c148b44542c2f023aa1ae7c4ee644e448369d6",
+      "size_bytes": 2276
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S016_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b6e4fd2cbeb2ccbf0530f5d333d5b92ec5985333e2d75ac8f17b523cb693061d",
+      "size_bytes": 505
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S016_experiencelog.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8bf784fbd3134f239a12c8b86dc3bb24b271950898f5a46a99ceba87805a8b9d",
+      "size_bytes": 676
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S016_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9af58b4190bddcfb94b2a93fe1758267457d45f0be6a8177df984d4783b2b4c8",
+      "size_bytes": 27969
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S016_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "eee8077b6d82f641224f23f460a09cf34f2bca0ce265bf39ed96d0412f2d080c",
+      "size_bytes": 1220
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S016_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f27640c6ea7b3be719c5c9235879bf86e559924fcd32b86affabc4613e5293a0",
+      "size_bytes": 1280
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S016_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5f00ce4fab729159fac48afb0bdd6e3d2d259e3a3fd660f818e46d82478e78fe",
+      "size_bytes": 566
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S017_currentconditions.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9d9902ac099685567dc11ed49f08ea54c217333a60f70d86cd97272e35f4d332",
+      "size_bytes": 2198
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S017_exercisediary.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "646d9a8243e4f00168c3017a99c4f7a5a9c129e65e47967bac0cdfee315b4a87",
+      "size_bytes": 886
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S017_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c8ebf2ef829bd9f1ba359debd4fd08c6048b6d3cc30dcc3aade7971ce6129635",
+      "size_bytes": 30669
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S017_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a81d42135eaecb7594471a503d3a127800e314a29b429947b1af56eeef7cedb0",
+      "size_bytes": 1090
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S017_wearlog.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1ebaf1c387ab4142b22970f65bd7afdbb58b20b96140810815453b43f8d71fb2",
+      "size_bytes": 748
+    },
+    {
+      "path": "data/files/longitudinal-reports/RISE_S017_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "17dc0667eeb7debaf86be6f5596da438a5b1a4ad2cef2ac76cdfc792933d7328",
+      "size_bytes": 566
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S001_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4d996d7fdc433be85a438aff0847e46887f7be72aeccb846be68551fb5500d49",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S001_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "60ad88e0a8ff6e9a90b38e2fc2ca43a405b18b2e13821457c039271a276cb365",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S001_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "150526d21952dbacba80519db91d5debd015e82f2da6807c7d5649790850f86e",
+      "size_bytes": 228
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S001_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7dbbd4189cbdf782e0f7559f7169c2b7b3eba47c21c881ca2bd8bfa1aa40540f",
+      "size_bytes": 128
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S001_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "04a09d068a9ee868b739177368e67a5172a41ec2a922f3e38384796ee44efb1f",
+      "size_bytes": 3148
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S001_health.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8784370b7456d4999e1bdb9c19eb927e34472320be1ac017a983bc7198c6d3c2",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S001_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7c15273f31b02082e67afeaa08fc5a56936662f5c0625a3de801bfb89b97b556",
+      "size_bytes": 368
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S001_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4cf6b09206f1c28a0ece020026be5204b9dadaa9e5eeb68d6a03abda9a2df8f1",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S002_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "edbceda557eed757225a9352d5692a8f6143d7cf5f45538c04f68074a5dd1a9b",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S002_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "64420d2af4de3eaf5a419b1981ce3ef2790f26af6c5b815d394a6af6b6602ac6",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S002_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e3674c665b9aee606f40d5e998f51b5eb55fc125b83d3d462b5d4c86b0118e44",
+      "size_bytes": 212
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S002_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8c52eeaaf224172ce9a02b574af00bba33ef31b03e46b724b39f025d717a654b",
+      "size_bytes": 128
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S002_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "44b5015737d764c3a883415a66b18b011b4dce84be8a15639aa1e2cb2c929128",
+      "size_bytes": 857
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S002_health.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "49ede8825620fa50ba1f5a977bfc9d65faf791d1edc20fd8e2f94524f696c093",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S002_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d23bddcb1f80b7d20a2d23127f3dd1baaa437bca95558ff7d55d90931699ad1e",
+      "size_bytes": 369
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S002_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "63df251a24b72332ed70fe6e25d390b17e3997920c4a765d840471fdf6775e9d",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S003_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5e405917901bc3213a94b72e0097ecd4dcb3209fc0aae0b384a6c9ed2aa1e064",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S003_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2d419399597b58502c81fb6df6191560fcfa55038aebb9192af0774ea444c792",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S003_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1a2f31413827024d68c3b19a038ba972b24dc2ba90e215d6d46f0c8ecea3bf37",
+      "size_bytes": 226
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S003_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "844a59cc895015a633ef6801d520b73e2c2e5074206dd63adbbf321610fcd665",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S003_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8da80d20154c6bf430ed92f304cb12088b236f499197aadec6ae22b5bee151fb",
+      "size_bytes": 889
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S003_health.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a603a291f466c7e63ab60c7dd0b2cb4bd4d20b8538dc821f2792c0279d61ab00",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S003_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8d03c91dcc97fe571fffec62c27ef4c6b46c022014195fd5ff82aeff5391291e",
+      "size_bytes": 369
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S003_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d6f43f425be30fff184ab436835e56694ef16c69c758d1ece613270c542ae517",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S004_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c2d3a0f18b815439cc703387933177ad46a9808fb3145b3ad2ba623cb7a8bdc3",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S004_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "908e9c86e8be1dc4d2f69932174798b8df7eec234e58b5c176e30f52690e2806",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S004_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "64aeaef6a844cfd424b7f8c68ec7355f7abee8080c7dbaba5730e3ca9c005b9e",
+      "size_bytes": 218
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S004_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ec256fe781b097e248cc99b8ec0964f677b533c5f58f8db9a832f458c2547abf",
+      "size_bytes": 128
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S004_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3e8f9d9a8689ba8b845b657edd84f551dae8501325d84da7932e306a585f480d",
+      "size_bytes": 1394
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S004_health.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9aff158e463042df2930be40852eaef72724df6609c0f61ea8eef76f1a2c2b24",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S004_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "34e05464fca78578fe2478c9b6114f94c1630ba75bf7aed26f68c35a3be7dd58",
+      "size_bytes": 369
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S004_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3984fad2b393707eb22371fea622b4907a59b5abf974c986579bdd1154d10d84",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S005_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "07197c8f428096b5af928cd276d565c9fc86ec9ffd886777ce655105b2fa92df",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S005_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "080e75cc4497441e495d056be081e7319afb899bf1451ea03bb6a57ea7859b61",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S005_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ad0711a1b22dd60bb07841a17f1e0f5067a6282d8ec6967f850cc0133325b3cc",
+      "size_bytes": 192
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S005_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7b8949a86efa70d255f150d4f7b2594bcdb39240744858907f984733742907bc",
+      "size_bytes": 128
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S005_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "504455c1ffcc3758dc30c0f6c6b5b4fea22caa4d044461e29bf0cca4e9a2be22",
+      "size_bytes": 1165
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S005_health.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4927961ee9ee49ddeca3047fb76e2f825c00aa3052419790d00c6e53c9bd3445",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S005_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "46401eb230d847e575b87aae5354b600d547e8acf1740726275c890d3cb4a305",
+      "size_bytes": 369
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S005_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a4e01ac9474b8e424cf8dfb923d28a95c0e31f438db9c6fb3bdffd132002976d",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S006_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c97bcfa68e8e9ce13b412d055b685852f77cf36e4713ac12d59eabf29ee9f85e",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S006_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e531a22797ffc898774fe192a626ae47ec61a9afdf5556cfe5e3cc43eb2bd902",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S006_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5699bd34c6383a55717f919520fa4641be71ae3ac8e202eb778d0ef92245da2a",
+      "size_bytes": 216
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S006_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d34e1e487d0facdebcf333660590bec68bd4d9404a57ea93593c9e5fa3c9f7df",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S006_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7b124e90bd64423e62d02b79e66cfe70931b9a40d9a2b176598ac817bda0377b",
+      "size_bytes": 935
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S006_health.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "956fc585251734343689509e5b372c17143b92cdcbe3c65e5376c193705a1b79",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S006_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7e684c24412eeb3b02af953322fa2c919f6f6d0178dc4347040211c6ae2efd1c",
+      "size_bytes": 369
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S006_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3e9146ab2d0492d37403ea29a5eb04b8a0092f50aa8e79ea5f26a96d323e1bba",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S007_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1a47781c68861ecbb7a3f325760d1473ec787c3a0c1401ec87ef068cb914f12e",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S007_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "96348ee691f9f344a612b3f6b236c0815813a7a6a7e574b55529c6387debbbb9",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S007_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b07ef321fb39ec71c4becc8ed641b62a80c54c23ff0072ee2e9093578899d55a",
+      "size_bytes": 224
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S007_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d32ee31ec2ca0a7c0f458ac1e528770739c5a1ec2e4ff06dcc0fb72b762ec4b5",
+      "size_bytes": 128
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S007_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4cad67f7b232859aabd63ef74b0eef4e51f7ad2cfe36ca2675bc0324e35c5ed7",
+      "size_bytes": 1880
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S007_health.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f75f6076010d5afcb92f9ca1476201a9791bff1af3009f97103f067745d748e1",
+      "size_bytes": 165
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S007_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "49b10d9f245dc5c0ffbd428048ff2759a486bb0dd46ba3effad7662740f68418",
+      "size_bytes": 368
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S007_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "df8bc65ca7b368bb427f400c5d7fd0e5d06c76be87eccc91cfafefbcbb5639b2",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S008_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0565e03d632ad4bafcbfa000919ea3696987eb49da9e91e6c474d151e05a06be",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S008_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d87b5448bc305425de1ac068ff1d45aea334767d29eb3f7bccb8cc24e6ed6269",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S008_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a4807a8673d6904e453d4a32f41e1a57744b6873ba7000c4c9206fe1a259024f",
+      "size_bytes": 227
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S008_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3a25068c918ce45dd8cefdbe0fa83116e7c4447f53f1c38668bfe2f1540f0c10",
+      "size_bytes": 128
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S008_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d63a1d3549e28d35cc056bd2d9ccf2023e395b62e4017984d7a8308fb41c5f48",
+      "size_bytes": 1134
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S008_health.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d930401a8c93369c8a623610610e87b8e940d43cc9cab28ddbd6a078ab7533aa",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S008_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "aa79d4a82f39f8f262aa2f5287ec3e7fe5bf6c965c626b6e2cf5e73af2f44529",
+      "size_bytes": 368
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S008_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "14eac671c5e196818e0234a66288e2b1cc182354e01520d3263020fe72f371e0",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S009_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4d1cc5a7efa75c02644ac7897d128b47ac8f93f9cff4b7fa17db838804f73447",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S009_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "922ce65adc8967fceb16897c5965bbbeb0881f8c81d162859aff546b9a8c5fb7",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S009_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5dccad498ed495a5072cf4d414da44c2c456feac671864d33289a95c878340d5",
+      "size_bytes": 203
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S009_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4dd5d88f57247ffe473ae6f9b78821b2912e7a80e83eff672e23641df2283521",
+      "size_bytes": 128
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S009_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4587f708b3fd24c0af6d82d594b4d90d5d0acc5ee71baa05907e19b48dc865ae",
+      "size_bytes": 1353
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S009_health.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ff5aa797c78b0ab7270601808e75b749097925b7336dc10602b98115c32c5887",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S009_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8b563581c6b861ed5841df493be9e1fbed09c0f8db6301159150e65739c0b73d",
+      "size_bytes": 368
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S009_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "22c7c17b67e7619a14e6540494eda66ba2fa8bee21717795acdb7680c2567144",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S010_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f8d6820d1275a9a7a8bed711ffcacf06829337873656ac9209a2a6e23714b905",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S010_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6fa9b7cc7d4354322ac1260d5885e3f368ad3c43228ea49d28ad0a05983cfed1",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S010_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c53213e827752dad8b8287b6895fb5c895c27416efe837312459be3d0adc81bf",
+      "size_bytes": 175
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S010_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "612e41b3933238ad0eae3628f3a43cdae1dbf7b08894f41a57b4af9cb2102985",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S010_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "963dd961db672623548bcd517575e1444a259cf587fca28e8a689d603567afe3",
+      "size_bytes": 2308
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S010_health.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "76247c4caf97841b4e37eb00431aed9fd42b4e6392e9bfdb8cb887352d3b25aa",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S010_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "34d34a5a1ee982c544ea0ee45ab6749d441bab6110cb3f35f2abb6820036760d",
+      "size_bytes": 369
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S010_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c9046cae4905a56d917409824d507785ab4f5372bdc03ef49cca16a8d601aea5",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S011_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c811d266b269d056cb1a0d2597515296f23883cd1f7155a84bde6c37b35ac1a2",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S011_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8e14f8e9d2d598d6572f2fb4413fad2fcd0609725bd2ee227369ba908b941835",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S011_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d0c72a41ba9aa97bba5d08cbf36c0515ba215fde6e22806e4ccf4d43f2c0dc9e",
+      "size_bytes": 202
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S011_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1e63949db81be8c82f6c00c811bbd2ab9ef0ee85e428c6047b299a90d8e13d4d",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S011_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "48ddb98d89e1b8507d9ca24313478d86fca93931a064b220609c05c2c2e95ebc",
+      "size_bytes": 1274
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S011_health.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6901fd0b3ced452f975cdce596de69f97e942ff51ec947b045450b88d5bf043e",
+      "size_bytes": 166
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S011_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "01f741d4580bb30e05f116f7cfc327470bde4751d91081df0a8a32d12da79c5d",
+      "size_bytes": 369
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S011_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f8a1743cdb186a13c795986fa070ffa25ed5abc6ba11e67f94a643a21b5cf2b5",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S012_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "18d6467fcdcbeb609590d7f6e00e3bc1661949cc1f5c5232bca325c7d3b513dc",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S012_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d65f90be1eadd8173999baf251eeddfad964299dbef9e0954fa11c2e590c0783",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S012_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "aa10b6da4cf64188706d23429641fdc232e398ccb31e9cf275cd9a08aff08a38",
+      "size_bytes": 194
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S012_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f5d2775fcc8aa6d27e25b45da25076599bfd8aed40960a9d07e8c939a86999d2",
+      "size_bytes": 148
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S012_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "04e51a4e8f23db289d3f3ac2ddf785c19779d41ca4afaa55a6dfd22bda5bc3ee",
+      "size_bytes": 722
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S012_health.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "08e4a5147cdd6c1306730e076c21a698ff488dbed2e4dae7544991b1c7f43216",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S012_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4a05aaea1e6343a4278dfb5e229645e1f553da3c6b35e0df7e34cf30109f8e6c",
+      "size_bytes": 367
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S012_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4db129d16b8cefeb252f9ddf7bc26cd521fb6875c9e190066f5b898a81ab5403",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S013_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d67dfac7d76cb1ff6115126bf6d861a0d34a1c3be71702ca2da38d4cc446241c",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S013_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7d0be210690d0ab0cc7a3511869157d2eef30836fd7f56fe2cfe73b57587afbd",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S013_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "72f5ce9ff04d353aea62374ebc6ca09865165b661303cd834a581de86e3d8de4",
+      "size_bytes": 227
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S013_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2e7145d8171a1232a82b7fe3fa7c3000b16124eff9c41e6c0f120be5dc6fbeee",
+      "size_bytes": 128
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S013_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "263a949fa9c5afe922afda5fef2442bb19cfddfc9c0efd9c82842b203fab60d9",
+      "size_bytes": 4065
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S013_health.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "db5be91a4d3e3bf19ae2768158a987994616be1b72d6a85fe987973b2c443b03",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S013_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f179b65ca842aab1160e01870427a7b5da39de3bbf3a9c7e3cb3bb1067bb7e65",
+      "size_bytes": 369
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S013_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bcccbc97927d7d7997bb153d7ac5381caa36252731fe90496b7ea8e208b44e73",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S014_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f8171387fed4bcb8fed8baaa2a167792f8f03aab303a66fa7ca8c68690f03693",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S014_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ee91a5edbe655bbc72d47d9bf1943bea7198acfbd31b53df5360851f3e72375f",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S014_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ac23f155f30e0c87bcaef71189f4ec073594918716c3bab430eef66af16595a9",
+      "size_bytes": 161
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S014_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "48cbde4bb64764c8f493ebfeb549329bc79a231f4a68c081c02703ff18bce82f",
+      "size_bytes": 128
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S014_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1d4f3709fb91606bf0cc74c2441cdc0522e4f49be089abc0c972b25eb0610e1c",
+      "size_bytes": 1287
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S014_health.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "06b1d357e766f625cfe015ed6ddfcf0b0977b740caa6d6e37cc3fbf624ad69b9",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S014_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "726fab5b5823986595790e80386a17a8e6c4fb8b7c638fbcce7e28a2ec6a2cb0",
+      "size_bytes": 368
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S014_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0c7fd7619a149b7cd9376098c58bb98f9f9577fb61658c70962f9ad6a85fde27",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S015_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a5561ea97b6529e20cb7c6b11f6609f26ebda394f18a8c9e7afb00d7d12fa24c",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S015_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fd3db2099db1c515656946d1052572b0f0c2cf9c310bbb5dd273ac34a5dd0989",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S015_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9f2f5b6f30a87ea3bfd6a3399926d28dd6047713f74cc9ab0bb724b13497a3b8",
+      "size_bytes": 178
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S015_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4b776398bea264d0156e2b37d34ee33a58840392a8a4b96a0e1894a4f5e3d093",
+      "size_bytes": 128
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S015_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7e5c6671ad0ce4374f33b0d64bcff18e54b6a4fc436931e9999b18a7d45f6dd2",
+      "size_bytes": 1329
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S015_health.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1dda60d436fe58ce7169ad660661e7ea26e2e7f46fab814184102041d31276ef",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S015_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2279bf471943ce60ac1aab51998d49e1415becd7d9a401908dd112dcb8d862bf",
+      "size_bytes": 369
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S015_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ba50cb4afe210eab5647da6208a1f534bfb2d08bba32c6f0e319c01cac5343b2",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S016_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "10f86ece0d05dcb3ba153cab07eecd3b3e9468a7fda90d5a7d6a2e1e4e8f606a",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S016_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "188aa21b935a7c12f981d07bd5df137f16c71c92294f4eb661548ad49290f378",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S016_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e862dd10aab8cacb1b1de0f65320cd346fb1967fb8ea321d2789315f6073993b",
+      "size_bytes": 200
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S016_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b3b4b63de082f20a5a1db0b5c427b0814ac9cbbd26148a5480841ee7cc475fef",
+      "size_bytes": 128
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S016_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7780e112dde5acba89728abe1745905d53724d9d096ded114a571ccb40a86bb3",
+      "size_bytes": 1491
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S016_health.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "433237ec5f71776b8fbce7f517e4244c9c5f700f012d8556ea99025d0ad619b7",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S016_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "fd0738b725434a24f65a62a9bd5135f09344eaba37108ca2eb8abdef168660dc",
+      "size_bytes": 369
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S016_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "99306c779aa058a96ba762c32c44176be03fbeec3717e92b36996e156589e79c",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S017_acceptability.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cea0533ab23b28f228499319d0453115af9d3a9e8a3cad57f1364635535a6a95",
+      "size_bytes": 187
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S017_ase.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d74ebec25c0f5a2647145e897970f96ba7441baa4d440b3e07983a7b4a856b58",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S017_chronotype.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "aca5bea03457c8c0933629a9ea1bbb29689545b44e982c74e9340156fb087a84",
+      "size_bytes": 203
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S017_demographics.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b3cbbbdc2b9fd222f4e2821a32d446a5b2cc9af94d4fa49b8647d5f7f350de3f",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S017_evaluation.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "891492839757a76465e927431c66e9535e27a5f045c62114f2eb4d44c8eb5a61",
+      "size_bytes": 809
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S017_health.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b2605dec640dc5ef55a511b3cae0c4b4279dfcc18a8a8c2f0e5d84e1831440e5",
+      "size_bytes": 130
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S017_leba.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9c48ae306cc1f4078df872fc017f8e34ceb598a0fffe002de32dcbbdd03c0c9e",
+      "size_bytes": 369
+    },
+    {
+      "path": "data/files/questionnaires/RISE_S017_vlsq8.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f6b2d5a5201a4e7e90528b75abc9b7de106c3d743c629321618125984c7155b7",
+      "size_bytes": 146
+    },
+    {
+      "path": "data/files/sensor/RISE_S001_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "18807dfb497235c1eea9dd7b3ed04b8222697072ccc56fc0efabf14a0d21ac29",
+      "size_bytes": 9730020
+    },
+    {
+      "path": "data/files/sensor/RISE_S001_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9c9556a16a0eb9952b72e87e14113fd10170d1abf7399ab4af241021925bd588",
+      "size_bytes": 9945543
+    },
+    {
+      "path": "data/files/sensor/RISE_S001_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9980e0fef2e4085d4cf6cff5f10bec91317bea3f3effdfb61051d9cc5c8bf62e",
+      "size_bytes": 9641373
+    },
+    {
+      "path": "data/files/sensor/RISE_S002_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b23683b77ea35b1f9674fb6c8a826a6df65c6e247621f80abd6eda2c4adfc815",
+      "size_bytes": 9855594
+    },
+    {
+      "path": "data/files/sensor/RISE_S002_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d4ac91308fe0b179634b08a9b7ff059833aef08ce6ef0766c616df827ab71283",
+      "size_bytes": 10169745
+    },
+    {
+      "path": "data/files/sensor/RISE_S002_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3095ecde4e98039ab32defe01a88e78b87ff9d40ddc9cc80a2adbb8eeabe3767",
+      "size_bytes": 9745174
+    },
+    {
+      "path": "data/files/sensor/RISE_S003_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "789acde34edf96663dfdb2512c3b3621d422a8002fff5206f2736f865bbb091f",
+      "size_bytes": 9416199
+    },
+    {
+      "path": "data/files/sensor/RISE_S003_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bb82f11efa07a4a8f52f909f42c6a1309d2320f8c66f6f5918bbdd293e5c3dd8",
+      "size_bytes": 9693442
+    },
+    {
+      "path": "data/files/sensor/RISE_S003_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "09ed4a5d6799f606414062f9adefebfd3467f9a9a0f195e290aefb432d583807",
+      "size_bytes": 9209828
+    },
+    {
+      "path": "data/files/sensor/RISE_S004_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d8962666e941335a96f2f220fa27d2e9f267b49d64e646a810a5a3c4707277e4",
+      "size_bytes": 9680990
+    },
+    {
+      "path": "data/files/sensor/RISE_S004_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3608f4f7f02bf30a29982c1acdf8b8f105471b65571588c89ae73d2f62d36ba3",
+      "size_bytes": 9991743
+    },
+    {
+      "path": "data/files/sensor/RISE_S004_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0f1d34d571ac9f2d12accde601414f4047116fb6d9435ced0ec46b0d4143ea97",
+      "size_bytes": 9336369
+    },
+    {
+      "path": "data/files/sensor/RISE_S005_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "89aa40168f55750fb5fb9f3f4ab2d6966bacfad6e9f39d08db2718eb4f215626",
+      "size_bytes": 9775626
+    },
+    {
+      "path": "data/files/sensor/RISE_S005_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f57ee8b51272109cf7bb287a90ba5424f7017229bcfb3c29089686b4d8521471",
+      "size_bytes": 10097191
+    },
+    {
+      "path": "data/files/sensor/RISE_S005_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d54da2b0f9cea94fee6e24ab3354af32017a6c45714299ea88869df522afee4d",
+      "size_bytes": 9789073
+    },
+    {
+      "path": "data/files/sensor/RISE_S006_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6690dd32a3f1151bda0e5fc35a0a2caa65cf6c5069e99b9fe2134f8ad5f25368",
+      "size_bytes": 9832297
+    },
+    {
+      "path": "data/files/sensor/RISE_S006_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "08f97c46bad4dd96df04f48bd489920e388b59447cb958112fce929f5a72c2da",
+      "size_bytes": 10137780
+    },
+    {
+      "path": "data/files/sensor/RISE_S006_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0006f3b88c345c0bf82c6e27bb10c193480527f1623dc3046bcbc1d374272b68",
+      "size_bytes": 9832007
+    },
+    {
+      "path": "data/files/sensor/RISE_S007_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ec91f077928f006a2a80a55a6e4fd9f8a738906a2be2b2e41a3e6895be12155c",
+      "size_bytes": 9736610
+    },
+    {
+      "path": "data/files/sensor/RISE_S007_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f9dd3b41099848acbccdbb305d2ebb2f30bed1911331f5a0ced1f070dc8e9c4b",
+      "size_bytes": 9992225
+    },
+    {
+      "path": "data/files/sensor/RISE_S007_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "49b8c8a1e725a14d404fe3b33e74bd98faeb7467fcc3c7fa7b2c2c926b6a888f",
+      "size_bytes": 9664212
+    },
+    {
+      "path": "data/files/sensor/RISE_S008_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d5b729737aa2dad1dfea036d4db370097959dfdc800aa0204d987bc88a738460",
+      "size_bytes": 9968129
+    },
+    {
+      "path": "data/files/sensor/RISE_S008_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e4d90643c127b49a4be2c07bdcd15b7cd28a03f4c85ca6e03514c4e40f06afbd",
+      "size_bytes": 10172270
+    },
+    {
+      "path": "data/files/sensor/RISE_S008_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7b6364d80df5a3692751d953de062d4bc249a733c4d24966fa8bcb36657fe0ba",
+      "size_bytes": 9892382
+    },
+    {
+      "path": "data/files/sensor/RISE_S009_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7e1ecf09bee066aea5ea5a4f23677e1929020df265256a657feea31a011fafbe",
+      "size_bytes": 9980039
+    },
+    {
+      "path": "data/files/sensor/RISE_S009_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0b0f5df3ade9a9e03c487f0ee66fc02b3f77c5324ed0a63f89e7767e24de728c",
+      "size_bytes": 10137796
+    },
+    {
+      "path": "data/files/sensor/RISE_S009_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f944e3ef76d804d2a7c7af5f41718f50373a4805074c45ed984d7c55517bbe5a",
+      "size_bytes": 9802225
+    },
+    {
+      "path": "data/files/sensor/RISE_S010_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ba2cfdd1744928e176bf6cb77f870fa56c5a0a3354995adcc219c0ae5a3baa53",
+      "size_bytes": 9653249
+    },
+    {
+      "path": "data/files/sensor/RISE_S010_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9257a59d3379acdce0088efff4ae8ce421bbfebcd2e4209efa323a77980d8c36",
+      "size_bytes": 9760389
+    },
+    {
+      "path": "data/files/sensor/RISE_S010_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f72a7d2abd5d2260938a10c5994a4e46cb57c394e5e191c3e26b671f40dbb46a",
+      "size_bytes": 9748763
+    },
+    {
+      "path": "data/files/sensor/RISE_S011_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9bee9f8497dd202af8add528e405824bc718db3d7f6e3742671b8aabe7a57f84",
+      "size_bytes": 9006500
+    },
+    {
+      "path": "data/files/sensor/RISE_S011_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d366ceefe2195843a589b83c58aed06e0bfff153fa1dd6d261cdcfa6dc47c5d8",
+      "size_bytes": 20666906
+    },
+    {
+      "path": "data/files/sensor/RISE_S011_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ca67c1ee0c6d6b6d02b0ce0a08e677eb04be98761d971e11f4cc60b21efaa803",
+      "size_bytes": 9094198
+    },
+    {
+      "path": "data/files/sensor/RISE_S012_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "859f85b4e05b98a1eae8bb873291e69864213247d9093387a5a0e8e023abacff",
+      "size_bytes": 11202187
+    },
+    {
+      "path": "data/files/sensor/RISE_S012_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4fc4c8db63711caf746aa72290b30894050087cec9dbc769a83191c608587eb5",
+      "size_bytes": 11391422
+    },
+    {
+      "path": "data/files/sensor/RISE_S012_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "90ca35e6067fd6c271f4393b5ee94adf57de2d7f5cb9866cb88fb835f9e84780",
+      "size_bytes": 11447465
+    },
+    {
+      "path": "data/files/sensor/RISE_S013_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0ab0438a9779cd3aa37737239744cb0b23568dd2a03ae35cbf781d1dc913c89e",
+      "size_bytes": 9455804
+    },
+    {
+      "path": "data/files/sensor/RISE_S013_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "709a4215a2766e69cde756fa39dbd5847262cc012356eb3391da8e3b85abc5e0",
+      "size_bytes": 9651167
+    },
+    {
+      "path": "data/files/sensor/RISE_S013_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "41778a51e850e2fd75425cdd4723ed8819a6129247ac5c8a778c3661f2a10f52",
+      "size_bytes": 9548511
+    },
+    {
+      "path": "data/files/sensor/RISE_S014_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "47498147a7f80a76a29674ef27827327fc2b520cc9b079d4b5adea99bd67e177",
+      "size_bytes": 9670532
+    },
+    {
+      "path": "data/files/sensor/RISE_S014_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0ec46e6f0702334c913bbe1e10538e2253ba0d498dce537c54de78853bc8d592",
+      "size_bytes": 7305050
+    },
+    {
+      "path": "data/files/sensor/RISE_S015_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "563524cf1513dfad960aae5b7fbe450e608be3eb88085aa4c8c6fe4c1605ae69",
+      "size_bytes": 9713839
+    },
+    {
+      "path": "data/files/sensor/RISE_S015_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d60deaea8e96f97732229127d6813e13b6819420e894e9ff86427b5fbd8dc942",
+      "size_bytes": 9586034
+    },
+    {
+      "path": "data/files/sensor/RISE_S016_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "99e9125f473fb53d90fed009e0f2245d54bea7fc6ca69bacfc7e285ee39fc434",
+      "size_bytes": 9308252
+    },
+    {
+      "path": "data/files/sensor/RISE_S016_light_glasses.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a31d663c8c4af0d32678e44deaca6d03e5946f8a9ed25829e637a70e44dfc622",
+      "size_bytes": 9751547
+    },
+    {
+      "path": "data/files/sensor/RISE_S016_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ff622edb3cea5e161d1c652787ffe42a010df905521adf624a9152a0fbb59b2e",
+      "size_bytes": 9377748
+    },
+    {
+      "path": "data/files/sensor/RISE_S017_light_chest.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "97e4e4ff74ffc664632d9db622c04e09cab0f9796ef643415a0d4ecafde4d5ef",
+      "size_bytes": 9598028
+    },
+    {
+      "path": "data/files/sensor/RISE_S017_light_wrist.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5de7c92bf2967484cb30f1fd77cc49faef188a0319e4bf3f8c9a3b4b9b215d8d",
+      "size_bytes": 9396332
+    },
+    {
+      "path": "data/files/study-timing/RISE_S001_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S001.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "64f9f65b9e4ec14daf6b07b006eef1ec43d27ef8f5fbcfd66a0c4c9e40c81f93",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S002_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S002.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6a1f04b3cc66a0dec66549917382172dd9ef89c4f5445c06000e5a531829d4a2",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S003_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S003.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6e25b9ea911a12236578a076ed778a8625ac7e4e887dc70c2ade3a6c214407fc",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S004_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S004.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "19a4ddfd7ea56761bf12913706b9d892f90b8178f22d32e5aee7296381390822",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S005_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S005.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "54819db316cf015dfaf7da28e33f54d9e7a4d6142088f9ae4de0bb3bc4f2f7bb",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S006_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S006.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "53bcdbc44544622bb784ea1a9576c2a371e730cf98b6ed8ce7782eab3b0ace55",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S007_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S007.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "54c821c4da4b18cd5ed6f70ece10fc5831793a045c2f28d0f083eab474aae794",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S008_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S008.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3bd7c7dfc870e1689d6cec9eae9cb87bd9ff471d80823848b4078c7dd8f64106",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S009_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S009.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1d426a9d2bb0b3f58d7294083fd01dea9d2859172c72d3658f2dc352741a3800",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S010_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S010.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1d7a9e59ebd513a9d1552d97b9c49eb623e77aec73a2f539cd0e974e27b18045",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S011_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S011.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "573ee1d463208dead569fb0ed64b8d726ca269b1e9e95c9d8001788278705016",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S012_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S012.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5853da4c1fe9dddcaf90cc06ac212815964826a6491cf28a277376bc034be125",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S013_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S013.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "220b2a32a5af87aa374fd27e84b1854105173b572b5d9cdb8d69335ac41ca6d2",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S014_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S014.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ca29c6e9c5dd3a1b64324956086761d9dc6472847da32606576a272e9ade4cd6",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S015_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S015.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7c82a68654ad36f4023710a2a411417fa6cff5bddb244f987acacb53fdec8585",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S016_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S016.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9a5610a16b1dad18ea5f2118eefc8d858781e3c799b08c1a9750ad02c1f1b374",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/files/study-timing/RISE_S017_trial_times.csv",
+      "source": "datasets.MELIDOS_RISE_S017.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "659e5818dc3503cb481eff919c5cd806a43dd1ba6271688af681c02215c2430c",
+      "size_bytes": 88
+    },
+    {
+      "path": "data/participant_characteristics.csv",
+      "source": "datapackage.resources.participant_characteristics.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b158c2ca76e334781c71ddab07cae083f03df54c24f7ede66c134a8205452163",
+      "size_bytes": 56214
+    },
+    {
+      "path": "data/participants.csv",
+      "source": "datapackage.resources.participants.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d6f4b19c8603dc14c084a982cc64d13b9c34bf659b701fa906d70d29d08bbfd6",
+      "size_bytes": 382
+    },
+    {
+      "path": "data/study.json",
+      "source": "datapackage.resources.study.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3173a9b523f6582ca8cf3ea43d1ba87bf395394ff0a7d4bf06e61d318b1246c9",
+      "size_bytes": 3141
+    },
+    {
+      "path": "datapackage.json",
+      "source": "datapackage",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "18e97e459fbd173250acd63466903ac2293b2d3af515234cc3382f15143cac1a",
+      "size_bytes": 1580
+    },
+    {
+      "path": "schemas/3.0.2/dataset.schema.json",
+      "source": "datapackage.resources.datasets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7c17e4df6495bcb0fb020e7494889c3f234f9e305b8b73a0db0b37711fd6f854",
+      "size_bytes": 46572
+    },
+    {
+      "path": "schemas/3.0.2/device.schema.json",
+      "source": "datapackage.resources.devices.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ea149188482c5b2d3c2595227b459764b82db6102539cd5e9d8865ea154f7bfa",
+      "size_bytes": 3952
+    },
+    {
+      "path": "schemas/3.0.2/device_datasheet.schema.json",
+      "source": "datapackage.resources.device_datasheets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "44d54895d43683a778fb4d94e0e7339618fe5b5e5c415f77847b02a4739e55b2",
+      "size_bytes": 13062
+    },
+    {
+      "path": "schemas/3.0.2/participant_characteristics.schema.json",
+      "source": "datapackage.resources.participant_characteristics.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2535117d5c9daef19194242404c0e727b3e0927affa54872f88568ebee995b1f",
+      "size_bytes": 1457
+    },
+    {
+      "path": "schemas/3.0.2/participants.schema.json",
+      "source": "datapackage.resources.participants.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e7192bd483a4e2e9ce4fb1a0bedad551335cda287e389da333132509a7e318a6",
+      "size_bytes": 1079
+    },
+    {
+      "path": "schemas/3.0.2/study.schema.json",
+      "source": "datapackage.resources.study.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f1e7196b1458de5ba7678423fa97da8a08d62d6bad3c7caecfc093faa78efe06",
+      "size_bytes": 6498
+    }
+  ]
+}

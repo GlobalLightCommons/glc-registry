@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-08-19T13:51:40.847951+00:00",
+  "generated_at_utc": "2026-08-19T13:55:37.864945+00:00",
   "current_schema_version": "3.0.2",
-  "dataset_count": 5,
-  "fetched_count": 5,
+  "dataset_count": 6,
+  "fetched_count": 6,
   "error_count": 0,
   "datasets": [
     {
@@ -13,7 +13,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
-      "fetched_at_utc": "2026-08-19T13:51:02.703641+00:00",
+      "fetched_at_utc": "2026-08-19T13:54:38.944719+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -76,7 +76,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-      "fetched_at_utc": "2026-08-19T13:51:10.776434+00:00",
+      "fetched_at_utc": "2026-08-19T13:54:48.664694+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -139,7 +139,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-      "fetched_at_utc": "2026-08-19T13:51:17.358456+00:00",
+      "fetched_at_utc": "2026-08-19T13:54:57.745130+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -202,7 +202,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "1d1309c969b9ca754a5c9696382c39d4b58ccdfd",
-      "fetched_at_utc": "2026-08-19T13:51:24.601864+00:00",
+      "fetched_at_utc": "2026-08-19T13:55:07.697357+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -265,7 +265,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-      "fetched_at_utc": "2026-08-19T13:51:32.190480+00:00",
+      "fetched_at_utc": "2026-08-19T13:55:17.248708+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -316,6 +316,69 @@
         "run_url": "https://github.com/tscnlab/melidos-fuspceu-glc-dataset/actions/runs/32257742462",
         "run_conclusion": "success",
         "artifact_id": 9367032806
+      },
+      "attestation_verified": true,
+      "fetch_errors": []
+    },
+    {
+      "id": "melidos-rise-glc-dataset",
+      "repo": "tscnlab/melidos-rise-glc-dataset",
+      "configured_repo": "tscnlab/melidos-rise-glc-dataset",
+      "repository_status": "active",
+      "branch": "main",
+      "requested_commit": null,
+      "resolved_commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
+      "fetched_at_utc": "2026-08-19T13:55:28.289506+00:00",
+      "current_status": "pass",
+      "current": {
+        "status": "pass",
+        "repo": "tscnlab/melidos-rise-glc-dataset",
+        "commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
+        "schema_version": "3.0.2",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
+        "validator_version": "0.5.2",
+        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
+        "validator_trust_policy": "current_glc",
+        "timestamp_utc": "2026-08-19T13:53:26.248982+00:00",
+        "error_count": 0,
+        "warning_count": 1643,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 320,
+          "missing_count": 0,
+          "hashed_count": 320
+        },
+        "manifest_file_count": 320,
+        "run_id": 32260685494,
+        "run_url": "https://github.com/tscnlab/melidos-rise-glc-dataset/actions/runs/32260685494",
+        "run_conclusion": "success",
+        "artifact_id": 9368159208
+      },
+      "latest_pass": {
+        "status": "pass",
+        "repo": "tscnlab/melidos-rise-glc-dataset",
+        "commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
+        "schema_version": "3.0.2",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
+        "validator_version": "0.5.2",
+        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
+        "validator_trust_policy": "current_glc",
+        "timestamp_utc": "2026-08-19T13:53:26.248982+00:00",
+        "error_count": 0,
+        "warning_count": 1643,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 320,
+          "missing_count": 0,
+          "hashed_count": 320
+        },
+        "manifest_file_count": 320,
+        "run_id": 32260685494,
+        "run_url": "https://github.com/tscnlab/melidos-rise-glc-dataset/actions/runs/32260685494",
+        "run_conclusion": "success",
+        "artifact_id": 9368159208
       },
       "attestation_verified": true,
       "fetch_errors": []
