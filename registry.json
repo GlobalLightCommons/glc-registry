@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-08-19T14:28:54.723842+00:00",
+  "generated_at_utc": "2026-08-19T14:39:07.812696+00:00",
   "current_schema_version": "3.0.2",
   "dataset_count": 9,
   "fetched_count": 9,
-  "error_count": 2,
+  "error_count": 1,
   "datasets": [
     {
       "id": "melidos-iztech-glc-dataset",
@@ -13,7 +13,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
-      "fetched_at_utc": "2026-08-19T14:27:50.821397+00:00",
+      "fetched_at_utc": "2026-08-19T14:38:05.115198+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -76,7 +76,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-      "fetched_at_utc": "2026-08-19T14:28:00.043636+00:00",
+      "fetched_at_utc": "2026-08-19T14:38:12.389963+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -139,7 +139,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-      "fetched_at_utc": "2026-08-19T14:28:08.806848+00:00",
+      "fetched_at_utc": "2026-08-19T14:38:19.963228+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -202,7 +202,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "1d1309c969b9ca754a5c9696382c39d4b58ccdfd",
-      "fetched_at_utc": "2026-08-19T14:28:17.782022+00:00",
+      "fetched_at_utc": "2026-08-19T14:38:28.001238+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -265,7 +265,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-      "fetched_at_utc": "2026-08-19T14:28:26.650423+00:00",
+      "fetched_at_utc": "2026-08-19T14:38:36.818937+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -328,7 +328,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
-      "fetched_at_utc": "2026-08-19T14:28:35.214567+00:00",
+      "fetched_at_utc": "2026-08-19T14:38:44.333146+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -391,7 +391,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "1187d19b7f6145b73b8d4dfee13af711c1cb6180",
-      "fetched_at_utc": "2026-08-19T14:28:44.211451+00:00",
+      "fetched_at_utc": "2026-08-19T14:38:52.007117+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -453,17 +453,61 @@
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
-      "resolved_commit_sha": null,
-      "fetched_at_utc": "2026-08-19T14:28:53.553011+00:00",
-      "current_status": "unknown",
-      "current": null,
-      "latest_pass": null,
-      "attestation_verified": false,
-      "fetch_errors": [
-        {
-          "error": "409 Client Error: Conflict for url: https://api.github.com/repos/tscnlab/melidos-thuas-glc-dataset/commits/main"
-        }
-      ]
+      "resolved_commit_sha": "a0f1057932fbe797895b368d30234931b01cae6d",
+      "fetched_at_utc": "2026-08-19T14:38:59.548141+00:00",
+      "current_status": "pass",
+      "current": {
+        "status": "pass",
+        "repo": "tscnlab/melidos-thuas-glc-dataset",
+        "commit_sha": "a0f1057932fbe797895b368d30234931b01cae6d",
+        "schema_version": "3.0.2",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
+        "validator_version": "0.5.2",
+        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
+        "validator_trust_policy": "current_glc",
+        "timestamp_utc": "2026-08-19T14:37:40.011778+00:00",
+        "error_count": 0,
+        "warning_count": 1443,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 288,
+          "missing_count": 0,
+          "hashed_count": 288
+        },
+        "manifest_file_count": 288,
+        "run_id": 32265115588,
+        "run_url": "https://github.com/tscnlab/melidos-thuas-glc-dataset/actions/runs/32265115588",
+        "run_conclusion": "success",
+        "artifact_id": 9369894966
+      },
+      "latest_pass": {
+        "status": "pass",
+        "repo": "tscnlab/melidos-thuas-glc-dataset",
+        "commit_sha": "a0f1057932fbe797895b368d30234931b01cae6d",
+        "schema_version": "3.0.2",
+        "schema_lifecycle": "current",
+        "upgrade_recommended": false,
+        "validator_version": "0.5.2",
+        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
+        "validator_trust_policy": "current_glc",
+        "timestamp_utc": "2026-08-19T14:37:40.011778+00:00",
+        "error_count": 0,
+        "warning_count": 1443,
+        "file_manifest": {
+          "path": "/data/validation_out/validated-files-manifest.json",
+          "file_count": 288,
+          "missing_count": 0,
+          "hashed_count": 288
+        },
+        "manifest_file_count": 288,
+        "run_id": 32265115588,
+        "run_url": "https://github.com/tscnlab/melidos-thuas-glc-dataset/actions/runs/32265115588",
+        "run_conclusion": "success",
+        "artifact_id": 9369894966
+      },
+      "attestation_verified": true,
+      "fetch_errors": []
     },
     {
       "id": "melidos-mpi-glc-dataset",
@@ -473,7 +517,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": null,
-      "fetched_at_utc": "2026-08-19T14:28:54.129714+00:00",
+      "fetched_at_utc": "2026-08-19T14:39:07.391058+00:00",
       "current_status": "unknown",
       "current": null,
       "latest_pass": null,
@@ -487,17 +531,6 @@
   ],
   "fetch_errors": [
     {
-      "id": "melidos-thuas-glc-dataset",
-      "repo": "tscnlab/melidos-thuas-glc-dataset",
-      "configured_repo": "tscnlab/melidos-thuas-glc-dataset",
-      "repository_status": "active",
-      "branch": "main",
-      "requested_commit": null,
-      "resolved_commit_sha": null,
-      "fetched_at_utc": "2026-08-19T14:28:54.129694+00:00",
-      "error": "409 Client Error: Conflict for url: https://api.github.com/repos/tscnlab/melidos-thuas-glc-dataset/commits/main"
-    },
-    {
       "id": "melidos-mpi-glc-dataset",
       "repo": "tscnlab/melidos-mpi-glc-dataset",
       "configured_repo": "tscnlab/melidos-mpi-glc-dataset",
@@ -505,7 +538,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": null,
-      "fetched_at_utc": "2026-08-19T14:28:54.723820+00:00",
+      "fetched_at_utc": "2026-08-19T14:39:07.812679+00:00",
       "error": "409 Client Error: Conflict for url: https://api.github.com/repos/tscnlab/melidos-mpi-glc-dataset/commits/main"
     }
   ]
