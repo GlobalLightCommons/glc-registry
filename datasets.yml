@@ -19,3 +19,6 @@ datasets:
   - id: melidos-rise-glc-dataset
     repo: tscnlab/melidos-rise-glc-dataset
     branch: main
+  - id: melidos-tum-glc-dataset
+    repo: tscnlab/melidos-tum-glc-dataset
+    branch: main
