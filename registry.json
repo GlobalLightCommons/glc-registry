@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-08-19T13:03:25.531924+00:00",
+  "generated_at_utc": "2026-08-19T13:24:46.505530+00:00",
   "current_schema_version": "3.0.2",
-  "dataset_count": 4,
-  "fetched_count": 4,
+  "dataset_count": 5,
+  "fetched_count": 5,
   "error_count": 0,
   "datasets": [
     {
@@ -13,7 +13,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
-      "fetched_at_utc": "2026-08-19T13:02:53.590815+00:00",
+      "fetched_at_utc": "2026-08-19T13:24:06.053165+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -76,7 +76,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-      "fetched_at_utc": "2026-08-19T13:03:01.231610+00:00",
+      "fetched_at_utc": "2026-08-19T13:24:16.944719+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -139,7 +139,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-      "fetched_at_utc": "2026-08-19T13:03:09.032356+00:00",
+      "fetched_at_utc": "2026-08-19T13:24:25.354213+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -202,7 +202,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "1d1309c969b9ca754a5c9696382c39d4b58ccdfd",
-      "fetched_at_utc": "2026-08-19T13:03:16.604620+00:00",
+      "fetched_at_utc": "2026-08-19T13:24:34.697528+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -256,6 +256,25 @@
       },
       "attestation_verified": true,
       "fetch_errors": []
+    },
+    {
+      "id": "melidos-fuspceu-glc-dataset",
+      "repo": "tscnlab/melidos-fuspceu-glc-dataset",
+      "configured_repo": "tscnlab/melidos-fuspceu-glc-dataset",
+      "repository_status": "active",
+      "branch": "main",
+      "requested_commit": null,
+      "resolved_commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
+      "fetched_at_utc": "2026-08-19T13:24:44.976865+00:00",
+      "current_status": "missing_artifact",
+      "current": null,
+      "latest_pass": null,
+      "attestation_verified": false,
+      "fetch_errors": [
+        {
+          "error": "No validation-report artifact found for tscnlab/melidos-fuspceu-glc-dataset@47b7c6aa38d77738f26c42adf12c781ef2dfc6ce"
+        }
+      ]
     }
   ],
   "fetch_errors": []
