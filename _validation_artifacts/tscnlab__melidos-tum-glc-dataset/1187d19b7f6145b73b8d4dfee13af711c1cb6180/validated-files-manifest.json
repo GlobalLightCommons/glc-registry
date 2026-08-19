@@ -1,0 +1,1827 @@
+{
+  "schema_version": "1.0",
+  "repo": "tscnlab/melidos-tum-glc-dataset",
+  "commit_sha": "1187d19b7f6145b73b8d4dfee13af711c1cb6180",
+  "generated_at_utc": "2026-08-19T14:17:35.679546+00:00",
+  "datapackage": "datapackage.json",
+  "files": [
+    {
+      "path": "data/datasets.json",
+      "source": "datapackage.resources.datasets.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "35450f764d1ab6811a9024231d1408e5567247d0184c259a012fc8ac2bb0866c",
+      "size_bytes": 2240698
+    },
+    {
+      "path": "data/device_datasheets.json",
+      "source": "datapackage.resources.device_datasheets.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2bf2d62b492afda34a5f82755c4cabb5910df274c61b0c926d2a9d2c95ed4634",
+      "size_bytes": 3914
+    },
+    {
+      "path": "data/devices.json",
+      "source": "datapackage.resources.devices.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d92936dc9a2b4cb465daaaf14df9ce48205caaa44b2446b7b6f8a3400ab63cf6",
+      "size_bytes": 1908
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S001_currentconditions.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6d11dbce8050d9734ce5eb6e8dca4fc25f49136bd87e61197138e70fc891be0c",
+      "size_bytes": 2484
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S001_exercisediary.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "048a08c08bd95522ab5dce937407dc128513241793e5788a59b449752b1b07c3",
+      "size_bytes": 879
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S001_experiencelog.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ee26bb733dcb06545cba6e445eda763df74ef08916ca869289846adc1a45c032",
+      "size_bytes": 693
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S001_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "48ea00ade1ebe684437c43c84addbf6c036b6b0e92661fb87a6e8f4b339bbccf",
+      "size_bytes": 29475
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S001_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d0c290a4f83725516e8f9b7f1af558afc018381ff996002b0bb8ba3c7b806969",
+      "size_bytes": 1277
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S001_wearlog.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9fdaa7ec30686a2eb7df17b1eac3029c48eefd704d8f90b404dbc589974be075",
+      "size_bytes": 1673
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S001_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1932a7a3df96a0d3d37e714cf9af1519dc308d075a57c867ba6a6d7012b7ce13",
+      "size_bytes": 559
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S002_currentconditions.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0034136a4acfb18ccdceb99b76ddf200e485e3dda737f9836361f4f5bef27035",
+      "size_bytes": 2718
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S002_exercisediary.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b1a40a816ffb5d1fba0cd4e6b673babfba6fffa4956ceff26a040769bbda4366",
+      "size_bytes": 996
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S002_experiencelog.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c6f68170a7ff4d023e04a78b25c172f1963d5b5c02213048d6b940834a620ce8",
+      "size_bytes": 2063
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S002_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "edd0133d3f6be42873ded099b23b6f813d1432baadf17c37e2240fef67e36af3",
+      "size_bytes": 29960
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S002_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b688f582325dfbd9db9c2aee86ff3b073c220dd39844ab383746b420158a5d2a",
+      "size_bytes": 1597
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S002_wearlog.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0a31498449aa37a1f480d4709d5860dc05eabf3b27e827558f50659d7a5f64af",
+      "size_bytes": 1387
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S003_currentconditions.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c21a2b3ee329f513a24e2256769f4f27b5dcb952c0da7b10d221ebfd84257ee3",
+      "size_bytes": 2172
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S003_exercisediary.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ce0526e9150661fc36b7d5de4101b03ab9f3b7af7319d8eb6e1ebadbdb784b1f",
+      "size_bytes": 730
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S003_experiencelog.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e916abe9b302f6043d89c006803d423cdf0bf36362469bb99ab066f83d7c8793",
+      "size_bytes": 1726
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S003_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c70f506b04d4af558f2d4247c6603632441a72619136179929cdc5e89d69534b",
+      "size_bytes": 31671
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S003_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e0530cff0d5073e74512eafa96b70e0dc4c41a20cf38e5e7853be064f052e76c",
+      "size_bytes": 1325
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S003_wearlog.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ef0d5571b2a10225bd76d738e953bc9272060872aa03331e96d3998922e7636f",
+      "size_bytes": 1908
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S003_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "929846a4cbaca1d5aa63c6045ac32996c66d3138e73a49e37fc5b96bccb727cb",
+      "size_bytes": 557
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S004_currentconditions.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ed182e55cb02ff767f3332211e37897f5df985650713cbb9e7adc32ccf19b090",
+      "size_bytes": 2328
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S004_exercisediary.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "019f7c52d951d9b0f1b9923d9b8d9268957dbde089594a8d03e77b125e5f1c0a",
+      "size_bytes": 877
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S004_experiencelog.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b45fdb1b60632f34f8989f9064108016f50dfc9a723073b621860d8b5f4b7a30",
+      "size_bytes": 1863
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S004_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "21c8de6a86aaebf319d59d7d9023da226d01e54aea2270ffeec88187671fbcf0",
+      "size_bytes": 31515
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S004_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "778f366dd08a60997d053dd17356d4c9853d671954dbdcf7406d5ee735f834a9",
+      "size_bytes": 1219
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S004_wearlog.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c0bd295924f9346fdea9d46d0edee26b84c4f6afaf27f63cce28ab865a8cd874",
+      "size_bytes": 1336
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S004_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "80ee45c18c29edb3eaa248635565a62cb510d02aa326b4f73b67b86939c872c4",
+      "size_bytes": 559
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S005_currentconditions.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "67c1532a34191ff3f26c40fe3d9d90a42f27258308d607715b5d5ff5bf796b11",
+      "size_bytes": 2094
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S005_exercisediary.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "24763ff384caaedb76bafc52179c098c6c4a840b47e1ee9a1bac66674a0334d7",
+      "size_bytes": 772
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S005_experiencelog.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "12324fe5298493bc0aa12fec217935e38096900d026db65b1866ec2ae6097ddd",
+      "size_bytes": 1056
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S005_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d07f58ba54f113a1a1e578639c05778cdf63d5d7950bb020f05e3a438b540f87",
+      "size_bytes": 31514
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S005_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1e79ed61e2fbea1f188e467a060548a746c671cf021bf8180d05dbb43edae19a",
+      "size_bytes": 1251
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S005_wearlog.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4399c995012221d47f46704cda34c6e291963d72e5453b3e0c1fdc4e564befc6",
+      "size_bytes": 1496
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S005_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5605fc8a620a8a35805bf7b13e152544435f2e3b40ec688f173f5a356afa6495",
+      "size_bytes": 559
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S006_currentconditions.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a4693305b99bbecec24788c3b2da094b322fce210bb6546f9805dacc5cccfa80",
+      "size_bytes": 2172
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S006_exercisediary.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c5960c7c47ae9b584fca9bb6853afe0dfd8a74595576cd31835d111d815d8bcc",
+      "size_bytes": 1323
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S006_experiencelog.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ae4b4ad15cd3fc1b3c3e5de6d21006e76f00b669cd8ed26c97a500e54f18f468",
+      "size_bytes": 991
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S006_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "80a3a5d24bec29cbe1a0ce3900183c93fc0f9cbf30c0ffd32ab84c4fc659a95e",
+      "size_bytes": 31504
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S006_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a2fed5d9de57d46e01c00017229d02354a65e9a1a4c4b0f6b31981a6528b3616",
+      "size_bytes": 1266
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S006_wearlog.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c263f568138ab313c680250f3c29b873cadb41d008ec44a82f5fabd570f1a8cf",
+      "size_bytes": 1418
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S006_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "95d193991580ab7878f24c0cfd3f89a241a9c07cfac5e34abae91c6971ebf77a",
+      "size_bytes": 559
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S007_currentconditions.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9f9896a2498686d792e4e977eca303b4806da5bccf5280fb890041c85eb72f91",
+      "size_bytes": 2172
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S007_exercisediary.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3d01064dfcd8b68cf9532bbb36cdb66db20dc2eea8a504fec3ec2431a63d508f",
+      "size_bytes": 752
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S007_experiencelog.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ba7da1f307e0d8b30ebb5e733b6b513fb0e263ae16637ba3005e784ced96637a",
+      "size_bytes": 1242
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S007_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7f10dcca72f5947ce217d551a998486e4653137ec97f4f68c2fbbb1dff4212bc",
+      "size_bytes": 31507
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S007_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "97365a0d97baefb7032bee1e12bb02ddfe2af5286ea19a3af2f96af71e662f8c",
+      "size_bytes": 1558
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S007_wearlog.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cb2624f8a471afce310dfd55bffd5dc5b0a7f6716e934073b46edacac3fab0b8",
+      "size_bytes": 951
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S007_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f7e86c403b140803172059ca9fad553c149d4c67303346de113e6adecc203696",
+      "size_bytes": 559
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S008_currentconditions.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0a4f1dba64e33e0e462cf8d7ee93e74adf1a69bae9f3fc92588b41a11a1d2c44",
+      "size_bytes": 2406
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S008_exercisediary.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9f6c42a917e3e59b9a879e89a47cff4c2f1c500774c0222969d90a9c8b99ab4f",
+      "size_bytes": 923
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S008_experiencelog.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b0365027225312bf2c94d2eed8b2537f86dc13cbaf8ab9e540cde38908d51593",
+      "size_bytes": 664
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S008_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4987c27a3e428f93f7b71f58fe097b3c6db8dc84f664d8a528d83e9901353924",
+      "size_bytes": 31629
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S008_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d1af6bc0a706d434f8b5eff5c600c794d4cdaa5615184bc2d0083a216a70d697",
+      "size_bytes": 1238
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S008_wearlog.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3e50f6c10412c3e1f854649cdd7001b552c32bfd6e87a0f3e8a205dd261c6bc9",
+      "size_bytes": 1760
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S008_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a39cea9edffb1da67e172691849171a8112bf54e21a0b3c6a0d7dba645723b0b",
+      "size_bytes": 558
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S009_currentconditions.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ea69bd15e5c761a4203bcfd6a619470cfb9207056a0c3b048d83fb3acfcd115e",
+      "size_bytes": 2250
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S009_exercisediary.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "07c513dea7975f3ba36a7b96215a7e58b80d807f8d9a2d4bb64f6b4744ebafb7",
+      "size_bytes": 831
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S009_experiencelog.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5f13fd0b348f8a62f50201bf0046cefae0bf6578651e5a63a341a9a6cc18bcad",
+      "size_bytes": 649
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S009_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cc61d4cec25dde49dad7227ecbc341d170caeb6ac51b499c050e88cdfee5b020",
+      "size_bytes": 31043
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S009_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1bd8548ce8fa9f7bce86991f07ad4b8880d850ad6354c670bf604c2259330437",
+      "size_bytes": 1515
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S009_wearlog.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f49016551e51bf5523dfaaa732c34b45be25f81e9fe51b7849aebbb2ca5f7327",
+      "size_bytes": 895
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S009_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e7362f53f5766b5e165df28c80be6ab588e5ad33cf3ca0c194599c0ab6c613ac",
+      "size_bytes": 559
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S010_currentconditions.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[10].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1606d9723eda63e6699a1c488367c042d92b9ce5dfd89f2be53e9f5cd78a4b16",
+      "size_bytes": 2094
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S010_exercisediary.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[11].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b3a8801a66f04f02299b34eff95ecc1185000c60056175ea64f254cebd158a84",
+      "size_bytes": 858
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S010_experiencelog.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[12].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b52e663d984306adf0c7291b96cebc72e1e648b56d1c78ef9ed2701e6fe099e5",
+      "size_bytes": 1360
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S010_lightexposurediary.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[13].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "da13dc1b304e8477a4c0839c33af48d70dfa89618797bd85b31eddcd00f90015",
+      "size_bytes": 31599
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S010_sleepdiaries.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[14].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "28f3a3d83f259d0b1ce79d939631f2266800582a6a0d73b2f52e15cba4ab1d1a",
+      "size_bytes": 1264
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S010_wearlog.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[15].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2d666bcc5c8432247cbb9da6bd232472f2d0c647dc38388fbf7820b0c53f654d",
+      "size_bytes": 1479
+    },
+    {
+      "path": "data/files/longitudinal-reports/TUM_S010_wellbeingdiary.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3f4d93a4b3380c22b31f14544895c88611a5bdeb499e4a7d2a92640ac4a2dc43",
+      "size_bytes": 559
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S001_acceptability.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "612c4cd83ebdd17da0396daec2fbc4e474c25c5adc2bcd7142829e60eaa15563",
+      "size_bytes": 186
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S001_ase.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2cb3b898474fc8db69c9396cd7fa0fa112bae7119e8aeae4d8b35c0ce3cd6d2b",
+      "size_bytes": 306
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S001_chronotype.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ef74bdfd5a668aa9b4922eaaf014e8c055c771cfee119e5da9011397c7cf1449",
+      "size_bytes": 224
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S001_demographics.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bc2f977c6bf14ec9ed52f0e098f7ec0c2f11a7afdadb5cea552644d8ce0d2a6a",
+      "size_bytes": 127
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S001_evaluation.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "70ca9cc7e59f92c1d065a019f8d3f777f78b39a40c82a9ad4ea6c7951f72d80d",
+      "size_bytes": 1114
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S001_health.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "67230d7deebd9aa8bb098c0af77058127003922297a3452aba7fe7f9bbb9f2ea",
+      "size_bytes": 134
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S001_leba.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4d16db3079e20455627c667f8a41d65a5793145505c3d30a51a66b6c5577e664",
+      "size_bytes": 368
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S001_vlsq8.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ca6afee2e678a0a310cf04a96204c8665dff74c06fc1398a652812481e53b8be",
+      "size_bytes": 145
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S002_acceptability.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "98db037005f015e5e52294a31960a99acf5fbd7734c514e4753a7a06ee0eea49",
+      "size_bytes": 186
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S002_ase.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "43358de1e7fe0c1cbcf25a2afa71a1091177138fa1bafc863c2ff76364473166",
+      "size_bytes": 306
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S002_chronotype.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e3a8a7bfc37a0892fc3e2acc9f3a61edf9f149a8eb9e9efca03585bcdbf0da43",
+      "size_bytes": 223
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S002_demographics.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "646bafba6fc0f0ac95e6666341f4c84878630b4f9abd420559a1af3f3a7f3aae",
+      "size_bytes": 127
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S002_evaluation.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "41d9fc782471ae9305c060709fd01ed686d6b27ec0c64b26bad3e370711d101a",
+      "size_bytes": 3896
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S002_health.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "59db26f27105ec284dafc05c473d7b921a552532b8ecdbabf5ccb7bace6351f8",
+      "size_bytes": 134
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S002_leba.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c65ec68b5d4c9f53cf3ef40c815d9138f02fcc1fbb6d126dddce7b2feb0d2d29",
+      "size_bytes": 368
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S002_vlsq8.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c10a543a11bef49d05c25257c05ce855934b61c9bfbaa5c0f9140b929ae2828e",
+      "size_bytes": 145
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S003_acceptability.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4887dc4da56df134f874a45f49a9a6ef502e3f31eea72862514447830c013a33",
+      "size_bytes": 186
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S003_ase.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b2d5b27834e5a058640c281630370069d696ffa648b6a141e68f5d58aaec8281",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S003_chronotype.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0859d4757f97947bcaf433bfda1f2878c2b72b972552d8a79a850741b8479270",
+      "size_bytes": 225
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S003_demographics.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cb6adc3d0bc64e5ba93c93c64dc1a34bcff7faf615aaf79b191573f90fdd13f1",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S003_evaluation.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a60bea2b562adcafe53c17b2aa6af01240df9728d5844a1c42454d0366822aba",
+      "size_bytes": 1544
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S003_health.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b0c2bdc55fbd9c377a954039fd7f12021abf06669820ee1e823f502ea79653c8",
+      "size_bytes": 134
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S003_leba.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4a55695a0567b358850d9cb23392545f133cc9277064082f6d01c58018b2085f",
+      "size_bytes": 368
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S003_vlsq8.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c2daf8e1be004575dd6d5ee1ee33a39ad2c948b7290f261731e5ffa220d9b83f",
+      "size_bytes": 145
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S004_acceptability.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e53cf26999067076d018faddbc0cf165cfa68c238133d9222acedf26d56053ba",
+      "size_bytes": 186
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S004_ase.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c66535c0b976422bdce6d84942711b8075cc8c5e89d18381e1ef22c4f97fb3c6",
+      "size_bytes": 306
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S004_chronotype.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9b39b91199adbe5e1d0dccdc69271f5bf45a4bcee9667c23381c835d3c8dd6ca",
+      "size_bytes": 198
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S004_demographics.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1b61a2439518ffd2759fd0cf00145665216910e7f589ef4eb575a7470494e140",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S004_evaluation.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "efb068c34535e1db635de0513c60a7f9400c12045f51ddf73af13f10a6b9bb50",
+      "size_bytes": 1158
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S004_health.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6643ee51774830e9e9b78e415264f58f1c9575f44f59d9993eec790b7b3111a6",
+      "size_bytes": 134
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S004_leba.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e27b8496be980e46a623599a40c7d1bcc54ec55ad7a40186aa1668c13137211a",
+      "size_bytes": 368
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S004_vlsq8.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3d6caf0c96a039f5511bfd0391380e0f367a48e0f709f2f4065a7bb31440569b",
+      "size_bytes": 145
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S005_acceptability.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "99b314d0505d6f050714b97f22b1be8f0a868e330b2628423eb33356657a26f7",
+      "size_bytes": 186
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S005_ase.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d95a87ad27d730f52102b844d9e280e4691ca4e3e1c2a0286d8c506def62ee98",
+      "size_bytes": 306
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S005_chronotype.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3286de7a7c1811dd0c0a5e603663afc40eef18de24ee5e9db3c9ace1e6cb5253",
+      "size_bytes": 227
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S005_demographics.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f7f782e2891622a90b50e2213237f59953510fcd764b9ba1d434ace27a8f44eb",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S005_evaluation.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f2b906b32f320b02a5e6ff000928fb9c5a724b0f86248c8110b55ba30dae3063",
+      "size_bytes": 1132
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S005_health.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "481c4e0ca3f2555d920d3cec1ae94e1a2bb45726d7bfa13d052c4bef75641c8e",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S005_leba.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "62209b20860c603933fcd30b0a570e617c6dd699c98dd1b35bc2e951dd05d3b0",
+      "size_bytes": 367
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S005_vlsq8.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "00830595ad906f1e89593939399e18e4e50d74db6b635ab7f9629a92f8e5c232",
+      "size_bytes": 145
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S006_acceptability.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2c18cd56b76917e0f5d1eb908bb6adf57208a7c36152b7b0ea43539dec93a754",
+      "size_bytes": 186
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S006_ase.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6616ae3410618ed1cdb0d3f0e3448a0da4d01dbacd0e5adc52c569a81df09f44",
+      "size_bytes": 306
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S006_chronotype.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9e8e81eaa217c9b3695092d6324a220c06695d3b80ea790861bfb22b5c75a741",
+      "size_bytes": 226
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S006_demographics.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b93614cb940892a0cbd619a79d2f29a8df9dcafe97c8e7ee337fcf71423f99bc",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S006_evaluation.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "eb85af4c95571bf9fc979f38f9237e8bc0a9dc95b72b4fa5afc4ad2eacde3e2e",
+      "size_bytes": 1642
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S006_health.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "720b1385407b267fe291b50bf025b224b94b0d093c3e0fe494df942f2dec4fe6",
+      "size_bytes": 134
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S006_leba.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ffd0e89e2fa13fb2e7413ed51e3b2542ff4b033b00ea06290e825b5595ca0d63",
+      "size_bytes": 368
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S006_vlsq8.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "997132d071a4182f2ad74c5322699922bceac77d380c87c3dd6d7ad674b94df8",
+      "size_bytes": 145
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S007_acceptability.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "88ba1f9ca51f0f7e861482bfdade5eab32b5b1770e7be5580b791d1bd1f0456c",
+      "size_bytes": 186
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S007_ase.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9101e4842132c493a752f7c0eaedcffc21b9ced38d4a11dd294e701ae11bc693",
+      "size_bytes": 306
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S007_chronotype.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9e78b8432130771d73520764626b460cc380a4ebad62c1aa842c2903947f20fc",
+      "size_bytes": 189
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S007_demographics.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f1e0025e4bee3af35949fa1934f5b730196d994945a4381fd9bf804627e8d453",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S007_evaluation.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "dbe0277aa1d6e5ccf24ba001c1fa373ecb80f13e3a5bc8aec412d6caa768ff9c",
+      "size_bytes": 1714
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S007_health.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d1e6c3d81a87db728edb6e296815635871a43c94aa1f455c423314ef0910572f",
+      "size_bytes": 134
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S007_leba.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "aef6ba6507875c7f014c1614317e0984546774ba2ec4a000016287378a2887f0",
+      "size_bytes": 367
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S007_vlsq8.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1e5d229b8a86b883cae2cabd822fd4f580fbe0834600a4e57ebaf7750d374a35",
+      "size_bytes": 145
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S008_acceptability.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d1e32b7e26e04eb0f4935aa7b7b6383ebd96b698f6b35bb5d26888a1de6546dd",
+      "size_bytes": 186
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S008_ase.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "461908ac002cf2c15949c65535fe071306891c6f9e64e53a91483b13c62a9f46",
+      "size_bytes": 307
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S008_chronotype.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e492012d2a890c02aed8d3d8c8f088f29632747b81800f56a128c68fce0dde02",
+      "size_bytes": 163
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S008_demographics.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f059573f1905cfdcfb73a623a1c4a10204910796f4bec01b8c1cfa4e281dbd90",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S008_evaluation.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2bdaea321e98a73b9ccacff86ba4527e6e884915d35cda750b603b148d49de3b",
+      "size_bytes": 1213
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S008_health.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7afdc47ba0097093d12d9835b35871dcbf380fb5ee5573d092acad7d98a1680c",
+      "size_bytes": 134
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S008_leba.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e39e3cd3670fd0a7c57b286cbfcbe5b8deb9429f11d75a388655e18c7ee99935",
+      "size_bytes": 367
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S008_vlsq8.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3bc7ce451bba68dad15129c377a8f27aa3d733e248df1fd583100b96b1d1934b",
+      "size_bytes": 145
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S009_acceptability.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "121ad90673cd7e31761f334d707166d366a0d8970cb7dd646cf8d1362a6516ae",
+      "size_bytes": 186
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S009_ase.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9dcb3c5f83717cf2017ed4e5f1b92b81c9d83d43896189e926e5345e9e34858a",
+      "size_bytes": 306
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S009_chronotype.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cce8701325c8e35665573d4dd4b503f1c8c1e190d9929d1a7397b3a9e0ece453",
+      "size_bytes": 213
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S009_demographics.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "0e5d997af1afa34ecbf94970b4ee807627d4eea368d9f9590fb2522ab6b337a7",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S009_evaluation.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f2a49edac93ac34b6b03cd09bcffbfc6be36c445d03ee090710f5543da86524a",
+      "size_bytes": 1749
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S009_health.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "a4eeebdafd463706c986f9e70c4b68c615278ce6baa4ad767be1afbe855f651b",
+      "size_bytes": 133
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S009_leba.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8fe7035fb1b064e04d3673c26405463c8da3ac2eb60f5529fa8a7b308b700aeb",
+      "size_bytes": 367
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S009_vlsq8.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bdcd6fe5ed3f4e80facd75e9441d9f6863da3e5982ca6003d4d77da87a7335d4",
+      "size_bytes": 145
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S010_acceptability.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[1].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "4be02f53662a97f4f218d0dc83c907b333a662b7fd7a49fb2328a7be8327d5ae",
+      "size_bytes": 186
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S010_ase.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[2].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5346c54764927385c4da85a41e377801890fa2293d3f4e956cfd7968b70bfe64",
+      "size_bytes": 306
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S010_chronotype.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[3].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "67245f8dcaf1c7e9a45f4031d541a10126b6f0974a5cf87c825cff582a017c5b",
+      "size_bytes": 211
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S010_demographics.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[4].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d0d9850614af4f0a5273bfba16d542c51d6d60cc07f5d395eaa0f64eec7e28c8",
+      "size_bytes": 129
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S010_evaluation.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[5].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "62957708b1b5e2229ea0541438ead972d9c2870561d9c5250c32427707426dd7",
+      "size_bytes": 1374
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S010_health.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[6].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f11f1d57ae06d443e9f80ad3ba10f908fe68c843c738c2e5bb20629e53f842bb",
+      "size_bytes": 134
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S010_leba.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[7].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "610e3487737c75ec4e1a7c92a4b5bbbb84ef8590fd2cba8b1227c01207436219",
+      "size_bytes": 367
+    },
+    {
+      "path": "data/files/questionnaires/TUM_S010_vlsq8.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[9].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "08d4381baa2b86987b0685c7d82efcaab6fdefdaca11cc3c90824442fe6884e9",
+      "size_bytes": 145
+    },
+    {
+      "path": "data/files/sensor/TUM_S001_light_chest.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9d7e19d1aac4094ec4ba4ba037490b1f9ca71993394597f0483fab457acb1791",
+      "size_bytes": 12398820
+    },
+    {
+      "path": "data/files/sensor/TUM_S001_light_glasses.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "cc71cc216d32360361631a2d7744c7d5737786ee7e9b85b5e9674048fd312c4e",
+      "size_bytes": 12743300
+    },
+    {
+      "path": "data/files/sensor/TUM_S001_light_wrist.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "67b8ef4a5b2d8538d81ea316da5480a2dda4d621b428bd1f9de94d0b124f5368",
+      "size_bytes": 12398681
+    },
+    {
+      "path": "data/files/sensor/TUM_S002_light_chest.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[16].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "904af77e6ee9c98cba5f71efe18f6030079a30eb3e566a7caf6dd741993211f7",
+      "size_bytes": 11628899
+    },
+    {
+      "path": "data/files/sensor/TUM_S002_light_glasses.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bf71d89f71cda42da44cfc9f559b02c24976db6457f3775466a5709c4f4d6871",
+      "size_bytes": 12397779
+    },
+    {
+      "path": "data/files/sensor/TUM_S002_light_wrist.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "497e35ba6a322803eefb7b86b70cb85c3aa5f631f0b74142b8a4e999bfb8e364",
+      "size_bytes": 11757532
+    },
+    {
+      "path": "data/files/sensor/TUM_S003_light_chest.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "8608230285acb971e1dd6444037b97ceecfdc46f97ef5eb830f559a8007a1386",
+      "size_bytes": 11951679
+    },
+    {
+      "path": "data/files/sensor/TUM_S003_light_glasses.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c31bbc528b5a160ac3f63796a8fe396b7854a4d22b2457c3a9a0ac7fc864268c",
+      "size_bytes": 12249004
+    },
+    {
+      "path": "data/files/sensor/TUM_S003_light_wrist.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "87e3b86edf29dcd698659d8edd48b0d6c3680ab98b1c2a08644fcb6682e9db7c",
+      "size_bytes": 11991715
+    },
+    {
+      "path": "data/files/sensor/TUM_S004_light_chest.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7d75a54ddcd0656fc5d392d608670e5d53ee5db27964fcb816d8dad0b3fdc8e9",
+      "size_bytes": 12198182
+    },
+    {
+      "path": "data/files/sensor/TUM_S004_light_glasses.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2644ec86ce07bab320fe086193dbe4b71b33f3a5c90b68bb43395f0ce6d7a572",
+      "size_bytes": 12446232
+    },
+    {
+      "path": "data/files/sensor/TUM_S004_light_wrist.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "57c077ca4da55f07635477e80eaaa4f787ca73aff538fb7a607472aaceb55769",
+      "size_bytes": 12206649
+    },
+    {
+      "path": "data/files/sensor/TUM_S005_light_chest.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3000acb21172e55e4962965cb6632de2ac8b36db4c16654d149a59b393bac83d",
+      "size_bytes": 10954353
+    },
+    {
+      "path": "data/files/sensor/TUM_S005_light_glasses.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b8c4ce5e1a8749e3442f96966c4a1a5bd51a454516a1cf8f3b0b1249dea1ccc1",
+      "size_bytes": 11526112
+    },
+    {
+      "path": "data/files/sensor/TUM_S005_light_wrist.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "abf146fbc2ac685631e254176f778abc1f77077101d13adccb1ecbf19bea630e",
+      "size_bytes": 11061968
+    },
+    {
+      "path": "data/files/sensor/TUM_S006_light_chest.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "bce81d6ff73f151cb61172b5aabafd1aa4415ca194aafb31b9c8425a03083475",
+      "size_bytes": 12092130
+    },
+    {
+      "path": "data/files/sensor/TUM_S006_light_glasses.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "b13b251b45daeca1693f59a3d38228241abbee7907c871b444bf3ccccffced6c",
+      "size_bytes": 12377756
+    },
+    {
+      "path": "data/files/sensor/TUM_S006_light_wrist.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9826a7db0f7c7c84dce7fc9fccb1ec48dd60b5dbb1f83f4f164b12c1d419324e",
+      "size_bytes": 12228574
+    },
+    {
+      "path": "data/files/sensor/TUM_S007_light_chest.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c98bc6e2a88b764359c7e2af205906251a7bb6a1b24cff6a440441b60c3c982a",
+      "size_bytes": 11818197
+    },
+    {
+      "path": "data/files/sensor/TUM_S007_light_glasses.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e26cf72691fa133df73b5d6d881749192d3cf3ddf14deffd5ae96e8d233ddba6",
+      "size_bytes": 12138350
+    },
+    {
+      "path": "data/files/sensor/TUM_S007_light_wrist.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "d764e791f6d42152076a2b01478cb76481645128131b997ac298ebb76b86ed83",
+      "size_bytes": 11830650
+    },
+    {
+      "path": "data/files/sensor/TUM_S008_light_chest.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c57bad816ec55a44c01263e117e1f448800ea8002a6355f4b650bc7a4952e9cb",
+      "size_bytes": 12150638
+    },
+    {
+      "path": "data/files/sensor/TUM_S008_light_glasses.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "c2aafec095879bd8e227dbaae7a862af762e4abbea0463544680401b76212abd",
+      "size_bytes": 12444792
+    },
+    {
+      "path": "data/files/sensor/TUM_S008_light_wrist.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "11828436832503b57c3be1fd8d3e7bcfcd9a2f929adcaacc1dc0c680e768844a",
+      "size_bytes": 12081457
+    },
+    {
+      "path": "data/files/sensor/TUM_S009_light_chest.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5c26ac6fb91cc509857fd23c918605e5f070ad4c737d166897bdda5ff1fe2aaa",
+      "size_bytes": 12214015
+    },
+    {
+      "path": "data/files/sensor/TUM_S009_light_glasses.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f0fef7db8b32195219650a14f72baffc59c5f2a0ec9474d15e875692bdead738",
+      "size_bytes": 12617937
+    },
+    {
+      "path": "data/files/sensor/TUM_S009_light_wrist.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3e9d445c59dec18af08aefd4c9dca9867b173d573d5d15fc5994f2c00f77ad46",
+      "size_bytes": 12279238
+    },
+    {
+      "path": "data/files/sensor/TUM_S010_light_chest.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[17].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "29222c9b78c6065b237ffd7106dc97665b51f205088857fbdb1c27f64a79f078",
+      "size_bytes": 11356782
+    },
+    {
+      "path": "data/files/sensor/TUM_S010_light_glasses.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[18].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e9225fde691884bfcdb1babad308e3245ff4d434e9adce8cce303e3e9d84fabc",
+      "size_bytes": 12303946
+    },
+    {
+      "path": "data/files/sensor/TUM_S010_light_wrist.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[19].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "309a5a7cc386471e2fb200095765be81bbbe49cd173f05623b967eb5f8e7b686",
+      "size_bytes": 11872737
+    },
+    {
+      "path": "data/files/study-timing/TUM_S001_trial_times.csv",
+      "source": "datasets.MELIDOS_TUM_S001.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "9a01811cb1fa434efe05d34a12a3f009ce082c2090950f0efeec1402c4b87fff",
+      "size_bytes": 87
+    },
+    {
+      "path": "data/files/study-timing/TUM_S002_trial_times.csv",
+      "source": "datasets.MELIDOS_TUM_S002.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "72e81ce3b75ca91bd51ed757f7afefdeded82ce7563b787d9ec2d85f5cfdfd54",
+      "size_bytes": 87
+    },
+    {
+      "path": "data/files/study-timing/TUM_S003_trial_times.csv",
+      "source": "datasets.MELIDOS_TUM_S003.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7b2d1f1d397eb97f8bb2d31f3576196138b79ee0b92d013eb84b13f63f6bcf4a",
+      "size_bytes": 87
+    },
+    {
+      "path": "data/files/study-timing/TUM_S004_trial_times.csv",
+      "source": "datasets.MELIDOS_TUM_S004.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5581e6389d65621ef4931c5e7336380658e9667a61a0256908e3d69297623b2a",
+      "size_bytes": 87
+    },
+    {
+      "path": "data/files/study-timing/TUM_S005_trial_times.csv",
+      "source": "datasets.MELIDOS_TUM_S005.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "236cb2531a53ec505f34bf08ea36205464a7f5169326b0c4e9ebea6fd277c3ac",
+      "size_bytes": 87
+    },
+    {
+      "path": "data/files/study-timing/TUM_S006_trial_times.csv",
+      "source": "datasets.MELIDOS_TUM_S006.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1cb870ed82ce50c8055f3c02cd67d267d294a19f375a7ed0d74424b6a93815db",
+      "size_bytes": 87
+    },
+    {
+      "path": "data/files/study-timing/TUM_S007_trial_times.csv",
+      "source": "datasets.MELIDOS_TUM_S007.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "abed3edd535bc7854a65da641fa62dc351c2299ac7a34a95dcd1fabdb199ba60",
+      "size_bytes": 87
+    },
+    {
+      "path": "data/files/study-timing/TUM_S008_trial_times.csv",
+      "source": "datasets.MELIDOS_TUM_S008.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3e3364640fb9ead150b80c678c5b4a7cca3e9a7ced1c23e367f2f7469187b779",
+      "size_bytes": 87
+    },
+    {
+      "path": "data/files/study-timing/TUM_S009_trial_times.csv",
+      "source": "datasets.MELIDOS_TUM_S009.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "5d369e2301a0635b9bba2aa5ffeb3c179c30d2c50d2d6468aac45cffe6ba8ca8",
+      "size_bytes": 87
+    },
+    {
+      "path": "data/files/study-timing/TUM_S010_trial_times.csv",
+      "source": "datasets.MELIDOS_TUM_S010.dataset_file[8].dataset_file_names",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1b57bd6948beaf70ea24fc6373d30cfd267e6b80dae32f05f759d3f732f899db",
+      "size_bytes": 87
+    },
+    {
+      "path": "data/participant_characteristics.csv",
+      "source": "datapackage.resources.participant_characteristics.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "77cac013d4b3f7d5b8a605006569b5575856028fc0abd6d3f2a09fe3f44bba86",
+      "size_bytes": 32625
+    },
+    {
+      "path": "data/participants.csv",
+      "source": "datapackage.resources.participants.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "1f649f74385e6ab88c54ada04cfc387ea52119fcc0df519da6fabaaa99a5db8f",
+      "size_bytes": 246
+    },
+    {
+      "path": "data/study.json",
+      "source": "datapackage.resources.study.path",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "3fd6edbb334478357f301cef892e99664964df957ca77985069ee67024eb6a64",
+      "size_bytes": 2545
+    },
+    {
+      "path": "datapackage.json",
+      "source": "datapackage",
+      "required": true,
+      "exists": true,
+      "is_file": true,
+      "sha256": "6cf1573e1aa7d0085d1363aa87a5b5c51c5d1e0021219322ca1a76db48fbfcbe",
+      "size_bytes": 1578
+    },
+    {
+      "path": "schemas/3.0.2/dataset.schema.json",
+      "source": "datapackage.resources.datasets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "7c17e4df6495bcb0fb020e7494889c3f234f9e305b8b73a0db0b37711fd6f854",
+      "size_bytes": 46572
+    },
+    {
+      "path": "schemas/3.0.2/device.schema.json",
+      "source": "datapackage.resources.devices.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "ea149188482c5b2d3c2595227b459764b82db6102539cd5e9d8865ea154f7bfa",
+      "size_bytes": 3952
+    },
+    {
+      "path": "schemas/3.0.2/device_datasheet.schema.json",
+      "source": "datapackage.resources.device_datasheets.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "44d54895d43683a778fb4d94e0e7339618fe5b5e5c415f77847b02a4739e55b2",
+      "size_bytes": 13062
+    },
+    {
+      "path": "schemas/3.0.2/participant_characteristics.schema.json",
+      "source": "datapackage.resources.participant_characteristics.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "2535117d5c9daef19194242404c0e727b3e0927affa54872f88568ebee995b1f",
+      "size_bytes": 1457
+    },
+    {
+      "path": "schemas/3.0.2/participants.schema.json",
+      "source": "datapackage.resources.participants.schema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "e7192bd483a4e2e9ce4fb1a0bedad551335cda287e389da333132509a7e318a6",
+      "size_bytes": 1079
+    },
+    {
+      "path": "schemas/3.0.2/study.schema.json",
+      "source": "datapackage.resources.study.jsonSchema",
+      "required": false,
+      "exists": true,
+      "is_file": true,
+      "sha256": "f1e7196b1458de5ba7678423fa97da8a08d62d6bad3c7caecfc093faa78efe06",
+      "size_bytes": 6498
+    }
+  ]
+}
