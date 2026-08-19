@@ -10,3 +10,6 @@ datasets:
   - id: melidos-baua-glc-dataset
     repo: tscnlab/melidos-baua-glc-dataset
     branch: main
+  - id: melidos-ucr-glc-dataset
+    repo: tscnlab/melidos-ucr-glc-dataset
+    branch: main
