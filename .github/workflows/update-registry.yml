@@ -9,6 +9,7 @@ on:
     paths:
       - datasets.yml
       - scripts/**
+      - site/**
       - requirements.txt
       - .github/workflows/update-registry.yml
 
