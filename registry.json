@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-17T18:30:59.596492+00:00",
+  "generated_at_utc": "2026-09-17T21:41:45.099473+00:00",
   "current_schema_version": "3.0.2",
   "dataset_count": 9,
   "fetched_count": 9,
@@ -14,7 +14,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
-      "fetched_at_utc": "2026-09-17T18:29:02.533724+00:00",
+      "fetched_at_utc": "2026-09-17T21:40:05.614701+00:00",
       "current_status": "missing_artifact",
       "current": null,
       "latest_pass": null,
@@ -34,7 +34,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-      "fetched_at_utc": "2026-09-17T18:29:11.687560+00:00",
+      "fetched_at_utc": "2026-09-17T21:40:12.572007+00:00",
       "current_status": "missing_artifact",
       "current": null,
       "latest_pass": null,
@@ -54,60 +54,16 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-      "fetched_at_utc": "2026-09-17T18:29:18.007773+00:00",
-      "current_status": "pass",
-      "current": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-baua-glc-dataset",
-        "commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-08-18T18:40:45.673130+00:00",
-        "error_count": 0,
-        "warning_count": 2043,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 409,
-          "missing_count": 0,
-          "hashed_count": 409
-        },
-        "manifest_file_count": 409,
-        "run_id": 32172307209,
-        "run_url": "https://github.com/tscnlab/melidos-baua-glc-dataset/actions/runs/32172307209",
-        "run_conclusion": "success",
-        "artifact_id": 9337751886
-      },
-      "latest_pass": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-baua-glc-dataset",
-        "commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-08-18T18:40:45.673130+00:00",
-        "error_count": 0,
-        "warning_count": 2043,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 409,
-          "missing_count": 0,
-          "hashed_count": 409
-        },
-        "manifest_file_count": 409,
-        "run_id": 32172307209,
-        "run_url": "https://github.com/tscnlab/melidos-baua-glc-dataset/actions/runs/32172307209",
-        "run_conclusion": "success",
-        "artifact_id": 9337751886
-      },
-      "attestation_verified": true,
-      "fetch_errors": []
+      "fetched_at_utc": "2026-09-17T21:40:17.186855+00:00",
+      "current_status": "missing_artifact",
+      "current": null,
+      "latest_pass": null,
+      "attestation_verified": false,
+      "fetch_errors": [
+        {
+          "error": "No validation-report artifact found for tscnlab/melidos-baua-glc-dataset@643a12126b5e3ff2b6816dc9353889f3650e21f9"
+        }
+      ]
     },
     {
       "id": "melidos-ucr-glc-dataset",
@@ -118,7 +74,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "2011eb678e7e082ef8d8ccb0633f2efd4498bf5e",
-      "fetched_at_utc": "2026-09-17T18:29:31.023879+00:00",
+      "fetched_at_utc": "2026-09-17T21:40:21.758630+00:00",
       "current_status": "fail",
       "current": {
         "status": "fail",
@@ -182,7 +138,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-      "fetched_at_utc": "2026-09-17T18:29:48.982653+00:00",
+      "fetched_at_utc": "2026-09-17T21:40:39.195168+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -246,7 +202,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
-      "fetched_at_utc": "2026-09-17T18:30:02.683333+00:00",
+      "fetched_at_utc": "2026-09-17T21:40:50.550182+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -310,7 +266,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "1187d19b7f6145b73b8d4dfee13af711c1cb6180",
-      "fetched_at_utc": "2026-09-17T18:30:19.720672+00:00",
+      "fetched_at_utc": "2026-09-17T21:41:06.084138+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -374,7 +330,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "a0f1057932fbe797895b368d30234931b01cae6d",
-      "fetched_at_utc": "2026-09-17T18:30:33.754429+00:00",
+      "fetched_at_utc": "2026-09-17T21:41:19.846561+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -438,7 +394,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7ac2c3fe700e07de7a56b77e6d173bc7b0152715",
-      "fetched_at_utc": "2026-09-17T18:30:47.939001+00:00",
+      "fetched_at_utc": "2026-09-17T21:41:33.830042+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
