@@ -1,0 +1,260 @@
+{
+  "status": "fail",
+  "repo": "tscnlab/melidos-ucr-glc-dataset",
+  "commit_sha": "2011eb678e7e082ef8d8ccb0633f2efd4498bf5e",
+  "validator_version": "0.5.2",
+  "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
+  "timestamp_utc": "2026-09-17T09:08:39.100001+00:00",
+  "datapackage": "datapackage.json",
+  "core_schema_source": "container",
+  "profile_source": "container",
+  "warnings": [],
+  "errors": [
+    {
+      "message": "[participant_characteristics] Row at position \"2\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"3\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"4\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"5\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"6\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"7\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"8\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"9\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"10\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"11\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"12\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"13\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"14\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"15\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"16\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"17\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"18\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"19\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"20\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"21\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"22\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"23\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[participant_characteristics] Row at position \"24\" violates the foreign key: for \"participant_internal_id\": values \"UCR_S001\" not found in the lookup table \"participants\" as \"participant_internal_id\"",
+      "path": "<row>"
+    },
+    {
+      "message": "[dataset MELIDOS_UCR_S001] Invalid participant ID: 'UCR_S001'",
+      "path": [
+        "dataset_crossref",
+        "dataset_crossref_participant_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 1] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 2] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 3] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 4] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 5] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 6] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 7] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 8] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 9] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 10] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 11] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 12] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 13] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 14] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 15] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 16] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 17] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 18] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 19] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 20] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 21] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 22] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    },
+    {
+      "message": "[participant_characteristics row 23] Unknown participant ID: 'UCR_S001'",
+      "path": [
+        "participant_internal_id"
+      ]
+    }
+  ],
+  "schema_version": "3.0.2",
+  "error_count": 47,
+  "warning_count": 0,
+  "file_manifest": {
+    "path": "/data/validation_out/validated-files-manifest.json",
+    "file_count": 684,
+    "missing_count": 0,
+    "hashed_count": 684
+  }
+}
