@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-09-18T11:45:56.371105+00:00",
+  "generated_at_utc": "2026-09-18T15:13:13.992144+00:00",
   "current_schema_version": "3.0.2",
   "dataset_count": 9,
   "fetched_count": 9,
@@ -14,7 +14,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
-      "fetched_at_utc": "2026-09-18T11:44:27.682351+00:00",
+      "fetched_at_utc": "2026-09-18T15:11:56.236381+00:00",
       "current_status": "missing_artifact",
       "current": null,
       "latest_pass": null,
@@ -34,7 +34,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-      "fetched_at_utc": "2026-09-18T11:44:32.981188+00:00",
+      "fetched_at_utc": "2026-09-18T15:12:04.779519+00:00",
       "current_status": "missing_artifact",
       "current": null,
       "latest_pass": null,
@@ -54,7 +54,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-      "fetched_at_utc": "2026-09-18T11:44:36.461018+00:00",
+      "fetched_at_utc": "2026-09-18T15:12:10.607892+00:00",
       "current_status": "missing_artifact",
       "current": null,
       "latest_pass": null,
@@ -74,7 +74,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "2011eb678e7e082ef8d8ccb0633f2efd4498bf5e",
-      "fetched_at_utc": "2026-09-18T11:44:40.835843+00:00",
+      "fetched_at_utc": "2026-09-18T15:12:16.165684+00:00",
       "current_status": "fail",
       "current": {
         "status": "fail",
@@ -138,60 +138,16 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-      "fetched_at_utc": "2026-09-18T11:44:58.290058+00:00",
-      "current_status": "pass",
-      "current": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-fuspceu-glc-dataset",
-        "commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-08-19T13:23:02.821696+00:00",
-        "error_count": 0,
-        "warning_count": 2285,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 432,
-          "missing_count": 0,
-          "hashed_count": 432
-        },
-        "manifest_file_count": 432,
-        "run_id": 32257742462,
-        "run_url": "https://github.com/tscnlab/melidos-fuspceu-glc-dataset/actions/runs/32257742462",
-        "run_conclusion": "success",
-        "artifact_id": 9367032806
-      },
-      "latest_pass": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-fuspceu-glc-dataset",
-        "commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-08-19T13:23:02.821696+00:00",
-        "error_count": 0,
-        "warning_count": 2285,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 432,
-          "missing_count": 0,
-          "hashed_count": 432
-        },
-        "manifest_file_count": 432,
-        "run_id": 32257742462,
-        "run_url": "https://github.com/tscnlab/melidos-fuspceu-glc-dataset/actions/runs/32257742462",
-        "run_conclusion": "success",
-        "artifact_id": 9367032806
-      },
-      "attestation_verified": true,
-      "fetch_errors": []
+      "fetched_at_utc": "2026-09-18T15:12:33.968306+00:00",
+      "current_status": "missing_artifact",
+      "current": null,
+      "latest_pass": null,
+      "attestation_verified": false,
+      "fetch_errors": [
+        {
+          "error": "No validation-report artifact found for tscnlab/melidos-fuspceu-glc-dataset@47b7c6aa38d77738f26c42adf12c781ef2dfc6ce"
+        }
+      ]
     },
     {
       "id": "melidos-rise-glc-dataset",
@@ -202,60 +158,16 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
-      "fetched_at_utc": "2026-09-18T11:45:08.062984+00:00",
-      "current_status": "pass",
-      "current": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-rise-glc-dataset",
-        "commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-08-19T13:53:26.248982+00:00",
-        "error_count": 0,
-        "warning_count": 1643,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 320,
-          "missing_count": 0,
-          "hashed_count": 320
-        },
-        "manifest_file_count": 320,
-        "run_id": 32260685494,
-        "run_url": "https://github.com/tscnlab/melidos-rise-glc-dataset/actions/runs/32260685494",
-        "run_conclusion": "success",
-        "artifact_id": 9368159208
-      },
-      "latest_pass": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-rise-glc-dataset",
-        "commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-08-19T13:53:26.248982+00:00",
-        "error_count": 0,
-        "warning_count": 1643,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 320,
-          "missing_count": 0,
-          "hashed_count": 320
-        },
-        "manifest_file_count": 320,
-        "run_id": 32260685494,
-        "run_url": "https://github.com/tscnlab/melidos-rise-glc-dataset/actions/runs/32260685494",
-        "run_conclusion": "success",
-        "artifact_id": 9368159208
-      },
-      "attestation_verified": true,
-      "fetch_errors": []
+      "fetched_at_utc": "2026-09-18T15:12:39.019788+00:00",
+      "current_status": "missing_artifact",
+      "current": null,
+      "latest_pass": null,
+      "attestation_verified": false,
+      "fetch_errors": [
+        {
+          "error": "No validation-report artifact found for tscnlab/melidos-rise-glc-dataset@4af2cb284a5bd7e52db018f95be2483b38a9e759"
+        }
+      ]
     },
     {
       "id": "melidos-tum-glc-dataset",
@@ -266,60 +178,16 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "1187d19b7f6145b73b8d4dfee13af711c1cb6180",
-      "fetched_at_utc": "2026-09-18T11:45:20.984993+00:00",
-      "current_status": "pass",
-      "current": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-tum-glc-dataset",
-        "commit_sha": "1187d19b7f6145b73b8d4dfee13af711c1cb6180",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-08-19T14:16:44.833697+00:00",
-        "error_count": 0,
-        "warning_count": 1228,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 202,
-          "missing_count": 0,
-          "hashed_count": 202
-        },
-        "manifest_file_count": 202,
-        "run_id": 32263024328,
-        "run_url": "https://github.com/tscnlab/melidos-tum-glc-dataset/actions/runs/32263024328",
-        "run_conclusion": "success",
-        "artifact_id": 9369058122
-      },
-      "latest_pass": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-tum-glc-dataset",
-        "commit_sha": "1187d19b7f6145b73b8d4dfee13af711c1cb6180",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-08-19T14:16:44.833697+00:00",
-        "error_count": 0,
-        "warning_count": 1228,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 202,
-          "missing_count": 0,
-          "hashed_count": 202
-        },
-        "manifest_file_count": 202,
-        "run_id": 32263024328,
-        "run_url": "https://github.com/tscnlab/melidos-tum-glc-dataset/actions/runs/32263024328",
-        "run_conclusion": "success",
-        "artifact_id": 9369058122
-      },
-      "attestation_verified": true,
-      "fetch_errors": []
+      "fetched_at_utc": "2026-09-18T15:12:47.370139+00:00",
+      "current_status": "missing_artifact",
+      "current": null,
+      "latest_pass": null,
+      "attestation_verified": false,
+      "fetch_errors": [
+        {
+          "error": "No validation-report artifact found for tscnlab/melidos-tum-glc-dataset@1187d19b7f6145b73b8d4dfee13af711c1cb6180"
+        }
+      ]
     },
     {
       "id": "melidos-thuas-glc-dataset",
@@ -330,60 +198,16 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "a0f1057932fbe797895b368d30234931b01cae6d",
-      "fetched_at_utc": "2026-09-18T11:45:33.773834+00:00",
-      "current_status": "pass",
-      "current": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-thuas-glc-dataset",
-        "commit_sha": "a0f1057932fbe797895b368d30234931b01cae6d",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-08-19T14:37:40.011778+00:00",
-        "error_count": 0,
-        "warning_count": 1443,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 288,
-          "missing_count": 0,
-          "hashed_count": 288
-        },
-        "manifest_file_count": 288,
-        "run_id": 32265115588,
-        "run_url": "https://github.com/tscnlab/melidos-thuas-glc-dataset/actions/runs/32265115588",
-        "run_conclusion": "success",
-        "artifact_id": 9369894966
-      },
-      "latest_pass": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-thuas-glc-dataset",
-        "commit_sha": "a0f1057932fbe797895b368d30234931b01cae6d",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-08-19T14:37:40.011778+00:00",
-        "error_count": 0,
-        "warning_count": 1443,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 288,
-          "missing_count": 0,
-          "hashed_count": 288
-        },
-        "manifest_file_count": 288,
-        "run_id": 32265115588,
-        "run_url": "https://github.com/tscnlab/melidos-thuas-glc-dataset/actions/runs/32265115588",
-        "run_conclusion": "success",
-        "artifact_id": 9369894966
-      },
-      "attestation_verified": true,
-      "fetch_errors": []
+      "fetched_at_utc": "2026-09-18T15:12:54.344662+00:00",
+      "current_status": "missing_artifact",
+      "current": null,
+      "latest_pass": null,
+      "attestation_verified": false,
+      "fetch_errors": [
+        {
+          "error": "No validation-report artifact found for tscnlab/melidos-thuas-glc-dataset@a0f1057932fbe797895b368d30234931b01cae6d"
+        }
+      ]
     },
     {
       "id": "melidos-mpi-glc-dataset",
@@ -394,7 +218,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7ac2c3fe700e07de7a56b77e6d173bc7b0152715",
-      "fetched_at_utc": "2026-09-18T11:45:46.126668+00:00",
+      "fetched_at_utc": "2026-09-18T15:13:01.977627+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
