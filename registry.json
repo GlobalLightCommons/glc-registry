@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-09-30T15:52:09.424891+00:00",
+  "generated_at_utc": "2026-09-30T20:21:57.115649+00:00",
   "current_schema_version": "3.0.2",
   "dataset_count": 9,
   "fetched_count": 9,
-  "error_count": 0,
+  "error_count": 1,
   "datasets": [
     {
       "id": "melidos-iztech-glc-dataset",
@@ -14,7 +14,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
-      "fetched_at_utc": "2026-09-30T15:50:20.040126+00:00",
+      "fetched_at_utc": "2026-09-30T20:20:19.694733+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -78,60 +78,16 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-      "fetched_at_utc": "2026-09-30T15:50:30.052896+00:00",
-      "current_status": "pass",
-      "current": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-knust-glc-dataset",
-        "commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-09-22T13:05:45.781318+00:00",
-        "error_count": 0,
-        "warning_count": 1464,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 295,
-          "missing_count": 0,
-          "hashed_count": 295
-        },
-        "manifest_file_count": 295,
-        "run_id": 35731189048,
-        "run_url": "https://github.com/tscnlab/melidos-knust-glc-dataset/actions/runs/35731189048",
-        "run_conclusion": "success",
-        "artifact_id": 10696020261
-      },
-      "latest_pass": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-knust-glc-dataset",
-        "commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-09-22T13:05:45.781318+00:00",
-        "error_count": 0,
-        "warning_count": 1464,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 295,
-          "missing_count": 0,
-          "hashed_count": 295
-        },
-        "manifest_file_count": 295,
-        "run_id": 35731189048,
-        "run_url": "https://github.com/tscnlab/melidos-knust-glc-dataset/actions/runs/35731189048",
-        "run_conclusion": "success",
-        "artifact_id": 10696020261
-      },
-      "attestation_verified": true,
-      "fetch_errors": []
+      "fetched_at_utc": "2026-09-30T20:20:30.786739+00:00",
+      "current_status": "unknown",
+      "current": null,
+      "latest_pass": null,
+      "attestation_verified": false,
+      "fetch_errors": [
+        {
+          "error": "503 Server Error: Egress is over the account limit. for url: https://productionresultssa9.blob.core.windows.net/actions-results/3101b627-f6e1-4ec4-bb11-8e1a8fcdab10/workflow-job-run-42b26f7e-8514-58d2-a161-8757878e904b/artifacts/e3bbd968e2a44ef2e626cfdc662d2efdfbb4950c550538950a6fadda996cac62.zip?rscd=attachment%3B+filename%3D%22validation-report.zip%22&rsct=application%2Fzip&se=2026-09-30T20%3A30%3A32Z&sig=qrAlQ9wZ7cm0G1qgydUx4z306vu9jvAyEBISED4dlXA%3D&ske=2026-09-30T23%3A29%3A53Z&skoid=ca7593d4-ee42-46cd-af88-8b886a2f84eb&sks=b&skt=2026-09-30T19%3A29%3A53Z&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skv=2025-11-05&sp=r&spr=https&sr=b&st=2026-09-30T20%3A20%3A27Z&sv=2025-11-05"
+        }
+      ]
     },
     {
       "id": "melidos-baua-glc-dataset",
@@ -142,7 +98,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-      "fetched_at_utc": "2026-09-30T15:50:38.873647+00:00",
+      "fetched_at_utc": "2026-09-30T20:20:33.017609+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -206,7 +162,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "2011eb678e7e082ef8d8ccb0633f2efd4498bf5e",
-      "fetched_at_utc": "2026-09-30T15:50:50.445131+00:00",
+      "fetched_at_utc": "2026-09-30T20:20:43.015622+00:00",
       "current_status": "fail",
       "current": {
         "status": "fail",
@@ -270,7 +226,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-      "fetched_at_utc": "2026-09-30T15:51:05.773437+00:00",
+      "fetched_at_utc": "2026-09-30T20:20:58.382452+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -334,7 +290,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
-      "fetched_at_utc": "2026-09-30T15:51:16.428380+00:00",
+      "fetched_at_utc": "2026-09-30T20:21:08.214214+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -398,7 +354,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "1187d19b7f6145b73b8d4dfee13af711c1cb6180",
-      "fetched_at_utc": "2026-09-30T15:51:32.138375+00:00",
+      "fetched_at_utc": "2026-09-30T20:21:22.527497+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -462,7 +418,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "a0f1057932fbe797895b368d30234931b01cae6d",
-      "fetched_at_utc": "2026-09-30T15:51:46.570133+00:00",
+      "fetched_at_utc": "2026-09-30T20:21:35.098991+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -526,7 +482,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7ac2c3fe700e07de7a56b77e6d173bc7b0152715",
-      "fetched_at_utc": "2026-09-30T15:51:59.269202+00:00",
+      "fetched_at_utc": "2026-09-30T20:21:47.807181+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -582,5 +538,17 @@
       "fetch_errors": []
     }
   ],
-  "fetch_errors": []
+  "fetch_errors": [
+    {
+      "id": "melidos-knust-glc-dataset",
+      "repo": "tscnlab/melidos-knust-glc-dataset",
+      "configured_repo": "tscnlab/melidos-knust-glc-dataset",
+      "repository_status": "active",
+      "branch": "main",
+      "requested_commit": null,
+      "resolved_commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
+      "fetched_at_utc": "2026-09-30T20:20:33.017592+00:00",
+      "error": "503 Server Error: Egress is over the account limit. for url: https://productionresultssa9.blob.core.windows.net/actions-results/3101b627-f6e1-4ec4-bb11-8e1a8fcdab10/workflow-job-run-42b26f7e-8514-58d2-a161-8757878e904b/artifacts/e3bbd968e2a44ef2e626cfdc662d2efdfbb4950c550538950a6fadda996cac62.zip?rscd=attachment%3B+filename%3D%22validation-report.zip%22&rsct=application%2Fzip&se=2026-09-30T20%3A30%3A32Z&sig=qrAlQ9wZ7cm0G1qgydUx4z306vu9jvAyEBISED4dlXA%3D&ske=2026-09-30T23%3A29%3A53Z&skoid=ca7593d4-ee42-46cd-af88-8b886a2f84eb&sks=b&skt=2026-09-30T19%3A29%3A53Z&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skv=2025-11-05&sp=r&spr=https&sr=b&st=2026-09-30T20%3A20%3A27Z&sv=2025-11-05"
+    }
+  ]
 }
