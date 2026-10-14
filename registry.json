@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-10-13T23:05:42.958680+00:00",
+  "generated_at_utc": "2026-10-14T01:49:52.950504+00:00",
   "current_schema_version": "3.0.2",
   "dataset_count": 9,
   "fetched_count": 9,
-  "error_count": 0,
+  "error_count": 1,
   "datasets": [
     {
       "id": "melidos-iztech-glc-dataset",
@@ -14,7 +14,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
-      "fetched_at_utc": "2026-10-13T23:03:47.028721+00:00",
+      "fetched_at_utc": "2026-10-14T01:48:05.585842+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -78,7 +78,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-      "fetched_at_utc": "2026-10-13T23:03:58.336875+00:00",
+      "fetched_at_utc": "2026-10-14T01:48:16.186660+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -142,7 +142,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-      "fetched_at_utc": "2026-10-13T23:04:08.782307+00:00",
+      "fetched_at_utc": "2026-10-14T01:48:26.496115+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -206,7 +206,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "2011eb678e7e082ef8d8ccb0633f2efd4498bf5e",
-      "fetched_at_utc": "2026-10-13T23:04:21.168659+00:00",
+      "fetched_at_utc": "2026-10-14T01:48:38.843777+00:00",
       "current_status": "fail",
       "current": {
         "status": "fail",
@@ -270,60 +270,16 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-      "fetched_at_utc": "2026-10-13T23:04:39.476432+00:00",
-      "current_status": "pass",
-      "current": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-fuspceu-glc-dataset",
-        "commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-09-22T13:07:31.747023+00:00",
-        "error_count": 0,
-        "warning_count": 2285,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 432,
-          "missing_count": 0,
-          "hashed_count": 432
-        },
-        "manifest_file_count": 432,
-        "run_id": 35731386664,
-        "run_url": "https://github.com/tscnlab/melidos-fuspceu-glc-dataset/actions/runs/35731386664",
-        "run_conclusion": "success",
-        "artifact_id": 10695643289
-      },
-      "latest_pass": {
-        "status": "pass",
-        "repo": "tscnlab/melidos-fuspceu-glc-dataset",
-        "commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-        "schema_version": "3.0.2",
-        "schema_lifecycle": "current",
-        "upgrade_recommended": false,
-        "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-09-22T13:07:31.747023+00:00",
-        "error_count": 0,
-        "warning_count": 2285,
-        "file_manifest": {
-          "path": "/data/validation_out/validated-files-manifest.json",
-          "file_count": 432,
-          "missing_count": 0,
-          "hashed_count": 432
-        },
-        "manifest_file_count": 432,
-        "run_id": 35731386664,
-        "run_url": "https://github.com/tscnlab/melidos-fuspceu-glc-dataset/actions/runs/35731386664",
-        "run_conclusion": "success",
-        "artifact_id": 10695643289
-      },
-      "attestation_verified": true,
-      "fetch_errors": []
+      "fetched_at_utc": "2026-10-14T01:48:55.552863+00:00",
+      "current_status": "unknown",
+      "current": null,
+      "latest_pass": null,
+      "attestation_verified": false,
+      "fetch_errors": [
+        {
+          "error": "500 Server Error: Internal Server Error for url: https://api.github.com/repos/tscnlab/melidos-fuspceu-glc-dataset/actions/runs?head_sha=47b7c6aa38d77738f26c42adf12c781ef2dfc6ce&status=completed&per_page=50"
+        }
+      ]
     },
     {
       "id": "melidos-rise-glc-dataset",
@@ -334,7 +290,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
-      "fetched_at_utc": "2026-10-13T23:04:51.491370+00:00",
+      "fetched_at_utc": "2026-10-14T01:48:59.177854+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -398,7 +354,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "1187d19b7f6145b73b8d4dfee13af711c1cb6180",
-      "fetched_at_utc": "2026-10-13T23:05:04.708548+00:00",
+      "fetched_at_utc": "2026-10-14T01:49:14.385292+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -462,7 +418,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "a0f1057932fbe797895b368d30234931b01cae6d",
-      "fetched_at_utc": "2026-10-13T23:05:17.774123+00:00",
+      "fetched_at_utc": "2026-10-14T01:49:27.359353+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -526,7 +482,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7ac2c3fe700e07de7a56b77e6d173bc7b0152715",
-      "fetched_at_utc": "2026-10-13T23:05:30.544138+00:00",
+      "fetched_at_utc": "2026-10-14T01:49:40.812768+00:00",
       "current_status": "pass",
       "current": {
         "status": "pass",
@@ -582,5 +538,17 @@
       "fetch_errors": []
     }
   ],
-  "fetch_errors": []
+  "fetch_errors": [
+    {
+      "id": "melidos-fuspceu-glc-dataset",
+      "repo": "tscnlab/melidos-fuspceu-glc-dataset",
+      "configured_repo": "tscnlab/melidos-fuspceu-glc-dataset",
+      "repository_status": "active",
+      "branch": "main",
+      "requested_commit": null,
+      "resolved_commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
+      "fetched_at_utc": "2026-10-14T01:48:59.177835+00:00",
+      "error": "500 Server Error: Internal Server Error for url: https://api.github.com/repos/tscnlab/melidos-fuspceu-glc-dataset/actions/runs?head_sha=47b7c6aa38d77738f26c42adf12c781ef2dfc6ce&status=completed&per_page=50"
+    }
+  ]
 }
