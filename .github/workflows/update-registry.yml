@@ -1,98 +1,19 @@
-name: Update GLC Registry
-
+name: Publish registry from GLC framework
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7,22,37,52 * * * *" 
+    - cron: "7,22,37,52 * * * *"
   push:
-    branches: [ main ]
-    paths:
-      - datasets.yml
-      - scripts/**
-      - site/**
-      - requirements.txt
-      - .github/workflows/update-registry.yml
-
-concurrency:
-  group: glc-registry
-  cancel-in-progress: true
-
+    branches: [main]
+    paths: [".github/workflows/update-registry.yml"]
+  pull_request:
+    paths: [".github/workflows/update-registry.yml"]
 permissions:
   contents: write
-  pull-requests: write
   actions: read
   attestations: read
-  pages: write
-
 jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install deps
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          
-      - name: Fetch validations (debug always printed)
-        shell: bash
-        env:
-          GH_TOKEN: ${{ github.token }}
-          GITHUB_TOKEN: ${{ github.token }}
-        run: |
-          set -o pipefail
-          mkdir -p registry_out
-
-          # run fetcher, but DON'T let bash -e stop us before we print debug
-          set +e
-          python -u scripts/fetch_registry.py datasets.yml registry_out
-          rc=$?
-          set -e
-
-          echo "----- fetch exit code: $rc -----"
-          echo "----- ls registry_out -----"
-          ls -la registry_out || true
-
-          echo "----- registry_out/README.txt -----"
-          cat registry_out/README.txt || true
-
-          echo "----- registry_out/registry.json (head) -----"
-          head -200 registry_out/registry.json || true
-
-          # keep failing the step if the script failed
-          exit $rc
-
-      - name: Copy dashboard site into output
-        run: |
-          cp -R site/* registry_out/
-
-      - name: Prepare canonical repository-name updates
-        run: |
-          python scripts/update_renamed_repositories.py datasets.yml registry_out/registry.json
-
-      - name: Open repository-rename pull request
-        uses: peter-evans/create-pull-request@v7
-        with:
-          branch: bot/update-renamed-repositories
-          delete-branch: true
-          commit-message: Update renamed dataset repositories
-          title: Update renamed dataset repositories
-          body: |
-            GitHub redirected one or more configured dataset repositories to new canonical names.
-
-            This automated PR updates `datasets.yml` to those canonical owner/repository names. Please review before merging.
-          add-paths: datasets.yml
-
-      - name: Publish to gh-pages
-        if: always()
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: registry_out
+  framework:
+    uses: GlobalLightCommons/glc-framework/.github/workflows/host-registry.yml@main
+    with:
+      publish: ${{ github.event_name != 'pull_request' && github.ref == 'refs/heads/main' }}
