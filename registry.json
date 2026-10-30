@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-30T05:59:10.852968+00:00",
+  "generated_at_utc": "2026-10-30T11:03:49.510741+00:00",
   "current_schema_version": "3.0.2",
   "dataset_count": 9,
   "fetched_count": 9,
@@ -13,21 +13,21 @@
       "repository_status": "active",
       "branch": "main",
       "requested_commit": null,
-      "resolved_commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
-      "fetched_at_utc": "2026-10-30T05:57:00.926614+00:00",
+      "resolved_commit_sha": "3062fa8817c8f8c287e23096a82362a95592d346",
+      "fetched_at_utc": "2026-10-30T11:01:47.581274+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
         "status": "pass",
         "repo": "tscnlab/melidos-iztech-glc-dataset",
-        "commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
+        "commit_sha": "3062fa8817c8f8c287e23096a82362a95592d346",
         "schema_version": "3.0.2",
         "schema_lifecycle": "current",
         "upgrade_recommended": false,
         "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-10-22T16:17:22.602464+00:00",
+        "validator_image": "ghcr.io/globallightcommons/glc-validator@sha256:bf5a6f21db106967762afda0f69a0f1dad018253bbbee983cccd82537031d869",
+        "validator_trust_policy": "framework_glc",
+        "timestamp_utc": "2026-10-30T10:52:46.397244+00:00",
         "error_count": 0,
         "warning_count": 2175,
         "file_manifest": {
@@ -37,23 +37,23 @@
           "hashed_count": 336
         },
         "manifest_file_count": 336,
-        "run_id": 39812603014,
-        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/39812603014",
+        "run_id": 41043890476,
+        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/41043890476",
         "run_conclusion": "success",
-        "artifact_id": 12440038466
+        "artifact_id": 12971003780
       },
       "latest_pass": {
         "verification_source": "github_artifact",
         "status": "pass",
         "repo": "tscnlab/melidos-iztech-glc-dataset",
-        "commit_sha": "abc456bdb418e6250b9c973813a190dc062c6e76",
+        "commit_sha": "3062fa8817c8f8c287e23096a82362a95592d346",
         "schema_version": "3.0.2",
         "schema_lifecycle": "current",
         "upgrade_recommended": false,
         "validator_version": "0.5.2",
-        "validator_image": "ghcr.io/tscnlab/glc-validator@sha256:d66c9d705e2a59967c5699af55d872b2012d18fb3c9dc611a9837d1c05af6160",
-        "validator_trust_policy": "current_glc",
-        "timestamp_utc": "2026-10-22T16:17:22.602464+00:00",
+        "validator_image": "ghcr.io/globallightcommons/glc-validator@sha256:bf5a6f21db106967762afda0f69a0f1dad018253bbbee983cccd82537031d869",
+        "validator_trust_policy": "framework_glc",
+        "timestamp_utc": "2026-10-30T10:52:46.397244+00:00",
         "error_count": 0,
         "warning_count": 2175,
         "file_manifest": {
@@ -63,10 +63,10 @@
           "hashed_count": 336
         },
         "manifest_file_count": 336,
-        "run_id": 39812603014,
-        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/39812603014",
+        "run_id": 41043890476,
+        "run_url": "https://github.com/tscnlab/melidos-iztech-glc-dataset/actions/runs/41043890476",
         "run_conclusion": "success",
-        "artifact_id": 12440038466
+        "artifact_id": 12971003780
       },
       "attestation_verified": true,
       "fetch_errors": []
@@ -80,7 +80,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7fd1dd9e1df174dd736ed02bc1d9307b3d0c7f25",
-      "fetched_at_utc": "2026-10-30T05:57:14.422546+00:00",
+      "fetched_at_utc": "2026-10-30T11:01:57.859641+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -146,7 +146,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "643a12126b5e3ff2b6816dc9353889f3650e21f9",
-      "fetched_at_utc": "2026-10-30T05:57:26.317149+00:00",
+      "fetched_at_utc": "2026-10-30T11:02:10.254032+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -212,7 +212,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "2011eb678e7e082ef8d8ccb0633f2efd4498bf5e",
-      "fetched_at_utc": "2026-10-30T05:57:39.277489+00:00",
+      "fetched_at_utc": "2026-10-30T11:02:23.454950+00:00",
       "current_status": "fail",
       "current": {
         "verification_source": "github_artifact",
@@ -253,7 +253,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "47b7c6aa38d77738f26c42adf12c781ef2dfc6ce",
-      "fetched_at_utc": "2026-10-30T05:57:59.027187+00:00",
+      "fetched_at_utc": "2026-10-30T11:02:46.549818+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -319,7 +319,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "4af2cb284a5bd7e52db018f95be2483b38a9e759",
-      "fetched_at_utc": "2026-10-30T05:58:13.581196+00:00",
+      "fetched_at_utc": "2026-10-30T11:02:59.270503+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -385,7 +385,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "1187d19b7f6145b73b8d4dfee13af711c1cb6180",
-      "fetched_at_utc": "2026-10-30T05:58:29.991530+00:00",
+      "fetched_at_utc": "2026-10-30T11:03:11.452891+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -451,7 +451,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "a0f1057932fbe797895b368d30234931b01cae6d",
-      "fetched_at_utc": "2026-10-30T05:58:45.060565+00:00",
+      "fetched_at_utc": "2026-10-30T11:03:23.772208+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -517,7 +517,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "7ac2c3fe700e07de7a56b77e6d173bc7b0152715",
-      "fetched_at_utc": "2026-10-30T05:58:59.568578+00:00",
+      "fetched_at_utc": "2026-10-30T11:03:36.328940+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
