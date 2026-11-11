@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-11T16:17:49.439472+00:00",
+  "generated_at_utc": "2026-11-11T22:46:55.664194+00:00",
   "current_schema_version": "3.0.2",
   "dataset_count": 9,
   "fetched_count": 9,
@@ -14,10 +14,10 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "3062fa8817c8f8c287e23096a82362a95592d346",
-      "fetched_at_utc": "2026-11-11T16:15:51.545432+00:00",
+      "fetched_at_utc": "2026-11-11T22:45:02.364113+00:00",
       "current_status": "pass",
       "current": {
-        "verification_source": "archive",
+        "verification_source": "github_artifact",
         "status": "pass",
         "repo": "tscnlab/melidos-iztech-glc-dataset",
         "commit_sha": "3062fa8817c8f8c287e23096a82362a95592d346",
@@ -43,7 +43,7 @@
         "artifact_id": 12971003780
       },
       "latest_pass": {
-        "verification_source": "archive",
+        "verification_source": "github_artifact",
         "status": "pass",
         "repo": "tscnlab/melidos-iztech-glc-dataset",
         "commit_sha": "3062fa8817c8f8c287e23096a82362a95592d346",
@@ -80,7 +80,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "e89b658a88edc168b98e3dc798faf548c44cf225",
-      "fetched_at_utc": "2026-11-11T16:15:58.757995+00:00",
+      "fetched_at_utc": "2026-11-11T22:45:15.445129+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -146,7 +146,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "4ba2156d8a8373bb982d9bc01e63e3e9ad85f2c0",
-      "fetched_at_utc": "2026-11-11T16:16:08.706569+00:00",
+      "fetched_at_utc": "2026-11-11T22:45:24.272662+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -212,7 +212,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "de428c1b50c77c8a60a60a9a58d054107edc5dcd",
-      "fetched_at_utc": "2026-11-11T16:16:18.549811+00:00",
+      "fetched_at_utc": "2026-11-11T22:45:33.184342+00:00",
       "current_status": "fail",
       "current": {
         "verification_source": "github_artifact",
@@ -253,7 +253,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "4aeb3fd0be06eb6899d56f31828150a3d5a15cd7",
-      "fetched_at_utc": "2026-11-11T16:17:00.660549+00:00",
+      "fetched_at_utc": "2026-11-11T22:46:13.571357+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -319,7 +319,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "690a501fbff49f78136c2ed4508327f2679705ed",
-      "fetched_at_utc": "2026-11-11T16:17:10.875695+00:00",
+      "fetched_at_utc": "2026-11-11T22:46:21.980329+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -385,7 +385,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "c051329453825f6f6d5051d0fb78479f3662491a",
-      "fetched_at_utc": "2026-11-11T16:17:20.342662+00:00",
+      "fetched_at_utc": "2026-11-11T22:46:30.148029+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -451,7 +451,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "d078a7a8a1fdfa6c856ddc48c019c1d391693e40",
-      "fetched_at_utc": "2026-11-11T16:17:30.172624+00:00",
+      "fetched_at_utc": "2026-11-11T22:46:39.436072+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
@@ -517,7 +517,7 @@
       "branch": "main",
       "requested_commit": null,
       "resolved_commit_sha": "81c0530371e6581f7c27beb7c7cf00c80a2d905a",
-      "fetched_at_utc": "2026-11-11T16:17:39.614857+00:00",
+      "fetched_at_utc": "2026-11-11T22:46:47.803347+00:00",
       "current_status": "pass",
       "current": {
         "verification_source": "github_artifact",
